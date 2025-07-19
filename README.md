@@ -1,68 +1,117 @@
-# Astro Starter Kit: Blog
+<h1 align="center">Thedyson Eduard Luzon</h1>
 
-```sh
-npm create astro@latest -- --template blog
-```
+<p align="center">
+  <b>AI & MLOps Engineer · Full‑Stack (MERN + GraphQL) Developer</b><br>
+  Real-Time Computer Vision • Reproducible ML Pipelines • Scalable Web Platforms<br>
+  <i>Seeking Fall 2025 AI / MLOps / Full‑Stack Internship</i>
+</p>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+<!-- Contact / Social (single row with labels) -->
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="mailto:luzon.thedyson@gmail.com" title="Email">
+        <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/mail-16.svg" height="22" alt="Email"/>
+      </a><br><sub>Email</sub>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/thedysonluzon/" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="22" alt="LinkedIn"/>
+      </a><br><sub>LinkedIn</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ThedysonLuzon" title="GitHub">
+        <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/mark-github-16.svg" height="22" alt="GitHub"/>
+      </a><br><sub>GitHub</sub>
+    </td>
+    <td align="center">
+      <a href="/" title="Portfolio">
+        <img src="https://raw.githubusercontent.com/primer/octicons/main/icons/globe-16.svg" height="22" alt="Portfolio"/>
+      </a><br><sub>Portfolio</sub>
+    </td>
+  </tr>
+</table>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<!-- Plain-text fallback (optional)
+Email: luzon.thedyson@gmail.com | LinkedIn: /in/thedysonluzon | GitHub: @ThedysonLuzon | Portfolio: /
+-->
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+---
 
-Features:
+### Value Proposition
+- Ship **production-ready AI services** with measurable performance (latency, throughput, accuracy).
+- Blend **MLOps rigor (DVC · MLflow · BentoML · K8s)** with **modern full‑stack (MERN + GraphQL)** for end‑to‑end ownership.
+- Emphasize **reproducibility, observability & maintainability** (versioned data/models, CI quality gates).
+- Communicate architecture & metrics clearly to reduce onboarding and iteration time.
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+### Mission
+I build secure, data‑driven AI and full‑stack platforms—from ingestion & model training to container/K8s deployment and user dashboards—optimizing for repeatable delivery and low operational overhead.
 
-## 🚀 Project Structure
+### Education
+- **Software Engineering Technology — Completed**  
+- **AI Design, Analysis & Implementation (Co‑op) — Finishing**  
+  - Capstone: *SafeRoomAI* (real-time video anomaly detection + full MLOps lifecycle)
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+### Impact Highlights
+| Area | Outcome | Stack | Mechanism |
+|------|---------|-------|-----------|
+| Real-Time Inference | ~XX FPS multi‑camera, p95 YY ms | PyTorch, YOLOv8, FastAPI | Async batching, zero‑copy frames |
+| Experiment Cycle | Iteration time ↓ A days → B hours | DVC, MLflow | Data versioning & auto logging |
+| API Performance | p95 latency ZZ ms @ N req/s | FastAPI, Apollo, Express | Resolver batching & caching |
+| Deploy Efficiency | Image size ↓ C% (D1 → D2 MB) | Docker, Multi-stage | Slim base & layer pruning |
+| Reliability | Error rate < E% / uptime FF% | K8s, Probes, Logs | Readiness & liveness + structured logs |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Core Tech Stack
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python"/><br><sub>Python</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36" alt="PyTorch"/><br><sub>PyTorch</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker"/><br><sub>Docker</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="36" alt="Kubernetes"/><br><sub>K8s</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React"/><br><sub>React</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" alt="Node.js"/><br><sub>Node.js</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="36" alt="GraphQL"/><br><sub>GraphQL</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazonaws.svg" height="36" alt="AWS"/><br><sub>AWS</sub>
+    </td>
+  </tr>
+</table>
 
-Any static assets, like images, can be placed in the `public/` directory.
+<p align="center"><sub><strong>Core:</strong> Python · PyTorch · Docker · Kubernetes · React · Node.js · GraphQL · AWS</sub></p>
 
-## 🧞 Commands
+<details>
+<summary><b>Extended Text (Accessibility / ATS)</b></summary>
 
-All commands are run from the root of the project, from a terminal:
+**Languages:** Python, TypeScript/JavaScript, SQL  
+**AI / ML / CV / NLP:** PyTorch, YOLOv8, OpenCV, scikit‑learn, Transformers  
+**MLOps & Infra:** DVC, MLflow, BentoML, Docker, Kubernetes, GitHub Actions  
+**Full‑Stack:** React, Node.js, Express.js, GraphQL (Apollo, DataLoader), FastAPI gateways  
+**Data & Storage:** PostgreSQL, MongoDB, AWS S3  
+**Quality / Tooling:** Pytest, Jest, Ruff, ESLint, Prettier  
+</details>
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+### Selected Projects
+| Project | Problem & Outcome | Role & Tech | Differentiator |
+|---------|------------------|-------------|----------------|
+| **[SafeRoomAI](https://github.com/DC-Capstone1W25/SafeRoomAI)** | Need rapid anomaly detection across streams → real-time alerts (~XX FPS @ YY ms) | Lead (PyTorch, YOLOv8, FastAPI, DVC, MLflow, React) | Fallback offline ingestion + reproducible MLOps |
