@@ -1,0 +1,30 @@
+---
+const { title, summary, stack = [], highlights = [], repo, caseStudy } = Astro.props;
+---
+<article class="project-card">
+  <header>
+    <h3>{title}</h3>
+    <p class="summary">{summary}</p>
+  </header>
+  <ul class="highlights">
+    {highlights.map(h => <li>{h}</li>)}
+  </ul>
+  <p class="stack">{stack.join(' • ')}</p>
+  <div class="links">
+    {repo && <a href={repo} target="_blank" rel="noopener">GitHub ↗</a>}
+    {caseStudy && <a href={caseStudy}>Case Study</a>}
+  </div>
+</article>
+<style>
+.project-card {
+  background:#10141a; border:1px solid #2a2f35; border-radius:16px;
+  padding:1.1rem; display:flex; flex-direction:column; gap:.55rem;
+  transition:border-color .18s, transform .15s;
+}
+.project-card:hover { border-color:#4f46e5; transform:translateY(-3px); }
+.summary { margin:.2rem 0 .3rem; opacity:.9; }
+.highlights { margin:0; padding-left:1.1rem; font-size:.83rem; line-height:1.35; }
+.stack { font-size:.65rem; letter-spacing:.5px; text-transform:uppercase; opacity:.55; margin:.3rem 0 0; }
+.links a { margin-right:.85rem; color:#4f46e5; text-decoration:none; font-weight:500; }
+.links a:hover { text-decoration:underline; }
+</style>

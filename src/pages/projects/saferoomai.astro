@@ -1,0 +1,38 @@
+---
+const timeline = [
+  { phase: "Problem", detail: "Need real-time anomaly detection on security streams with graceful fallback if RTSP unavailable." },
+  { phase: "Design", detail: "YOLO for object events + Autoencoder reconstruction error for anomalies; modular pipeline." },
+  { phase: "Reproducibility", detail: "DVC for dataset & model artifacts; MLflow for experiment tracking + params/metrics." },
+  { phase: "Deployment", detail: "Packaged with BentoML, containerized and orchestrated (K8s readiness, horizontal scaling)." },
+  { phase: "Optimization", detail: "Quantization + frame skip & batching target latency reduction (e.g., 120ms → 70ms)." }
+];
+---
+<html lang="en">
+  <head><meta charset="utf-8" /><title>SafeRoomAI – Case Study</title></head>
+  <body>
+    <main class="wrap">
+      <h1>SafeRoomAI – Real-Time Anomaly Detection</h1>
+      <p class="lead">Hybrid pipeline integrating object detection and unsupervised anomaly scoring with reproducible data & experiment versioning.</p>
+      <img src="/img/saferoomai-pipeline.svg" alt="SafeRoomAI pipeline architecture diagram" class="diagram" />
+      <h2>Key Decisions & Timeline</h2>
+      <ul class="timeline">
+        {timeline.map(t => <li><strong>{t.phase}:</strong> {t.detail}</li>)}
+      </ul>
+      <h2>Technical Highlights</h2>
+      <ul>
+        <li><strong>Fallback Mode:</strong> Automatic local file / buffer processing when network feed drops.</li>
+        <li><strong>Version Control:</strong> DVC remote ensures deterministic training snapshots; MLflow run IDs anchor metrics.</li>
+        <li><strong>Serving:</strong> BentoML API exposing JSON results + latency logging hooks.</li>
+        <li><strong>Monitoring (Planned Upgrade):</strong> Export metrics to lightweight dashboard JSON for portfolio metric cards.</li>
+      </ul>
+      <p><a href="https://github.com/DC-Capstone1W25/SafeRoomAI" target="_blank" rel="noopener">Repository ↗</a></p>
+      <p><a href="/">← Back</a></p>
+    </main>
+  </body>
+</html>
+<style>
+.wrap { max-width:880px; margin:auto; padding:2rem 1rem 5rem; font-family:system-ui,sans-serif; }
+.lead { font-size:1.05rem; opacity:.9; line-height:1.5; }
+.diagram { width:100%; margin:1.4rem 0 1rem; border:1px solid #2a2f35; border-radius:12px; background:#10141a; }
+.timeline { padding-left:1.2rem; line-height:1.4; }
+</style>

@@ -1,49 +1,103 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
----
+import ProjectCard from "../components/ProjectCard.astro";
+import MetricCard from "../components/MetricCard.astro";
 
-<!doctype html>
+const projects = [
+  {
+    title: "SafeRoomAI",
+    summary: "Real-time video anomaly detection (YOLO + Autoencoder fallback) with reproducible pipeline.",
+    stack: ["Python","YOLO","Autoencoder","DVC","MLflow","BentoML","K8s"],
+    highlights: [
+      "Latency optimization (e.g., quantization & batch strategy)",
+      "DVC + MLflow tracked experiments (hash-pinned)",
+      "Fallback to local .mp4 when RTSP stream unavailable"
+    ],
+    repo: "https://github.com/DC-Capstone1W25/SafeRoomAI",
+    caseStudy: "/projects/saferoomai"
+  }
+];
+
+const metrics = [
+  { label: "Pipelines Tracked", value: "10+", note: "DVC & MLflow" },
+  { label: "Latency Improvement", value: "42%", note: "SafeRoomAI (example)" },
+  { label: "Articles", value: "1+", note: "MLOps deep dive" }
+];
+---
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Thedyson Luzon – AI & MLOps Engineer</title>
+    <meta name="description" content="AI & MLOps Engineer specializing in reproducible ML pipelines, real-time anomaly detection, and cloud-native deployment." />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content="Thedyson Luzon – AI & MLOps Engineer" />
+    <meta property="og:description" content="Reproducible ML • Real-Time CV • Cloud & CI/CD" />
+    <meta property="og:image" content="/og-default.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Thedyson Luzon</h1>
+      <p class="tagline">AI & MLOps Engineer – Reproducible Pipelines • Real-Time Anomaly Detection • Cloud & CI/CD</p>
+      <div class="cta">
+        <a class="btn primary" href="/resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a class="btn" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn" href="/blog">Blog</a>
+      </div>
+      <div class="metrics-row">
+        {metrics.map(m => <MetricCard {...m} />)}
+      </div>
+    </header>
+
+    <main>
+      <section id="projects">
+        <h2>Highlighted Projects</h2>
+        <div class="projects-grid">
+          {projects.map(p => <ProjectCard {...p} />)}
+        </div>
+      </section>
+
+      <section id="blog">
+        <h2>Latest Article</h2>
+        <p><a href="/blog/dvc-mlflow-bentoml">Unifying DVC, MLflow & BentoML →</a></p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:luzon.thedyson@gmail.com">luzon.thedyson@gmail.com</a></p>
+        <p>
+          <a href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a> ·
+          <a href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>© {new Date().getFullYear()} Thedyson Luzon. All rights reserved.</footer>
+  </body>
 </html>
+
+<style>
+:root { --accent:#4f46e5; --bg:#0d1117; --fg:#e6e6e6; --surface:#10141a; --border:#2a2f35; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--fg); line-height:1.5; }
+.hero { text-align:center; padding:4rem 1.2rem 2.2rem; max-width:1000px; margin:auto; }
+h1 { font-size:clamp(2.4rem,4.3vw,3.2rem); margin:0 0 1rem; letter-spacing:.5px; }
+.tagline { max-width:840px; margin:0 auto 1.3rem; font-size:1rem; opacity:.92; }
+.cta { display:flex; flex-wrap:wrap; justify-content:center; gap:.7rem; margin:1rem 0 2rem; }
+.btn { padding:.65rem 1.15rem; border:1px solid var(--border); border-radius:40px; text-decoration:none; color:var(--fg); font-size:.9rem; font-weight:500; background:#141b23; }
+.btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+.btn:hover { filter:brightness(1.1); }
+.metrics-row { display:flex; flex-wrap:wrap; gap:.8rem; justify-content:center; margin-top:.4rem; }
+main { max-width:1180px; margin:auto; padding:1rem 1.2rem 4rem; }
+section { margin-top:3.2rem; }
+h2 { font-size:1.55rem; margin:0 0 1rem; letter-spacing:.5px; }
+.projects-grid { display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); }
+a { color:var(--accent); }
+a:hover { text-decoration:underline; }
+footer { text-align:center; padding:3rem 1rem 4rem; font-size:.75rem; opacity:.55; }
+@media (max-width:600px){
+  .projects-grid { grid-template-columns:1fr; }
+}
+</style>

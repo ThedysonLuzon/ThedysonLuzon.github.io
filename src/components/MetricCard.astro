@@ -1,0 +1,14 @@
+---
+const { label, value, note } = Astro.props;
+---
+<div class="metric">
+  <div class="value">{value}</div>
+  <div class="label">{label}</div>
+  {note && <div class="note">{note}</div>}
+</div>
+<style>
+.metric { background:#141b23; padding:.85rem 1rem; border:1px solid #27303b; border-radius:14px; min-width:140px; }
+.value { font-size:1.35rem; font-weight:600; color:#4f46e5; }
+.label { font-size:.7rem; text-transform:uppercase; opacity:.72; letter-spacing:.7px; margin-top:.25rem; }
+.note { font-size:.6rem; opacity:.48; margin-top:.3rem; line-height:1.1; }
+</style>
