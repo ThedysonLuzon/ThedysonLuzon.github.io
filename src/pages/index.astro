@@ -1,6 +1,7 @@
 ---
 import ProjectCard from "../components/ProjectCard.astro";
 import MetricCard from "../components/MetricCard.astro";
+import GitHubShowcase from "../components/GitHubShowcase.astro";
 
 const projects = [
   {
@@ -16,7 +17,7 @@ const projects = [
     caseStudy: "/projects/saferoomai"
   }
 ];
-
+<GitHubShowcase />
 const metrics = [
   { label: "Pipelines Tracked", value: "10+", note: "DVC & MLflow" },
   { label: "Latency Improvement", value: "42%", note: "SafeRoomAI (example)" },
