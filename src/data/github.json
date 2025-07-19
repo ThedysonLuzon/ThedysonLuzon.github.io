@@ -1,0 +1,22 @@
+{
+  "updated": "2025-07-18",
+  "repos": [
+    {
+      "name": "SafeRoomAI",
+      "description": "Real-time anomaly detection (YOLO + Autoencoder).",
+      "url": "https://github.com/DC-Capstone1W25/SafeRoomAI",
+      "stars": 0,
+      "primaryLanguage": "Python",
+      "stack": ["Python","YOLO","DVC","MLflow","BentoML","K8s"]
+    }
+  ],
+  "contributions": [
+    {
+      "repo": "ORG/PROJECT",
+      "pr": 123,
+      "title": "Improve batching to reduce inference latency",
+      "url": "https://github.com/ORG/PROJECT/pull/123",
+      "impact": "Latency ↓18% under peak load"
+    }
+  ]
+}
