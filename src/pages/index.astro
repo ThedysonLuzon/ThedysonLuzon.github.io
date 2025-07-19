@@ -1,19 +1,20 @@
 ---
-// FRONTMATTER
+import HeroIntro from "../components/HeroIntro.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import MetricCard from "../components/MetricCard.astro";
 import GitHubShowcase from "../components/GitHubShowcase.astro";
-import HeroIntro from "../components/HeroIntro.astro";  // CHANGE: use component hero
+import "../styles/theme.css";
+import Footer from "../components/Footer.astro";
 
 const projects = [
   {
     title: "SafeRoomAI",
-    summary: "Real-time video anomaly detection (YOLO + Autoencoder fallback) with reproducible pipeline.",
+    summary: "Real-time anomaly detection (YOLO + Autoencoder fallback) with reproducible pipeline.",
     stack: ["Python","YOLO","Autoencoder","DVC","MLflow","BentoML","K8s"],
     highlights: [
-      "Latency optimization (quantization & adaptive micro-batching)",
-      "DVC + MLflow tracked experiments (hash-pinned)",
-      "RTSP watchdog with local .mp4 fallback"
+      "Adaptive micro-batching & quantization",
+      "Experiment lineage (DVC + MLflow)",
+      "RTSP watchdog fallback to cached video"
     ],
     repo: "https://github.com/DC-Capstone1W25/SafeRoomAI",
     caseStudy: "/projects/saferoomai"
@@ -22,7 +23,7 @@ const projects = [
 
 const metrics = [
   { label: "Pipelines Tracked", value: "10+", note: "DVC & MLflow" },
-  { label: "Latency Improvement", value: "42%", note: "Inference p95 cut" },
+  { label: "Latency Cut", value: "42%", note: "Inference p95" },
   { label: "Articles", value: "1+", note: "MLOps deep dive" }
 ];
 ---
@@ -39,9 +40,22 @@ const metrics = [
     <meta property="og:description" content="Real-Time CV • Reproducible ML • Cloud & CI/CD • Full-Stack" />
     <meta property="og:image" content="/og-default.png" />
     <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="/styles/theme.css" />
+    <!-- Keep existing global typography if needed -->
+    <!-- <link rel="stylesheet" href="/styles/global.css" /> -->
+    <script>
+      // Apply preferred or stored theme ASAP (FOUC prevention)
+      (function(){
+        const stored = localStorage.getItem('theme');
+        const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+        document.documentElement.dataset.theme = stored || (prefersLight ? 'light':'dark');
+      })();
+    </script>
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to content</a>
+
     <header class="site-header">
       <nav class="top-nav" aria-label="Primary">
         <a href="/" class="brand">TL</a>
@@ -54,8 +68,8 @@ const metrics = [
       </nav>
     </header>
 
-    <main id="main-content">
-      <HeroIntro metricsList={metrics} />  {/* CHANGE: hero component consumes metrics */}
+    <main id="main-content" class="container">
+      <HeroIntro metricsList={metrics} />
 
       <section id="projects">
         <h2>Highlighted Projects</h2>
@@ -80,67 +94,36 @@ const metrics = [
         </p>
       </section>
     </main>
-
-    <footer>© {new Date().getFullYear()} Thedyson Luzon. All rights reserved.</footer>
-
     <script>
-      // Theme toggle (no framework)
-      const btn = document.getElementById('theme-toggle');
-      const root = document.documentElement;
-      const stored = localStorage.getItem('theme');
-      if (stored) root.dataset.theme = stored;
-      btn?.addEventListener('click', () => {
-        const next = root.dataset.theme === 'light' ? 'dark' : 'light';
+      const toggle = document.getElementById('theme-toggle');
+      toggle?.addEventListener('click', () => {
+        const root = document.documentElement;
+        const next = root.dataset.theme === 'light' ? 'dark':'light';
         root.dataset.theme = next;
         localStorage.setItem('theme', next);
       });
     </script>
+  <Footer />
   </body>
 </html>
 
 <style>
-/* Shared variables with light/dark switch via [data-theme] */
-:root {
-  --accent:#4f46e5;
-  --bg:#0d1117;
-  --fg:#e6e6e6;
-  --surface:#10141a;
-  --border:#2a2f35;
-  --focus-ring: 0 0 0 3px rgba(79,70,229,.5);
-}
-:root[data-theme='light'] {
-  --bg:#ffffff;
-  --fg:#1b1f23;
-  --surface:#f5f7fb;
-  --border:#d0d7de;
-}
-* { box-sizing:border-box; }
-body {
-  margin:0;
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
-  background:var(--bg);
-  color:var(--fg);
-  line-height:1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* Skip link */
 .skip-link {
   position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden;
 }
 .skip-link:focus {
   position:static; width:auto; height:auto; padding:.5rem .75rem;
-  background:var(--accent); color:#fff; border-radius:6px;
+  background:var(--color-accent); color:#fff; border-radius:6px;
 }
 
 .site-header {
   position:sticky; top:0; z-index:40;
   backdrop-filter:blur(8px);
-  background:rgba(13,17,23,.8);
-  border-bottom:1px solid var(--border);
+  background:rgba(0,0,0,.45);
+  border-bottom:1px solid var(--color-border);
 }
 :root[data-theme='light'] .site-header {
-  background:rgba(255,255,255,.85);
+  background:rgba(255,255,255,.7);
 }
 
 .top-nav {
@@ -148,26 +131,45 @@ body {
   max-width:1180px; margin:0 auto; padding:.6rem 1.1rem;
 }
 .top-nav ul {
-  list-style:none; margin:0; padding:0; display:flex; gap:1rem; align-items:center;
+  list-style:none; margin:0; padding:0;
+  display:flex; gap:1rem; align-items:center;
 }
 .top-nav a.brand {
-  font-weight:600; font-size:1.1rem; letter-spacing:.5px; text-decoration:none; color:var(--fg);
+  font-weight:600; font-size:1.05rem;
+  letter-spacing:.5px; text-decoration:none;
+  color:var(--color-text);
 }
-.top-nav a { color:var(--fg); text-decoration:none; font-size:.8rem; letter-spacing:.5px; }
-.top-nav a:hover { color:var(--accent); }
-#theme-toggle {
-  background:var(--surface); color:var(--fg); border:1px solid var(--border);
-  padding:.45rem .65rem; border-radius:8px; cursor:pointer; font-size:.8rem;
-}
-#theme-toggle:focus { outline:none; box-shadow: var(--focus-ring); }
+.top-nav a { color:var(--color-text); font-size:.75rem; letter-spacing:.55px; text-transform:uppercase; font-weight:500; }
+.top-nav a:hover { color:var(--color-accent); }
 
-main { max-width:1180px; margin:auto; padding:0 1.2rem 4rem; }
-section { margin-top:3.2rem; }
-h2 { font-size:1.55rem; margin:0 0 1rem; letter-spacing:.5px; }
-.projects-grid { display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); }
-a { color:var(--accent); }
-a:hover { text-decoration:underline; }
-footer { text-align:center; padding:3rem 1rem 4rem; font-size:.75rem; opacity:.55; }
+#theme-toggle {
+  background:var(--color-surface);
+  color:var(--color-text);
+  border:1px solid var(--color-border);
+  padding:.45rem .65rem;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:.8rem;
+  transition: var(--transition);
+}
+#theme-toggle:hover { color:var(--color-accent); }
+#theme-toggle:focus-visible { outline:2px solid var(--color-accent); outline-offset:2px; }
+
+.projects-grid {
+  display:grid;
+  gap:1.25rem;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  margin-top:1.2rem;
+}
+
+.site-footer {
+  text-align:center;
+  padding:3rem 1rem 4rem;
+  font-size:.7rem;
+  opacity:.55;
+  margin-top:4rem;
+}
+
 @media (max-width:600px){
   .projects-grid { grid-template-columns:1fr; }
 }

@@ -3,28 +3,68 @@ const { title, summary, stack = [], highlights = [], repo, caseStudy } = Astro.p
 ---
 <article class="project-card">
   <header>
-    <h3>{title}</h3>
-    <p class="summary">{summary}</p>
+    <h3 class="project-title">{title}</h3>
+    {summary && <p class="summary">{summary}</p>}
   </header>
-  <ul class="highlights">
-    {highlights.map(h => <li>{h}</li>)}
-  </ul>
-  <p class="stack">{stack.join(' • ')}</p>
+  {highlights.length > 0 && (
+    <ul class="highlights">
+      {highlights.map(h => <li>{h}</li>)}
+    </ul>
+  )}
+  {stack.length > 0 && <p class="stack">{stack.join(' • ')}</p>}
   <div class="links">
-    {repo && <a aria-label={`GitHub repository for ${title}`} href={repo} target="_blank" rel="noopener">GitHub ↗</a>}
-    {caseStudy && <a aria-label={`Case study for ${title}`} href={caseStudy}>Case Study →</a>}
+    {repo && <a aria-label={`GitHub repository: ${title}`} href={repo} target="_blank" rel="noopener">GitHub ↗</a>}
+    {caseStudy && <a aria-label={`Case study: ${title}`} href={caseStudy}>Case Study →</a>}
   </div>
 </article>
+
 <style>
 .project-card {
-  background:#10141a; border:1px solid #2a2f35; border-radius:16px;
-  padding:1.1rem; display:flex; flex-direction:column; gap:.55rem;
-  transition:border-color .18s, transform .15s;
+  background:var(--color-bg-alt);
+  border:1px solid var(--color-border);
+  border-radius:var(--radius-lg);
+  padding:1.1rem;
+  display:flex;
+  flex-direction:column;
+  gap:.55rem;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+  box-shadow: var(--shadow-sm);
 }
-.project-card:hover { border-color:#4f46e5; transform:translateY(-3px); }
-.summary { margin:.2rem 0 .3rem; opacity:.9; }
-.highlights { margin:0; padding-left:1.1rem; font-size:.83rem; line-height:1.35; }
-.stack { font-size:.65rem; letter-spacing:.5px; text-transform:uppercase; opacity:.55; margin:.3rem 0 0; }
-.links a { margin-right:.85rem; color:#4f46e5; text-decoration:none; font-weight:500; }
+.project-card:hover {
+  border-color:var(--color-accent);
+  transform:translateY(-2px);
+  box-shadow:var(--shadow-md);
+}
+.project-title {
+  margin:0;
+  font-size:1.05rem;
+  letter-spacing:.4px;
+}
+.summary {
+  margin:.2rem 0 .3rem;
+  opacity:.9;
+  font-size:.83rem;
+  line-height:1.35;
+}
+.highlights {
+  margin:0;
+  padding-left:1.1rem;
+  font-size:.78rem;
+  line-height:1.35;
+}
+.stack {
+  font-size:.6rem;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+  opacity:.55;
+  margin:.3rem 0 0;
+}
+.links a {
+  margin-right:.85rem;
+  color:var(--color-accent);
+  text-decoration:none;
+  font-weight:500;
+  font-size:.76rem;
+}
 .links a:hover { text-decoration:underline; }
 </style>

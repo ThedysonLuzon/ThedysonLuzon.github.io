@@ -1,14 +1,41 @@
 ---
 const { label, value, note } = Astro.props;
 ---
-<div class="metric">
-  <div class="value">{value}</div>
-  <div class="label">{label}</div>
-  {note && <div class="note">{note}</div>}
+<div class="metric-card">
+  <div class="metric-value">{value}</div>
+  <div class="metric-label">{label}</div>
+  {note && <div class="metric-note">{note}</div>}
 </div>
+
 <style>
-.metric { background:#141b23; padding:.85rem 1rem; border:1px solid #27303b; border-radius:14px; min-width:140px; }
-.value { font-size:1.35rem; font-weight:600; color:#4f46e5; }
-.label { font-size:.7rem; text-transform:uppercase; opacity:.72; letter-spacing:.7px; margin-top:.25rem; }
-.note { font-size:.6rem; opacity:.48; margin-top:.3rem; line-height:1.1; }
+.metric-card {
+  background:var(--color-surface);
+  border:1px solid var(--color-border-soft);
+  border-radius:14px;
+  padding:.85rem 1rem;
+  min-width:140px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  transition: var(--transition);
+}
+.metric-value {
+  font-size:1.35rem;
+  font-weight:600;
+  color:var(--color-accent);
+  line-height:1.1;
+}
+.metric-label {
+  font-size:.65rem;
+  text-transform:uppercase;
+  letter-spacing:.6px;
+  opacity:.72;
+  margin-top:.35rem;
+}
+.metric-note {
+  font-size:.6rem;
+  opacity:.5;
+  margin-top:.35rem;
+  line-height:1.1;
+}
 </style>

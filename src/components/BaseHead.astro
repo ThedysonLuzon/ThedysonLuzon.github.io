@@ -1,57 +1,142 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
-import { SITE_TITLE } from '../consts';
-import FallbackImage from '../assets/blog-placeholder-1.jpg';
-import type { ImageMetadata } from 'astro';
+/**
+ * BaseHead.astro
+ * Unified, robust head component for pages/posts.
+ *
+ * Props:
+ *  - title: string
+ *  - description: string
+ *  - image?: ImageMetadata | string
+ *
+ * Requirements:
+ *  - (Optional) Set `site` in astro.config.mjs for full canonical correctness
+ *    OR rely on import.meta.env.SITE (Astro auto-populates if site is set).
+ */
+
+import "../styles/theme.css"; // ensure theme variables loaded early
+import { SITE_TITLE } from "../consts";
+import FallbackImage from "../assets/blog-placeholder-1.jpg";
+import type { ImageMetadata } from "astro";
 
 interface Props {
-	title: string;
-	description: string;
-	image?: ImageMetadata;
+  title?: string;
+  description?: string;
+  image?: ImageMetadata | string;
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const props = Astro.props as Props;
 
-const { title, description, image = FallbackImage } = Astro.props;
+// ---- Site & Canonical Logic ----
+const CONFIG_SITE = (import.meta.env.SITE as string | undefined) || (Astro.site ? String(Astro.site) : undefined);
+
+// Provide a final site fallback (adjust to your production domain if you own a custom domain)
+const SITE = CONFIG_SITE || "https://thedysonluzon.github.io";
+
+// Path from current request (Astro.url may be undefined in some contexts)
+const path = Astro.url?.pathname || "/";
+
+// Normalize canonical (no double slashes, trailing slash for root-level)
+function normalizeUrl(base: string, p: string) {
+  const u = new URL(p.replace(/\/{2,}/g, "/"), base);
+  // optional: ensure no trailing slash except root
+  if (u.pathname !== "/" && u.pathname.endsWith("/")) {
+    u.pathname = u.pathname.replace(/\/+$/, "");
+  }
+  return u.toString();
+}
+
+const canonical = normalizeUrl(SITE, path);
+
+// ---- Title & Description ----
+const title = props.title?.trim() || SITE_TITLE || "Untitled";
+const description =
+  props.description?.trim() ||
+  "Portfolio and blog of Thedyson Luzon – AI & MLOps Engineer focusing on real‑time computer vision, reproducible ML pipelines, and cloud solutions.";
+
+// ---- Image Handling ----
+/**
+ * image can be:
+ *  - ImageMetadata (Astro asset import)
+ *  - string path ("/img/foo.png" or "https://...")
+ */
+const rawImage = props.image || FallbackImage;
+
+function toAbsoluteImageURL(img: ImageMetadata | string): string {
+  // If it's an object with 'src' treat as ImageMetadata
+  // (narrow checking: 'src' in object)
+  if (typeof img === "object" && "src" in img) {
+    const src = (img as ImageMetadata).src;
+    if (/^https?:\/\//i.test(src)) return src;
+    return new URL(src, SITE).toString();
+  }
+  if (typeof img === "string") {
+    if (/^https?:\/\//i.test(img)) return img;
+    return new URL(img.startsWith("/") ? img : `/${img}`, SITE).toString();
+  }
+  return new URL("/og-default.png", SITE).toString();
+}
+
+const imageURL = toAbsoluteImageURL(rawImage);
+
+// ---- RSS URL (only if SITE set) ----
+let rssUrl: string | null = null;
+try {
+  rssUrl = new URL("rss.xml", SITE).toString();
+} catch {
+  rssUrl = null;
+}
+
+// Dev guard (won't break build)
+if (import.meta.env.DEV && !CONFIG_SITE) {
+  console.warn(
+    "[BaseHead] SITE / astro.config.mjs 'site' not configured; canonical and OG URLs using fallback:",
+    SITE
+  );
+}
 ---
-
-<!-- Global Metadata -->
+<!-- Core Document Meta -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="sitemap" href="/sitemap-index.xml" />
-<link
-	rel="alternate"
-	type="application/rss+xml"
-	title={SITE_TITLE}
-	href={new URL('rss.xml', Astro.site)}
-/>
-<meta name="generator" content={Astro.generator} />
+<link rel="canonical" href={canonical} />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)" />
 
-<!-- Font preloads -->
+<!-- Preloads (fonts) -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
 
-<!-- Canonical URL -->
-<link rel="canonical" href={canonicalURL} />
+{rssUrl && (
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title={SITE_TITLE}
+    href={rssUrl}
+  />
+)}
 
-<!-- Primary Meta Tags -->
+<!-- Primary Meta -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 
-<!-- Open Graph / Facebook -->
+<!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta property="og:url" content={canonical} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image.src, Astro.url)} />
+<meta property="og:image" content={imageURL} />
+<meta property="og:image:alt" content={`Preview image for ${title}`} />
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonical} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageURL} />
+<meta name="twitter:image:alt" content={`Preview image for ${title}`} />
+
+<!-- Generator -->
+<meta name="generator" content={Astro.generator} />

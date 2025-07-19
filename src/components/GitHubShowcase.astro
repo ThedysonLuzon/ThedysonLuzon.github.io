@@ -1,34 +1,33 @@
 ---
 import data from "../data/github.json";
 
-// Robust fallbacks
 const repos = Array.isArray(data?.repos) ? data.repos : [];
 const updated = data?.updated || null;
 const contributions = Array.isArray(data?.contributions) ? data.contributions : [];
 
-// Derive language frequency
-const langCounts = {};
+// Language frequency
+const langCounts: Record<string, number> = {};
 for (const r of repos) {
   if (r?.primaryLanguage) {
     langCounts[r.primaryLanguage] = (langCounts[r.primaryLanguage] || 0) + 1;
   }
 }
 const topLangs = Object.entries(langCounts)
-  .sort((a, b) => b[1] - a[1])
-  .slice(0, 5);
+  .sort((a,b)=>b[1]-a[1])
+  .slice(0,5);
 ---
 <section aria-labelledby="gh-heading" class="gh-section">
   <h2 id="gh-heading">GitHub Activity &amp; Repositories</h2>
 
   {updated && (
     <p class="updated">
-      Data snapshot: {new Date(updated).toLocaleDateString()}
+      Snapshot: {new Date(updated).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})}
     </p>
   )}
 
   {topLangs.length > 0 && (
-    <div class="lang-badges" aria-label="Top languages by repo count">
-      {topLangs.map(([lang, count]) => (
+    <div class="lang-badges" aria-label="Top languages by count">
+      {topLangs.map(([lang,count]) => (
         <span class="lang">{lang} <small>{count}</small></span>
       ))}
     </div>
@@ -38,7 +37,7 @@ const topLangs = Object.entries(langCounts)
     <div class="repo-grid">
       {repos.map(r => (
         <article class="repo-card">
-          <h3>
+          <h3 class="repo-name">
             <a href={r.url} target="_blank" rel="noopener">
               {r.name}
             </a>
@@ -50,21 +49,21 @@ const topLangs = Object.entries(langCounts)
             {typeof r.forks === "number" && <span class="pill">⑂ {r.forks}</span>}
           </p>
           {r.pushedAt && (
-            <p class="pushed">
-              Updated: {new Date(r.pushedAt).toLocaleDateString()}
+            <p class="pushed" title={new Date(r.pushedAt).toISOString()}>
+              Updated: {new Date(r.pushedAt).toLocaleDateString(undefined,{month:"short",day:"numeric"})}
             </p>
           )}
         </article>
       ))}
     </div>
   ) : (
-    <p class="empty">No repositories listed yet.</p>
+    <p class="empty">No repositories found.</p>
   )}
 
   {contributions.length > 0 && (
     <div class="contrib">
       <h3>Open Source Contributions</h3>
-      <ul aria-label="List of notable pull requests">
+      <ul aria-label="External merged pull requests">
         {contributions.map(c => (
           <li>
             <a href={c.url} target="_blank" rel="noopener">
@@ -80,50 +79,107 @@ const topLangs = Object.entries(langCounts)
 </section>
 
 <style>
-/* GitHub Showcase */
 .gh-section { margin-top:3.5rem; }
 .updated {
-  font-size:.7rem; opacity:.55; letter-spacing:.7px;
-  text-transform:uppercase; margin:.2rem 0 1rem;
+  font-size:.65rem;
+  opacity:.55;
+  letter-spacing:.6px;
+  text-transform:uppercase;
+  margin:.3rem 0 1rem;
 }
+
 .lang-badges {
-  display:flex; flex-wrap:wrap; gap:.5rem;
+  display:flex; flex-wrap:wrap;
+  gap:.5rem;
   margin:.8rem 0 1.4rem;
 }
 .lang {
-  background:#141b23; padding:.45rem .7rem; border:1px solid #27303b;
-  border-radius:24px; font-size:.7rem; letter-spacing:.5px;
-  display:inline-flex; gap:.4rem; align-items:center;
+  background:var(--color-surface);
+  padding:.45rem .7rem;
+  border:1px solid var(--color-border-soft);
+  border-radius:24px;
+  font-size:.7rem;
+  letter-spacing:.5px;
+  display:inline-flex;
+  gap:.4rem;
+  align-items:center;
+  color:var(--color-text);
 }
+
 .repo-grid {
-  display:grid; gap:1rem;
+  display:grid;
+  gap:1rem;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 }
+
 .repo-card {
-  background:#10141a; border:1px solid #2a2f35; padding:1rem;
-  border-radius:14px; display:flex; flex-direction:column; gap:.45rem;
+  background:var(--color-bg-alt);
+  border:1px solid var(--color-border);
+  border-radius:14px;
+  padding:1rem;
+  display:flex;
+  flex-direction:column;
+  gap:.45rem;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
 }
-.repo-card h3 { margin:0; font-size:1rem; }
-.repo-card h3 a { text-decoration:none; color:#e6e6e6; }
-.repo-card h3 a:hover { color:#4f46e5; }
-.desc { font-size:.78rem; line-height:1.3; opacity:.85; margin:0; }
+.repo-card:hover {
+  border-color:var(--color-accent);
+  box-shadow:var(--shadow-md);
+}
+.repo-name {
+  margin:0;
+  font-size:1rem;
+  letter-spacing:.3px;
+}
+.repo-name a {
+  color:var(--color-text);
+  text-decoration:none;
+}
+.repo-name a:hover {
+  color:var(--color-accent);
+  text-decoration:underline;
+}
+.desc {
+  font-size:.78rem;
+  line-height:1.3;
+  opacity:.85;
+  margin:0;
+}
 .meta {
-  display:flex; flex-wrap:wrap; gap:.4rem; margin:.2rem 0 0;
-  font-size:.65rem;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.4rem;
+  margin:.2rem 0 0;
+  font-size:.63rem;
 }
 .pill {
-  background:#1b2430; padding:.25rem .45rem; border-radius:6px;
-  border:1px solid #2a2f35;
+  background:var(--color-surface-alt);
+  padding:.25rem .45rem;
+  border-radius:6px;
+  border:1px solid var(--color-border);
+  color:var(--color-text);
 }
-.pushed { margin:0; font-size:.6rem; opacity:.5; }
-.empty { font-size:.75rem; opacity:.6; font-style:italic; }
+.pushed {
+  margin:0;
+  font-size:.6rem;
+  opacity:.5;
+}
+.empty {
+  font-size:.75rem;
+  opacity:.6;
+  font-style:italic;
+}
 
 .contrib h3 { margin:2.2rem 0 .6rem; font-size:1.05rem; }
 .contrib ul {
-  padding-left:1.1rem; line-height:1.35; font-size:.78rem;
+  padding-left:1.1rem;
+  line-height:1.35;
+  font-size:.78rem;
   margin:.3rem 0 0;
 }
 .impact { opacity:.65; }
+
 @media (max-width:600px){
   .repo-grid { grid-template-columns:1fr; }
 }
