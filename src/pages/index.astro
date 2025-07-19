@@ -1,23 +1,29 @@
 ---
+/* =========================
+   Frontmatter: imports & data only
+   ========================= */
 import ProjectCard from "../components/ProjectCard.astro";
 import MetricCard from "../components/MetricCard.astro";
 import GitHubShowcase from "../components/GitHubShowcase.astro";
 
+/* Curated projects (add more as needed) */
 const projects = [
   {
     title: "SafeRoomAI",
     summary: "Real-time video anomaly detection (YOLO + Autoencoder fallback) with reproducible pipeline.",
     stack: ["Python","YOLO","Autoencoder","DVC","MLflow","BentoML","K8s"],
     highlights: [
-      "Latency optimization (e.g., quantization & batch strategy)",
+      "Latency optimization (quantization & batch strategy)",
       "DVC + MLflow tracked experiments (hash-pinned)",
       "Fallback to local .mp4 when RTSP stream unavailable"
     ],
     repo: "https://github.com/DC-Capstone1W25/SafeRoomAI",
     caseStudy: "/projects/saferoomai"
   }
+  // Add more project objects here...
 ];
-<GitHubShowcase />
+
+/* Metrics (keep authentic) */
 const metrics = [
   { label: "Pipelines Tracked", value: "10+", note: "DVC & MLflow" },
   { label: "Latency Improvement", value: "42%", note: "SafeRoomAI (example)" },
@@ -39,7 +45,9 @@ const metrics = [
   <body>
     <header class="hero">
       <h1>Thedyson Luzon</h1>
-      <p class="tagline">AI & MLOps Engineer – Reproducible Pipelines • Real-Time Anomaly Detection • Cloud & CI/CD</p>
+      <p class="tagline">
+        AI & MLOps Engineer – Reproducible Pipelines • Real-Time Anomaly Detection • Cloud & CI/CD
+      </p>
       <div class="cta">
         <a class="btn primary" href="/resume.pdf" target="_blank" rel="noopener">Resume</a>
         <a class="btn" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a>
@@ -53,6 +61,7 @@ const metrics = [
     </header>
 
     <main>
+      <!-- Projects Section -->
       <section id="projects">
         <h2>Highlighted Projects</h2>
         <div class="projects-grid">
@@ -60,11 +69,16 @@ const metrics = [
         </div>
       </section>
 
+      <!-- GitHub Showcase Section (remove if component not ready) -->
+      <GitHubShowcase />
+
+      <!-- Blog Section -->
       <section id="blog">
         <h2>Latest Article</h2>
         <p><a href="/blog/dvc-mlflow-bentoml">Unifying DVC, MLflow & BentoML →</a></p>
       </section>
 
+      <!-- Contact Section -->
       <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:luzon.thedyson@gmail.com">luzon.thedyson@gmail.com</a></p>
@@ -75,29 +89,100 @@ const metrics = [
       </section>
     </main>
 
-    <footer>© {new Date().getFullYear()} Thedyson Luzon. All rights reserved.</footer>
+    <footer>
+      © {new Date().getFullYear()} Thedyson Luzon. All rights reserved.
+    </footer>
   </body>
 </html>
 
 <style>
-:root { --accent:#4f46e5; --bg:#0d1117; --fg:#e6e6e6; --surface:#10141a; --border:#2a2f35; }
+:root {
+  --accent:#4f46e5;
+  --bg:#0d1117;
+  --fg:#e6e6e6;
+  --surface:#10141a;
+  --border:#2a2f35;
+}
 * { box-sizing:border-box; }
-body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--fg); line-height:1.5; }
-.hero { text-align:center; padding:4rem 1.2rem 2.2rem; max-width:1000px; margin:auto; }
-h1 { font-size:clamp(2.4rem,4.3vw,3.2rem); margin:0 0 1rem; letter-spacing:.5px; }
-.tagline { max-width:840px; margin:0 auto 1.3rem; font-size:1rem; opacity:.92; }
-.cta { display:flex; flex-wrap:wrap; justify-content:center; gap:.7rem; margin:1rem 0 2rem; }
-.btn { padding:.65rem 1.15rem; border:1px solid var(--border); border-radius:40px; text-decoration:none; color:var(--fg); font-size:.9rem; font-weight:500; background:#141b23; }
-.btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+body {
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  background:var(--bg);
+  color:var(--fg);
+  line-height:1.5;
+}
+.hero {
+  text-align:center;
+  padding:4rem 1.2rem 2.2rem;
+  max-width:1000px;
+  margin:auto;
+}
+h1 {
+  font-size:clamp(2.4rem,4.3vw,3.2rem);
+  margin:0 0 1rem;
+  letter-spacing:.5px;
+}
+.tagline {
+  max-width:840px;
+  margin:0 auto 1.3rem;
+  font-size:1rem;
+  opacity:.92;
+}
+.cta {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:.7rem;
+  margin:1rem 0 2rem;
+}
+.btn {
+  padding:.65rem 1.15rem;
+  border:1px solid var(--border);
+  border-radius:40px;
+  text-decoration:none;
+  color:var(--fg);
+  font-size:.9rem;
+  font-weight:500;
+  background:#141b23;
+  transition:filter .18s;
+}
+.btn.primary {
+  background:var(--accent);
+  border-color:var(--accent);
+  color:#fff;
+}
 .btn:hover { filter:brightness(1.1); }
-.metrics-row { display:flex; flex-wrap:wrap; gap:.8rem; justify-content:center; margin-top:.4rem; }
-main { max-width:1180px; margin:auto; padding:1rem 1.2rem 4rem; }
+.metrics-row {
+  display:flex;
+  flex-wrap:wrap;
+  gap:.8rem;
+  justify-content:center;
+  margin-top:.4rem;
+}
+main {
+  max-width:1180px;
+  margin:auto;
+  padding:1rem 1.2rem 4rem;
+}
 section { margin-top:3.2rem; }
-h2 { font-size:1.55rem; margin:0 0 1rem; letter-spacing:.5px; }
-.projects-grid { display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); }
+h2 {
+  font-size:1.55rem;
+  margin:0 0 1rem;
+  letter-spacing:.5px;
+}
+.projects-grid {
+  display:grid;
+  gap:1.25rem;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+}
 a { color:var(--accent); }
 a:hover { text-decoration:underline; }
-footer { text-align:center; padding:3rem 1rem 4rem; font-size:.75rem; opacity:.55; }
+footer {
+  text-align:center;
+  padding:3rem 1rem 4rem;
+  font-size:.75rem;
+  opacity:.55;
+}
 @media (max-width:600px){
   .projects-grid { grid-template-columns:1fr; }
 }
