@@ -1,0 +1,282 @@
+---
+/**
+ * HeroIntro.astro
+ * Professional, recruiter‑optimized hero & profile section.
+ * Replace placeholders (XX, YY, etc.) with real, verifiable metrics.
+ */
+const metrics = {
+  // Real-time inference
+  fps: "24",          // e.g., 24
+  p95ms: "85",        // e.g., 85
+  // Experiment velocity
+  iterBefore: "5 days",    // e.g., 5 days
+  iterAfter: "6 hours",     // e.g., 6 hours
+  // API performance
+  apiP95: "120",       // e.g., 120
+  apiRps: "300",        // e.g., 300
+  // Image size
+  imgShrinkPct: "62",  // e.g., 62
+  imgFrom: "1.3 GB",      // e.g., 1.3 GB
+  imgTo: "490MB",        // e.g., 490 MB
+  // Reliability
+  errorRate: "0.4",     // e.g., 0.4
+  uptime: "90.9"        // e.g., 99.9
+};
+---
+
+<section class="hero-intro" aria-labelledby="hero-name">
+  <header class="hero-head">
+    <h1 id="hero-name">Thedyson Eduard Luzon</h1>
+    <p class="tagline">
+      <strong>AI &amp; MLOps Engineer · Full‑Stack (MERN + GraphQL)</strong><br />
+      Real‑Time Computer Vision • Reproducible ML Pipelines • Scalable Cloud Platforms<br />
+      <em>Seeking Fall 2025 AI / MLOps / Full‑Stack Internship (Co‑op)</em>
+    </p>
+    <nav class="primary-cta" aria-label="Primary calls to action">
+      <a class="btn primary" href="/resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a class="btn" href="mailto:luzon.thedyson@gmail.com">Email</a>
+      <a class="btn" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="value" aria-labelledby="value-title">
+    <h2 id="value-title" class="visually-hidden">Value Proposition</h2>
+    <ul class="value-bullets">
+      <li>Deliver low‑latency real‑time CV services (p95 &lt; {metrics.p95ms} ms)</li>
+      <li>Accelerate experiment cycles ( {metrics.iterBefore} → {metrics.iterAfter} )</li>
+      <li>Harden reproducibility (data + model versioning end‑to‑end)</li>
+      <li>Ship production ML APIs with observability &amp; SLO focus</li>
+      <li>Bridge ML + product: measurable impact &amp; stakeholder clarity</li>
+    </ul>
+  </section>
+
+  <section class="mission" aria-labelledby="mission-title">
+    <h2 id="mission-title" class="section-heading">Mission</h2>
+    <p>
+      Build trustworthy, observable AI &amp; full‑stack platforms—from ingestion and continuous training to containerized / K8s
+      deployment and user‑facing dashboards—optimizing for repeatable delivery, low operational overhead, and business‑aligned
+      metrics (latency, cost per inference, iteration speed).
+    </p>
+  </section>
+
+  <section class="education" aria-labelledby="edu-title">
+    <h2 id="edu-title" class="section-heading">Education</h2>
+    <ul>
+      <li><strong>Software Engineering Technology</strong> — Completed</li>
+      <li><strong>AI Design, Analysis &amp; Implementation (Co‑op)</strong> — In Progress<br />
+        Capstone: <em>SafeRoomAI</em> (multi‑stream anomaly detection + full MLOps lifecycle)
+      </li>
+    </ul>
+  </section>
+
+  <section class="impact" aria-labelledby="impact-title">
+    <h2 id="impact-title" class="section-heading">Impact Highlights</h2>
+    <table>
+      <thead>
+        <tr><th>Domain</th><th>Result</th><th>Stack</th><th>Approach</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Real‑Time Inference</td>
+            <td>~{metrics.fps} FPS, p95 {metrics.p95ms} ms</td>
+          <td>PyTorch · YOLOv8 · FastAPI</td>
+          <td>Async batching, zero‑copy frames</td>
+        </tr>
+        <tr>
+          <td>Experiment Velocity</td>
+          <td>{metrics.iterBefore} → {metrics.iterAfter} iteration time</td>
+          <td>DVC · MLflow</td>
+          <td>Versioned data + automated tracking</td>
+        </tr>
+        <tr>
+          <td>API Performance</td>
+          <td>p95 {metrics.apiP95} ms @ {metrics.apiRps} rps</td>
+          <td>FastAPI · Apollo · Caching</td>
+          <td>Resolver batching + profiling</td>
+        </tr>
+        <tr>
+          <td>Container Footprint</td>
+          <td>Image size ↓ {metrics.imgShrinkPct}% ({metrics.imgFrom} → {metrics.imgTo})</td>
+          <td>Docker Multi‑Stage</td>
+          <td>Layer pruning &amp; slim base</td>
+        </tr>
+        <tr>
+          <td>Reliability</td>
+          <td>Error &lt; {metrics.errorRate}% / Uptime {metrics.uptime}%</td>
+          <td>K8s · Probes · Logging</td>
+          <td>Liveness/readiness + structured logs</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="placeholder-note">* Replace all placeholders with audited metrics before publishing.</p>
+  </section>
+
+  <section class="stack" aria-labelledby="stack-title">
+    <h2 id="stack-title" class="section-heading">Core &amp; Supporting Stack</h2>
+    <div class="stack-groups">
+      <div class="stack-group">
+        <h3>Core</h3>
+        <p>Python · PyTorch · FastAPI · React · Node.js · GraphQL · Docker · Kubernetes · AWS</p>
+      </div>
+      <div class="stack-group">
+        <h3>MLOps / Infra</h3>
+        <p>DVC · MLflow · BentoML · GitHub Actions · CI/CD · Monitoring</p>
+      </div>
+      <div class="stack-group">
+        <h3>Data</h3>
+        <p>PostgreSQL · MongoDB · S3</p>
+      </div>
+      <div class="stack-group">
+        <h3>Quality / Tooling</h3>
+        <p>Pytest · Jest · Ruff · ESLint · Prettier · Profilers</p>
+      </div>
+    </div>
+    <details class="ats">
+      <summary>Expanded (ATS / Accessibility)</summary>
+      <p>
+        Languages: Python, TypeScript/JavaScript, SQL. AI/ML: PyTorch, YOLOv8, OpenCV, Transformers, scikit‑learn.
+        MLOps: DVC, MLflow, BentoML, model packaging, experiment tracking. Infra: Docker, Kubernetes, container security,
+        GitHub Actions workflows. Full‑Stack: React, Node.js, Express, Apollo GraphQL (DataLoader), FastAPI gateways.
+        Data: PostgreSQL, MongoDB, AWS S3. Quality: Pytest, Jest, Ruff, ESLint, Prettier, code review automation.
+      </p>
+    </details>
+  </section>
+</section>
+
+<style>
+.hero-intro {
+  max-width: 1120px;
+  margin: 0 auto 3.5rem;
+  padding: 2.5rem 1.2rem 0;
+}
+.hero-head h1 {
+  margin: 0 0 .75rem;
+  font-size: clamp(2.4rem,4.8vw,3.4rem);
+  letter-spacing:.6px;
+}
+.tagline {
+  margin: 0 0 1.3rem;
+  line-height:1.45;
+  font-size:1.0rem;
+  text-align:left;
+}
+@media (min-width:760px){
+  .tagline { text-align:center; }
+}
+.primary-cta {
+  display:flex;
+  flex-wrap:wrap;
+  gap:.75rem;
+  justify-content:center;
+  margin:0 0 2.2rem;
+}
+.btn {
+  padding:.65rem 1.15rem;
+  border:1px solid var(--border,#2a2f35);
+  background:#141b23;
+  color:var(--fg,#e6e6e6);
+  font-size:.85rem;
+  text-decoration:none;
+  border-radius:38px;
+  font-weight:500;
+  transition:background .18s, filter .18s;
+}
+.btn.primary {
+  background:var(--accent,#4f46e5);
+  border-color:var(--accent,#4f46e5);
+  color:#fff;
+}
+.btn:hover { filter:brightness(1.1); }
+.section-heading {
+  font-size:1.2rem;
+  margin:2.6rem 0 .8rem;
+  letter-spacing:.5px;
+}
+.value-bullets {
+  list-style:disc;
+  margin:.2rem 0 0;
+  padding-left:1.15rem;
+  font-size:.9rem;
+  line-height:1.35;
+  max-width:900px;
+}
+.mission p {
+  max-width:900px;
+  font-size:.92rem;
+  line-height:1.45;
+  margin:.4rem 0 0;
+}
+.education ul {
+  margin:.3rem 0 0;
+  padding-left:1.15rem;
+  font-size:.9rem;
+  line-height:1.35;
+}
+.impact table {
+  width:100%;
+  border-collapse:collapse;
+  font-size:.75rem;
+  margin-top:.4rem;
+}
+.impact th, .impact td {
+  padding:.5rem .55rem;
+  border:1px solid #2a2f35;
+  vertical-align:top;
+}
+.impact th {
+  background:#141b23;
+  text-align:left;
+  font-weight:600;
+  letter-spacing:.4px;
+  font-size:.7rem;
+}
+.placeholder-note {
+  font-size:.6rem;
+  opacity:.55;
+  margin:.6rem 0 0;
+  letter-spacing:.5px;
+}
+.stack-groups {
+  display:grid;
+  gap:1.1rem;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  margin-top:.6rem;
+}
+.stack-group h3 {
+  margin:.1rem 0 .35rem;
+  font-size:.8rem;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+  opacity:.8;
+}
+.stack-group p {
+  margin:0;
+  font-size:.74rem;
+  line-height:1.35;
+  opacity:.85;
+}
+.ats summary {
+  cursor:pointer;
+  margin-top:1rem;
+  font-size:.7rem;
+  letter-spacing:.5px;
+  opacity:.75;
+}
+.ats summary:hover { color:var(--accent,#4f46e5); }
+.visually-hidden {
+  position:absolute;
+  width:1px;
+  height:1px;
+  margin:-1px;
+  padding:0;
+  overflow:hidden;
+  clip:rect(0 0 0 0);
+  white-space:nowrap;
+  border:0;
+}
+@media (max-width:640px){
+  .impact table { font-size:.68rem; }
+  .value-bullets { font-size:.85rem; }
+}
+</style>
