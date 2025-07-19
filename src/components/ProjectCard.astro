@@ -11,8 +11,8 @@ const { title, summary, stack = [], highlights = [], repo, caseStudy } = Astro.p
   </ul>
   <p class="stack">{stack.join(' • ')}</p>
   <div class="links">
-    {repo && <a href={repo} target="_blank" rel="noopener">GitHub ↗</a>}
-    {caseStudy && <a href={caseStudy}>Case Study</a>}
+    {repo && <a aria-label={`GitHub repository for ${title}`} href={repo} target="_blank" rel="noopener">GitHub ↗</a>}
+    {caseStudy && <a aria-label={`Case study for ${title}`} href={caseStudy}>Case Study →</a>}
   </div>
 </article>
 <style>
