@@ -1,38 +1,293 @@
 ---
+import BaseHead from "../../components/BaseHead.astro";
+
+const title = "SafeRoomAI – Real-Time Anomaly Detection Platform";
+const description = "Hybrid computer vision pipeline (YOLO + Autoencoder) with reproducible MLOps (DVC + MLflow) and fault‑tolerant streaming.";
+const ogImage = "/img/saferoomai-pipeline.png"; // Replace if you have an asset
+
+// Phase timeline (condensed from provided list)
 const timeline = [
-  { phase: "Problem", detail: "Need real-time anomaly detection on security streams with graceful fallback if RTSP unavailable." },
-  { phase: "Design", detail: "YOLO for object events + Autoencoder reconstruction error for anomalies; modular pipeline." },
-  { phase: "Reproducibility", detail: "DVC for dataset & model artifacts; MLflow for experiment tracking + params/metrics." },
-  { phase: "Deployment", detail: "Packaged with BentoML, containerized and orchestrated (K8s readiness, horizontal scaling)." },
-  { phase: "Optimization", detail: "Quantization + frame skip & batching target latency reduction (e.g., 120ms → 70ms)." }
+  { phase: "Problem", detail: "Needed real-time anomaly detection for camera streams with graceful fallback when RTSP feeds become unavailable." },
+  { phase: "Design", detail: "Dual path: YOLO for object/event semantics + Autoencoder reconstruction error for unsupervised anomaly scoring." },
+  { phase: "Reproducibility", detail: "DVC pinning data/model artifacts; MLflow run metadata & metrics ensure repeatable experiments." },
+  { phase: "Deployment", detail: "BentoML packaged service containerized; readiness & liveness probes for K8s orchestration." },
+  { phase: "Optimization", detail: "Quantization, micro-batching & frame skip heuristics targeting latency reduction (e.g., ~120ms → ~70ms p95 candidate)." }
 ];
+
+// Optional JSON‑LD
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  headline: title,
+  description,
+  about: ["Anomaly Detection", "Computer Vision", "MLOps"],
+  author: {
+    "@type": "Person",
+    name: "Thedyson Eduard Luzon"
+  }
+};
 ---
+
 <html lang="en">
-  <head><meta charset="utf-8" /><title>SafeRoomAI – Case Study</title></head>
+  <head>
+    <BaseHead title={title} description={description} image={ogImage} />
+    <script type="application/ld+json">
+      {JSON.stringify(jsonLd)}
+    </script>
+    <style>
+      :root {
+        --cs-max: 880px;
+      }
+      body {
+        margin:0;
+        background:var(--color-bg,#0d1117);
+        color:var(--color-text,#e6e6e6);
+        font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+        line-height:1.55;
+      }
+      main.case {
+        max-width:var(--cs-max);
+        margin:0 auto;
+        padding:2.6rem 1.2rem 5rem;
+      }
+      h1 {
+        margin:0 0 .85rem;
+        font-size:clamp(2rem,4.1vw,2.9rem);
+        line-height:1.1;
+        letter-spacing:.5px;
+      }
+      .lead {
+        font-size:1.02rem;
+        opacity:.9;
+        margin:0 0 2rem;
+        line-height:1.5;
+      }
+      h2 {
+        margin:2.3rem 0 .9rem;
+        font-size:1.18rem;
+        letter-spacing:.55px;
+      }
+      ul, ol {
+        margin:.4rem 0 1.25rem;
+        padding-left:1.2rem;
+      }
+      li { margin:.35rem 0; }
+      .diagram {
+        width:100%;
+        display:block;
+        margin:1.6rem 0 2rem;
+        border:1px solid var(--color-border,#2a2f35);
+        border-radius:16px;
+        background:var(--color-bg-alt,#10141a);
+        padding:.6rem;
+        object-fit:contain;
+      }
+      .tags {
+        display:flex;
+        flex-wrap:wrap;
+        gap:.55rem;
+        margin:0 0 1.6rem;
+      }
+      .tag {
+        font-size:.6rem;
+        letter-spacing:.55px;
+        padding:.35rem .55rem;
+        border:1px solid var(--color-border,#2a2f35);
+        background:var(--color-bg-alt,#10141a);
+        border-radius:999px;
+        text-transform:uppercase;
+        opacity:.85;
+      }
+      .grid-two {
+        display:grid;
+        gap:1.8rem;
+      }
+      @media (min-width:820px){
+        .grid-two {
+          grid-template-columns:repeat(2,1fr);
+        }
+      }
+      .timeline {
+        list-style:none;
+        padding:0;
+        margin:1rem 0 1.8rem;
+        border-left:2px solid var(--color-border,#2a2f35);
+      }
+      .timeline li {
+        position:relative;
+        padding:.55rem 0 .55rem 1rem;
+        margin:0;
+      }
+      .timeline li::before {
+        content:"";
+        position:absolute;
+        left:-7px;
+        top:1.05rem;
+        width:10px;
+        height:10px;
+        background:var(--color-accent,#4f46e5);
+        border-radius:50%;
+        box-shadow:0 0 0 3px var(--color-bg,#0d1117);
+      }
+      .timeline strong {
+        display:inline-block;
+        font-size:.75rem;
+        letter-spacing:.6px;
+        text-transform:uppercase;
+        opacity:.85;
+        margin-right:.3rem;
+      }
+      .note-block {
+        background:var(--color-bg-alt,#10141a);
+        border:1px solid var(--color-border,#2a2f35);
+        padding:1rem 1.1rem;
+        border-radius:14px;
+        font-size:.75rem;
+        line-height:1.35;
+        opacity:.85;
+        margin:1.8rem 0 2.4rem;
+      }
+      a {
+        color:var(--color-accent,#4f46e5);
+        text-decoration:none;
+      }
+      a:hover { text-decoration:underline; }
+      .cta-links {
+        margin:2.8rem 0 0;
+        display:flex;
+        gap:1.2rem;
+        flex-wrap:wrap;
+      }
+      .cta-links a.primary {
+        background:var(--color-accent,#4f46e5);
+        color:#fff;
+        padding:.75rem 1.15rem;
+        font-size:.75rem;
+        font-weight:600;
+        letter-spacing:.55px;
+        border-radius:30px;
+        border:1px solid var(--color-accent,#4f46e5);
+        text-decoration:none;
+        box-shadow:0 8px 24px -10px rgba(79,70,229,.55);
+        transition:filter .25s, transform .25s;
+      }
+      .cta-links a.primary:hover {
+        filter:brightness(1.08);
+        transform:translateY(-2px);
+      }
+      .return {
+        font-size:.7rem;
+        letter-spacing:.5px;
+        opacity:.7;
+      }
+      .section-hint {
+        font-size:.65rem;
+        opacity:.55;
+        margin:-.5rem 0 1.2rem;
+        letter-spacing:.5px;
+      }
+      @media (max-width:640px){
+        .lead { font-size:.97rem; }
+        h2 { font-size:1.08rem; }
+      }
+      @media print {
+        .cta-links { display:none; }
+        body { background:#fff; color:#000; }
+        .diagram { background:#fff; border-color:#ccc; }
+      }
+    </style>
+  </head>
   <body>
-    <main class="wrap">
-      <h1>SafeRoomAI – Real-Time Anomaly Detection</h1>
-      <p class="lead">Hybrid pipeline integrating object detection and unsupervised anomaly scoring with reproducible data & experiment versioning.</p>
-      <img src="/img/saferoomai-pipeline.svg" alt="SafeRoomAI pipeline architecture diagram" class="diagram" />
-      <h2>Key Decisions & Timeline</h2>
-      <ul class="timeline">
-        {timeline.map(t => <li><strong>{t.phase}:</strong> {t.detail}</li>)}
-      </ul>
-      <h2>Technical Highlights</h2>
+    <main class="case">
+      <h1>{title}</h1>
+      <p class="lead">{description}</p>
+
+      <!-- Optional tag badges -->
+      <div class="tags">
+        <span class="tag">YOLOv8</span>
+        <span class="tag">Autoencoder</span>
+        <span class="tag">DVC</span>
+        <span class="tag">MLflow</span>
+        <span class="tag">BentoML</span>
+        <span class="tag">K8s</span>
+        <span class="tag">FastAPI</span>
+      </div>
+
+      <h2>Problem</h2>
+      <p>
+        Security operations required *stream-level* anomaly detection with resilience to network instability. Traditional single‑model
+        approaches struggled with novel events and produced brittle alerting when feeds dropped.
+      </p>
+
+      <h2>Solution Overview</h2>
       <ul>
-        <li><strong>Fallback Mode:</strong> Automatic local file / buffer processing when network feed drops.</li>
-        <li><strong>Version Control:</strong> DVC remote ensures deterministic training snapshots; MLflow run IDs anchor metrics.</li>
-        <li><strong>Serving:</strong> BentoML API exposing JSON results + latency logging hooks.</li>
-        <li><strong>Monitoring (Planned Upgrade):</strong> Export metrics to lightweight dashboard JSON for portfolio metric cards.</li>
+        <li>Hybrid inference: supervised object/event detection (YOLO) + unsupervised reconstruction error (Autoencoder).</li>
+        <li>Streaming orchestrator controlling decode → preprocess → dual-path scoring → aggregation.</li>
+        <li>Fallback mechanism: switch to cached local video segment or circular buffer when RTSP unavailable.</li>
+        <li>Reproducible, versioned pipeline (code, data, model artifacts).</li>
       </ul>
-      <p><a href="https://github.com/DC-Capstone1W25/SafeRoomAI" target="_blank" rel="noopener">Repository ↗</a></p>
-      <p><a href="/">← Back</a></p>
+
+      <h2>Architecture Highlights</h2>
+      <ul>
+        <li><strong>Modular Stages:</strong> Capture, Frame Queue, Detection, Anomaly Scoring, Aggregation, Output Bus.</li>
+        <li><strong>Asynchronous Queues:</strong> Micro-batching frames to keep GPU saturated while bounding latency.</li>
+        <li><strong>Inference Modes:</strong> Primary YOLO events; fallback anomaly score gating reduces false positives.</li>
+        <li><strong>Packaging:</strong> BentoML service exporting REST + JSON schema for detection & anomaly endpoints.</li>
+        <li><strong>Interfaces:</strong> FastAPI edge wrapper adds routing, auth stub & health probes.</li>
+      </ul>
+
+      <h2>Reproducibility & Experimentation</h2>
+      <ul>
+        <li>DVC tracks datasets, augmentation configs, and model checkpoints (hash-pinned lineage).</li>
+        <li>MLflow logs parameters, metrics, artifacts, env fingerprint; run IDs embedded in service metadata.</li>
+        <li>Deterministic builds: lockfiles + Docker layering; build args capture model/runtime versions.</li>
+      </ul>
+
+      <h2>Security & Quality</h2>
+      <ul>
+        <li>Container principle of least privilege (non-root user, minimal base image).</li>
+        <li>Structured logging (JSON) for ingestion anomalies & inference latency.</li>
+        <li>Pluggable auth gateway placeholder (JWT / API key) for future RBAC.</li>
+        <li>Static analysis / lint gates (Ruff, mypy optional) in CI (planned integration).</li>
+      </ul>
+
+      <h2>Performance & Optimization</h2>
+      <ul>
+        <li>Quantization & selective layer fusion to reduce inference time.</li>
+        <li>Frame skip heuristics based on motion / event density thresholds.</li>
+        <li>Parallel decode (ffmpeg) pipelined with GPU inference to hide I/O latency.</li>
+        <li>Candidates: p95 latency target &lt; 70ms (replace with audited number), sustained FPS scaling across N streams.</li>
+      </ul>
+      <p class="section-hint">* Replace placeholder targets with measured benchmarks once validated.</p>
+
+      <h2>Deployment & Operations</h2>
+      <ul>
+        <li>BentoML build → Docker multi-stage image → K8s manifest (readiness & liveness).</li>
+        <li>Config via env & mounted model store; hot-reload friendly architecture for model swaps.</li>
+        <li>Planned lightweight metrics exporter (Prometheus / custom JSON) for live dashboard integration.</li>
+      </ul>
+
+      <h2>Timeline (Condensed)</h2>
+      <ul class="timeline">
+        {timeline.map(t => (
+          <li>
+            <strong>{t.phase}</strong>
+            {t.detail}
+          </li>
+        ))}
+      </ul>
+
+      <div class="note-block">
+        <strong>Next Focus:</strong> finalize empiric latency benchmarks, introduce auto-scaling policy tuned to queue depth,
+        integrate alert fan‑out channel (webhook / email) and add subscription feed for near real-time anomaly notifications.
+      </div>
+
+      <div class="cta-links">
+        <a class="primary" href="https://github.com/DC-Capstone1W25/SafeRoomAI" target="_blank" rel="noopener">
+          View Repository ↗
+        </a>
+        <a class="return" href="/">← Back to Portfolio</a>
+      </div>
     </main>
   </body>
 </html>
-<style>
-.wrap { max-width:880px; margin:auto; padding:2rem 1rem 5rem; font-family:system-ui,sans-serif; }
-.lead { font-size:1.05rem; opacity:.9; line-height:1.5; }
-.diagram { width:100%; margin:1.4rem 0 1rem; border:1px solid #2a2f35; border-radius:12px; background:#10141a; }
-.timeline { padding-left:1.2rem; line-height:1.4; }
-</style>
