@@ -1,0 +1,88 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+
+const title = "GreenEarthConnect – Sustainability Engagement Platform";
+const description = "Platform enabling users to track environmental impact metrics and collaborate on green initiatives.";
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <main class="case">
+      <h1>{title}</h1>
+      <p class="tagline">{description}</p>
+      <h2>Problem</h2>
+      <p>Communities lacked a cohesive, data‑driven hub for visualizing sustainability efforts and coordinating micro‑initiatives.</p>
+
+      <h2>Solution Overview</h2>
+      <ul>
+        <li>Modular API (Express + GraphQL) with typed schema and input validation.</li>
+        <li>Activity & impact aggregation layer with indexed MongoDB queries.</li>
+        <li>Componentized React dashboard (lazy segments + suspense boundaries).</li>
+        <li>Dockerized dev/prod parity; CI lint/test gates.</li>
+      </ul>
+
+      <h2>Architecture Highlights</h2>
+      <ul>
+        <li><strong>API Layer:</strong> Apollo GraphQL server (future subscriptions / websockets ready).</li>
+        <li><strong>Data:</strong> MongoDB collections for Users, Initiatives, Events, ImpactSnapshots with compound indexes.</li>
+        <li><strong>Caching:</strong> In-memory per-request dataloaders for N+1 elimination.</li>
+        <li><strong>Deployment Path:</strong> Container build → CI → potential K8s / ECS extension.</li>
+      </ul>
+
+      <h2>Security & Quality</h2>
+      <ul>
+        <li>Input schema guarding + centralized error normalization.</li>
+        <li>ESLint + Prettier + Type checking in CI.</li>
+        <li>Test scaffolding (Jest) for resolvers & utilities.</li>
+      </ul>
+
+      <h2>Potential Future Enhancements</h2>
+      <ul>
+        <li>Subscription feed (live initiative updates).</li>
+        <li>Impact visualization with time‑series charts.</li>
+        <li>Role-based access (org vs contributor).</li>
+        <li>Automated sustainability badge scoring algorithm.</li>
+      </ul>
+
+      <p>
+        Repository: <a href="https://github.com/DC-Capstone1W25/greenearthconnect" target="_blank" rel="noopener">
+          github.com/DC-Capstone1W25/greenearthconnect
+        </a>
+      </p>
+    </main>
+  </body>
+</html>
+
+<style>
+.case {
+  max-width:860px;
+  margin:0 auto;
+  padding:2.5rem 1.2rem 4rem;
+  line-height:1.55;
+  font-size:.95rem;
+}
+.case h1 {
+  font-size:clamp(2rem,4.2vw,2.85rem);
+  margin:0 0 .75rem;
+  line-height:1.1;
+}
+.case .tagline {
+  margin:0 0 2rem;
+  opacity:.85;
+  font-size:1rem;
+}
+.case h2 {
+  margin:2.2rem 0 .8rem;
+  font-size:1.15rem;
+  letter-spacing:.5px;
+}
+.case ul {
+  margin:.4rem 0 1.2rem;
+  padding-left:1.2rem;
+}
+.case a { color:var(--color-accent); text-decoration:none; }
+.case a:hover { text-decoration:underline; }
+</style>
