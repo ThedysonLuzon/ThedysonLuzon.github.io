@@ -1,112 +1,127 @@
 ---
-import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
 const currentPath = Astro.url?.pathname || "/";
 ---
+
 <header class="site-header" role="banner">
   <nav class="nav" aria-label="Primary">
     <a class="brand" href="/">{SITE_TITLE}</a>
+
     <ul class="nav-links">
-      <li><a href="/" aria-current={currentPath === "/" ? "page" : undefined}>Home</a></li>
-      <li><a href="/blog" aria-current={currentPath.startsWith("/blog") ? "page" : undefined}>Blog</a></li>
-      <li><a href="/about" aria-current={currentPath.startsWith("/about") ? "page" : undefined}>About</a></li>
+      <li>
+        <a href="/" aria-current={currentPath === "/" ? "page" : undefined}
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="/blog"
+          aria-current={currentPath.startsWith("/blog") ? "page" : undefined}
+          >Blog</a
+        >
+      </li>
+      <li>
+        <a
+          href="/about"
+          aria-current={currentPath.startsWith("/about") ? "page" : undefined}
+          >About</a
+        >
+      </li>
     </ul>
+
     <div class="actions">
-      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌓</button>
+      <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme"
+        >🌓</button
+      >
     </div>
   </nav>
 </header>
 
 <style>
 .site-header {
-  position:sticky; top:0; z-index:50;
-  backdrop-filter:blur(8px);
-  background:rgba(0,0,0,.45);
-  border-bottom:1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, .45);
+  border-bottom: 1px solid var(--color-border);
 }
 :root[data-theme='light'] .site-header {
-  background:rgba(255,255,255,.75);
+  background: rgba(255, 255, 255, .75);
 }
 
 .nav {
-  max-width:1180px;
-  margin:0 auto;
-  padding:.55rem 1.1rem;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:1.5rem;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: .55rem 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .brand {
-  font-weight:600;
-  letter-spacing:.6px;
-  font-size:1rem;
-  color:var(--color-text);
-  text-decoration:none;
+  font-weight: 600;
+  letter-spacing: .6px;
+  font-size: 1rem;
+  color: var(--color-text);
+  text-decoration: none;
 }
 
 .nav-links {
-  list-style:none;
-  margin:0;
-  padding:0;
-  display:flex;
-  gap:.6rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: .6rem;
 }
 
 .nav-links a {
-  position:relative;
-  font-size:.7rem;
-  text-transform:uppercase;
-  letter-spacing:.6px;
-  font-weight:600;
-  padding:.55rem .75rem;
-  border-radius:8px;
-  color:var(--color-text-dim);
-  text-decoration:none;
+  position: relative;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  font-weight: 600;
+  padding: .55rem .75rem;
+  border-radius: 8px;
+  color: var(--color-text-dim);
+  text-decoration: none;
   transition: color var(--transition), background var(--transition);
 }
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
-  color:var(--color-accent);
-  background:var(--color-surface);
+  color: var(--color-accent);
+  background: var(--color-surface);
 }
 
 .nav-links a[aria-current="page"] {
-  color:var(--color-accent);
-  background:rgba(var(--color-accent-rgb),.14);
+  color: var(--color-accent);
+  background: rgba(var(--color-accent-rgb), .14);
 }
 
 .actions {
-  display:flex;
-  align-items:center;
-  gap:.5rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
 }
 
 #theme-toggle {
-  background:var(--color-surface);
-  color:var(--color-text);
-  border:1px solid var(--color-border);
-  padding:.45rem .65rem;
-  border-radius:8px;
-  cursor:pointer;
-  font-size:.85rem;
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: .45rem .65rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: .85rem;
   transition: var(--transition);
 }
-#theme-toggle:hover { color:var(--color-accent); }
+#theme-toggle:hover {
+  color: var(--color-accent);
+}
 
-@media (max-width:680px){
-  .nav-links { display:none; }
+@media (max-width: 680px) {
+  .nav-links {
+    display: none;
+  }
 }
 </style>
-
-<script>
-const toggle = document.getElementById('theme-toggle');
-toggle?.addEventListener('click', () => {
-  const root = document.documentElement;
-  const next = root.dataset.theme === 'light' ? 'dark':'light';
-  root.dataset.theme = next;
-  localStorage.setItem('theme', next);
-});
-</script>

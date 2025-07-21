@@ -7,10 +7,6 @@
  *  - title: string
  *  - description: string
  *  - image?: ImageMetadata | string
- *
- * Requirements:
- *  - (Optional) Set `site` in astro.config.mjs for full canonical correctness
- *    OR rely on import.meta.env.SITE (Astro auto-populates if site is set).
  */
 
 import "../styles/theme.css"; // ensure theme variables loaded early
@@ -27,24 +23,18 @@ interface Props {
 const props = Astro.props as Props;
 
 // ---- Site & Canonical Logic ----
-const CONFIG_SITE = (import.meta.env.SITE as string | undefined) || (Astro.site ? String(Astro.site) : undefined);
-
-// Provide a final site fallback (adjust to your production domain if you own a custom domain)
+const CONFIG_SITE =
+  (import.meta.env.SITE as string | undefined) ||
+  (Astro.site ? String(Astro.site) : undefined);
 const SITE = CONFIG_SITE || "https://thedysonluzon.github.io";
-
-// Path from current request (Astro.url may be undefined in some contexts)
 const path = Astro.url?.pathname || "/";
-
-// Normalize canonical (no double slashes, trailing slash for root-level)
 function normalizeUrl(base: string, p: string) {
   const u = new URL(p.replace(/\/{2,}/g, "/"), base);
-  // optional: ensure no trailing slash except root
   if (u.pathname !== "/" && u.pathname.endsWith("/")) {
     u.pathname = u.pathname.replace(/\/+$/, "");
   }
   return u.toString();
 }
-
 const canonical = normalizeUrl(SITE, path);
 
 // ---- Title & Description ----
@@ -54,16 +44,8 @@ const description =
   "Portfolio and blog of Thedyson Luzon – AI & MLOps Engineer focusing on real‑time computer vision, reproducible ML pipelines, and cloud solutions.";
 
 // ---- Image Handling ----
-/**
- * image can be:
- *  - ImageMetadata (Astro asset import)
- *  - string path ("/img/foo.png" or "https://...")
- */
 const rawImage = props.image || FallbackImage;
-
 function toAbsoluteImageURL(img: ImageMetadata | string): string {
-  // If it's an object with 'src' treat as ImageMetadata
-  // (narrow checking: 'src' in object)
   if (typeof img === "object" && "src" in img) {
     const src = (img as ImageMetadata).src;
     if (/^https?:\/\//i.test(src)) return src;
@@ -75,7 +57,6 @@ function toAbsoluteImageURL(img: ImageMetadata | string): string {
   }
   return new URL("/og-default.png", SITE).toString();
 }
-
 const imageURL = toAbsoluteImageURL(rawImage);
 
 // ---- RSS URL (only if SITE set) ----
@@ -86,7 +67,7 @@ try {
   rssUrl = null;
 }
 
-// Dev guard (won't break build)
+// Dev guard
 if (import.meta.env.DEV && !CONFIG_SITE) {
   console.warn(
     "[BaseHead] SITE / astro.config.mjs 'site' not configured; canonical and OG URLs using fallback:",
@@ -94,49 +75,103 @@ if (import.meta.env.DEV && !CONFIG_SITE) {
   );
 }
 ---
-<!-- Core Document Meta -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="canonical" href={canonical} />
-<meta name="robots" content="index,follow" />
-<meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
-<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)" />
 
-<!-- Preloads (fonts) -->
-<link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
-<link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
+<head>
+  <!-- ─── Theme init: pick stored or system preference BEFORE any CSS loads ─── -->
+  <script>
+    (function() {
+      const stored = localStorage.getItem('theme');
+      const prefersLight = window.matchMedia('(prefers-color-scheme: light)')
+        .matches;
+      document.documentElement.dataset.theme =
+        stored || (prefersLight ? 'light' : 'dark');
+    })();
+  </script>
 
-{rssUrl && (
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title={SITE_TITLE}
-    href={rssUrl}
+  <!-- Core Document Meta -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="canonical" href={canonical} />
+  <meta name="robots" content="index,follow" />
+  <meta
+    name="theme-color"
+    content="#4f46e5"
+    media="(prefers-color-scheme: light)"
   />
-)}
+  <meta
+    name="theme-color"
+    content="#0d1117"
+    media="(prefers-color-scheme: dark)"
+  />
 
-<!-- Primary Meta -->
-<title>{title}</title>
-<meta name="title" content={title} />
-<meta name="description" content={description} />
+  <!-- Preloads (fonts) -->
+  <link
+    rel="preload"
+    href="/fonts/atkinson-regular.woff"
+    as="font"
+    type="font/woff"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="/fonts/atkinson-bold.woff"
+    as="font"
+    type="font/woff"
+    crossorigin
+  />
 
-<!-- Open Graph -->
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content={SITE_TITLE} />
-<meta property="og:url" content={canonical} />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<meta property="og:image" content={imageURL} />
-<meta property="og:image:alt" content={`Preview image for ${title}`} />
+  {rssUrl && (
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={SITE_TITLE}
+      href={rssUrl}
+    />
+  )}
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:url" content={canonical} />
-<meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={imageURL} />
-<meta name="twitter:image:alt" content={`Preview image for ${title}`} />
+  <!-- Primary Meta -->
+  <title>{title}</title>
+  <meta name="title" content={title} />
+  <meta name="description" content={description} />
 
-<!-- Generator -->
-<meta name="generator" content={Astro.generator} />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={SITE_TITLE} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={imageURL} />
+  <meta
+    property="og:image:alt"
+    content={`Preview image for ${title}`}
+  />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content={canonical} />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={imageURL} />
+  <meta
+    name="twitter:image:alt"
+    content={`Preview image for ${title}`}
+  />
+
+  <!-- Generator -->
+  <meta name="generator" content={Astro.generator} />
+
+  <!-- ─── Theme toggle handler ─── -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.getElementById("theme-toggle");
+      if (!btn) return;
+      btn.addEventListener("click", () => {
+        const root = document.documentElement;
+        const next = root.dataset.theme === "light" ? "dark" : "light";
+        root.dataset.theme = next;
+        localStorage.setItem("theme", next);
+      });
+    });
+  </script>
+</head>
