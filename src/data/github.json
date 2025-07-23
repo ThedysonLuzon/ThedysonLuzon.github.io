@@ -1,18 +1,16 @@
 {
-  "updated": "2025-07-18T00:00:00.000Z",
+  "updated": "2025-07-23T14:37:02.489Z",
+  "login": "github-actions[bot]",
+  "name": null,
   "repos": [
     {
-      "name": "SafeRoomAI",
-      "description": "Real-time anomaly detection (YOLO + Autoencoder fallback).",
-      "url": "https://github.com/DC-Capstone1W25/SafeRoomAI",
+      "name": "ThedysonLuzon.github.io",
+      "description": "My Website",
+      "url": "https://github.com/ThedysonLuzon/ThedysonLuzon.github.io",
       "stars": 0,
       "forks": 0,
-      "primaryLanguage": "Python",
-      "pushedAt": "2025-07-18T00:00:00.000Z"
-    }
-  ],
-  "contributions": [
-    {
+      "primaryLanguage": "Astro",
+      "pushedAt": "2025-07-23T02:20:26Z"
     }
   ]
 }
