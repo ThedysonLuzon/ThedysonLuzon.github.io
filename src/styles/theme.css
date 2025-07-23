@@ -72,3 +72,113 @@ a:hover, a:focus-visible {
 .muted {
   color: var(--color-text-dim);
 }
+
+.about {
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+.about h2,
+.about h3 {
+  margin-top: 2.2rem;
+}
+/* --- Fancy link chips --- */
+.link-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.75rem;
+  margin-top:.6rem;
+}
+
+.link-chip{
+  --chip-bg: var(--color-surface-alt);
+  --chip-fg: var(--color-text);
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  gap:.5rem;
+  padding:.6rem 1.1rem;
+  border-radius:9999px;
+  font-weight:600;
+  background:var(--chip-bg);
+  color:var(--chip-fg);
+  border:1px solid var(--color-border-soft);
+  box-shadow: var(--shadow-sm);
+  text-decoration:none;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.link-chip:hover{
+  transform:translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.link-chip .arrow{
+  display:inline-block;
+  transition:transform var(--transition);
+}
+.link-chip:hover .arrow{
+  transform:translateX(4px);
+}
+
+/* Gradient bar on hover */
+.link-chip::after{
+  content:"";
+  position:absolute;
+  left:16px;
+  right:16px;
+  bottom:8px;
+  height:2px;
+  background:linear-gradient(90deg,var(--color-accent),#00b894);
+  transform:scaleX(0);
+  transform-origin:left center;
+  transition:transform var(--transition);
+  border-radius:2px;
+}
+.link-chip:hover::after{
+  transform:scaleX(1);
+}
+
+/* SVG icons */
+.link-icon{
+  width:1.2rem;
+  height:1.2rem;
+  flex:0 0 auto;
+}
+
+.link-icon.stroke{
+  fill:none;
+  stroke:currentColor;
+  stroke-width:2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.link-icon.fill{
+  fill:currentColor;
+}
+
+/* Per-link tint (optional) */
+.link-chip.email    { --chip-bg: color-mix(in srgb, var(--color-accent) 10%, var(--color-surface-alt)); }
+.link-chip.linkedin { --chip-bg: color-mix(in srgb, #0a66c2 14%, var(--color-surface-alt)); }
+.link-chip.github   { --chip-bg: color-mix(in srgb, #000 14%, var(--color-surface-alt)); }
+.link-chip.spotlight{ --chip-bg: color-mix(in srgb, #f5a623 18%, var(--color-surface-alt)); }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .link-chip,
+  .link-chip .arrow,
+  .link-chip::after{
+    transition:none;
+  }
+}
+.headshot{
+  width:180px;          /* whatever you want */
+  aspect-ratio:1/1;
+  object-fit:cover;
+  border-radius:50%;
+  box-shadow:var(--shadow-md);
+  display:block;
+  margin:0 auto 2rem;
+}
