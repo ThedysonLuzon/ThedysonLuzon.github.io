@@ -174,7 +174,7 @@ a:hover, a:focus-visible {
   }
 }
 .headshot{
-  width:180px;          /* whatever you want */
+  width:180px;          
   aspect-ratio:1/1;
   object-fit:cover;
   border-radius:50%;
