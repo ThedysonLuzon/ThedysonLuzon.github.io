@@ -3,9 +3,9 @@ import BaseHead from "../../components/BaseHead.astro";
 
 const title = "SafeRoomAI – Real-Time Anomaly Detection Platform";
 const description = "Hybrid computer vision pipeline (YOLO + Autoencoder) with reproducible MLOps (DVC + MLflow) and fault‑tolerant streaming.";
-const ogImage = "/img/saferoomai-pipeline.png"; // Replace if you have an asset
+const ogImage = "/img/saferoomai-pipeline.png"; 
 
-// Phase timeline (condensed from provided list)
+// Phase timeline 
 const timeline = [
   { phase: "Problem", detail: "Needed real-time anomaly detection for camera streams with graceful fallback when RTSP feeds become unavailable." },
   { phase: "Design", detail: "Dual path: YOLO for object/event semantics + Autoencoder reconstruction error for unsupervised anomaly scoring." },
@@ -14,7 +14,6 @@ const timeline = [
   { phase: "Optimization", detail: "Quantization, micro-batching & frame skip heuristics targeting latency reduction (e.g., ~120ms → ~70ms p95 candidate)." }
 ];
 
-// Optional JSON‑LD
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "TechArticle",
@@ -258,8 +257,7 @@ const jsonLd = {
         <li>Parallel decode (ffmpeg) pipelined with GPU inference to hide I/O latency.</li>
         <li>Candidates: p95 latency target &lt; 70ms (replace with audited number), sustained FPS scaling across N streams.</li>
       </ul>
-      <p class="section-hint">* Replace placeholder targets with measured benchmarks once validated.</p>
-
+      
       <h2>Deployment & Operations</h2>
       <ul>
         <li>BentoML build → Docker multi-stage image → K8s manifest (readiness & liveness).</li>
