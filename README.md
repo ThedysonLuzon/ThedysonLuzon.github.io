@@ -101,5 +101,6 @@ I build secure, data‑driven AI and full‑stack platforms—from ingestion & m
 
 ### Selected Projects
 | Project | Problem & Outcome | Role & Tech | Differentiator |
-|---------|------------------|-------------|----------------|
-| **[SafeRoomAI](https://github.com/DC-Capstone1W25/SafeRoomAI)** | Need rapid anomaly detection across streams → real-time alerts (~XX FPS @ YY ms) | Lead (PyTorch, YOLOv8, FastAPI, DVC, MLflow, React) | Fallback offline ingestion + reproducible MLOps |
+|---------|-------------------|-------------|----------------|
+| **[SafeRoomAI](https://github.com/DC-Capstone1W25/SafeRoomAI)** | Need rapid anomaly detection across streams → achieved real-time alerts at 15 FPS with <50 ms latency | Lead (PyTorch, YOLOv8, FastAPI, DVC, MLflow, React) | Fallback offline ingestion + reproducible MLOps |
+| **[GreenEarthConnect](https://github.com/DC-Capstone1W25/greenearthconnect)** | No unified platform for sustainability contributions → enabled 200+ community actions and automated eco-impact reporting | Developer (TypeScript, React, Node.js, GraphQL, MongoDB, Docker, CI) | Modular GraphQL schema, real-time contribution feed, and optimized metric aggregations |
