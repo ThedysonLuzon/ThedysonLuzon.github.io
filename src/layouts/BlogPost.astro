@@ -96,7 +96,6 @@ const jsonLd = {
       .content {
         font-size: 1.02rem;
       }
-      /* …keep the rest of your .content styles as-is… */
       footer.post-footer {
         margin-top: 3rem;
         font-size: 0.75rem;
@@ -131,6 +130,7 @@ const jsonLd = {
   </head>
 
   <body>
+    <div id="scroll-progress"></div>
     <Header />
     <main>
       <article
@@ -138,7 +138,6 @@ const jsonLd = {
         itemScope
         itemType="https://schema.org/Article"
       >
-        <!-- heroImage block removed -->
 
         <header class="post-header">
           <div class="dates">
@@ -172,3 +171,14 @@ const jsonLd = {
     </main>
   </body>
 </html>
+
+<script type="module">
+  const bar = document.getElementById('progress-bar');
+  document.addEventListener('scroll', () => {
+    const pct = Math.min(
+      window.scrollY / (document.body.scrollHeight - window.innerHeight),
+      1
+    );
+    bar.style.transform = `scaleX(${pct})`;
+  });
+</script>

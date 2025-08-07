@@ -1,7 +1,6 @@
 ---
 /**
  * HeroIntro.astro
- * Only: Name, tagline, CTA links (no value/mission/education).
  */
 ---
 
@@ -9,7 +8,7 @@
   <header class="hero-head">
     <h1 id="hero-name">Thedyson Eduard Luzon</h1>
     <p class="tagline">
-      <strong>AI &amp; MLOps Engineer · Full-Stack (MERN + GraphQL)</strong><br />
+      <strong><span id="typewriter"></span></strong><br />
       Real-Time Computer Vision • Reproducible ML Pipelines • Scalable Cloud Platforms<br />
       <em>Seeking Fall 2025 AI / MLOps / Full-Stack Internship (Co-op)</em>
     </p>
@@ -21,6 +20,18 @@
     </nav>
   </header>
 </section>
+<script client:load>
+  const text = "AI & MLOps Engineer · Full-Stack (MERN + GraphQL)";
+  let i = 0;
+  const el = document.getElementById('typewriter');
+  function type() {
+    if (i < text.length) {
+      el.textContent += text.charAt(i++);
+      setTimeout(type, 80);
+    }
+  }
+  type();
+</script>
 
 <style>
 .hero-intro {

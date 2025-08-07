@@ -13,6 +13,7 @@
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.4.1",
     "astro": "^5.12.8",
+    "locomotive-scroll": "^4.1.4",
     "sharp": "^0.34.2"
   },
   "devDependencies": {

@@ -1,8 +1,6 @@
 ---
 /**
- * CoreStack.astro
- * Place right under your hero in index.astro.
- * Icons are inline SVG with set:html to inject path markup.
+ * src/components/CoreStack.astro
  */
 
 type Pillar = { title: string; items: string[] };
@@ -10,84 +8,110 @@ type Pillar = { title: string; items: string[] };
 const pillars: Pillar[] = [
   {
     title: "Core",
-    items: ["python","typescript","pytorch","yolov8","fastapi","react","nodejs","graphql"]
+    items: [
+      "python",
+      "typescript",
+      "pytorch",
+      "yolov8",
+      "fastapi",
+      "react",
+      "nodejs",
+      "graphql",
+    ],
   },
   {
     title: "MLOps & Infra",
-    items: ["dvc","mlflow","bentoml","docker","kubernetes","github-actions","ci-quality-gates"]
+    items: [
+      "dvc",
+      "mlflow",
+      "bentoml",
+      "docker",
+      "kubernetes",
+      "github-actions",
+      "ci-quality-gates",
+    ],
   },
   {
     title: "Data & Storage",
-    items: ["postgresql","mongodb","s3","data-versioning","feature-artifacts"]
+    items: ["postgresql", "mongodb", "s3", "data-versioning", "feature-artifacts"],
   },
   {
     title: "Quality & Tooling",
-    items: ["pytest","jest","ruff","eslint","profilers","code-review-automation"]
-  }
+    items: ["pytest", "jest", "ruff", "eslint", "profilers", "code-review-automation"],
+  },
 ];
 
-const iconPaths: Record<string,string> = {
-  python:`<path d="M12.9 2c4.2.1 4.9 1.2 4.9 4.4v3.2H9.2c-2.7 0-2.6 3.3-.1 3.3h8.6c2.2 0 3.3 1.5 3.3 3.4v2.9c0 2.5-1.7 4-5.1 4.1-3.4.1-5.4-.1-5.4-4V16h6.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H7.4c-2.6 0-4.4-1.6-4.4-4.2V8c0-3.1 1.8-4.9 5.4-5 3.3-.1 3.1 0 4.5 0Zm-2.9 1.9a1 1 0 1 0 0 2.1 1 1 0 0 0 0-2.1Zm3.8 14.2a1.05 1.05 0 1 0 0 2.1 1.05 1.05 0 0 0 0-2.1Z"/>`,
-  typescript:`<path d="M3 4c-1.1 0-2 .9-2 2v12c0 1 .9 2 2 2h18c1 0 2-1 2-2V6c0-1.1-1-2-2-2H3Zm9.9 8.3h3.2v1.7h-3.2v4h-2v-4H8v-1.7h2.9v-2.6c0-2 1.2-3 3.4-3 .7 0 1.3.1 1.9.3v1.7c-.6-.2-1.1-.3-1.7-.3-1.1 0-1.6.5-1.6 1.6v2.3Z"/>`,
-  pytorch:`<path d="M12.9 2.2v8.3l3-3 1.4 1.4-4.9 4.9V2.2h-1.8v11.7l-4.9-4.9 1.4-1.4 3 3V2.2H12.9ZM7.5 17c.9 1.8 2.7 3 4.8 3 3 0 5.4-2.4 5.4-5.4 0-1.2-.5-2.3-1.1-3.2l1.3-1a7.17 7.17 0 0 1 1.5 4.2c0 4-3.2 7.2-7.2 7.2a7.17 7.17 0 0 1-6.4-3.9l1.7-.9Z"/>`,
-  yolov8:`<path d="M4 4h4l4 7 4-7h4l-8 14L4 4Z"/>`,
-  fastapi:`<path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm2.9 14h-2.1l-3-5.2V16H7.7V8h2.1l3 5.2V8h2.1v8Z"/>`,
-  react:`<path d="M12 10.2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6Zm0-8.2c2 0 3.7 1.5 4.9 3.9.3.6.5 1.2.7 1.8.7.2 1.3.3 1.9.6 2.6 1 4.3 2.7 4.3 4.7s-1.7 3.7-4.3 4.7c-.6.2-1.2.4-1.9.6-.2.6-.4 1.2-.7 1.8-1.2 2.4-2.9 3.9-4.9 3.9s-3.7-1.5-4.9-3.9c-.3-.6-.5-1.2-.7-1.8-.7-.2-1.3-.4-1.9-.6-2.6-1-4.3-2.7-4.3-4.7s1.7-3.7 4.3-4.7c.6-.2 1.2-.4 1.9-.6.2-.6.4-1.2.7-1.8C8.3 3.5 10 2 12 2Z"/>`,
-  nodejs:`<path d="M11.6 2.1 4 6.4v7.2l7.6 4.3 7.6-4.3V6.4l-7.6-4.3ZM9.2 9.2l2.4-1.4 2.4 1.4v2.8l-2.4 1.4-2.4-1.4V9.2Z"/>`,
-  graphql:`<path d="m12 2 9.5 5.5v11L12 24l-9.5-5.5v-11L12 2Zm0 2.2L4.7 8l7.3 4.2L19.3 8 12 4.2Zm7.3 6.2-7.3 4.2v8.4l7.3-4.2v-8.4ZM11.3 22.8v-8.4L4 10.4v8.4l7.3 4Z"/>`,
-  dvc:`<path d="M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18Zm3.9 5.1-2.2 6.6h-2l-1.5-4.6-1.5 4.6h-2l-2.2-6.6h2l1.2 4.4 1.5-4.4h2l1.5 4.4 1.2-4.4h2Z"/>`,
-  mlflow:`<path d="M12 3a9 9 0 0 1 9 9h-3.1a5.9 5.9 0 0 0-10-4.2l2.1 2H6V4.5l1.9 1.9A8.96 8.96 0 0 1 12 3Zm0 18a9 9 0 0 1-9-9h3.1a5.9 5.9 0 0 0 10 4.2l-2.1-2H18v5.3l-1.9-1.9A8.96 8.96 0 0 1 12 21Z"/>`,
-  bentoml:`<path d="M5 5h14v4H5V5Zm0 6h14v4H5v-4Zm0 6h14v2H5v-2Z"/>`,
-  docker:`<path d="M4 14h16c-.4 3.4-3.3 5-6.6 5H9.9C6.7 19 4.1 17 4 14Zm2.2-7H11v3H6.2V7Zm5 0h4.8v3H11V7Z"/>`,
-  kubernetes:`<path d="M12 2 4 7v10l8 5 8-5V7l-8-5Zm0 3.2 5.3 3.3v6.9L12 18.8l-5.3-3.4V8.5L12 5.2Z"/>`,
-  "github-actions":`<path d="M8 4a4 4 0 0 1 3.9 3.2A4 4 0 1 1 8 4Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm9 5a3 3 0 0 1 .2 6H14v-2h3a1 1 0 0 0 0-2h-1.6A3 3 0 0 1 17 11Z"/>`,
-  "ci-quality-gates":`<path d="M4 4h16v4H4V4Zm0 6h16v4H4v-4Zm0 6h16v4H4v-4Z"/>`,
-  postgresql:`<path d="M12 3c4.9 0 9 2 9 4.5V12c0 2.5-4.1 4.5-9 4.5S3 14.5 3 12V7.5C3 5 7.1 3 12 3Zm0 2C8.7 5 6 6.1 6 7.5S8.7 10 12 10s6-1.1 6-2.5S15.3 5 12 5Zm0 6c-2.3 0-4.3-.5-6-1.4v1.9c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-1.9c-1.7.9-3.7 1.4-6 1.4Z"/>`,
-  mongodb:`<path d="M12 2s3.7 5.2 3.7 9.4S13.2 20 12 22c-1.2-2-3.7-6.3-3.7-10.6S12 2 12 2Zm0 5.3c-.7 1.6-1.5 3.7-1.5 5.4 0 1.8.8 3.9 1.5 5.4.7-1.5 1.5-3.6 1.5-5.4 0-1.7-.8-3.8-1.5-5.4Z"/>`,
-  s3:`<path d="M4 6 12 2l8 4v8l-8 4-8-4V6Zm8 2.2 4.9-2.4L12 5 7.1 5.8 12 8.2Zm-6 2.5 5 2.5v3.8l-5-2.5v-3.8Zm12 0-5 2.5v3.8l5-2.5v-3.8Z"/>`,
-  "data-versioning":`<path d="M6 4h12v4H6V4Zm0 6h12v4H6v-4Zm0 6h12v4H6v-4Z"/>`,
-  "feature-artifacts":`<path d="M4 4h16v6H4V4Zm0 8h16v8H4v-8Zm2 2v4h12v-4H6Z"/>`,
-  pytest:`<path d="M12 3 6 6v6c0 4 2.7 7.5 6 9 3.3-1.5 6-5 6-9V6l-6-3Zm0 2.2 4 2v4.8c0 2.9-1.9 5.8-4 7-2.1-1.2-4-4.1-4-7V7.2l4-2Z"/>`,
-  jest:`<path d="M5 4h4l1 5h4l1.4-5H21l-3 8.5A6 6 0 0 1 12 22a6 6 0 0 1-6-6c0-1.8.8-3.6 2-4.8V4Zm7 10a4 4 0 0 0-4 4c0 .5.1 1 .3 1.5A4 4 0 0 0 16 16a4 4 0 0 0-.3-1.5c-.5-.3-1.1-.5-1.7-.5Z"/>`,
-  ruff:`<path d="M12 3 4 9v6l8 6 8-6V9l-8-6Zm0 2.2 5.9 4.4v4.9L12 20.8l-5.9-4.3v-5L12 5.2Zm0 2.6-4 3v4l4 3 4-3v-4l-4-3Z"/>`,
-  eslint:`<path d="M12 2 3 7v10l9 5 9-5V7L12 2Zm0 2.3 6.8 3.9v7.6L12 20.9l-6.8-4.1V8.2L12 4.3Zm0 2.7-4.8 2.8v5.4L12 18l4.8-2.8v-5.4L12 7Z"/>`,
-  profilers:`<path d="M4 4h4v4H4V4Zm6 0h10v2H10V4ZM4 10h4v4H4v-4Zm6 2h10v2H10v-2ZM4 16h4v4H4v-4Zm6 2h10v2H10v-2Z"/>`,
-  "code-review-automation":`<path d="M4 4h16v12H5.2L4 17.2V4Zm2 4v2h12V8H6Zm0-2h12V6H6Zm0 6h8v-2H6v2Zm2 6h8v2H8v-2Z"/>`
+const iconPaths: Record<string, string> = {
+  python: `<path d="M12.9 2c4.2.1 4.9 1.2 4.9 4.4v3.2H9.2c-2.7 0-2.6 3.3-.1 3.3h8.6c2.2 0 3.3 1.5 3.3 3.4v2.9c0 2.5-1.7 4-5.1 4.1-3.4.1-5.4-.1-5.4-4V16h6.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H7.4c-2.6 0-4.4-1.6-4.4-4.2V8c0-3.1 1.8-4.9 5.4-5 3.3-.1 3.1 0 4.5 0Zm-2.9 1.9a1 1 0 1 0 0 2.1 1 1 0 0 0 0-2.1Zm3.8 14.2a1.05 1.05 0 1 0 0 2.1 1.05 1.05 0 0 0 0-2.1Z"/>`,
+  typescript: `<path d="M3 4c-1.1 0-2 .9-2 2v12c0 1 .9 2 2 2h18c1 0 2-1 2-2V6c0-1.1-1-2-2-2H3Zm9.9 8.3h3.2v1.7h-3.2v4h-2v-4H8v-1.7h2.9v-2.6c0-2 1.2-3 3.4-3 .7 0 1.3.1 1.9.3v1.7c-.6-.2-1.1-.3-1.7-.3-1.1 0-1.6.5-1.6 1.6v2.3Z"/>`,
+  pytorch: `<path d="M12.9 2.2v8.3l3-3 1.4 1.4-4.9 4.9V2.2h-1.8v11.7l-4.9-4.9 1.4-1.4 3 3V2.2H12.9ZM7.5 17c.9 1.8 2.7 3 4.8 3 3 0 5.4-2.4 5.4-5.4 0-1.2-.5-2.3-1.1-3.2l1.3-1a7.17 7.17 0 0 1 1.5 4.2c0 4-3.2 7.2-7.2 7.2a7.17 7.17 0 0 1-6.4-3.9l1.7-.9Z"/>`,
+  yolov8: `<path d="M4 4h4l4 7 4-7h4l-8 14L4 4Z"/>`,
+  fastapi: `<path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm2.9 14h-2.1l-3-5.2V16H7.7V8h2.1l3 5.2V8h2.1v8Z"/>`,
+  react: `<path d="M12 10.2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6Zm0-8.2c2 0 3.7 1.5 4.9 3.9.3.6.5 1.2.7 1.8.7.2 1.3.3 1.9.6 2.6 1 4.3 2.7 4.3 4.7s-1.7 3.7-4.3 4.7c-.6.2-1.2.4-1.9.6-.2.6-.4 1.2-.7 1.8-1.2 2.4-2.9 3.9-4.9 3.9s-3.7-1.5-4.9-3.9c-.3-.6-.5-1.2-.7-1.8-.7-.2-1.3-.4-1.9-.6-2.6-1-4.3-2.7-4.3-4.7s1.7-3.7 4.3-4.7c.6-.2 1.2-.4 1.9-.6.2-.6.4-1.2.7-1.8C8.3 3.5 10 2 12 2Z"/>`,
+  nodejs: `<path d="M11.6 2.1 4 6.4v7.2l7.6 4.3 7.6-4.3V6.4l-7.6-4.3ZM9.2 9.2l2.4-1.4 2.4 1.4v2.8l-2.4 1.4-2.4-1.4V9.2Z"/>`,
+  graphql: `<path d="m12 2 9.5 5.5v11L12 24l-9.5-5.5v-11L12 2Zm0 2.2L4.7 8l7.3 4.2L19.3 8 12 4.2Zm7.3 6.2-7.3 4.2v8.4l7.3-4.2v-8.4ZM11.3 22.8v-8.4L4 10.4v8.4l7.3 4Z"/>`,
+  dvc: `<path d="M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18Zm3.9 5.1-2.2 6.6h-2l-1.5-4.6-1.5 4.6h-2l-2.2-6.6h2l1.2 4.4 1.5-4.4h2l1.5 4.4 1.2-4.4h2Z"/>`,
+  mlflow: `<path d="M12 3a9 9 0 0 1 9 9h-3.1a5.9 5.9 0 0 0-10-4.2l2.1 2H6V4.5l1.9 1.9A8.96 8.96 0 0 1 12 3Zm0 18a9 9 0 0 1-9-9h3.1a5.9 5.9 0 0 0 10 4.2l-2.1-2H18v5.3l-1.9-1.9A8.96 8.96 0 0 1 12 21Z"/>`,
+  bentoml: `<path d="M5 5h14v4H5V5Zm0 6h14v4H5v-4Zm0 6h14v2H5v-2Z"/>`,
+  docker: `<path d="M4 14h16c-.4 3.4-3.3 5-6.6 5H9.9C6.7 19 4.1 17 4 14Zm2.2-7H11v3H6.2V7Zm5 0h4.8v3H11V7Z"/>`,
+  kubernetes: `<path d="M12 2 4 7v10l8 5 8-5V7l-8-5Zm0 3.2 5.3 3.3v6.9L12 18.8l-5.3-3.4V8.5L12 5.2Z"/>`,
+  "github-actions": `<path d="M8 4a4 4 0 0 1 3.9 3.2A4 4 0 1 1 8 4Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm9 5a3 3 0 0 1 .2 6H14v-2h3a1 1 0 0 0 0-2h-1.6A3 3 0 0 1 17 11Z"/>`,
+  "ci-quality-gates": `<path d="M4 4h16v4H4V4Zm0 6h16v4H4v-4Zm0 6h16v4H4v-4Z"/>`,
+  postgresql: `<path d="M12 3c4.9 0 9 2 9 4.5V12c0 2.5-4.1 4.5-9 4.5S3 14.5 3 12V7.5C3 5 7.1 3 12 3Zm0 2C8.7 5 6 6.1 6 7.5S8.7 10 12 10s6-1.1 6-2.5S15.3 5 12 5Zm0 6c-2.3 0-4.3-.5-6-1.4v1.9c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-1.9c-1.7.9-3.7 1.4-6 1.4Z"/>`,
+  mongodb: `<path d="M12 2s3.7 5.2 3.7 9.4S13.2 20 12 22c-1.2-2-3.7-6.3-3.7-10.6S12 2 12 2Zm0 5.3c-.7 1.6-1.5 3.7-1.5 5.4 0 1.8.8 3.9 1.5 5.4.7-1.5 1.5-3.6 1.5-5.4 0-1.7-.8-3.8-1.5-5.4Z"/>`,
+  s3: `<path d="M4 6 12 2l8 4v8l-8 4-8-4V6Zm8 2.2 4.9-2.4L12 5 7.1 5.8 12 8.2Zm-6 2.5 5 2.5v3.8l-5-2.5v-3.8Zm12 0-5 2.5v3.8l5-2.5v-3.8Z"/>`,
+  "data-versioning": `<path d="M6 4h12v4H6V4Zm0 6h12v4H6v-4Zm0 6h12v4H6v-4Z"/>`,
+  "feature-artifacts": `<path d="M4 4h16v6H4V4Zm0 8h16v8H4v-8Zm2 2v4h12v-4H6Z"/>`,
+  pytest: `<path d="M12 3 6 6v6c0 4 2.7 7.5 6 9 3.3-1.5 6-5 6-9V6l-6-3Zm0 2.2 4 2v4.8c0 2.9-1.9 5.8-4 7-2.1-1.2-4-4.1-4-7V7.2l4-2Z"/>`,
+  jest: `<path d="M5 4h4l1 5h4l1.4-5H21l-3 8.5A6 6 0 0 1 12 22a6 6 0 0 1-6-6c0-1.8.8-3.6 2-4.8V4Zm7 10a4 4 0 0 0-4 4c0 .5.1 1 .3 1.5A4 4 0 0 0 16 16a4 4 0 0 0-.3-1.5c-.5-.3-1.1-.5-1.7-.5Z"/>`,
+  ruff: `<path d="M12 3 4 9v6l8 6 8-6V9l-8-6Zm0 2.2 5.9 4.4v4.9L12 20.8l-5.9-4.3v-5L12 5.2Zm0 2.6-4 3v4l4 3 4-3v-4l-4-3Z"/>`,
+  eslint: `<path d="M12 2 3 7v10l9 5 9-5V7L12 2Zm0 2.3 6.8 3.9v7.6L12 20.9l-6.8-4.1V8.2L12 4.3Zm0 2.7-4.8 2.8v5.4L12 18l4.8-2.8v-5.4L12 7Z"/>`,
+  profilers: `<path d="M4 4h4v4H4V4Zm6 0h10v2H10V4ZM4 10h4v4H4v-4Zm6 2h10v2H10v-2ZM4 16h4v4H4v-4Zm6 2h10v2H10v-2Z"/>`,
+  "code-review-automation": `<path d="M4 4h16v12H5.2L4 17.2V4Zm2 4v2h12V8H6Zm0-2h12V6H6Zm0 6h8v-2H6v2Zm2 6h8v2H8v-2Z"/>`,
 };
 
-const labelMap: Record<string,string> = {
-  typescript:"TypeScript",
-  nodejs:"Node.js",
-  yolov8:"YOLOv8",
-  "github-actions":"GitHub Actions",
-  "ci-quality-gates":"CI Quality Gates",
-  postgresql:"PostgreSQL",
-  "data-versioning":"Data Versioning",
-  "feature-artifacts":"Feature Artifacts",
-  "code-review-automation":"Code Review Automation"
+const labelMap: Record<string, string> = {
+  typescript: "TypeScript",
+  nodejs: "Node.js",
+  yolov8: "YOLOv8",
+  "github-actions": "GitHub Actions",
+  "ci-quality-gates": "CI Quality Gates",
+  postgresql: "PostgreSQL",
+  "data-versioning": "Data Versioning",
+  "feature-artifacts": "Feature Artifacts",
+  "code-review-automation": "Code Review Automation",
 };
-
-function labelize(k:string){ return labelMap[k] || k.replace(/-/g," ").replace(/\b\w/g,m=>m.toUpperCase()); }
+function labelize(k: string) {
+  return (
+    labelMap[k] ||
+    k.replace(/-/g, " ").replace(/\b\w/g, (m) => m.toUpperCase())
+  );
+}
 ---
 
 <section id="core-stack" class="core-stack" aria-labelledby="core-stack-heading">
   <header class="cs-head">
     <h2 id="core-stack-heading">Core Technical Stack</h2>
-    <p class="subtitle">AI · MLOps · Infra · Full‑Stack tools I use to deliver production value.</p>
+    <p class="subtitle">
+      AI · MLOps · Infra · Full-Stack tools I use to deliver production value.
+    </p>
   </header>
 
   <div class="pillars">
-    {pillars.map(p => (
-      <div class="pillar">
+    {pillars.map((p, i) => (
+      <div class="pillar" style={`--i:${i}`}>
         <h3>{p.title}</h3>
         <ul>
-          {p.items.map(key => (
+          {p.items.map((key) => (
             <li>
-              <span class="icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
-                  <g set:html={iconPaths[key] || ""} />
-                </svg>
-              </span>
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <g set:html={iconPaths[key] || ""} />
+              </svg>
               <span class="tech-label">{labelize(key)}</span>
             </li>
           ))}
@@ -99,64 +123,141 @@ function labelize(k:string){ return labelMap[k] || k.replace(/-/g," ").replace(/
   <details class="ats">
     <summary>Expanded (ATS Keywords)</summary>
     <p>
-      Python, TypeScript, PyTorch, YOLOv8, FastAPI, React, Node.js, GraphQL (Apollo, DataLoader),
-      DVC, MLflow, BentoML, Docker, Kubernetes, GitHub Actions, PostgreSQL, MongoDB, AWS S3,
-      Pytest, Jest, Ruff, ESLint, profiling, code review automation.
+      Python, TypeScript, PyTorch, YOLOv8, FastAPI, React, Node.js, GraphQL
+      (Apollo, DataLoader), DVC, MLflow, BentoML, Docker, Kubernetes, GitHub
+      Actions, PostgreSQL, MongoDB, AWS S3, Pytest, Jest, Ruff, ESLint,
+      profiling, code review automation.
     </p>
   </details>
 </section>
 
 <style>
-.core-stack { margin-top:3.5rem; display:flex; flex-direction:column; gap:2.2rem; }
-.cs-head h2 { margin:0 0 .55rem; font-size:clamp(1.65rem,3vw,2.15rem); letter-spacing:.5px; }
-.subtitle { margin:0; font-size:.9rem; opacity:.7; max-width:780px; line-height:1.4; }
-.pillars { display:grid; gap:1.15rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+/* overall container */
+.core-stack {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+/* header */
+.cs-head h2 {
+  margin: 0 0 0.55rem;
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+  letter-spacing: 0.5px;
+}
+.subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  max-width: 780px;
+  line-height: 1.4;
+}
+
+/* grid of pillars */
+.pillars {
+  display: grid;
+  gap: 1.15rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* staggered reveal */
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .pillar {
-  background:var(--color-bg-alt,#10141a);
-  border:1px solid var(--color-border,#2a2f35);
-  border-radius:18px;
-  padding:1rem 1rem .95rem;
-  display:flex; flex-direction:column; gap:.55rem;
-  backdrop-filter:blur(6px);
-  transition:border-color .3s, background .3s;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideIn 0.6s ease-out forwards;
+  animation-delay: calc(var(--i) * 0.15s);
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  padding: 1rem;
+  backdrop-filter: blur(6px);
+  transition: border-color 0.3s, background 0.3s, transform 0.25s;
 }
-.pillar:hover { border-color:var(--color-accent,#4f46e5); }
-.pillar h3 { margin:0; font-size:.78rem; letter-spacing:.55px; text-transform:uppercase; opacity:.85; }
-.pillar ul { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.55rem .6rem; }
+/* hover lift */
+.pillar:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-4px) scale(1.02);
+}
+
+/* tech lists */
+.pillar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
 .pillar li {
-  display:inline-flex; align-items:center; gap:.45rem;
-  font-size:.63rem; letter-spacing:.45px; font-weight:500;
-  padding:.44rem .68rem .44rem .6rem;
-  border:1px solid var(--color-border,#2a2f35);
-  border-radius:14px;
-  background:linear-gradient(145deg,rgba(255,255,255,0.035),rgba(255,255,255,0));
-  line-height:1.05;
-  transition:background .3s,border-color .3s,color .3s,transform .25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.63rem;
+  letter-spacing: 0.45px;
+  font-weight: 500;
+  padding: 0.44rem 0.68rem;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.035),
+    rgba(255, 255, 255, 0)
+  );
+  transition: background 0.3s, border-color 0.3s, color 0.3s,
+    transform 0.25s;
 }
-.pillar li:hover {
-  border-color:var(--color-accent,#4f46e5);
-  color:var(--color-text,#e6e6e6);
-  transform:translateY(-3px);
+/* float animation on icons */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
 }
-.icon { width:18px; height:18px; display:inline-flex; color:var(--color-accent,#4f46e5); }
-.icon svg { width:18px; height:18px; display:block; }
+.icon {
+  width: 18px;
+  height: 18px;
+  color: var(--color-accent);
+  animation: float 3s ease-in-out infinite;
+}
+
+/* ATS details arrow */
+.ats summary::-webkit-details-marker {
+  display: none;
+}
+.ats summary::after {
+  content: '⯆';
+  margin-left: 0.4rem;
+  transition: transform 0.25s ease;
+}
+.ats[open] summary::after {
+  transform: rotate(180deg);
+}
 .ats {
-  font-size:.7rem; line-height:1.35;
-  background:var(--color-bg-alt,#10141a);
-  border:1px solid var(--color-border,#2a2f35);
-  border-radius:14px;
-  padding:.85rem .95rem;
+  font-size: 0.7rem;
+  line-height: 1.35;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  padding: 0.85rem 0.95rem;
 }
 .ats summary {
-  cursor:pointer; font-weight:600; letter-spacing:.55px;
-  margin:-.25rem 0 .35rem; font-size:.62rem; text-transform:uppercase; opacity:.85;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 0.55px;
+  margin-bottom: 0.35rem;
 }
-.ats p { margin:.35rem 0 0; font-size:.62rem; opacity:.85; }
-@media (max-width:640px){
-  .subtitle { font-size:.82rem; }
-  .pillar li { font-size:.58rem; }
-}
-@media (prefers-reduced-motion:reduce){
-  .pillar li { transition:none !important; transform:none !important; }
+.ats p {
+  margin: 0.35rem 0 0;
+  font-size: 0.62rem;
+  opacity: 0.85;
 }
 </style>

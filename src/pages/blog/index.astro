@@ -186,6 +186,7 @@ const [featured, ...rest] = posts;
     </style>
   </head>
   <body>
+    <div id="scroll-progress"></div>
     <Header />
     <main class="blog">
       <header class="section-head" aria-labelledby="blog-heading">
@@ -281,3 +282,14 @@ const [featured, ...rest] = posts;
     <Footer />
   </body>
 </html>
+
+<script type="module">
+  const bar = document.getElementById('progress-bar');
+  document.addEventListener('scroll', () => {
+    const pct = Math.min(
+      window.scrollY / (document.body.scrollHeight - window.innerHeight),
+      1
+    );
+    bar.style.transform = `scaleX(${pct})`;
+  });
+</script>

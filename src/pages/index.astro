@@ -77,14 +77,21 @@ const latest = posts[0];
     </script>
   </head>
   <body>
+    <div id="progress-bar"></div>
+
     <a href="#main" class="skip-link">Skip to content</a>
 
     <Header />
-
     <main id="main" class="main-container">
+      <section 
+          class="reveal" 
+          data-scroll-section 
+          data-scroll-speed="1.2"      
+        >
       <HeroIntro />
-
-      <section id="value-mission" class="profile-sections">
+      </section>
+      <section id="value-mission" class="profile-sections reveal" data-scroll-section 
+          data-scroll-speed="0.4">
         <div class="profile-block" aria-labelledby="mission-title">
           <h2 id="mission-title">Mission</h2>
           <p>
@@ -95,7 +102,7 @@ const latest = posts[0];
           </p>
         </div>
 
-        <div class="profile-block" aria-labelledby="edu-title">
+        <div class="profile-block reveal" aria-labelledby="edu-title">
           <h2 id="edu-title">Education</h2>
           <ul class="edu-list">
             <li><strong>Software Engineering Technology</strong> — Completed</li>
@@ -109,20 +116,32 @@ const latest = posts[0];
         </div>
       </section>
 
+      <section 
+          id="core-stack" 
+          class="core-stack reveal" 
+          data-scroll-section 
+          data-scroll-speed="0.6"
+        >
       <CoreStack />
+      </section>
 
-      <section id="projects" class="section">
+
+      <section id="projects" class="section reveal" data-scroll-section 
+          data-scroll-speed="0.8">
         <h2>Highlighted Projects</h2>
         <div class="projects-grid">
           {projects.map((p) => (
+            <div class="tilt-card">
             <ProjectCard {...p} />
+            </div>
           ))}
         </div>
       </section>
 
-      <GitHubShowcase />
+      <GitHubShowcase class="reveal"/>
 
-      <section id="blog" class="section">
+      <section id="blog" class="section reveal" data-scroll-section 
+          data-scroll-speed="0.5">
         <h2>Latest Article</h2>
         <p class="lead">
           <a href={`/blog/${latest.id}`} class="post-link">
@@ -131,7 +150,8 @@ const latest = posts[0];
         </p>
       </section>
 
-      <section id="contact" class="section">
+      <section id="contact" class="section reveal" data-scroll-section 
+          data-scroll-speed="0.3">
         <h2>Contact</h2>
         <p>
           If you're exploring candidates for AI, MLOps or full-stack roles, I’d
@@ -181,5 +201,33 @@ const latest = posts[0];
         localStorage.setItem("theme", next);
       });
     </script>
+
+    <script type="module">
+  // identical to PageLayout’s observer
+  const io = new IntersectionObserver(
+    (entries, obs) => {
+      for (let e of entries) {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          obs.unobserve(e.target);
+        }
+      }
+    },
+    { threshold: 0.1 }
+  );
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+  <!-- scroll‐progress script -->
+  <script type="module">
+    const bar = document.getElementById('progress-bar');
+    document.addEventListener('scroll', () => {
+      const pct = Math.min(
+        window.scrollY / (document.body.scrollHeight - window.innerHeight),
+        1
+      );
+      bar.style.transform = `scaleX(${pct})`;
+    });
+  </script>
+
   </body>
 </html>
