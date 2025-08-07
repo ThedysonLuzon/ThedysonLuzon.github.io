@@ -9,55 +9,71 @@
   <header class="hero-head">
     <h1 id="hero-name">Thedyson Eduard Luzon</h1>
     <p class="tagline">
-      <strong>AI &amp; MLOps Engineer · Full‑Stack (MERN + GraphQL)</strong><br />
-      Real‑Time Computer Vision • Reproducible ML Pipelines • Scalable Cloud Platforms<br />
-      <em>Seeking Fall 2025 AI / MLOps / Full‑Stack Internship (Co‑op)</em>
+      <strong>AI &amp; MLOps Engineer · Full-Stack (MERN + GraphQL)</strong><br />
+      Real-Time Computer Vision • Reproducible ML Pipelines • Scalable Cloud Platforms<br />
+      <em>Seeking Fall 2025 AI / MLOps / Full-Stack Internship (Co-op)</em>
     </p>
-  <nav class="primary-cta" aria-label="Primary calls to action">
-    <a class="btn primary" href="#contact">Hire Me</a>
-    <a class="btn" href="mailto:luzon.thedyson@gmail.com">Email</a>
-    <a class="btn" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">LinkedIn</a>
-    <a class="btn" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a>
-  </nav>
+    <nav class="primary-cta" aria-label="Primary calls to action">
+      <a class="btn primary" href="#contact">Hire Me</a>
+      <a class="btn" href="mailto:luzon.thedyson@gmail.com">Email</a>
+      <a class="btn" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a>
+    </nav>
   </header>
 </section>
 
 <style>
 .hero-intro {
-  max-width:1120px;
-  margin:0 auto 2rem;
-  padding:2.5rem 1.2rem 0;
+  max-width: 1120px;
+  margin: 0 auto 2rem;
+  padding: 2.5rem 1.2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+
 .hero-head h1 {
-  margin:0 0 .75rem;
-  font-size:clamp(2.3rem,4.8vw,3.3rem);
-  letter-spacing:.6px;
+  margin: 0 0 0.75rem;
+  font-size: clamp(2.3rem, 4.8vw, 3.3rem);
+  letter-spacing: 0.6px;
 }
+
 .tagline {
-  margin:0 0 1.3rem;
-  line-height:1.45;
-  font-size:1rem;
-  text-align:left;
+  margin: 0 0 1.3rem;
+  line-height: 1.45;
+  font-size: 1rem;
+  /* always center */
+  text-align: center;
 }
-@media (min-width:760px){ .tagline { text-align:center; } }
 
 .primary-cta {
-  display:flex; flex-wrap:wrap; gap:.75rem;
-  justify-content:center; margin:0 0 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 0 0 1.2rem;
 }
+
 .btn {
-  padding:.65rem 1.15rem;
-  border:1px solid var(--color-border,#2a2f35);
-  background:var(--color-bg-alt,#141b23);
-  color:var(--color-text,#e6e6e6);
-  font-size:.85rem; text-decoration:none;
-  border-radius:38px; font-weight:500;
-  transition:background .18s, filter .18s, border-color .18s;
+  padding: 0.65rem 1.15rem;
+  border: 1px solid var(--color-border, #2a2f35);
+  background: var(--color-bg-alt, #141b23);
+  color: var(--color-text, #e6e6e6);
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-radius: 38px;
+  font-weight: 500;
+  transition: background .18s, filter .18s, border-color .18s;
 }
+
 .btn.primary {
-  background:var(--color-accent,#4f46e5);
-  border-color:var(--color-accent,#4f46e5);
-  color:#fff;
+  background: var(--color-accent, #4f46e5);
+  border-color: var(--color-accent, #4f46e5);
+  color: #fff;
 }
-.btn:hover { filter:brightness(1.1); }
+
+.btn:hover {
+  filter: brightness(1.1);
+}
 </style>

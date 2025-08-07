@@ -1,59 +1,64 @@
+---
+layout: ../layouts/PageLayout.astro
+title: "About Me"
+description: "AI/MLOps engineer & full-stack dev focused on reproducible ML and pragmatic DX."
+---
+
+import headshot from '../assets/circleportrait_transparent.png';
+import JsonLd from '../components/JsonLd.astro';
+
+<div class="avatar-container">
+  <img
+    src={headshot.src}
+    alt="Thedyson Eduard Luzon"
+    width="220"
+    height="220"
+    class="headshot"
+  />
+</div>
+
+<div class="about">
+
+## Hey, I'm **Thedyson Eduard Luzon** 👋
+
+I’m an **AI & MLOps Engineer** and **Full-Stack (MERN + GraphQL) Developer** who turns noisy ideas into **traceable, testable, production ML systems**—and ships frontends people actually want to use.
+
+**Now:** Building **SafeRoomAI** (real-time CV & behavioral intelligence) and looking for a **Fall 2025 internship** in AI/MLOps or full-stack engineering.
 
 ---
 
-import Layout from '../layouts/BlogPost.astro';
-import { Image } from 'astro:assets';
-import headshot from '../assets/IMG_3740.png';
-import JsonLd from '../components/JsonLd.astro';
+### What I’m strong at
+- **End-to-end MLOps:** DVC, MLflow, CI/CD model gates, containerized inference (FastAPI/BentoML), K8s  
+- **Full-stack builds:** React/Astro frontends, FastAPI/Node backends, GraphQL & REST APIs  
+- **Infra & DevEx:** Docker/Kubernetes, AWS S3/IAM, GitHub Actions, docs & tooling for fast onboarding
 
-<Layout
-  title="About Me"
-  description="AI/MLOps engineer & full‑stack dev focused on reproducible ML and pragmatic DX."
-  pubDate={new Date('2025-07-23')}
-  >
-  <Image src={headshot} alt="Thedyson Eduard Luzon" width={220} format="webp" class="headshot" />
-  <div class="about">
-  
-  ## Hey, I'm **Thedyson Eduard Luzon** 👋
+### Currently exploring
+- LangGraph / agent orchestration patterns  
+- Cost-aware GPU scheduling & serving optimization  
+- Better RAG eval & lineage visualization for non-ML folks
 
-  I’m an **AI & MLOps Engineer** and **Full‑Stack (MERN + GraphQL) Developer** who turns noisy ideas into **traceable, testable, production ML systems**—and ships frontends people actually want to use.
+---
 
-  **Now:** Building **SafeRoomAI** (real‑time CV & behavioral intelligence) and looking for a **Fall 2025 internship** in AI/MLOps or full‑stack engineering.
+### Recent wins
+- Deployed a CV pipeline with **offline video fallback** (no live cam? still runs)  
+- Wired **automated eval & rollout gates** straight into CI  
+- Rescued a legacy React repo (broken scripts, missing deps) and restored a smooth DX
 
-  ---
+---
 
-  ### What I’m strong at
-  - **End‑to‑end MLOps:** DVC, MLflow, CI/CD model gates, containerized inference (FastAPI/BentoML), K8s  
-  - **Full‑stack builds:** React/Astro frontends, FastAPI/Node backends, GraphQL & REST APIs  
-  - **Infra & DevEx:** Docker/Kubernetes, AWS S3/IAM, GitHub Actions, docs & tooling for fast onboarding
+### Education
+- **AI Design, Analysis & Implementation (Co-op)** — finishing  
+- **Software Engineering Technology** — completed
 
-  ### Currently exploring
-  - LangGraph / agent orchestration patterns  
-  - Cost‑aware GPU scheduling & serving optimization  
-  - Better RAG eval & lineage visualization for non‑ML folks
-
-  ---
-
-  ### Recent wins
-  - Deployed a CV pipeline with **offline video fallback** (no live cam? still runs)  
-  - Wired **automated eval & rollout gates** straight into CI  
-  - Rescued a legacy React repo (broken scripts, missing deps) and restored a smooth DX
-
-  ---
-
-  ### Education
-  - **AI Design, Analysis & Implementation (Co‑op)** — finishing  
-  - **Software Engineering Technology** — completed
-
-  ---
+---
 
 ### Let’s talk
 
 <div class="link-grid">
   <a class="link-chip email" href="mailto:luzon.thedyson@gmail.com">
     <svg class="link-icon stroke" viewBox="0 0 24 24" aria-hidden="true">
-      <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
-      <polyline points="3 7 12 13 21 7"></polyline>
+      <rect x="3" y="5" width="18" height="14" rx="2" ry="2" />
+      <polyline points="3 7 12 13 21 7" />
     </svg>
     <span>Email</span><span class="arrow">→</span>
   </a>
@@ -71,13 +76,21 @@ import JsonLd from '../components/JsonLd.astro';
     </svg>
     <span>GitHub</span><span class="arrow">→</span>
   </a>
+
+  <a class="link-chip spotlight" href="https://github.com/ThedysonLuzon/SafeRoomAI" target="_blank" rel="noopener">
+    <svg class="link-icon stroke" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 2l2.9 5.88 6.5.95-4.7 4.58 1.1 6.45L12 17.77 6.2 19.86l1.1-6.45L2.6 8.83l6.5-.95L12 2z"/>
+    </svg>
+    <span>SafeRoomAI Repo</span><span class="arrow">→</span>
+  </a>
 </div>
 
-  If you’re building something ambitious (or just need a clean CI pipeline), I’m in.
+If you’re building something ambitious (or just need a clean CI pipeline), I’m in.
 
-  </div>
+</div>
 
-  <JsonLd data={{
+<JsonLd
+  data={{
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Thedyson Eduard Luzon",
@@ -85,9 +98,8 @@ import JsonLd from '../components/JsonLd.astro';
     url: "https://thedysonluzon.github.io",
     sameAs: [
       "https://github.com/ThedysonLuzon",
-      "https://www.linkedin.com/in/thedysonluzon/"
+      "https://www.linkedin.com/in/thedysonluzon/",
     ],
-    jobTitle: "AI & MLOps Engineer"
-  }} />
-
-</Layout>
+    jobTitle: "AI & MLOps Engineer",
+  }}
+/>

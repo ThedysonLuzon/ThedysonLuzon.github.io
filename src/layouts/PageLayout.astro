@@ -1,0 +1,39 @@
+---
+import '../styles/theme.css';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props as Props;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <BaseHead title={title} description={description} />
+
+    <!-- Prevent flash-of-unstyled-theme -->
+    <script>
+      (function(){
+        const stored = localStorage.getItem('theme');
+        const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+        document.documentElement.dataset.theme = stored || (prefersLight ? 'light' : 'dark');
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- hydrate Header as an island so its client:idle script actually runs -->
+    <Header client:load />
+
+    <main id="content" class="container">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>
