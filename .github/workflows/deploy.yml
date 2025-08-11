@@ -18,6 +18,8 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
+        env:
+          PUBLIC_RESUME_AI_ENDPOINT: https://resume-chat-api.vercel.app/api/resume-chat
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
