@@ -6,6 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 import { Image } from "astro:assets";
+import ResumeChat from "../../components/ResumeChat";
 
 const raw = await getCollection("blog");
 const posts = raw
@@ -280,6 +281,8 @@ const [featured, ...rest] = posts;
       )}
     </main>
     <Footer />
+      <ResumeChat client:load />
+
   </body>
 </html>
 

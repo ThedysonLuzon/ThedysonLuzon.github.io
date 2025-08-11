@@ -3,6 +3,7 @@ import '../styles/theme.css';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import ResumeChat from "../components/ResumeChat";
 
 export interface Props {
   title?: string;
@@ -35,6 +36,7 @@ const { title, description } = Astro.props as Props;
 
     <main id="content" class="container">
       <slot />
+    <ResumeChat client:load />
     </main>
     <Footer />
 
@@ -63,5 +65,6 @@ const { title, description } = Astro.props as Props;
         bar.style.transform = `scaleX(${pct})`;
       });
     </script>
-  </body>
+      <ResumeChat client:load />
+</body>
 </html>

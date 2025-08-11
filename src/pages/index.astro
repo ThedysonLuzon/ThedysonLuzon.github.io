@@ -7,6 +7,7 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import "../styles/theme.css";
 import { getCollection } from "astro:content";
+import ResumeChat from "../components/ResumeChat";
 
 const projects = [
   {
@@ -187,6 +188,7 @@ const latest = posts[0];
           * Full resume supplied on request to protect distribution.
         </p>
       </section>
+          <ResumeChat client:load />
     </main>
 
     <Footer />
