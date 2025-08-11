@@ -7,22 +7,27 @@ type Msg = { role: "user" | "bot"; text: string; cites?: QAResult["snippets"] };
 
 export default function ResumeChat() {
   const [open, setOpen] = useState(false);
-  const [ready, setReady] = useState(false);  // local (markdown) index ready
+  const [ready, setReady] = useState(false);   // local index ready
   const [busy, setBusy] = useState(false);
-  const [useAI, setUseAI] = useState(true);   // 🚀 AI mode by default
+  const [useAI, setUseAI] = useState(true);    // default to AI mode
+  const [status, setStatus] = useState<string>("");
+
   const [msgs, setMsgs] = useState<Msg[]>([
     {
       role: "bot",
       text:
-        "Hi! I’m your Resume Chat. Ask about my skills, projects (e.g., SafeRoomAI), MLOps stack, education, or experience.",
+        "Hi! I’m your Resume Chat. Ask about skills, projects (e.g., SafeRoomAI), MLOps stack, education, or experience.",
     },
   ]);
+
   const inputRef = useRef<HTMLInputElement>(null);
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // still load local index for offline / fallback answers
-    loadResumeIndex().then(() => setReady(true)).catch(() => setReady(false));
+    // Load local index for fallback/offline
+    loadResumeIndex()
+      .then(() => setReady(true))
+      .catch(() => setReady(false));
   }, []);
 
   useEffect(() => {
@@ -33,11 +38,14 @@ export default function ResumeChat() {
     if (!q.trim()) return;
     setMsgs((s) => [...s, { role: "user", text: q }]);
     setBusy(true);
+    setStatus("");
     try {
       const out = useAI ? await answerQuestionLLM(q) : await answerQuestion(q);
       setMsgs((s) => [...s, { role: "bot", text: out.answer, cites: out.snippets }]);
-    } catch (e) {
-      // graceful fallback to local if AI fails
+    } catch (e: any) {
+      // Surface the real reason in UI, then try local fallback if possible
+      const errMsg = String(e?.message || e);
+      setStatus(errMsg);
       try {
         const out = await answerQuestion(q);
         setMsgs((s) => [
@@ -47,7 +55,7 @@ export default function ResumeChat() {
       } catch {
         setMsgs((s) => [
           ...s,
-          { role: "bot", text: "Sorry—something went wrong. Please refresh and try again." },
+          { role: "bot", text: "Sorry—couldn’t reach AI and no local resume found. Check console & .env settings." },
         ]);
       }
     } finally {
@@ -135,25 +143,16 @@ export default function ResumeChat() {
             >
               {useAI ? "✨ AI On" : "AI Off"}
             </button>
+            {status && (
+              <div style={{ marginTop: 6, fontSize: 11, color: "#b91c1c" }}>
+                {status}
+              </div>
+            )}
           </header>
 
-          <main
-            style={{
-              padding: "12px 16px",
-              overflowY: "auto",
-              flex: 1,
-            }}
-          >
+          <main style={{ padding: "12px 16px", overflowY: "auto", flex: 1 }}>
             {msgs.map((m, i) => (
-              <div
-                key={i}
-                style={{
-                  margin: "8px 0",
-                  display: "flex",
-                  gap: 8,
-                  alignItems: "flex-start",
-                }}
-              >
+              <div key={i} style={{ margin: "8px 0", display: "flex", gap: 8, alignItems: "flex-start" }}>
                 <div
                   style={{
                     width: 28,
@@ -173,13 +172,7 @@ export default function ResumeChat() {
                 <div style={{ lineHeight: 1.5, whiteSpace: "pre-wrap" }}>
                   {m.text}
                   {m.cites && m.cites.length > 0 && (
-                    <div
-                      style={{
-                        marginTop: 6,
-                        display: "grid",
-                        gap: 6,
-                      }}
-                    >
+                    <div style={{ marginTop: 6, display: "grid", gap: 6 }}>
                       {m.cites.map((c, j) => (
                         <div
                           key={j}
@@ -210,28 +203,16 @@ export default function ResumeChat() {
                 </div>
               </div>
             ))}
-            {busy && (
-              <div style={{ opacity: 0.7, fontSize: 13, marginTop: 8 }}>
-                Thinking…
-              </div>
-            )}
+            {busy && <div style={{ opacity: 0.7, fontSize: 13, marginTop: 8 }}>Thinking…</div>}
             <div ref={endRef} />
           </main>
 
-          <form
-            onSubmit={onSubmit}
-            style={{
-              borderTop: "1px solid #e5e7eb",
-              padding: 12,
-              display: "flex",
-              gap: 8,
-            }}
-          >
+          <form onSubmit={onSubmit} style={{ borderTop: "1px solid #e5e7eb", padding: 12, display: "flex", gap: 8 }}>
             <input
               ref={inputRef}
               type="text"
               placeholder="Ask about my skills, projects, tools…"
-              disabled={busy || (!useAI && !ready)}  // AI mode doesn’t need local index
+              disabled={busy || (!useAI && !ready)} // AI mode works even if local index not ready
               style={{
                 flex: 1,
                 border: "1px solid #e5e7eb",
@@ -257,8 +238,7 @@ export default function ResumeChat() {
                     ? "#94a3b8"
                     : "linear-gradient(90deg, #4f46e5, #0ea5e9)",
                 color: "white",
-                cursor:
-                  (!useAI && !ready) || busy ? "not-allowed" : "pointer",
+                cursor: (!useAI && !ready) || busy ? "not-allowed" : "pointer",
               }}
             >
               Send
