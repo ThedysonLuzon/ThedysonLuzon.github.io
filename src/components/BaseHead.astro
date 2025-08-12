@@ -26,7 +26,7 @@ const props = Astro.props as Props;
 const CONFIG_SITE =
   (import.meta.env.SITE as string | undefined) ||
   (Astro.site ? String(Astro.site) : undefined);
-const SITE = CONFIG_SITE || "https://thedysonluzon.io";
+const SITE = CONFIG_SITE || "https://thedysonluzon.github.io";
 const path = Astro.url?.pathname || "/";
 function normalizeUrl(base: string, p: string) {
   const u = new URL(p.replace(/\/{2,}/g, "/"), base);
