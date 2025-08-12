@@ -1,0 +1,444 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><title>Thedyson Luzon – AI & MLOps Engineer</title><meta name="description" content="AI & MLOps Engineer delivering real-time computer vision, reproducible ML pipelines, and cloud-native full-stack solutions."><meta name="author" content="Thedyson Eduard Luzon"><link rel="canonical" href="https://thedysonluzon.io/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta property="og:title" content="Thedyson Luzon – AI & MLOps Engineer"><meta property="og:description" content="Real-Time CV • Reproducible ML • Cloud-Native Full-Stack"><meta property="og:image" content="/og-default.png"><meta name="twitter:card" content="summary_large_image"><!-- theme init --><script type="module">const n=document.getElementById("theme-toggle");n?.addEventListener("click",()=>{const t=document.documentElement,e=t.dataset.theme==="light"?"dark":"light";t.dataset.theme=e,localStorage.setItem("theme",e)});</script><script src="https://code.iconify.design/2/2.1.2/iconify.min.js" defer></script><link rel="stylesheet" href="/_astro/index.W3E-okSN.css">
+<link rel="stylesheet" href="/_astro/_slug_.C4DZQz6z.css">
+<link rel="stylesheet" href="/_astro/_slug_.CtB2zNlD.css"></head> <body> <div id="progress-bar"></div> <a href="#main" class="skip-link">Skip to content</a> <header class="site-header punchy" role="banner" data-astro-cid-3ef6ksr2> <!-- Lightswind-style animated accents --> <div class="lw-accents" aria-hidden="true" data-astro-cid-3ef6ksr2> <span class="beam a" data-astro-cid-3ef6ksr2></span> <span class="beam b" data-astro-cid-3ef6ksr2></span> </div> <nav class="top-nav" aria-label="Primary" data-astro-cid-3ef6ksr2> <a href="/" class="brand" aria-label="Home" data-astro-cid-3ef6ksr2> <span class="brand-mark" data-astro-cid-3ef6ksr2>TL</span> <span class="brand-sep" aria-hidden="true" data-astro-cid-3ef6ksr2>•</span> <span class="brand-tag" data-astro-cid-3ef6ksr2>AI & MLOps</span> </a> <div class="right-cluster" data-astro-cid-3ef6ksr2> <!-- Desktop nav --> <ul class="nav-links" id="nav-links" data-astro-cid-3ef6ksr2> <span id="nav-indicator" aria-hidden="true" data-astro-cid-3ef6ksr2></span> <li data-astro-cid-3ef6ksr2><a href="/#value-mission" class="nav-btn" data-astro-cid-3ef6ksr2="true" data-astro-cid-eimmu3lg> Mission </a> </li> <li data-astro-cid-3ef6ksr2><a href="/#core-stack" class="nav-btn" data-astro-cid-3ef6ksr2="true" data-astro-cid-eimmu3lg> Stack </a> </li> <li data-astro-cid-3ef6ksr2><a href="/#projects" class="nav-btn" data-astro-cid-3ef6ksr2="true" data-astro-cid-eimmu3lg> Projects </a> </li> <li data-astro-cid-3ef6ksr2><a href="/blog" class="nav-btn" data-astro-cid-3ef6ksr2="true" data-astro-cid-eimmu3lg> Blog </a> </li> <li data-astro-cid-3ef6ksr2><a href="/about" class="nav-btn" data-astro-cid-3ef6ksr2="true" data-astro-cid-eimmu3lg> About </a> </li> <li data-astro-cid-3ef6ksr2><a href="/#contact" class="cta-btn" data-astro-cid-3ef6ksr2="true" data-astro-cid-eimmu3lg> Hire Me </a> </li> </ul> <!-- Desktop theme toggle (kept) --> <button id="theme-toggle" data-theme-toggle aria-label="Toggle theme" type="button" class="theme-btn" data-astro-cid-3ef6ksr2> <span class="sun" aria-hidden="true" data-astro-cid-3ef6ksr2>☀️</span> <span class="moon" aria-hidden="true" data-astro-cid-3ef6ksr2>🌙</span> </button> <!-- Mobile hamburger --> <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-astro-cid-3ef6ksr2> <span class="bar" data-astro-cid-3ef6ksr2></span><span class="bar" data-astro-cid-3ef6ksr2></span><span class="bar" data-astro-cid-3ef6ksr2></span> </button> </div> </nav> </header> <!-- Scrim + Slide panel (outside header to avoid clipping) --> <div id="mobile-scrim" class="mobile-scrim" hidden data-astro-cid-3ef6ksr2></div> <div id="mobile-menu" class="mobile-panel" hidden data-astro-cid-3ef6ksr2> <ul class="mobile-list" data-astro-cid-3ef6ksr2> <li data-astro-cid-3ef6ksr2><a href="/#value-mission" class="m-link" data-astro-cid-3ef6ksr2>Mission</a></li> <li data-astro-cid-3ef6ksr2><a href="/#core-stack" class="m-link" data-astro-cid-3ef6ksr2>Stack</a></li> <li data-astro-cid-3ef6ksr2><a href="/#projects" class="m-link" data-astro-cid-3ef6ksr2>Projects</a></li> <li data-astro-cid-3ef6ksr2><a href="/blog" class="m-link" data-astro-cid-3ef6ksr2>Blog</a></li> <li data-astro-cid-3ef6ksr2><a href="/about" class="m-link" data-astro-cid-3ef6ksr2>About</a></li> <li data-astro-cid-3ef6ksr2><a href="/#contact" class="m-link hire" data-astro-cid-3ef6ksr2>Hire Me</a></li> <!-- (Removed mobile theme toggle block) --> </ul> </div>  <script type="module">
+  // Scroll shrink + keep mobile panel aligned with header height
+  const header = document.querySelector('.site-header.punchy');
+  const nav = header.querySelector('.top-nav');
+  const onScroll = () => {
+    const y = window.scrollY;
+    header.classList.toggle('scrolled', y > 8);
+    const panel = document.getElementById('mobile-menu');
+    if (panel) panel.style.setProperty('--panel-top', nav.getBoundingClientRect().height + 'px');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  // Hover-follow indicator (desktop)
+  const list = document.getElementById('nav-links');
+  const indicator = document.getElementById('nav-indicator');
+
+  // Only track normal nav buttons (skip CTA)
+  const menuLinks = list ? Array.from(list.querySelectorAll('a.nav-btn')) : [];
+  const cta = list ? list.querySelector('a.cta-btn') : null;
+
+  const setIndicatorTo = (el) => {
+    if (!indicator || !el || !list) return;
+    const r = el.getBoundingClientRect();
+    const lr = list.getBoundingClientRect();
+    indicator.style.left = Math.round(r.left - lr.left) + 'px';
+    indicator.style.width = Math.round(r.width) + 'px';
+    indicator.style.opacity = '1';
+  };
+
+  const activeDesktop = document.querySelector('.nav-links a.nav-btn.active') || menuLinks[0];
+  if (activeDesktop) setIndicatorTo(activeDesktop);
+
+  menuLinks.forEach(a => {
+    a.addEventListener('mouseenter', () => setIndicatorTo(a));
+    a.addEventListener('focus', () => setIndicatorTo(a));
+  });
+
+  // Hide pill on CTA hover/focus
+  if (cta) {
+    const hide = () => { if (indicator) indicator.style.opacity = '0'; };
+    const showBack = () => setIndicatorTo(document.querySelector('.nav-links a.nav-btn.active') || menuLinks[0]);
+    cta.addEventListener('mouseenter', hide);
+    cta.addEventListener('focus', hide);
+    cta.addEventListener('mouseleave', showBack);
+    cta.addEventListener('blur', showBack);
+  }
+
+  list?.addEventListener('mouseleave', () => {
+    const current = document.querySelector('.nav-links a.nav-btn.active') || menuLinks[0];
+    setIndicatorTo(current);
+  });
+
+  window.addEventListener('resize', () => {
+    const current = document.querySelector('.nav-links a.nav-btn.active') || menuLinks[0];
+    setIndicatorTo(current);
+  });
+
+  // Mobile menu open/close
+  const toggle = document.getElementById('menu-toggle');
+  const panel = document.getElementById('mobile-menu');
+  const scrim = document.getElementById('mobile-scrim');
+  const openMenu = () => {
+    toggle.setAttribute('aria-expanded', 'true');
+    panel.hidden = false; scrim.hidden = false;
+    panel.getBoundingClientRect(); // reflow
+    panel.classList.add('open');
+    panel.style.opacity = '1'; panel.style.transform = 'translateY(0)';
+    panel.style.pointerEvents = 'auto';
+    scrim.style.opacity = '1';
+    scrim.style.pointerEvents = 'auto';
+    document.body.style.overflow = 'hidden';
+  };
+  const closeMenu = () => {
+    toggle.setAttribute('aria-expanded', 'false');
+    panel.classList.remove('open');
+    panel.style.opacity = '0'; panel.style.transform = 'translateY(-8px)';
+    panel.style.pointerEvents = 'none';
+    scrim.style.opacity = '0';
+    scrim.style.pointerEvents = 'none';
+    setTimeout(() => { panel.hidden = true; scrim.hidden = true; }, 180);
+    document.body.style.overflow = '';
+  };
+  toggle?.addEventListener('click', () => (toggle.getAttribute('aria-expanded') === 'true' ? closeMenu() : openMenu()));
+  scrim?.addEventListener('click', closeMenu);
+  window.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeMenu(); });
+  panel?.querySelectorAll('a.m-link').forEach(a => a.addEventListener('click', closeMenu));
+
+  // Scrollspy
+  const sections = [
+    { id: 'value-mission', sel: 'a[href="/#value-mission"]' },
+    { id: 'core-stack',    sel: 'a[href="/#core-stack"]' },
+    { id: 'projects',      sel: 'a[href="/#projects"]' },
+    { id: 'contact',       sel: 'a[href="/#contact"]' },
+  ];
+  const opts = { root: null, rootMargin: '-40% 0px -55% 0px', threshold: [0, 1] };
+  const spy = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const s = sections.find(x => x.id === entry.target.id);
+      if (!s) return;
+      const link = document.querySelector(`.nav-links ${s.sel}`);
+      if (!link) return;
+      document.querySelectorAll('.nav-btn.active').forEach(el => el.classList.remove('active'));
+      if (entry.isIntersecting) {
+        link.classList.add('active');
+        setIndicatorTo(link);
+      }
+    });
+  }, opts);
+  sections.forEach(s => {
+    const el = document.getElementById(s.id);
+    if (el) spy.observe(el);
+  });
+
+  // Ensure indicator aligns after hash links
+  window.addEventListener('hashchange', () => {
+    const link = document.querySelector(`.nav-links a[href="/${location.hash}"]`);
+    if (link) setIndicatorTo(link);
+  });
+</script> <main id="main" class="main-container"> <section class="reveal hero-vibrant" data-scroll-section data-scroll-speed="1.2"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="SfFyg" prefix="r3" component-url="/_astro/VibrantBackdrop.Do3rtSCq.js" component-export="default" renderer-url="/_astro/client.D2WMwoKK.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;VibrantBackdrop&quot;,&quot;value&quot;:true}" await-children><div class="vb-wrap" aria-hidden="true" style="--x:50;--y:36"><div class="vb-gradient"></div><div class="vb-beams"></div><div class="vb-sparkles" aria-hidden="true"><span class="vb-star" style="left:calc(0% - 0.75px);top:calc(8% - 0.75px);--s:1.5px;--delay:0s;--float:6px;--dur:2.8s;--fdur:10s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(29% - 1.25px);top:calc(61% - 1.25px);--s:2.5px;--delay:0.22s;--float:7px;--dur:3.1999999999999997s;--fdur:11.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(58% - 1.75px);top:calc(54% - 1.75px);--s:3.5px;--delay:0.44s;--float:8px;--dur:3.5999999999999996s;--fdur:12.4s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(87% - 0.75px);top:calc(47% - 0.75px);--s:1.5px;--delay:0.66s;--float:9px;--dur:4s;--fdur:13.6s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(16% - 1.25px);top:calc(40% - 1.25px);--s:2.5px;--delay:0.88s;--float:10px;--dur:4.4s;--fdur:14.8s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(45% - 1.75px);top:calc(33% - 1.75px);--s:3.5px;--delay:1.1s;--float:6px;--dur:4.8s;--fdur:16s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(74% - 0.75px);top:calc(26% - 0.75px);--s:1.5px;--delay:1.32s;--float:7px;--dur:2.8s;--fdur:17.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(3% - 1.25px);top:calc(19% - 1.25px);--s:2.5px;--delay:1.54s;--float:8px;--dur:3.1999999999999997s;--fdur:10s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(32% - 1.75px);top:calc(12% - 1.75px);--s:3.5px;--delay:1.76s;--float:9px;--dur:3.5999999999999996s;--fdur:11.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(61% - 0.75px);top:calc(65% - 0.75px);--s:1.5px;--delay:1.98s;--float:10px;--dur:4s;--fdur:12.4s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(90% - 1.25px);top:calc(58% - 1.25px);--s:2.5px;--delay:2.2s;--float:6px;--dur:4.4s;--fdur:13.6s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(19% - 1.75px);top:calc(51% - 1.75px);--s:3.5px;--delay:2.42s;--float:7px;--dur:4.8s;--fdur:14.8s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(48% - 0.75px);top:calc(44% - 0.75px);--s:1.5px;--delay:2.64s;--float:8px;--dur:2.8s;--fdur:16s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(77% - 1.25px);top:calc(37% - 1.25px);--s:2.5px;--delay:2.86s;--float:9px;--dur:3.1999999999999997s;--fdur:17.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(6% - 1.75px);top:calc(30% - 1.75px);--s:3.5px;--delay:3.08s;--float:10px;--dur:3.5999999999999996s;--fdur:10s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(35% - 0.75px);top:calc(23% - 0.75px);--s:1.5px;--delay:3.3s;--float:6px;--dur:4s;--fdur:11.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(64% - 1.25px);top:calc(16% - 1.25px);--s:2.5px;--delay:3.52s;--float:7px;--dur:4.4s;--fdur:12.4s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(93% - 1.75px);top:calc(9% - 1.75px);--s:3.5px;--delay:3.74s;--float:8px;--dur:4.8s;--fdur:13.6s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(22% - 0.75px);top:calc(62% - 0.75px);--s:1.5px;--delay:3.96s;--float:9px;--dur:2.8s;--fdur:14.8s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(51% - 1.25px);top:calc(55% - 1.25px);--s:2.5px;--delay:4.18s;--float:10px;--dur:3.1999999999999997s;--fdur:16s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(80% - 1.75px);top:calc(48% - 1.75px);--s:3.5px;--delay:4.4s;--float:6px;--dur:3.5999999999999996s;--fdur:17.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(9% - 0.75px);top:calc(41% - 0.75px);--s:1.5px;--delay:4.62s;--float:7px;--dur:4s;--fdur:10s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(38% - 1.25px);top:calc(34% - 1.25px);--s:2.5px;--delay:4.84s;--float:8px;--dur:4.4s;--fdur:11.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(67% - 1.75px);top:calc(27% - 1.75px);--s:3.5px;--delay:5.06s;--float:9px;--dur:4.8s;--fdur:12.4s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(96% - 0.75px);top:calc(20% - 0.75px);--s:1.5px;--delay:5.28s;--float:10px;--dur:2.8s;--fdur:13.6s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(25% - 1.25px);top:calc(13% - 1.25px);--s:2.5px;--delay:5.5s;--float:6px;--dur:3.1999999999999997s;--fdur:14.8s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(54% - 1.75px);top:calc(66% - 1.75px);--s:3.5px;--delay:5.72s;--float:7px;--dur:3.5999999999999996s;--fdur:16s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(83% - 0.75px);top:calc(59% - 0.75px);--s:1.5px;--delay:5.94s;--float:8px;--dur:4s;--fdur:17.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(12% - 1.25px);top:calc(52% - 1.25px);--s:2.5px;--delay:0.16000000000000014s;--float:9px;--dur:4.4s;--fdur:10s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(41% - 1.75px);top:calc(45% - 1.75px);--s:3.5px;--delay:0.3799999999999999s;--float:10px;--dur:4.8s;--fdur:11.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(70% - 0.75px);top:calc(38% - 0.75px);--s:1.5px;--delay:0.5999999999999996s;--float:6px;--dur:2.8s;--fdur:12.4s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(99% - 1.25px);top:calc(31% - 1.25px);--s:2.5px;--delay:0.8200000000000003s;--float:7px;--dur:3.1999999999999997s;--fdur:13.6s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(28% - 1.75px);top:calc(24% - 1.75px);--s:3.5px;--delay:1.04s;--float:8px;--dur:3.5999999999999996s;--fdur:14.8s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(57% - 0.75px);top:calc(17% - 0.75px);--s:1.5px;--delay:1.2599999999999998s;--float:9px;--dur:4s;--fdur:16s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(86% - 1.25px);top:calc(10% - 1.25px);--s:2.5px;--delay:1.4800000000000004s;--float:10px;--dur:4.4s;--fdur:17.2s"><span class="vb-core"></span></span><span class="vb-star" style="left:calc(15% - 1.75px);top:calc(63% - 1.75px);--s:3.5px;--delay:1.7000000000000002s;--float:6px;--dur:4.8s;--fdur:10s"><span class="vb-core"></span></span></div><div class="vb-spotlight"></div><div class="vb-glow"></div></div><!--astro:end--></astro-island> <section class="hero-intro" aria-labelledby="hero-name" data-astro-cid-wniod4ji> <!-- background accents --> <div class="accents" aria-hidden="true" data-astro-cid-wniod4ji> <span class="ribbon r1" data-astro-cid-wniod4ji></span> <span class="ribbon r2" data-astro-cid-wniod4ji></span> <span class="blob b1" data-astro-cid-wniod4ji></span> <span class="blob b2" data-astro-cid-wniod4ji></span> <span class="glints" data-astro-cid-wniod4ji></span> </div> <header class="hero-head" data-astro-cid-wniod4ji> <h1 id="hero-name" class="hero-name" data-astro-cid-wniod4ji> <span class="txt" data-astro-cid-wniod4ji>Thedyson Eduard<wbr data-astro-cid-wniod4ji> Luzon</span> <span class="shine" aria-hidden="true" data-astro-cid-wniod4ji></span> </h1> <p class="tagline" data-astro-cid-wniod4ji> <strong data-astro-cid-wniod4ji><span id="typewriter" data-astro-cid-wniod4ji></span></strong><br data-astro-cid-wniod4ji>
+Real-Time Computer Vision • Reproducible ML Pipelines • Cloud-Native Platforms<br data-astro-cid-wniod4ji> <em data-astro-cid-wniod4ji>Seeking Fall 2025 AI / MLOps / Full-Stack Internship (Co-op)</em> </p> <nav class="cta-row" aria-label="Primary actions" data-astro-cid-wniod4ji> <a class="cta primary hire" id="hire-cta" href="/#contact" data-cta="hire" data-astro-cid-wniod4ji>Hire Me</a> <a class="cta outline" href="/about" data-cta="about" data-astro-cid-wniod4ji>More About Me</a> <button class="cta ghost chat" type="button" id="open-chat" data-cta="chat" data-astro-cid-wniod4ji>
+Let's Chat!
+</button> </nav> </header> <div class="hairline" aria-hidden="true" data-astro-cid-wniod4ji></div> </section> <script client:load>
+  // Typewriter (loops; reduced-motion aware)
+  const phrases = [
+    "AI & MLOps Engineer",
+    "Full-Stack (MERN + GraphQL)",
+    "Real-time CV • Edge Inference"
+  ];
+  const el = document.getElementById("typewriter");
+  if (el) {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      el.textContent = phrases[0];
+    } else {
+      let i = 0, j = 0, erasing = false;
+      const tick = () => {
+        const s = phrases[i];
+        if (!erasing) {
+          el.textContent = s.slice(0, j++);
+          if (j <= s.length) return setTimeout(tick, 44);
+          erasing = true; return setTimeout(tick, 1100);
+        } else {
+          el.textContent = s.slice(0, j--);
+          if (j >= 0) return setTimeout(tick, 28);
+          erasing = false; i = (i + 1) % phrases.length;
+          return setTimeout(tick, 220);
+        }
+      };
+      tick();
+    }
+  }
+
+  // Open chatbot (dispatch custom event)
+  const chatBtn = document.getElementById("open-chat");
+  chatBtn?.addEventListener("click", () => {
+    window.dispatchEvent(new CustomEvent("resumechat:open"));
+  });
+
+  // Pulse ring on Hire Me
+  const hireBtn = document.getElementById("hire-cta");
+  hireBtn?.addEventListener("click", () => {
+    hireBtn.classList.remove("burst");
+    // allow reflow to retrigger animation
+    void hireBtn.offsetWidth;
+    hireBtn.classList.add("burst");
+  });
+
+  // Subtle parallax (reduced-motion safe)
+  const hero = document.querySelector(".hero-intro");
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (hero && !reduced) {
+    hero.addEventListener("pointermove", (e) => {
+      const r = hero.getBoundingClientRect();
+      const dx = (e.clientX - (r.left + r.width/2)) / r.width;
+      const dy = (e.clientY - (r.top + r.height/2)) / r.height;
+      hero.style.setProperty("--parx", (dx * 10).toFixed(2) + "px");
+      hero.style.setProperty("--pary", (dy * 10).toFixed(2) + "px");
+    });
+    hero.addEventListener("pointerleave", () => {
+      hero.style.removeProperty("--parx");
+      hero.style.removeProperty("--pary");
+    });
+  }
+</script>  </section> <section id="value-mission" class="lw-section reveal" aria-label="Mission and Education"> <!-- background accents --> <div class="lw-accents" aria-hidden="true"> <span class="beam a"></span> <span class="beam b"></span> </div> <header class="lw-head"> <h2 class="lw-title">Mission &amp; Education</h2> <p class="lw-sub">Trustworthy AI, reproducible pipelines, and practical impact.</p> </header> <div class="lw-grid"> <!-- Mission --> <article class="lw-card" aria-labelledby="mission-title"> <div class="card-head"> <span class="iconify" data-icon="solar:target-line-duotone" aria-hidden="true"></span> <h3 id="mission-title">Mission</h3> </div> <p class="card-lead">
+Build reliable, observable AI &amp; full-stack platforms—from ingest and continual training
+        to container/K8s deployment and user dashboards—optimized for repeatable delivery
+        and business-aligned outcomes.
+</p> </article> <!-- Education --> <aside class="lw-card" aria-labelledby="edu-title"> <div class="card-head"> <span class="iconify" data-icon="solar:graduation-cap-2-line-duotone" aria-hidden="true"></span> <h3 id="edu-title">Education</h3> </div> <ol class="edu-timeline"> <li class="edu-item"> <div class="dot" aria-hidden="true"></div> <div class="edu-content"> <h4>Software Engineering Technology</h4> <p class="meta">Completed</p> </div> </li> <li class="edu-item current"> <div class="dot" aria-hidden="true"></div> <div class="edu-content"> <h4>AI Design, Analysis &amp; Implementation (Co-op)</h4> <p class="meta">In Progress</p> <p class="note">
+Capstone: <em>SafeRoomAI</em> — multi-stream anomaly detection + full MLOps lifecycle
+</p> </div> </li> </ol> </aside> </div> </section> <section id="core-stack" class="core-stack reveal" data-scroll-section data-scroll-speed="0.6"> <div class="stack-marquee" role="region" aria-label="Core technologies" data-astro-cid-yr43nplh> <div class="fade left" aria-hidden="true" data-astro-cid-yr43nplh></div> <div class="fade right" aria-hidden="true" data-astro-cid-yr43nplh></div> <div class="track" style="--speed:26s;" data-astro-cid-yr43nplh> <ul class="row row-a" data-astro-cid-yr43nplh> <li data-astro-cid-yr43nplh> <span class="chip" aria-label="Python" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:python" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Python</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="PyTorch" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:pytorch-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>PyTorch</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="TensorFlow" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:tensorflow-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>TensorFlow</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="FastAPI" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:fastapi-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>FastAPI</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="Docker" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:docker-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Docker</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="Kubernetes" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:kubernetes" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Kubernetes</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="Git" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:git-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Git</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="GitHub" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:github-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>GitHub</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="TypeScript" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:typescript-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>TypeScript</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="React" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:react" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>React</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="Node.js" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:nodejs-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Node.js</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="GraphQL" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:graphql" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>GraphQL</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="MongoDB" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:mongodb-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>MongoDB</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="PostgreSQL" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:postgresql" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>PostgreSQL</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="NGINX" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:nginx" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>NGINX</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="Azure" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:microsoft-azure" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Azure</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" aria-label="AWS" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:aws" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>AWS</span> </span> </li> </ul> <!-- counter row for parallax feel --> <ul class="row row-b" aria-hidden="true" data-astro-cid-yr43nplh> <li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:aws" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>AWS</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:microsoft-azure" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Azure</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:nginx" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>NGINX</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:postgresql" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>PostgreSQL</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:mongodb-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>MongoDB</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:graphql" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>GraphQL</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:nodejs-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Node.js</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:react" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>React</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:typescript-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>TypeScript</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:github-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>GitHub</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:git-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Git</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:kubernetes" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Kubernetes</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:docker-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Docker</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:fastapi-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>FastAPI</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:tensorflow-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>TensorFlow</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:pytorch-icon" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>PyTorch</span> </span> </li><li data-astro-cid-yr43nplh> <span class="chip" data-astro-cid-yr43nplh> <span class="iconify" data-icon="logos:python" aria-hidden="true" data-astro-cid-yr43nplh></span> <span data-astro-cid-yr43nplh>Python</span> </span> </li> </ul> </div> </div>  <div style="height:.6rem"></div> <section id="core-stack" class="cs-wrap reveal" aria-labelledby="core-stack-heading" data-astro-cid-5feiy2gk> <!-- animated lightswind accents --> <div class="cs-accents" aria-hidden="true" data-astro-cid-5feiy2gk> <span class="beam a" data-astro-cid-5feiy2gk></span> <span class="beam b" data-astro-cid-5feiy2gk></span> </div> <header class="cs-head" data-astro-cid-5feiy2gk> <h2 id="core-stack-heading" data-astro-cid-5feiy2gk>Core Technical Stack</h2> <p class="subtitle" data-astro-cid-5feiy2gk>AI · MLOps · Infra · Full-Stack tools I use to deliver production value.</p> </header> <div class="pillars" data-astro-cid-5feiy2gk> <article class="pillar" style="--i:0" data-astro-cid-5feiy2gk> <h3 class="pillar-title" data-astro-cid-5feiy2gk>Core</h3> <ul class="chips" data-astro-cid-5feiy2gk> <li title="Python" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12.9 2c4.2.1 4.9 1.2 4.9 4.4v3.2H9.2c-2.7 0-2.6 3.3-.1 3.3h8.6c2.2 0 3.3 1.5 3.3 3.4v2.9c0 2.5-1.7 4-5.1 4.1-3.4.1-5.4-.1-5.4-4V16h6.1c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H7.4c-2.6 0-4.4-1.6-4.4-4.2V8c0-3.1 1.8-4.9 5.4-5 3.3-.1 3.1 0 4.5 0Zm-2.9 1.9a1 1 0 1 0 0 2.1 1 1 0 0 0 0-2.1Zm3.8 14.2a1.05 1.05 0 1 0 0 2.1 1.05 1.05 0 0 0 0-2.1Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Python</span> </li><li title="TypeScript" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M3 4c-1.1 0-2 .9-2 2v12c0 1 .9 2 2 2h18c1 0 2-1 2-2V6c0-1.1-1-2-2-2H3Zm9.9 8.3h3.2v1.7h-3.2v4h-2v-4H8v-1.7h2.9v-2.6c0-2 1.2-3 3.4-3 .7 0 1.3.1 1.9.3v1.7c-.6-.2-1.1-.3-1.7-.3-1.1 0-1.6.5-1.6 1.6v2.3Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>TypeScript</span> </li><li title="Pytorch" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12.9 2.2v8.3l3-3 1.4 1.4-4.9 4.9V2.2h-1.8v11.7l-4.9-4.9 1.4-1.4 3 3V2.2H12.9ZM7.5 17c.9 1.8 2.7 3 4.8 3 3 0 5.4-2.4 5.4-5.4 0-1.2-.5-2.3-1.1-3.2l1.3-1a7.17 7.17 0 0 1 1.5 4.2c0 4-3.2 7.2-7.2 7.2a7.17 7.17 0 0 1-6.4-3.9l1.7-.9Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Pytorch</span> </li><li title="YOLOv8" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M4 4h4l4 7 4-7h4l-8 14L4 4Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>YOLOv8</span> </li><li title="Fastapi" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm2.9 14h-2.1l-3-5.2V16H7.7V8h2.1l3 5.2V8h2.1v8Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Fastapi</span> </li><li title="React" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 10.2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6Zm0-8.2c2 0 3.7 1.5 4.9 3.9.3.6.5 1.2.7 1.8.7.2 1.3.3 1.9.6 2.6 1 4.3 2.7 4.3 4.7s-1.7 3.7-4.3 4.7c-.6.2-1.2.4-1.9.6-.2.6-.4 1.2-.7 1.8-1.2 2.4-2.9 3.9-4.9 3.9s-3.7-1.5-4.9-3.9c-.3-.6-.5-1.2-.7-1.8-.7-.2-1.3-.4-1.9-.6-2.6-1-4.3-2.7-4.3-4.7s1.7-3.7 4.3-4.7c.6-.2 1.2-.4 1.9-.6.2-.6.4-1.2.7-1.8C8.3 3.5 10 2 12 2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>React</span> </li><li title="Node.js" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M11.6 2.1 4 6.4v7.2l7.6 4.3 7.6-4.3V6.4l-7.6-4.3ZM9.2 9.2l2.4-1.4 2.4 1.4v2.8l-2.4 1.4-2.4-1.4V9.2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Node.js</span> </li><li title="Graphql" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="m12 2 9.5 5.5v11L12 24l-9.5-5.5v-11L12 2Zm0 2.2L4.7 8l7.3 4.2L19.3 8 12 4.2Zm7.3 6.2-7.3 4.2v8.4l7.3-4.2v-8.4ZM11.3 22.8v-8.4L4 10.4v8.4l7.3 4Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Graphql</span> </li> </ul> </article><article class="pillar" style="--i:1" data-astro-cid-5feiy2gk> <h3 class="pillar-title" data-astro-cid-5feiy2gk>MLOps &amp; Infra</h3> <ul class="chips" data-astro-cid-5feiy2gk> <li title="Dvc" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 3a9 9 0 1 0 0 18 9 9 0 1 0 0-18Zm3.9 5.1-2.2 6.6h-2l-1.5-4.6-1.5 4.6h-2l-2.2-6.6h2l1.2 4.4 1.5-4.4h2l1.5 4.4 1.2-4.4h2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Dvc</span> </li><li title="Mlflow" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 3a9 9 0 0 1 9 9h-3.1a5.9 5.9 0 0 0-10-4.2l2.1 2H6V4.5l1.9 1.9A8.96 8.96 0 0 1 12 3Zm0 18a9 9 0 0 1-9-9h3.1a5.9 5.9 0 0 0 10 4.2l-2.1-2H18v5.3l-1.9-1.9A8.96 8.96 0 0 1 12 21Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Mlflow</span> </li><li title="Bentoml" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M5 5h14v4H5V5Zm0 6h14v4H5v-4Zm0 6h14v2H5v-2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Bentoml</span> </li><li title="Docker" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M4 14h16c-.4 3.4-3.3 5-6.6 5H9.9C6.7 19 4.1 17 4 14Zm2.2-7H11v3H6.2V7Zm5 0h4.8v3H11V7Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Docker</span> </li><li title="Kubernetes" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 2 4 7v10l8 5 8-5V7l-8-5Zm0 3.2 5.3 3.3v6.9L12 18.8l-5.3-3.4V8.5L12 5.2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Kubernetes</span> </li><li title="GitHub Actions" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M8 4a4 4 0 0 1 3.9 3.2A4 4 0 1 1 8 4Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm9 5a3 3 0 0 1 .2 6H14v-2h3a1 1 0 0 0 0-2h-1.6A3 3 0 0 1 17 11Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>GitHub Actions</span> </li><li title="CI Quality Gates" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M4 4h16v4H4V4Zm0 6h16v4H4v-4Zm0 6h16v4H4v-4Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>CI Quality Gates</span> </li> </ul> </article><article class="pillar" style="--i:2" data-astro-cid-5feiy2gk> <h3 class="pillar-title" data-astro-cid-5feiy2gk>Data &amp; Storage</h3> <ul class="chips" data-astro-cid-5feiy2gk> <li title="PostgreSQL" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 3c4.9 0 9 2 9 4.5V12c0 2.5-4.1 4.5-9 4.5S3 14.5 3 12V7.5C3 5 7.1 3 12 3Zm0 2C8.7 5 6 6.1 6 7.5S8.7 10 12 10s6-1.1 6-2.5S15.3 5 12 5Zm0 6c-2.3 0-4.3-.5-6-1.4v1.9c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-1.9c-1.7.9-3.7 1.4-6 1.4Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>PostgreSQL</span> </li><li title="Mongodb" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 2s3.7 5.2 3.7 9.4S13.2 20 12 22c-1.2-2-3.7-6.3-3.7-10.6S12 2 12 2Zm0 5.3c-.7 1.6-1.5 3.7-1.5 5.4 0 1.8.8 3.9 1.5 5.4.7-1.5 1.5-3.6 1.5-5.4 0-1.7-.8-3.8-1.5-5.4Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Mongodb</span> </li><li title="S3" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M4 6 12 2l8 4v8l-8 4-8-4V6Zm8 2.2 4.9-2.4L12 5 7.1 5.8 12 8.2Zm-6 2.5 5 2.5v3.8l-5-2.5v-3.8Zm12 0-5 2.5v3.8l5-2.5v-3.8Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>S3</span> </li><li title="Data Versioning" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M6 4h12v4H6V4Zm0 6h12v4H6v-4Zm0 6h12v4H6v-4Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Data Versioning</span> </li><li title="Feature Artifacts" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M4 4h16v6H4V4Zm0 8h16v8H4v-8Zm2 2v4h12v-4H6Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Feature Artifacts</span> </li> </ul> </article><article class="pillar" style="--i:3" data-astro-cid-5feiy2gk> <h3 class="pillar-title" data-astro-cid-5feiy2gk>Quality &amp; Tooling</h3> <ul class="chips" data-astro-cid-5feiy2gk> <li title="Pytest" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 3 6 6v6c0 4 2.7 7.5 6 9 3.3-1.5 6-5 6-9V6l-6-3Zm0 2.2 4 2v4.8c0 2.9-1.9 5.8-4 7-2.1-1.2-4-4.1-4-7V7.2l4-2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Pytest</span> </li><li title="Jest" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M5 4h4l1 5h4l1.4-5H21l-3 8.5A6 6 0 0 1 12 22a6 6 0 0 1-6-6c0-1.8.8-3.6 2-4.8V4Zm7 10a4 4 0 0 0-4 4c0 .5.1 1 .3 1.5A4 4 0 0 0 16 16a4 4 0 0 0-.3-1.5c-.5-.3-1.1-.5-1.7-.5Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Jest</span> </li><li title="Ruff" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 3 4 9v6l8 6 8-6V9l-8-6Zm0 2.2 5.9 4.4v4.9L12 20.8l-5.9-4.3v-5L12 5.2Zm0 2.6-4 3v4l4 3 4-3v-4l-4-3Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Ruff</span> </li><li title="Eslint" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M12 2 3 7v10l9 5 9-5V7L12 2Zm0 2.3 6.8 3.9v7.6L12 20.9l-6.8-4.1V8.2L12 4.3Zm0 2.7-4.8 2.8v5.4L12 18l4.8-2.8v-5.4L12 7Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Eslint</span> </li><li title="Profilers" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M4 4h4v4H4V4Zm6 0h10v2H10V4ZM4 10h4v4H4v-4Zm6 2h10v2H10v-2ZM4 16h4v4H4v-4Zm6 2h10v2H10v-2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Profilers</span> </li><li title="Code Review Automation" data-astro-cid-5feiy2gk> <span class="ico-ring" data-astro-cid-5feiy2gk> <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-astro-cid-5feiy2gk> <g data-astro-cid-5feiy2gk><path d="M4 4h16v12H5.2L4 17.2V4Zm2 4v2h12V8H6Zm0-2h12V6H6Zm0 6h8v-2H6v2Zm2 6h8v2H8v-2Z"/></g> </svg> </span> <span class="tech-label" data-astro-cid-5feiy2gk>Code Review Automation</span> </li> </ul> </article> </div> <details class="ats" data-astro-cid-5feiy2gk> <summary data-astro-cid-5feiy2gk>Expanded (ATS Keywords)</summary> <p data-astro-cid-5feiy2gk>
+Python, TypeScript, PyTorch, YOLOv8, FastAPI, React, Node.js, GraphQL (Apollo, DataLoader), DVC,
+      MLflow, BentoML, Docker, Kubernetes, GitHub Actions, PostgreSQL, MongoDB, AWS S3, Pytest, Jest,
+      Ruff, ESLint, profiling, code review automation.
+</p> </details> </section>  </section> <section id="projects" class="section reveal" data-scroll-section data-scroll-speed="0.8"> <h2>Highlighted Projects</h2> <div class="projects-grid"> <div class="tilt-card"> <article class="project-card" aria-labelledby="project-title" data-astro-cid-mspuyifq> <!-- rotating lightswind beam --> <div class="accent" aria-hidden="true" data-astro-cid-mspuyifq></div> <header class="pc-head" data-astro-cid-mspuyifq> <h3 id="project-title" class="project-title" data-astro-cid-mspuyifq>SafeRoomAI</h3> <p class="summary" data-astro-cid-mspuyifq>Real-time anomaly detection (YOLO + Autoencoder fallback) with reproducible pipeline.</p> </header> <ul class="highlights" data-astro-cid-mspuyifq> <li data-astro-cid-mspuyifq> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq> <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" data-astro-cid-mspuyifq></path> </svg> <span data-astro-cid-mspuyifq>Adaptive micro-batching &amp; quantization</span> </li><li data-astro-cid-mspuyifq> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq> <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" data-astro-cid-mspuyifq></path> </svg> <span data-astro-cid-mspuyifq>Experiment lineage (DVC + MLflow)</span> </li><li data-astro-cid-mspuyifq> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq> <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" data-astro-cid-mspuyifq></path> </svg> <span data-astro-cid-mspuyifq>RTSP watchdog fallback to cached video</span> </li> </ul> <ul class="stack-chips" role="list" data-astro-cid-mspuyifq> <li class="chip" data-astro-cid-mspuyifq>Python</li><li class="chip" data-astro-cid-mspuyifq>YOLOv8</li><li class="chip" data-astro-cid-mspuyifq>Autoencoder</li><li class="chip" data-astro-cid-mspuyifq>DVC</li><li class="chip" data-astro-cid-mspuyifq>MLflow</li><li class="chip" data-astro-cid-mspuyifq>BentoML</li><li class="chip" data-astro-cid-mspuyifq>K8s</li><li class="chip" data-astro-cid-mspuyifq>FastAPI</li> </ul> <div class="links" data-astro-cid-mspuyifq> <a class="btn ghost" aria-label="GitHub repository: SafeRoomAI" href="https://github.com/DC-Capstone1W25/SafeRoomAI" target="_blank" rel="noopener" data-astro-cid-mspuyifq>
+GitHub
+<svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq><path d="M14 3h7v7h-2V6.4L10.7 14 9.3 12.6 17.6 4H14V3Zm-2 4v2H5v10h10v-7h2v9H3V7h9Z" data-astro-cid-mspuyifq></path></svg> </a> <a class="btn primary" aria-label="Case study: SafeRoomAI" href="/projects/saferoomai" data-astro-cid-mspuyifq>
+Case Study
+<svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq><path d="M5 12h14M13 6l6 6-6 6" data-astro-cid-mspuyifq></path></svg> </a> </div> </article>  </div><div class="tilt-card"> <article class="project-card" aria-labelledby="project-title" data-astro-cid-mspuyifq> <!-- rotating lightswind beam --> <div class="accent" aria-hidden="true" data-astro-cid-mspuyifq></div> <header class="pc-head" data-astro-cid-mspuyifq> <h3 id="project-title" class="project-title" data-astro-cid-mspuyifq>GreenEarthConnect</h3> <p class="summary" data-astro-cid-mspuyifq>Sustainability analytics &amp; community engagement platform for tracking eco-impact and fostering local environmental initiatives.</p> </header> <ul class="highlights" data-astro-cid-mspuyifq> <li data-astro-cid-mspuyifq> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq> <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" data-astro-cid-mspuyifq></path> </svg> <span data-astro-cid-mspuyifq>Modular service layer with typed GraphQL schema &amp; strict lint gates</span> </li><li data-astro-cid-mspuyifq> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq> <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" data-astro-cid-mspuyifq></path> </svg> <span data-astro-cid-mspuyifq>Real-time contribution feed (websocket / subscription ready design)</span> </li><li data-astro-cid-mspuyifq> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq> <path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z" data-astro-cid-mspuyifq></path> </svg> <span data-astro-cid-mspuyifq>Optimized aggregations &amp; indexed queries for activity / impact metrics</span> </li> </ul> <ul class="stack-chips" role="list" data-astro-cid-mspuyifq> <li class="chip" data-astro-cid-mspuyifq>TypeScript</li><li class="chip" data-astro-cid-mspuyifq>React</li><li class="chip" data-astro-cid-mspuyifq>Node.js</li><li class="chip" data-astro-cid-mspuyifq>Express</li><li class="chip" data-astro-cid-mspuyifq>GraphQL</li><li class="chip" data-astro-cid-mspuyifq>MongoDB</li><li class="chip" data-astro-cid-mspuyifq>Docker</li><li class="chip" data-astro-cid-mspuyifq>CI</li> </ul> <div class="links" data-astro-cid-mspuyifq> <a class="btn ghost" aria-label="GitHub repository: GreenEarthConnect" href="https://github.com/DC-Capstone1W25/greenearthconnect" target="_blank" rel="noopener" data-astro-cid-mspuyifq>
+GitHub
+<svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq><path d="M14 3h7v7h-2V6.4L10.7 14 9.3 12.6 17.6 4H14V3Zm-2 4v2H5v10h10v-7h2v9H3V7h9Z" data-astro-cid-mspuyifq></path></svg> </a> <a class="btn primary" aria-label="Case study: GreenEarthConnect" href="/projects/greenearthconnect" data-astro-cid-mspuyifq>
+Case Study
+<svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-mspuyifq><path d="M5 12h14M13 6l6 6-6 6" data-astro-cid-mspuyifq></path></svg> </a> </div> </article>  </div> </div> </section> <!--  <GitHubShowcase class="reveal"/> --> <section id="blog" class="blog-teaser reveal" aria-labelledby="blog-heading" data-astro-cid-yuiek7vl> <!-- lightswind conic glow --> <div class="bt-accents" aria-hidden="true" data-astro-cid-yuiek7vl> <span class="beam a" data-astro-cid-yuiek7vl></span> <span class="beam b" data-astro-cid-yuiek7vl></span> </div> <header class="bt-head" data-astro-cid-yuiek7vl> <h2 id="blog-heading" data-astro-cid-yuiek7vl>From the Blog</h2> <p class="sub" data-astro-cid-yuiek7vl>Real-time CV, reproducible ML, cloud-native builds—fresh posts, no fluff.</p> <div class="hairline" aria-hidden="true" data-astro-cid-yuiek7vl></div> </header> <div class="bt-grid" data-astro-cid-yuiek7vl> <!-- Featured --> <a class="featured card" href="/blog/assignment2-tluzon/" data-astro-cid-yuiek7vl> <div class="media" data-astro-cid-yuiek7vl>  </div> <div class="meta" data-astro-cid-yuiek7vl> <time datetime="2025-07-13T00:00:00.000Z" data-astro-cid-yuiek7vl> Jul 13, 2025 </time>  </div> <h3 class="title" data-astro-cid-yuiek7vl>AI‑Driven Six Sigma: Merging DMAIC &amp; Intelligent Automation</h3> <p class="excerpt" data-astro-cid-yuiek7vl>An in-depth exploration of integrating Six Sigma DMAIC methodology with AI‑powered tools to optimize software delivery and operational workflows.</p> <span class="cta" data-astro-cid-yuiek7vl>Read Article
+<svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-yuiek7vl><path d="M5 12h14M13 6l6 6-6 6" data-astro-cid-yuiek7vl></path></svg> </span> </a> <!-- Two recent --> <ul class="side-list" style="list-style:none; margin:0; padding:0;" data-astro-cid-yuiek7vl> <li data-astro-cid-yuiek7vl> <a class="mini card" href="/blog/inclass03-tluzon/" data-astro-cid-yuiek7vl> <div class="mini-head" data-astro-cid-yuiek7vl> <time datetime="2025-06-11T00:00:00.000Z" data-astro-cid-yuiek7vl> Jun 11 </time>  </div> <h4 class="mini-title" data-astro-cid-yuiek7vl>5S Workplace Excellence: TechGadget Inc. Case Study</h4> <p class="mini-excerpt" data-astro-cid-yuiek7vl>A hands‑on 5S implementation in a manufacturing environment—Sort, Set in Order, Shine, Standardize, Sustain—delivering lasting efficiency and quality gains.</p> <span class="mini-cta" data-astro-cid-yuiek7vl>Read
+<svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-yuiek7vl><path d="M5 12h14M13 6l6 6-6 6" data-astro-cid-yuiek7vl></path></svg> </span> </a> </li><li data-astro-cid-yuiek7vl> <a class="mini card" href="/blog/nvidia-assignment1/" data-astro-cid-yuiek7vl> <div class="mini-head" data-astro-cid-yuiek7vl> <time datetime="2025-06-05T00:00:00.000Z" data-astro-cid-yuiek7vl> Jun 5 </time>  </div> <h4 class="mini-title" data-astro-cid-yuiek7vl>Accelerating AI: NVIDIA GPU Strategy &amp; Business Analysis</h4> <p class="mini-excerpt" data-astro-cid-yuiek7vl>A corporate review of NVIDIA’s GPU leadership, using SWOT, Porter’s Five Forces, and Ansoff’s Matrix—culminating in lean‑management recommendations for maximum efficiency.</p> <span class="mini-cta" data-astro-cid-yuiek7vl>Read
+<svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-yuiek7vl><path d="M5 12h14M13 6l6 6-6 6" data-astro-cid-yuiek7vl></path></svg> </span> </a> </li> <li class="view-all-wrap" data-astro-cid-yuiek7vl> <a class="view-all" href="/blog" data-astro-cid-yuiek7vl>View all posts ↗</a> </li> </ul> </div> </section>  <section id="contact" class="contact-showcase reveal" aria-labelledby="contact-heading" data-astro-cid-thhdfq4e> <!-- Lightswind glow + sparkles --> <div class="cs-accents" aria-hidden="true" data-astro-cid-thhdfq4e> <span class="beam a" data-astro-cid-thhdfq4e></span> <span class="beam b" data-astro-cid-thhdfq4e></span> <div class="sparkles" data-astro-cid-thhdfq4e></div> </div> <header class="cs-head" data-astro-cid-thhdfq4e> <h2 id="contact-heading" data-astro-cid-thhdfq4e>Let’s build something great</h2> <p class="sub" data-astro-cid-thhdfq4e>
+Hiring for AI, MLOps, or full-stack? I ship reliable systems—let’s talk outcomes, not buzzwords.
+</p> <div class="hairline" aria-hidden="true" data-astro-cid-thhdfq4e></div> </header> <div class="cta-row" data-astro-cid-thhdfq4e> <!-- Primary: magnetic email --> <astro-island uid="Ztd5Ea" prefix="r5" component-url="/_astro/MagneticCTA.oqAOcZ9N.js" component-export="default" renderer-url="/_astro/client.D2WMwoKK.js" props="{&quot;href&quot;:[0,&quot;mailto:luzon.thedyson@gmail.com?subject=Interest%20in%20AI%20%2F%20MLOps%20Role&quot;],&quot;data-astro-cid-thhdfq4e&quot;:[0,true]}" ssr client="load" opts="{&quot;name&quot;:&quot;MagneticCTA&quot;,&quot;value&quot;:true}" await-children><a href="mailto:luzon.thedyson@gmail.com?subject=Interest%20in%20AI%20%2F%20MLOps%20Role" class="mcta "><span class="mcta-bg" aria-hidden="true"></span><span class="mcta-glow" aria-hidden="true"></span><span class="mcta-shine" aria-hidden="true"></span><span class="mcta-label"><astro-slot>
+Email Me (Request Resume)
+</astro-slot></span></a><style>
+        .mcta{
+          --accent: var(--color-accent, #4f46e5);
+          --rx: 0deg; --ry: 0deg; --tx: 0px; --ty: 0px;
+          --gx: 50%; --gy: 50%;
+          position: relative;
+          display: inline-flex;
+          align-items: center; justify-content: center;
+          gap: .5rem;
+          padding: .85rem 1.2rem;
+          border-radius: 9999px;
+          font-weight: 800;
+          letter-spacing: .35px;
+          text-decoration: none;
+          background: transparent;
+          color: #fff;
+          border: 1px solid var(--accent);
+          transform: translateZ(0) rotateX(var(--rx)) rotateY(var(--ry)) translate(var(--tx), var(--ty));
+          box-shadow: 0 14px 36px -18px color-mix(in srgb, var(--accent) 70%, transparent);
+          isolation: isolate;
+          overflow: hidden;
+          will-change: transform, box-shadow;
+          transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+        }
+        :root[data-theme="light"] .mcta { color: #fff; }
+
+        .mcta .mcta-label { position: relative; z-index: 3; }
+
+        /* Animated gradient base */
+        .mcta-bg{
+          position:absolute; inset:0; z-index:1;
+          background: linear-gradient(90deg,
+            color-mix(in srgb, var(--accent) 85%, #000) 0%,
+            #22d3ee 25%,
+            #a78bfa 50%,
+            #34d399 75%,
+            color-mix(in srgb, var(--accent) 85%, #000) 100%);
+          background-size: 220% 100%;
+          animation: mcta-shift 5.8s linear infinite;
+          filter: saturate(1.1);
+        }
+        @keyframes mcta-shift { to { background-position: 200% 0; } }
+
+        /* Soft glow that tracks cursor (via --gx/--gy) */
+        .mcta-glow{
+          position:absolute; inset:-20%; z-index:2; pointer-events:none;
+          background: radial-gradient(160px 160px at var(--gx) var(--gy),
+            rgba(255,255,255,.5), transparent 60%);
+          mix-blend-mode: soft-light;
+          filter: blur(18px);
+          opacity: .55;
+          transition: opacity .2s ease;
+        }
+        .mcta:hover .mcta-glow { opacity: .7; }
+
+        /* Glassy highlight sweep */
+        .mcta-shine{
+          position:absolute; z-index:3; inset:auto -30% -40% -30%;
+          height: 160%; transform: rotate(8deg);
+          background: linear-gradient( to right, rgba(255,255,255,.0), rgba(255,255,255,.18), rgba(255,255,255,.0) );
+          animation: mcta-shine 2.8s ease-in-out infinite;
+          opacity: .75;
+        }
+        @keyframes mcta-shine {
+          0% { transform: translateX(-40%) rotate(8deg); }
+          50% { transform: translateX(20%) rotate(8deg); }
+          100% { transform: translateX(60%) rotate(8deg); }
+        }
+
+        .mcta:hover, .mcta:focus-visible{
+          box-shadow: 0 16px 40px -18px color-mix(in srgb, var(--accent) 85%, transparent);
+        }
+        .mcta:focus-visible{
+          outline: 2px solid var(--accent);
+          outline-offset: 3px;
+        }
+
+        /* Entrance “pop” */
+        .mcta-pop{ animation: mcta-pop .22s ease; }
+        @keyframes mcta-pop {
+          0% { transform: scale(1) }
+          50% { transform: scale(1.03) }
+          100% { transform: scale(1) }
+        }
+
+        /* Click ripple */
+        .mcta-ripple{
+          position:absolute; z-index:2; width: 12px; height:12px; border-radius:9999px;
+          background: rgba(255,255,255,.8); pointer-events:none;
+          transform: translate(-50%, -50%); opacity:.8;
+          animation: mcta-ripple .6s cubic-bezier(.2,.7,.2,1) forwards;
+          mix-blend-mode: overlay;
+        }
+        @keyframes mcta-ripple {
+          to {
+            width: 240px; height: 240px; opacity: 0;
+          }
+        }
+
+        /* Themed border for light mode contrast */
+        :root[data-theme="light"] .mcta{
+          border-color: color-mix(in srgb, var(--accent) 70%, #fff);
+        }
+
+        /* Reduced motion */
+        @media (prefers-reduced-motion: reduce){
+          .mcta{
+            transform: none !important;
+          }
+          .mcta-bg, .mcta-shine{
+            animation: none !important;
+          }
+        }
+      </style><!--astro:end--></astro-island> <!-- Secondary: copy email (confetti) --> <button type="button" id="copy-email" class="chip action" data-astro-cid-thhdfq4e> <span class="iconify" data-icon="mdi:content-copy" aria-hidden="true" data-astro-cid-thhdfq4e></span> <span data-astro-cid-thhdfq4e>Copy Email</span> </button> <!-- LinkedIn --> <a class="chip link" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener" aria-label="LinkedIn" data-astro-cid-thhdfq4e> <span class="iconify" data-icon="mdi:linkedin" aria-hidden="true" data-astro-cid-thhdfq4e></span> <span data-astro-cid-thhdfq4e>LinkedIn</span> </a> <!-- GitHub --> <a class="chip link" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener" aria-label="GitHub" data-astro-cid-thhdfq4e> <span class="iconify" data-icon="mdi:github" aria-hidden="true" data-astro-cid-thhdfq4e></span> <span data-astro-cid-thhdfq4e>GitHub</span> </a> </div> <div class="info-grid" role="list" data-astro-cid-thhdfq4e> <div class="info-card" role="listitem" data-astro-cid-thhdfq4e> <div class="label" data-astro-cid-thhdfq4e>Email</div> <div class="value" data-astro-cid-thhdfq4e>luzon.thedyson@gmail.com</div> <div class="note" data-astro-cid-thhdfq4e>I usually reply within 24 hours.</div> </div> <div class="info-card" role="listitem" data-astro-cid-thhdfq4e> <div class="label" data-astro-cid-thhdfq4e>Based in</div> <div class="value" data-astro-cid-thhdfq4e>Toronto (ET)</div> <div class="note" data-astro-cid-thhdfq4e>Remote-friendly • async-first</div> </div> <div class="info-card" role="listitem" data-astro-cid-thhdfq4e> <div class="label" data-astro-cid-thhdfq4e>Open to</div> <div class="value" data-astro-cid-thhdfq4e>AI / MLOps / Full-Stack</div> <div class="note" data-astro-cid-thhdfq4e>Contract • Full-time • Co-op</div> </div> </div> <p class="resume-note" data-astro-cid-thhdfq4e>* Full resume supplied on request to protect distribution.</p> </section>  <!-- Copy + confetti --> <script type="module">
+  const btn = document.getElementById('copy-email');
+  const email = ${JSON.stringify(EMAIL)};
+  const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function burstConfetti(target){
+    if (prefersReduced) return;
+    const rect = target.getBoundingClientRect();
+    const root = document.createElement('div');
+    root.style.position = 'fixed';
+    root.style.left = rect.left + rect.width/2 + 'px';
+    root.style.top = rect.top + rect.height/2 + 'px';
+    root.style.pointerEvents = 'none';
+    root.style.zIndex = '9999';
+    document.body.appendChild(root);
+
+    const N = 16;
+    for (let i=0;i<N;i++){
+      const p = document.createElement('span');
+      p.className = 'confetti';
+      p.style.position='absolute';
+      p.style.width='6px'; p.style.height='10px';
+      p.style.background = `hsl(${Math.floor(Math.random()*360)} 85% 60%)`;
+      p.style.transform = `translate(-50%,-50%) rotate(${Math.random()*360}deg)`;
+      p.style.borderRadius='2px';
+      root.appendChild(p);
+
+      const angle = (Math.PI*2) * (i/N);
+      const dist = 60 + Math.random()*40;
+      const dx = Math.cos(angle)*dist;
+      const dy = Math.sin(angle)*dist;
+      p.animate(
+        [
+          { transform: `translate(-50%,-50%)`, opacity: 1 },
+          { transform: `translate(${dx-50}%, ${dy-50}%) rotate(${360*Math.random()}deg)`, opacity: 0 }
+        ],
+        { duration: 800 + Math.random()*400, easing: 'cubic-bezier(.2,.7,.2,1)', fill:'forwards' }
+      );
+    }
+    setTimeout(() => root.remove(), 1200);
+  }
+
+  btn?.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(email);
+      btn.classList.add('ok');
+      btn.innerHTML = '<span class="iconify" data-icon="mdi:check-bold"></span><span>Copied!</span>';
+      burstConfetti(btn);
+      setTimeout(() => {
+        btn.classList.remove('ok');
+        btn.innerHTML = '<span class="iconify" data-icon="mdi:content-copy"></span><span>Copy Email</span>';
+      }, 1400);
+    } catch (e) {
+      // Fallback: select+copy via prompt
+      window.prompt('Copy email address:', email);
+    }
+  });
+</script> <astro-island uid="1m60xS" prefix="r4" component-url="/_astro/ResumeChat.BBFgpzUT.js" component-export="default" renderer-url="/_astro/client.D2WMwoKK.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;ResumeChat&quot;,&quot;value&quot;:true}" await-children><button class="chat-fab" aria-haspopup="dialog" aria-expanded="false" aria-controls="resume-chat-panel"><span class="fab-core" aria-hidden="true">🤖</span><span class="fab-label">Chat</span></button><div class="chat-scrim " role="presentation"></div><section id="resume-chat-panel" role="dialog" aria-modal="true" aria-label="Resume Chat" class="chat-panel "><header class="chat-header"><div class="chat-title"><span class="dot"></span> Ask my Resume</div><div class="chat-actions"><button class="hd-btn" aria-label="Close">✕</button></div></header><div class="chat-body"><div class="msg assistant"><div class="bubble">Hi! Ask about Thedyson’s projects, stack, or experience.</div></div></div><div class="chat-chips" role="list" aria-label="Quick commands"><button role="listitem" class="chip">/skills</button><button role="listitem" class="chip">/stack</button><button role="listitem" class="chip">/contact</button></div><footer class="chat-input"><input placeholder="Type a message… try /skills, /stack, /contact" aria-label="Message" value=""/><button class="send">Send</button></footer></section><!--astro:end--></astro-island> </main> <footer class="site-footer glass" role="contentinfo" data-astro-cid-sz7xmlte> <!-- animated rainbow hairline --> <div class="fx-hairline" aria-hidden="true" data-astro-cid-sz7xmlte></div> <!-- lightswind-style ambient beams --> <div class="fx-accents" aria-hidden="true" data-astro-cid-sz7xmlte> <span class="beam a" data-astro-cid-sz7xmlte></span> <span class="beam b" data-astro-cid-sz7xmlte></span> <span class="bokeh" data-astro-cid-sz7xmlte></span> </div> <div class="inner" data-astro-cid-sz7xmlte> <!-- CTA ribbon --> <div class="cta-ribbon" data-astro-cid-sz7xmlte> <span class="cta-copy" data-astro-cid-sz7xmlte>
+Open to <strong data-astro-cid-sz7xmlte>AI/MLOps</strong> & full-stack roles · <em data-astro-cid-sz7xmlte>Fall 2025 internship</em> </span> <a class="cta-pill" href="mailto:luzon.thedyson@gmail.com?subject=Interest%20in%20AI%20%2F%20MLOps%20Role" aria-label="Email Thedyson: request resume" data-astro-cid-sz7xmlte>
+Email Me (Request Resume)
+<span class="shine" aria-hidden="true" data-astro-cid-sz7xmlte></span> </a> </div> <p class="brand" data-astro-cid-sz7xmlte>
+© 2025 <strong data-astro-cid-sz7xmlte>Thedyson Eduard Luzon</strong>. All rights reserved.
+</p> <nav class="quick" aria-label="Footer links" data-astro-cid-sz7xmlte> <a href="/" data-astro-cid-sz7xmlte>Home</a> <a href="/#projects" data-astro-cid-sz7xmlte>Projects</a> <a href="/blog" data-astro-cid-sz7xmlte>Blog</a> <a href="/about" data-astro-cid-sz7xmlte>About</a> <a href="/#contact" data-astro-cid-sz7xmlte>Contact</a> </nav> <nav aria-label="Social links" data-astro-cid-sz7xmlte> <ul class="social" data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte> <a href="mailto:luzon.thedyson@gmail.com" aria-label="Email" data-astro-cid-sz7xmlte> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-sz7xmlte><path fill="currentColor" d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.4 2 7.07 5.02c.33.23.73.23 1.06 0L19.6 7H4.4zM20 17V8.76l-6.16 4.37a2.6 2.6 0 0 1-2.68 0L5 8.76V17h15z" data-astro-cid-sz7xmlte></path></svg> </a> </li> <li data-astro-cid-sz7xmlte> <a href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener" aria-label="GitHub" data-astro-cid-sz7xmlte> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-sz7xmlte><path fill="currentColor" d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.11.8-.25.8-.56 0-.27-.01-1.15-.02-2.09-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.3 1.19-3.11-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.99 0 1.98.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.59.23 2.76.11 3.05.74.81 1.18 1.85 1.18 3.11 0 4.43-2.69 5.4-5.25 5.69.42.36.79 1.06.79 2.15 0 1.55-.02 2.79-.02 3.17 0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" data-astro-cid-sz7xmlte></path></svg> </a> </li> <li data-astro-cid-sz7xmlte> <a href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener" aria-label="LinkedIn" data-astro-cid-sz7xmlte> <svg viewBox="0 0 24 24" aria-hidden="true" data-astro-cid-sz7xmlte><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 0 .02 5.001 2.5 2.5 0 0 0-.02-5ZM3 9h4v12H3zM9 9h3.7v1.71h.05c.52-.98 1.8-2.01 3.7-2.01 3.96 0 4.7 2.6 4.7 5.98V21h-4v-5.16c0-1.23-.02-2.82-1.72-2.82-1.72 0-1.98 1.34-1.98 2.73V21H9z" data-astro-cid-sz7xmlte></path></svg> </a> </li> </ul> </nav> <button class="to-top" type="button" aria-label="Back to top" data-astro-cid-sz7xmlte>
+↑ Top
+</button> </div> </footer>  <script type="module">
+  // Smooth scroll to top
+  document.querySelector('.to-top')?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script> <!-- theme toggle --> <script type="module">(function(){const e=localStorage.getItem("theme"),t=window.matchMedia("(prefers-color-scheme: light)").matches;document.documentElement.dataset.theme=e||(t?"light":"dark")})();</script> <script type="module">
+  // identical to PageLayout’s observer
+  const io = new IntersectionObserver(
+    (entries, obs) => {
+      for (let e of entries) {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          obs.unobserve(e.target);
+        }
+      }
+    },
+    { threshold: 0.1 }
+  );
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script> <!-- scroll‐progress script --> <script type="module">
+    const bar = document.getElementById('progress-bar');
+    document.addEventListener('scroll', () => {
+      const pct = Math.min(
+        window.scrollY / (document.body.scrollHeight - window.innerHeight),
+        1
+      );
+      bar.style.transform = `scaleX(${pct})`;
+    });
+  </script> <script type="module">
+  // graceful exit for reduced motion
+  const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!prefersReduced) {
+    const clamp = (n, min, max) => Math.min(Math.max(n, min), max);
+    const applyTilt = (el, e) => {
+      const r = el.getBoundingClientRect();
+      const cx = r.left + r.width / 2;
+      const cy = r.top + r.height / 2;
+      const dx = (e.clientX - cx) / (r.width / 2);
+      const dy = (e.clientY - cy) / (r.height / 2);
+      const rx = clamp(-dy * 8, -8, 8);
+      const ry = clamp(dx * 10, -10, 10);
+      el.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(8px)`;
+      el.style.boxShadow = `0 12px 28px -10px rgba(0,0,0,.45)`;
+    };
+    const resetTilt = el => {
+      el.style.transform = "perspective(900px) rotateX(0) rotateY(0) translateZ(0)";
+      el.style.boxShadow = "";
+    };
+
+    const els = Array.from(document.querySelectorAll(".tilt-card"));
+    els.forEach(el => {
+      el.addEventListener("pointermove", e => applyTilt(el, e));
+      el.addEventListener("pointerleave", () => resetTilt(el));
+    });
+  }
+</script> </body> </html>
