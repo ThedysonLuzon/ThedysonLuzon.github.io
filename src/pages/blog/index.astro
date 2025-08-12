@@ -14,6 +14,7 @@ const posts = raw
   .sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const [featured, ...rest] = posts;
+const allTags = Array.from(new Set(posts.flatMap(p => p.data.tags || []))).sort();
 ---
 
 <!doctype html>
@@ -33,20 +34,36 @@ const [featured, ...rest] = posts;
         font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
       }
 
+      /* Lightswind-ish background beams */
+      .bg-accents {
+        position:fixed; inset:-25% -10% auto; height:60vh;
+        z-index:-1; pointer-events:none; filter:saturate(1.05);
+      }
+      .bg-accents::before,
+      .bg-accents::after {
+        content:""; position:absolute; inset:0;
+        background: conic-gradient(from 0deg at 50% 50%,
+          rgba(79,70,229,.20), rgba(6,182,212,.18), rgba(34,197,94,.16), rgba(79,70,229,.20));
+        filter: blur(40px); opacity:.5;
+        animation: rotateAccents 80s linear infinite;
+      }
+      .bg-accents::after { transform: rotate(25deg) scale(1.06); opacity:.35; animation-duration: 110s; }
+      @keyframes rotateAccents { to { transform: rotate(360deg); } }
+
       main.blog {
         max-width:var(--blog-max);
         margin:0 auto;
         padding:2.8rem 1.2rem 4.5rem;
       }
 
-      .section-head {
-        text-align:center;
-        margin:0 0 2.6rem;
-      }
+      /* Section head */
+      .section-head { text-align:center; margin:0 0 1.6rem; }
       .section-head h1 {
         margin:0 0 .6rem;
         font-size:clamp(2.2rem,5vw,3.1rem);
         letter-spacing:.5px;
+        background: linear-gradient(90deg,#93c5fd,#a78bfa,#34d399);
+        -webkit-background-clip:text; background-clip:text; color:transparent; filter:saturate(1.05);
       }
       .section-head p {
         margin:.3rem auto 0;
@@ -55,43 +72,78 @@ const [featured, ...rest] = posts;
         line-height:1.45;
         color:var(--color-text-dim);
       }
+      .hairline {
+        height:2px; max-width:520px; margin:.9rem auto 0; border-radius:999px;
+        background: linear-gradient(90deg,#60a5fa,#a78bfa,#34d399,#60a5fa);
+        background-size:200% 100%; animation: hairmove 6s linear infinite;
+      }
+      @keyframes hairmove { 0%{background-position:0% 50%} 100%{background-position:200% 50%} }
+
+      /* Controls: search + tags */
+      .controls {
+        display:flex; align-items:center; justify-content:center; gap:.8rem; flex-wrap:wrap;
+        margin:1.6rem 0 2rem;
+      }
+      .search {
+        display:flex; align-items:center; gap:.55rem;
+        border:1px solid var(--color-border);
+        background:var(--color-bg-alt);
+        border-radius:999px; padding:.55rem .8rem; min-width:240px;
+        box-shadow: var(--shadow-sm);
+      }
+      .search input {
+        background:transparent; border:0; outline:0; color:var(--color-text);
+        width:240px; max-width:60vw; font-size:.95rem;
+      }
+      .tags { display:flex; gap:.5rem; flex-wrap:wrap; justify-content:center; }
+      .tag {
+        font-size:.7rem; letter-spacing:.5px; text-transform:uppercase; font-weight:700;
+        padding:.45rem .7rem; border-radius:999px;
+        border:1px solid var(--color-border); background:var(--color-surface);
+        color:var(--color-text); cursor:pointer;
+        transition: transform .18s ease, border-color .18s ease, color .18s ease, background .18s ease;
+      }
+      .tag:hover { transform:translateY(-1px); border-color:var(--color-accent); color:var(--color-accent); }
+      .tag[aria-pressed="true"] {
+        background: var(--color-accent); color:#fff; border-color:var(--color-accent);
+        box-shadow: 0 10px 26px -14px rgba(79,70,229,.6);
+      }
 
       /* FEATURED */
       .featured {
         display:grid;
         gap:1.8rem;
-        margin:0 0 3rem;
+        margin:0 0 2.4rem;
       }
       @media (min-width:900px){
         .featured {
           grid-template-columns: minmax(0,1fr) minmax(0,1fr);
           align-items:stretch;
         }
-        .featured .media {
-          margin:0;
-          height:100%;
-        }
+        .featured .media { margin:0; height:100%; }
       }
-
       .post-card {
         position:relative;
-        display:flex;
-        flex-direction:column;
+        display:flex; flex-direction:column;
         background:var(--color-bg-alt);
         border:1px solid var(--color-border);
         border-radius:var(--card-radius);
         padding:1.1rem 1.15rem 1.25rem;
-        text-decoration:none;
-        color:inherit;
+        text-decoration:none; color:inherit;
         box-shadow:var(--shadow-sm,0 2px 4px rgba(0,0,0,.25));
         transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition), background var(--transition);
-        min-height:260px;
-        isolation:isolate;
+        min-height:260px; isolation:isolate;
+      }
+      .post-card::before {
+        /* thin gradient hairline on top of every card */
+        content:""; position:absolute; left:10px; right:10px; top:8px; height:2px; border-radius:999px;
+        background: linear-gradient(90deg, #60a5fa, #a78bfa, #34d399);
+        opacity:.6; transform: translateZ(0);
       }
       .post-card:hover,
       .post-card:focus-visible {
         border-color:var(--color-accent);
-        box-shadow:var(--shadow-md,0 6px 18px -6px rgba(0,0,0,.55));
+        box-shadow:var(--shadow-md,0 8px 24px -10px rgba(0,0,0,.55));
         transform:translateY(-3px);
         text-decoration:none;
       }
@@ -99,8 +151,7 @@ const [featured, ...rest] = posts;
       .media {
         margin:-.4rem -0.4rem 1rem;
         border-radius:calc(var(--card-radius) - 4px);
-        overflow:hidden;
-        aspect-ratio:16/8;
+        overflow:hidden; aspect-ratio:16/8;
         background:var(--color-surface-alt);
         border:1px solid var(--color-border);
         line-height:0;
@@ -111,65 +162,41 @@ const [featured, ...rest] = posts;
       }
       .post-card:hover .media img { transform:scale(1.03); }
 
-      .meta {
-        display:flex;
-        gap:.65rem;
-        flex-wrap:wrap;
-        font-size:.6rem;
-        text-transform:uppercase;
-        letter-spacing:.55px;
-        font-weight:600;
-        color:var(--color-text-dim);
-        margin-bottom:.55rem;
+      .badge {
+        position:absolute; top:10px; left:10px;
+        font-size:.65rem; font-weight:800; letter-spacing:.6px; text-transform:uppercase;
+        padding:.28rem .5rem; border-radius:999px;
+        background:rgba(79,70,229,.18); color:var(--color-accent);
+        border:1px solid var(--color-border);
+        backdrop-filter: blur(6px);
       }
 
-      .title {
-        margin:0 0 .55rem;
-        font-size:1.25rem;
-        line-height:1.25;
-        letter-spacing:.4px;
+      .meta {
+        display:flex; gap:.65rem; flex-wrap:wrap;
+        font-size:.6rem; text-transform:uppercase; letter-spacing:.55px; font-weight:600;
+        color:var(--color-text-dim); margin-bottom:.55rem;
       }
-      .featured .title {
-        font-size:clamp(1.6rem,2.1vw,2rem);
-      }
+
+      .title { margin:0 0 .55rem; font-size:1.25rem; line-height:1.25; letter-spacing:.4px; }
+      .featured .title { font-size:clamp(1.6rem,2.1vw,2rem); }
 
       .excerpt {
         margin:0 0 .9rem;
-        font-size:.86rem;
-        line-height:1.45;
-        color:var(--color-text-dim);
-        display:-webkit-box;
-        -webkit-line-clamp:3;
-        -webkit-box-orient:vertical;
-        overflow:hidden;
+        font-size:.86rem; line-height:1.45; color:var(--color-text-dim);
+        display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;
       }
-      .featured .excerpt {
-        -webkit-line-clamp:4;
-        font-size:.92rem;
-      }
+      .featured .excerpt { -webkit-line-clamp:4; font-size:.92rem; }
 
       .read-more {
-        margin-top:auto;
-        font-size:.65rem;
-        letter-spacing:.7px;
-        text-transform:uppercase;
-        font-weight:600;
-        color:var(--color-accent);
-        display:inline-flex;
-        align-items:center;
-        gap:.35rem;
+        margin-top:auto; font-size:.65rem; letter-spacing:.7px; text-transform:uppercase; font-weight:700;
+        color:var(--color-accent); display:inline-flex; align-items:center; gap:.35rem;
       }
-      .read-more svg {
-        width:14px; height:14px;
-        stroke:currentColor; stroke-width:2; fill:none;
-        transition:transform var(--transition);
-      }
+      .read-more svg { width:14px; height:14px; stroke:currentColor; stroke-width:2; fill:none; transition:transform var(--transition); }
       .post-card:hover .read-more svg { transform:translateX(4px); }
 
       /* GRID */
       .grid {
-        display:grid;
-        gap:1.6rem;
+        display:grid; gap:1.6rem;
         grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
       }
 
@@ -180,24 +207,44 @@ const [featured, ...rest] = posts;
       }
 
       /* Focus ring */
-      .post-card:focus-visible {
-        outline:2px solid var(--color-accent);
-        outline-offset:3px;
+      .post-card:focus-visible { outline:2px solid var(--color-accent); outline-offset:3px; }
+
+      /* Reduced motion */
+      @media (prefers-reduced-motion:reduce){
+        .bg-accents, .hairline, .post-card:hover .media img { animation:none !important; transform:none !important; }
       }
     </style>
   </head>
   <body>
-    <div id="scroll-progress"></div>
     <Header />
+    <div class="bg-accents" aria-hidden="true"></div>
+
     <main class="blog">
       <header class="section-head" aria-labelledby="blog-heading">
-        <h1 id="blog-heading">Insights &amp; Innovations: Engineering &amp; MLOps Chronicles</h1>
-        <p>Deep dives into real‑time CV, reproducible pipelines, and scalable AI deployments—your front‑row seat to cutting‑edge engineering.</p>
+        <h1 id="blog-heading">Insights &amp; Innovations</h1>
+        <p>Deep dives into real-time CV, reproducible pipelines, and scalable AI deployments—your front-row seat to cutting-edge engineering.</p>
+        <div class="hairline" aria-hidden="true"></div>
       </header>
+
+      <!-- Controls -->
+      <div class="controls">
+        <label class="search" for="blog-search">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M10 3a7 7 0 1 1 0 14 7 7 0 0 1 0-14Zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm10.3 14.9-3.6-3.6 1.4-1.4 3.6 3.6-1.4 1.4Z"/></svg>
+          <input id="blog-search" type="search" placeholder="Search posts…" autocomplete="off" />
+        </label>
+        {allTags.length > 0 && (
+          <div class="tags" id="tag-filter" role="group" aria-label="Filter by tag">
+            {allTags.map(tag => (
+              <button class="tag" type="button" data-tag={tag} aria-pressed="false">{tag}</button>
+            ))}
+          </div>
+        )}
+      </div>
 
       {featured && (
         <section class="featured" aria-label="Featured post">
-          <a class="post-card" href={`/blog/${featured.id}/`}>
+          <a class="post-card" href={`/blog/${featured.id}/`} data-title={featured.data.title} data-tags={(featured.data.tags||[]).join(',')}>
+            <span class="badge">Featured</span>
             {featured.data.heroImage && (
               <div class="media">
                 <Image
@@ -214,19 +261,17 @@ const [featured, ...rest] = posts;
               <time datetime={featured.data.pubDate.toISOString()}>
                 <FormattedDate date={featured.data.pubDate} />
               </time>
-              {featured.data.tags?.slice(0,2).map(t => <span>{t}</span>)}
+              {featured.data.tags?.slice(0,3).map(t => <span>{t}</span>)}
             </div>
             <h2 class="title">{featured.data.title}</h2>
-            { (featured.data.description || featured.data.excerpt) && (
+            {(featured.data.description || featured.data.excerpt) && (
               <p class="excerpt">
                 {(featured.data.description || featured.data.excerpt)}
               </p>
             )}
             <span class="read-more">
               Read Article
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 12h14M13 6l6 6-6 6" />
-              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </span>
           </a>
         </section>
@@ -235,64 +280,103 @@ const [featured, ...rest] = posts;
       {rest.length > 0 && (
         <section aria-label="All posts">
           <ul class="grid" style="list-style:none; margin:0; padding:0;">
-            {
-              rest.map(p => {
-                const url = `/blog/${p.id}/`;
-                return (
-                  <li>
-                    <a class="post-card" href={url}>
-                      {p.data.heroImage && (
-                        <div class="media">
-                          <Image
-                            src={p.data.heroImage}
-                            width={640}
-                            height={320}
-                            alt={p.data.title}
-                            loading="lazy"
-                            decoding="async"
-                          />
-                        </div>
-                      )}
-                      <div class="meta">
-                        <time datetime={p.data.pubDate.toISOString()}>
-                          <FormattedDate date={p.data.pubDate} />
-                        </time>
-                        {p.data.tags?.slice(0,2).map(t => <span>{t}</span>)}
+            {rest.map(p => {
+              const url = `/blog/${p.id}/`;
+              const tags = (p.data.tags || []).join(',');
+              return (
+                <li>
+                  <a class="post-card" href={url} data-title={p.data.title} data-tags={tags}>
+                    {p.data.heroImage && (
+                      <div class="media">
+                        <Image
+                          src={p.data.heroImage}
+                          width={640}
+                          height={320}
+                          alt={p.data.title}
+                          loading="lazy"
+                          decoding="async"
+                        />
                       </div>
-                      <h3 class="title">{p.data.title}</h3>
-                      {(p.data.description || p.data.excerpt) && (
-                        <p class="excerpt">
-                          {(p.data.description || p.data.excerpt)}
-                        </p>
-                      )}
-                      <span class="read-more">
-                        Read
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                          <path d="M5 12h14M13 6l6 6-6 6" />
-                        </svg>
-                      </span>
-                    </a>
-                  </li>
-                );
-              })
-            }
+                    )}
+                    <div class="meta">
+                      <time datetime={p.data.pubDate.toISOString()}>
+                        <FormattedDate date={p.data.pubDate} />
+                      </time>
+                      {p.data.tags?.slice(0,2).map(t => <span>{t}</span>)}
+                    </div>
+                    <h3 class="title">{p.data.title}</h3>
+                    {(p.data.description || p.data.excerpt) && (
+                      <p class="excerpt">{(p.data.description || p.data.excerpt)}</p>
+                    )}
+                    <span class="read-more">
+                      Read
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </section>
       )}
     </main>
-    <Footer />
-      <ResumeChat client:load />
 
+    <Footer />
+    <ResumeChat client:load />
   </body>
 </html>
 
 <script type="module">
-  const bar = document.getElementById('progress-bar');
-  document.addEventListener('scroll', () => {
-    const pct = Math.min(
-      window.scrollY / (document.body.scrollHeight - window.innerHeight),
-      1
-    );
-    bar.style.transform = `scaleX(${pct})`;
+  // simple client-side search + tag filter
+  const $ = (s, r=document) => r.querySelector(s);
+  const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+
+  const input = $('#blog-search');
+  const tagBar = $('#tag-filter');
+  const cards = $$('.post-card');
+  let activeTag = null;
+
+  const apply = () => {
+    const q = (input?.value || '').toLowerCase().trim();
+    const tag = activeTag?.toLowerCase() || null;
+
+    cards.forEach(card => {
+      const title = (card.dataset.title || '').toLowerCase();
+      const tags = (card.dataset.tags || '').toLowerCase();
+      const matchesQ = !q || title.includes(q);
+      const matchesTag = !tag || tags.split(',').includes(tag);
+      const show = matchesQ && matchesTag;
+      card.parentElement?.classList.toggle('hidden', !show);
+      (card.parentElement as HTMLElement)?.style.setProperty('display', show ? '' : 'none');
+    });
+  };
+
+  input?.addEventListener('input', apply);
+
+  tagBar?.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest('button.tag') as HTMLButtonElement | null;
+    if (!b) return;
+    // toggle single-select
+    if (b.getAttribute('aria-pressed') === 'true') {
+      b.setAttribute('aria-pressed', 'false');
+      activeTag = null;
+    } else {
+      $$('.tag[aria-pressed="true"]').forEach(t => t.setAttribute('aria-pressed','false'));
+      b.setAttribute('aria-pressed', 'true');
+      activeTag = b.dataset.tag || null;
+    }
+    apply();
   });
+
+  // reveal-on-view
+  const io = new IntersectionObserver((entries, obs) => {
+    for (const e of entries) {
+      if (e.isIntersecting) {
+        (e.target as HTMLElement).style.willChange = 'transform, box-shadow';
+        e.target.classList.add('visible');
+        obs.unobserve(e.target);
+      }
+    }
+  }, { threshold: .12 });
+  $$('.post-card').forEach(el => io.observe(el));
 </script>

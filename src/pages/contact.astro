@@ -1,0 +1,51 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+---
+
+<PageLayout title="Contact" description="Reach out for AI, MLOps, or full-stack opportunities.">
+  <section class="page container" aria-labelledby="contact-title">
+    <header class="head">
+      <h1 id="contact-title">Let’s build something great</h1>
+      <p class="sub">Fast response. Clear comms. Shipping mindset.</p>
+    </header>
+
+    <div class="cta">
+      <a class="cta-btn" href="mailto:luzon.thedyson@gmail.com?subject=Interest%20in%20AI%20%2F%20MLOps%20Role">
+        Email Me (Request Resume)
+        <span class="shine" aria-hidden="true"></span>
+      </a>
+      <div class="links">
+        <a href="mailto:luzon.thedyson@gmail.com">Email</a> ·
+        <a href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .page{ padding:2.4rem 1.1rem 3.2rem; text-align:center; }
+    .head h1{ margin:0 0 .4rem; font-size:clamp(2rem,4vw,2.6rem); letter-spacing:.4px; }
+    .head .sub{ margin:0; opacity:.75; }
+
+    .cta{ margin-top:1.6rem; display:flex; flex-direction:column; gap:.9rem; align-items:center; }
+    .cta-btn{
+      position:relative; display:inline-flex; align-items:center; justify-content:center; gap:.5rem;
+      padding:.9rem 1.3rem; border-radius:9999px; font-weight:800; letter-spacing:.4px;
+      background: var(--color-accent); color:#fff; text-decoration:none; border:1px solid var(--color-accent);
+      box-shadow: 0 14px 40px -18px rgba(79,70,229,.75);
+      transform: translateZ(0);
+      transition: transform .15s ease, filter .15s ease, box-shadow .2s ease;
+      overflow:hidden;
+    }
+    .cta-btn:hover{ transform: translateY(-2px); filter: brightness(1.06); }
+    .cta-btn:active{ transform: translateY(0); }
+
+    /* glossy sweep */
+    .shine{ position:absolute; inset:-40% -20%; background: linear-gradient(90deg, rgba(255,255,255,.0), rgba(255,255,255,.25), rgba(255,255,255,0));
+      transform: skewX(-20deg); animation: sweep 3.5s ease-in-out infinite; }
+    @keyframes sweep { 0%{ transform:translateX(-60%) skewX(-20deg);} 100%{ transform:translateX(160%) skewX(-20deg);} }
+
+    .links a{ color:var(--color-accent); text-decoration:none; font-weight:600; }
+    .links a:hover{ text-decoration:underline; }
+  </style>
+</PageLayout>

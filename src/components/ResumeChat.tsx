@@ -1,251 +1,272 @@
 // src/components/ResumeChat.tsx
-import React, { useEffect, useRef, useState } from "react";
-import { answerQuestion, loadResumeIndex, QAResult } from "../lib/resumeIndex";
-import { answerQuestionLLM } from "../lib/aiClient";
+import { useEffect, useRef, useState } from "react";
 
-type Msg = { role: "user" | "bot"; text: string; cites?: QAResult["snippets"] };
+type Msg = { id: string; role: "user" | "assistant"; text: string };
+type SourceLink = { title?: string; url?: string };
+type QAResult = { answer: string; sources?: SourceLink[] };
+
+const ENDPOINT: string | undefined = import.meta.env.PUBLIC_RESUME_AI_ENDPOINT;
+
+function uid() {
+  return Math.random().toString(36).slice(2) + Date.now().toString(36);
+}
 
 export default function ResumeChat() {
   const [open, setOpen] = useState(false);
-  const [ready, setReady] = useState(false);   // local index ready
-  const [busy, setBusy] = useState(false);
-  const [useAI, setUseAI] = useState(true);    // default to AI mode
-  const [status, setStatus] = useState<string>("");
-
-  const [msgs, setMsgs] = useState<Msg[]>([
-    {
-      role: "bot",
-      text:
-        "Hi! I’m your Resume Chat. Ask about skills, projects (e.g., SafeRoomAI), MLOps stack, education, or experience.",
-    },
+  const [messages, setMessages] = useState<Msg[]>([
+    { id: uid(), role: "assistant", text: "Hi! Ask about Thedyson’s projects, stack, or experience." }
   ]);
+  const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const listRef = useRef<HTMLDivElement | null>(null);
+  const inputRef = useRef<HTMLInputElement | null>(null);
 
-  const inputRef = useRef<HTMLInputElement>(null);
-  const endRef = useRef<HTMLDivElement>(null);
+  // Auto-focus input when panel opens
+  useEffect(() => { if (open) setTimeout(() => inputRef.current?.focus(), 80); }, [open]);
 
+  // Keep scrolled to bottom on new messages
   useEffect(() => {
-    // Load local index for fallback/offline
-    loadResumeIndex()
-      .then(() => setReady(true))
-      .catch(() => setReady(false));
+    listRef.current?.scrollTo({ top: listRef.current.scrollHeight, behavior: "smooth" });
+  }, [messages, open]);
+
+  // ESC to close, Cmd/Ctrl+K to toggle
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && open) setOpen(false);
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault(); setOpen(v => !v);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+  useEffect(() => {
+    const open = () => setOpen(true);
+    window.addEventListener('resumechat:open', open);
+    return () => window.removeEventListener('resumechat:open', open);
   }, []);
 
-  useEffect(() => {
-    endRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [msgs, open]);
+  // Command renderers
+  function renderSkills(): string {
+    return [
+      "Here’s a quick snapshot of my core skills:",
+      "",
+      "• AI / ML: Python, PyTorch, TensorFlow, scikit-learn, OpenCV, YOLOv8, autoencoders, data preprocessing & augmentation",
+      "• MLOps: DVC (data/versioning), MLflow (experiments/lineage), BentoML (packaging), FastAPI (serving), Docker, Kubernetes",
+      "• Realtime / CV: multi-stream ingest, RTSP watchdog, adaptive micro-batching, quantization",
+      "• Backend: TypeScript/Node.js, Express, GraphQL APIs",
+      "• Frontend: React + TypeScript, Astro, modern UI patterns",
+      "• Data / DB: MongoDB, PostgreSQL, indexed queries/aggregations",
+      "• Cloud / DevOps: GitHub Actions (CI/CD), NGINX, Azure & AWS basics",
+    ].join("\n");
+  }
 
-  async function onAsk(q: string) {
-    if (!q.trim()) return;
-    setMsgs((s) => [...s, { role: "user", text: q }]);
-    setBusy(true);
-    setStatus("");
-    try {
-      const out = useAI ? await answerQuestionLLM(q) : await answerQuestion(q);
-      setMsgs((s) => [...s, { role: "bot", text: out.answer, cites: out.snippets }]);
-    } catch (e: any) {
-      // Surface the real reason in UI, then try local fallback if possible
-      const errMsg = String(e?.message || e);
-      setStatus(errMsg);
-      try {
-        const out = await answerQuestion(q);
-        setMsgs((s) => [
-          ...s,
-          { role: "bot", text: "AI mode failed. Using local resume search.", cites: out.snippets },
-        ]);
-      } catch {
-        setMsgs((s) => [
-          ...s,
-          { role: "bot", text: "Sorry—couldn’t reach AI and no local resume found. Check console & .env settings." },
-        ]);
-      }
-    } finally {
-      setBusy(false);
+  function renderStack(): string {
+    return [
+      "Stack overview:",
+      "",
+      "• Languages: Python, TypeScript",
+      "• ML: PyTorch, TensorFlow, scikit-learn, OpenCV, YOLOv8",
+      "• Serving: FastAPI, BentoML",
+      "• Experimentation: MLflow (metrics, params, artifacts)",
+      "• Data & Versioning: DVC",
+      "• Infra: Docker, Kubernetes, NGINX",
+      "• Web: React, Astro",
+      "• DB: MongoDB, PostgreSQL",
+      "• CI/CD: GitHub Actions",
+      "• Cloud: Azure + AWS basics",
+    ].join("\n");
+  }
+
+  function renderContact(): string {
+    return [
+      "You can reach me here:",
+      "",
+      "• Email: luzon.thedyson@gmail.com",
+      "• LinkedIn: https://www.linkedin.com/in/thedysonluzon/",
+      "• GitHub:  https://github.com/ThedysonLuzon",
+      "",
+      "Need a resume copy? Email me and I’ll send the latest PDF.",
+    ].join("\n");
+  }
+
+  function isCommand(text: string) {
+    return text.trim().startsWith("/");
+  }
+
+  async function handleCommand(cmd: string) {
+    const c = cmd.trim().toLowerCase();
+    if (c === "/skills") {
+      setMessages(m => [...m, { id: uid(), role: "assistant", text: renderSkills() }]);
+      return true;
     }
+    if (c === "/stack") {
+      setMessages(m => [...m, { id: uid(), role: "assistant", text: renderStack() }]);
+      return true;
+    }
+    if (c === "/contact") {
+      setMessages(m => [...m, { id: uid(), role: "assistant", text: renderContact() }]);
+      return true;
+    }
+    return false;
   }
 
-  function onSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    const v = inputRef.current?.value ?? "";
-    inputRef.current!.value = "";
-    onAsk(v);
+  // Backend call
+  async function askBackend(question: string): Promise<QAResult> {
+    if (!ENDPOINT) {
+      // Demo mode—no backend configured
+      await new Promise(r => setTimeout(r, 600));
+      return {
+        answer:
+          "Demo mode: Set `PUBLIC_RESUME_AI_ENDPOINT` in your `.env` to enable real answers.\n\n" +
+          "For now, here’s a summary:\n• SafeRoomAI: Real-time anomaly detection (YOLO + Autoencoder) with reproducible pipelines.\n" +
+          "• MLOps: DVC + MLflow lineage, BentoML packaging, K8s deploys.\n" +
+          "• Stack: Python, FastAPI, TS/React, Docker/K8s.",
+        sources: [
+          { title: "SafeRoomAI repo", url: "https://github.com/DC-Capstone1W25/SafeRoomAI" },
+          { title: "GitHub", url: "https://github.com/ThedysonLuzon" }
+        ]
+      };
+    }
+    const res = await fetch(ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question, history: messages.slice(-8) })
+    });
+    if (!res.ok) {
+      const txt = await res.text().catch(() => "");
+      throw new Error(`Chat error ${res.status}: ${txt || res.statusText}`);
+    }
+    return (await res.json()) as QAResult;
   }
+
+  // Sending pipeline
+  const onSend = async () => {
+    const q = input.trim();
+    if (!q || loading) return;
+    setInput("");
+    setMessages(m => [...m, { id: uid(), role: "user", text: q }]);
+    setLoading(true);
+
+    try {
+      if (isCommand(q)) {
+        const handled = await handleCommand(q);
+        if (handled) return;
+      }
+
+      const result = await askBackend(q);
+      const src =
+        Array.isArray(result.sources) && result.sources.length
+          ? `\n\nSources: ${result.sources.slice(0, 3).map(s => s.title || s.url).join(" • ")}`
+          : "";
+      setMessages(m => [...m, { id: uid(), role: "assistant", text: (result.answer || "No answer.") + src }]);
+    } catch (e: any) {
+      setMessages(m => [...m, { id: uid(), role: "assistant", text: `Oops—${e?.message || "something went wrong."}` }]);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const onEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      onSend();
+    }
+  };
+
+  // Quick-chip trigger
+  const runChip = async (text: string) => {
+    if (loading) return;
+    setInput("");
+    setMessages(m => [...m, { id: uid(), role: "user", text }]);
+    setLoading(true);
+    try {
+      if (await handleCommand(text)) return;
+      const result = await askBackend(text);
+      const src =
+        Array.isArray(result.sources) && result.sources.length
+          ? `\n\nSources: ${result.sources.slice(0, 3).map(s => s.title || s.url).join(" • ")}`
+          : "";
+      setMessages(m => [...m, { id: uid(), role: "assistant", text: (result.answer || "No answer.") + src }]);
+    } catch (e: any) {
+      setMessages(m => [...m, { id: uid(), role: "assistant", text: `Oops—${e?.message || "something went wrong."}` }]);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <>
-      {/* Floating button */}
+      {/* Floating action button */}
       <button
-        aria-label="Open Resume Chat"
-        onClick={() => setOpen((v) => !v)}
-        style={{
-          position: "fixed",
-          right: "1rem",
-          bottom: "1rem",
-          width: "56px",
-          height: "56px",
-          borderRadius: "9999px",
-          border: "none",
-          boxShadow: "0 8px 24px rgba(0,0,0,.18)",
-          background:
-            "radial-gradient(120% 120% at 80% 10%, #7c3aed, #4f46e5 60%, #0ea5e9)",
-          color: "white",
-          cursor: "pointer",
-          zIndex: 9999,
-        }}
+        className="chat-fab"
+        aria-haspopup="dialog"
+        aria-expanded={open}
+        aria-controls="resume-chat-panel"
+        onClick={() => setOpen(true)}
       >
-        {open ? "×" : "💬"}
+        <span className="fab-core" aria-hidden="true">🤖</span>
+        <span className="fab-label">Chat</span>
       </button>
 
+      {/* Scrim */}
+      <div
+        className={`chat-scrim ${open ? "open" : ""}`}
+        role="presentation"
+        onClick={() => setOpen(false)}
+      />
+
       {/* Panel */}
-      {open && (
-        <div
-          role="dialog"
-          aria-label="Resume Chat"
-          style={{
-            position: "fixed",
-            right: "1rem",
-            bottom: "5rem",
-            width: "min(420px, 92vw)",
-            height: "min(70vh, 640px)",
-            background: "white",
-            color: "#0f172a",
-            borderRadius: "16px",
-            boxShadow: "0 16px 48px rgba(0,0,0,.22)",
-            display: "flex",
-            flexDirection: "column",
-            overflow: "hidden",
-            zIndex: 9999,
-          }}
-        >
-          <header
-            style={{
-              padding: "12px 16px",
-              borderBottom: "1px solid #e5e7eb",
-              background:
-                "linear-gradient(180deg, rgba(79,70,229,.08), rgba(14,165,233,.04))",
-            }}
-          >
-            <strong>Resume Chat</strong>
-            <span style={{ marginLeft: 8, fontSize: 12, opacity: 0.8 }}>
-              {useAI ? "AI mode" : ready ? "Local mode" : "Loading resume…"}
-            </span>
-            <button
-              onClick={() => setUseAI((v) => !v)}
-              style={{
-                float: "right",
-                border: "1px solid #e5e7eb",
-                borderRadius: 8,
-                padding: "6px 8px",
-                background: useAI ? "#eef2ff" : "#f1f5f9",
-                cursor: "pointer",
-                marginLeft: 8,
-              }}
-              title="Toggle AI (LLM) mode"
-            >
-              {useAI ? "✨ AI On" : "AI Off"}
-            </button>
-            {status && (
-              <div style={{ marginTop: 6, fontSize: 11, color: "#b91c1c" }}>
-                {status}
-              </div>
-            )}
-          </header>
+      <section
+        id="resume-chat-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Resume Chat"
+        className={`chat-panel ${open ? "open" : ""}`}
+      >
+        <header className="chat-header">
+          <div className="chat-title">
+            <span className="dot" /> Ask my Resume
+          </div>
+          <div className="chat-actions">
+            <button className="hd-btn" onClick={() => setOpen(false)} aria-label="Close">✕</button>
+          </div>
+        </header>
 
-          <main style={{ padding: "12px 16px", overflowY: "auto", flex: 1 }}>
-            {msgs.map((m, i) => (
-              <div key={i} style={{ margin: "8px 0", display: "flex", gap: 8, alignItems: "flex-start" }}>
-                <div
-                  style={{
-                    width: 28,
-                    height: 28,
-                    borderRadius: "9999px",
-                    background: m.role === "bot" ? "#4f46e5" : "#0ea5e9",
-                    color: "white",
-                    fontSize: 16,
-                    display: "grid",
-                    placeItems: "center",
-                    marginTop: 2,
-                    flexShrink: 0,
-                  }}
-                >
-                  {m.role === "bot" ? "🤖" : "🧑‍💻"}
-                </div>
-                <div style={{ lineHeight: 1.5, whiteSpace: "pre-wrap" }}>
-                  {m.text}
-                  {m.cites && m.cites.length > 0 && (
-                    <div style={{ marginTop: 6, display: "grid", gap: 6 }}>
-                      {m.cites.map((c, j) => (
-                        <div
-                          key={j}
-                          style={{
-                            padding: "8px 10px",
-                            border: "1px solid #e5e7eb",
-                            borderRadius: 8,
-                            fontSize: 12,
-                            background: "#f9fafb",
-                          }}
-                          title={c.section}
-                        >
-                          <div
-                            style={{
-                              fontSize: 11,
-                              fontWeight: 600,
-                              opacity: 0.8,
-                              marginBottom: 4,
-                            }}
-                          >
-                            {c.section}
-                          </div>
-                          {c.text}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
+        <div className="chat-body" ref={listRef}>
+          {messages.map(m => (
+            <div key={m.id} className={`msg ${m.role}`}>
+              <div className="bubble">{m.text}</div>
+            </div>
+          ))}
+          {loading && (
+            <div className="msg assistant">
+              <div className="bubble typing">
+                <span className="tick"></span><span className="tick"></span><span className="tick"></span>
               </div>
-            ))}
-            {busy && <div style={{ opacity: 0.7, fontSize: 13, marginTop: 8 }}>Thinking…</div>}
-            <div ref={endRef} />
-          </main>
-
-          <form onSubmit={onSubmit} style={{ borderTop: "1px solid #e5e7eb", padding: 12, display: "flex", gap: 8 }}>
-            <input
-              ref={inputRef}
-              type="text"
-              placeholder="Ask about my skills, projects, tools…"
-              disabled={busy || (!useAI && !ready)} // AI mode works even if local index not ready
-              style={{
-                flex: 1,
-                border: "1px solid #e5e7eb",
-                borderRadius: 10,
-                padding: "10px 12px",
-                outline: "none",
-              }}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
-                  (e.currentTarget.form as HTMLFormElement)?.requestSubmit();
-                }
-              }}
-            />
-            <button
-              type="submit"
-              disabled={busy || (!useAI && !ready)}
-              style={{
-                border: "none",
-                borderRadius: 10,
-                padding: "10px 14px",
-                background:
-                  (!useAI && !ready) || busy
-                    ? "#94a3b8"
-                    : "linear-gradient(90deg, #4f46e5, #0ea5e9)",
-                color: "white",
-                cursor: (!useAI && !ready) || busy ? "not-allowed" : "pointer",
-              }}
-            >
-              Send
-            </button>
-          </form>
+            </div>
+          )}
         </div>
-      )}
+
+        {/* Quick chips */}
+        <div className="chat-chips" role="list" aria-label="Quick commands">
+          <button role="listitem" className="chip" onClick={() => runChip("/skills")}>/skills</button>
+          <button role="listitem" className="chip" onClick={() => runChip("/stack")}>/stack</button>
+          <button role="listitem" className="chip" onClick={() => runChip("/contact")}>/contact</button>
+        </div>
+
+        <footer className="chat-input">
+          <input
+            ref={inputRef}
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            onKeyDown={onEnter}
+            placeholder="Type a message… try /skills, /stack, /contact"
+            aria-label="Message"
+          />
+          <button className="send" onClick={onSend} disabled={loading}>Send</button>
+        </footer>
+      </section>
     </>
   );
 }

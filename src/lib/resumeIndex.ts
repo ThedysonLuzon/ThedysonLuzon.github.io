@@ -3,8 +3,8 @@ import MiniSearch from "minisearch";
 
 type Doc = {
   id: number;
-  section: string; // e.g., "Experience > SafeRoomAI"
-  text: string;    // chunk content
+  section: string;
+  text: string;   
 };
 
 let index: MiniSearch<Doc> | null = null;

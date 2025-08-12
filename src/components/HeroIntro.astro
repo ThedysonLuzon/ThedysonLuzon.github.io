@@ -1,90 +1,246 @@
 ---
 /**
- * HeroIntro.astro
+ * HeroIntro.astro 
+ * - CSS glam: gradient text, shine sweep, aurora blobs, twinkle glints
+ * - Animated gradient borders for CTAs
+ * - "Hire Me" pulse ring on click
+ * - Chat CTA dispatches a global 'resumechat:open' event
  */
 ---
-
 <section class="hero-intro" aria-labelledby="hero-name">
+  <!-- background accents -->
+  <div class="accents" aria-hidden="true">
+    <span class="ribbon r1"></span>
+    <span class="ribbon r2"></span>
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="glints"></span>
+  </div>
+
   <header class="hero-head">
-    <h1 id="hero-name">Thedyson Eduard Luzon</h1>
+    <h1 id="hero-name" class="hero-name">
+      <span class="txt">Thedyson&nbsp;Eduard&nbsp;Luzon</span>
+      <span class="shine" aria-hidden="true"></span>
+    </h1>
+
     <p class="tagline">
       <strong><span id="typewriter"></span></strong><br />
-      Real-Time Computer Vision • Reproducible ML Pipelines • Scalable Cloud Platforms<br />
+      Real-Time Computer Vision • Reproducible ML Pipelines • Cloud-Native Platforms<br />
       <em>Seeking Fall 2025 AI / MLOps / Full-Stack Internship (Co-op)</em>
     </p>
-    <nav class="primary-cta" aria-label="Primary calls to action">
-      <a class="btn primary" href="#contact">Hire Me</a>
-      <a class="btn" href="mailto:luzon.thedyson@gmail.com">Email</a>
-      <a class="btn" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">GitHub</a>
+
+    <nav class="cta-row" aria-label="Primary actions">
+      <a class="cta primary hire" id="hire-cta" href="/#contact" data-cta="hire">Hire Me</a>
+      <a class="cta outline" href="/about" data-cta="about">More About Me</a>
+      <button class="cta ghost chat" type="button" id="open-chat" data-cta="chat">
+        Let's Chat!
+      </button>
     </nav>
   </header>
+
+  <div class="hairline" aria-hidden="true"></div>
 </section>
+
 <script client:load>
-  const text = "AI & MLOps Engineer · Full-Stack (MERN + GraphQL)";
-  let i = 0;
-  const el = document.getElementById('typewriter');
-  function type() {
-    if (i < text.length) {
-      el.textContent += text.charAt(i++);
-      setTimeout(type, 80);
+  // Typewriter (loops; reduced-motion aware)
+  const phrases = [
+    "AI & MLOps Engineer",
+    "Full-Stack (MERN + GraphQL)",
+    "Real-time CV • Edge Inference"
+  ];
+  const el = document.getElementById("typewriter");
+  if (el) {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      el.textContent = phrases[0];
+    } else {
+      let i = 0, j = 0, erasing = false;
+      const tick = () => {
+        const s = phrases[i];
+        if (!erasing) {
+          el.textContent = s.slice(0, j++);
+          if (j <= s.length) return setTimeout(tick, 44);
+          erasing = true; return setTimeout(tick, 1100);
+        } else {
+          el.textContent = s.slice(0, j--);
+          if (j >= 0) return setTimeout(tick, 28);
+          erasing = false; i = (i + 1) % phrases.length;
+          return setTimeout(tick, 220);
+        }
+      };
+      tick();
     }
   }
-  type();
+
+  // Open chatbot (dispatch custom event)
+  const chatBtn = document.getElementById("open-chat");
+  chatBtn?.addEventListener("click", () => {
+    window.dispatchEvent(new CustomEvent("resumechat:open"));
+  });
+
+  // Pulse ring on Hire Me
+  const hireBtn = document.getElementById("hire-cta");
+  hireBtn?.addEventListener("click", () => {
+    hireBtn.classList.remove("burst");
+    // allow reflow to retrigger animation
+    void hireBtn.offsetWidth;
+    hireBtn.classList.add("burst");
+  });
+
+  // Subtle parallax (reduced-motion safe)
+  const hero = document.querySelector(".hero-intro");
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (hero && !reduced) {
+    hero.addEventListener("pointermove", (e) => {
+      const r = hero.getBoundingClientRect();
+      const dx = (e.clientX - (r.left + r.width/2)) / r.width;
+      const dy = (e.clientY - (r.top + r.height/2)) / r.height;
+      hero.style.setProperty("--parx", (dx * 10).toFixed(2) + "px");
+      hero.style.setProperty("--pary", (dy * 10).toFixed(2) + "px");
+    });
+    hero.addEventListener("pointerleave", () => {
+      hero.style.removeProperty("--parx");
+      hero.style.removeProperty("--pary");
+    });
+  }
 </script>
 
 <style>
-.hero-intro {
-  max-width: 1120px;
-  margin: 0 auto 2rem;
-  padding: 2.5rem 1.2rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+:global(.hero-vibrant){ position:relative; }
+.hero-intro{
+  position:relative; z-index:1; isolation:isolate;
+  max-width:1120px; margin:0 auto 2rem; padding:3.4rem 1.2rem 0;
+  text-align:center;
+  opacity:0; transform: translateY(22px) scale(.98);
+  animation: heroIn .72s cubic-bezier(.2,.8,.2,1) forwards .08s;
+  will-change: transform, opacity;
+}
+@keyframes heroIn { to { opacity:1; transform: none; } }
+
+/* Name: gradient shimmer + soft glow + shine sweep */
+.hero-name{
+  position:relative; display:inline-block; margin:0 0 .9rem;
+  font-size:clamp(2.8rem, 6.2vw, 4rem); line-height:1.06; letter-spacing:.65px;
+  text-shadow: 0 10px 28px rgba(0,0,0,.30);
+}
+.hero-name .txt{
+  --grad: linear-gradient(92deg, #93c5fd 0%, #a78bfa 33%, #34d399 66%, #93c5fd 100%);
+  background: var(--grad); background-size:220% 100%;
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  animation: hueSlide 12s ease-in-out infinite;
+  filter: saturate(1.08);
+}
+@keyframes hueSlide { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+
+.shine{
+  position:absolute; inset:0; border-radius:12px; pointer-events:none; mix-blend-mode:screen;
+  --shine: linear-gradient(115deg, transparent 0%, rgba(255,255,255,.28) 14%, transparent 30%);
+  -webkit-mask-image: var(--shine); mask-image: var(--shine);
+  animation: sweep 3.6s ease-in-out infinite;
+  transform: translate(var(--parx,0), var(--pary,0));
+}
+@keyframes sweep { 0%{transform: translate(-30%,0)} 100%{transform: translate(130%,0)} }
+
+/* tagline */
+.tagline{ margin: .1rem 0 1.15rem; line-height:1.5; font-size:1rem; opacity:.98; }
+
+/* CTAs */
+.cta-row{ display:flex; gap:.7rem; flex-wrap:wrap; justify-content:center; margin:.95rem 0 1.15rem; }
+.cta{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:.76rem 1.22rem; border-radius:9999px; font-size:.92rem;
+  font-weight:800; letter-spacing:.38px; text-decoration:none; cursor:pointer;
+  border:1px solid var(--color-border); background:var(--color-bg-alt); color:var(--color-text);
+  transition: transform .16s ease, filter .16s ease, border-color .16s ease, background .16s ease, color .16s ease, box-shadow .16s ease;
+  will-change: transform;
+}
+.cta:hover, .cta:focus-visible{
+  transform: translateY(-1px);
+  border-color: var(--color-accent); color: var(--color-accent); outline:none;
 }
 
-.hero-head h1 {
-  margin: 0 0 0.75rem;
-  font-size: clamp(2.3rem, 4.8vw, 3.3rem);
-  letter-spacing: 0.6px;
+/* Primary: solid + glow + shine-on-hover */
+.cta.primary{
+  position:relative; overflow:hidden;
+  background: var(--color-accent); border-color: var(--color-accent); color:#fff;
+  box-shadow: 0 18px 40px -18px rgba(var(--color-accent-rgb,79,70,229), .66);
 }
-
-.tagline {
-  margin: 0 0 1.3rem;
-  line-height: 1.45;
-  font-size: 1rem;
-  /* always center */
-  text-align: center;
+.cta.primary::after{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,.25) 16%, transparent 28%);
+  transform: translateX(-120%); transition: transform .6s ease;
 }
+.cta.primary:hover::after{ transform: translateX(120%); }
 
-.primary-cta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  justify-content: center;
-  margin: 0 0 1.2rem;
+/* Pulse ring when clicked */
+.cta.primary.hire.burst::before{
+  content:""; position:absolute; inset:-6px; border-radius:9999px; pointer-events:none;
+  background: radial-gradient(closest-side, rgba(255,255,255,.26), transparent 70%);
+  animation: ring .7s ease-out 1;
 }
+@keyframes ring { from { opacity:.8; transform:scale(.95)} to {opacity:0; transform:scale(1.25)} }
 
-.btn {
-  padding: 0.65rem 1.15rem;
-  border: 1px solid var(--color-border, #2a2f35);
-  background: var(--color-bg-alt, #141b23);
-  color: var(--color-text, #e6e6e6);
-  font-size: 0.85rem;
-  text-decoration: none;
-  border-radius: 38px;
-  font-weight: 500;
-  transition: background .18s, filter .18s, border-color .18s;
+/* Outline: animated gradient border */
+.cta.outline{
+  border:1px solid transparent;
+  background:
+    linear-gradient(var(--color-bg-alt), var(--color-bg-alt)) padding-box,
+    linear-gradient(90deg, #60a5fa, #a78bfa, #34d399, #60a5fa) border-box;
+  background-size: 100% 100%, 200% 100%;
+  animation: borderFlow 7s linear infinite;
 }
+@keyframes borderFlow { 0%{background-position:0% 50%, 0% 50%} 100%{background-position:0% 50%, 200% 50%} }
 
-.btn.primary {
-  background: var(--color-accent, #4f46e5);
-  border-color: var(--color-accent, #4f46e5);
-  color: #fff;
+/* Ghost: dashed + hover tint */
+.cta.ghost{ background:transparent; border:1px dashed var(--color-border); }
+
+/* Animated rainbow hairline */
+.hairline{
+  height:2px; max-width:980px; margin:1.15rem auto 0; border-radius:999px;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #34d399, #60a5fa);
+  background-size:200% 100%; animation: hairlineMove 6s linear infinite;
 }
+@keyframes hairlineMove { 0%{background-position:0% 50%} 100%{background-position:200% 50%} }
 
-.btn:hover {
-  filter: brightness(1.1);
+/* Background accents: ribbons + blobs + glints */
+.accents{ position:absolute; inset:-16% -8% -10%; z-index:-1; pointer-events:none; }
+.ribbon{
+  position:absolute; inset:auto; width:90vmax; height:36vmax; left:50%; transform:translateX(-50%);
+  opacity:.22; filter: blur(40px) saturate(1.06);
+  background: conic-gradient(from 0deg at 50% 50%, rgba(99,102,241,.50), rgba(16,185,129,.28), rgba(14,165,233,.36), rgba(99,102,241,.50));
+  animation: ribbonSpin 36s linear infinite;
+}
+.ribbon.r1{ top:-20%; }
+.ribbon.r2{ bottom:-26%; animation-duration: 48s; opacity:.18; transform: translateX(-50%) rotate(8deg); }
+@keyframes ribbonSpin { to{ transform: translateX(-50%) rotate(360deg) } }
+
+.blob{
+  position:absolute; border-radius:9999px; filter: blur(48px);
+  background: radial-gradient(closest-side, rgba(var(--color-accent-rgb,79,70,229), .38), transparent 65%);
+  animation: float 9s ease-in-out infinite alternate;
+}
+.b1{ width:56vmax; height:38vmax; top:-14%; left:-12%; transform: rotate(-6deg); opacity:.5; }
+.b2{ width:62vmax; height:40vmax; bottom:-24%; right:-10%; transform: rotate(10deg); opacity:.35; animation-duration: 11s; }
+@keyframes float { from{ transform: translateY(0) } to{ transform: translateY(-8px) } }
+
+.glints{
+  position:absolute; inset:0; opacity:.42; filter: saturate(1.05);
+  background:
+    radial-gradient(5px 5px at 20% 30%, rgba(255,255,255,.16), transparent 60%),
+    radial-gradient(4px 4px at 76% 62%, rgba(255,255,255,.14), transparent 60%),
+    radial-gradient(3px 3px at 42% 78%, rgba(255,255,255,.12), transparent 60%),
+    radial-gradient(4px 4px at 88% 24%, rgba(255,255,255,.15), transparent 60%);
+  animation: twinkle 5.4s ease-in-out infinite alternate;
+  transform: translate(var(--parx,0), var(--pary,0));
+}
+@keyframes twinkle { from{ opacity:.32 } to{ opacity:.56 } }
+
+/* Smooth anchor landing for in-page links */
+:global(section[id]){ scroll-margin-top: 88px; }
+:global(html){ scroll-behavior:smooth; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce){
+  .txt, .shine, .hairline, .ribbon, .blob, .glints,
+  .cta.primary::after, .cta.outline { animation:none !important; }
 }
 </style>

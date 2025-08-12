@@ -8,6 +8,12 @@ import Header from "../components/Header.astro";
 import "../styles/theme.css";
 import { getCollection } from "astro:content";
 import ResumeChat from "../components/ResumeChat";
+import MagneticCTA from "../components/MagneticCTA.tsx";
+import CoreStackMarquee from "../components/CoreStackMarquee.astro";
+import VibrantBackdrop from "../components/lightswind/VibrantBackdrop.tsx";
+import MissionEducation from "../components/MissionEducation.astro";
+import BlogTeaser from "../components/BlogTeaser.astro";
+import ContactShowcase from "../components/ContactShowcase.astro";
 
 const projects = [
   {
@@ -38,12 +44,9 @@ const projects = [
   },
 ];
 
-const posts = await getCollection("blog");
-posts.sort(
-  (a, b) =>
-    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
-);
-const latest = posts[0];
+const posts = (await getCollection("blog"))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 <html lang="en">
   <head>
@@ -76,6 +79,7 @@ const latest = posts[0];
           stored || (prefersLight ? "light" : "dark");
       })();
     </script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js" defer></script>
   </head>
   <body>
     <div id="progress-bar"></div>
@@ -84,38 +88,17 @@ const latest = posts[0];
 
     <Header />
     <main id="main" class="main-container">
-      <section 
-          class="reveal" 
-          data-scroll-section 
-          data-scroll-speed="1.2"      
-        >
-      <HeroIntro />
-      </section>
-      <section id="value-mission" class="profile-sections reveal" data-scroll-section 
-          data-scroll-speed="0.4">
-        <div class="profile-block" aria-labelledby="mission-title">
-          <h2 id="mission-title">Mission</h2>
-          <p>
-            Build trustworthy, observable AI & full-stack platforms—from
-            ingestion & continual training to container/K8s deployment and user
-            dashboards—optimizing for repeatable delivery, low operational
-            overhead, and business-aligned outcomes.
-          </p>
-        </div>
+<section
+  class="reveal hero-vibrant"
+  data-scroll-section
+  data-scroll-speed="1.2"
+>
+  <VibrantBackdrop client:load />
+  <HeroIntro />
+</section>
 
-        <div class="profile-block reveal" aria-labelledby="edu-title">
-          <h2 id="edu-title">Education</h2>
-          <ul class="edu-list">
-            <li><strong>Software Engineering Technology</strong> — Completed</li>
-            <li>
-              <strong>AI Design, Analysis & Implementation (Co-op)</strong> —
-              In Progress<br />
-              Capstone: <em>SafeRoomAI</em> (multi-stream anomaly detection +
-              full MLOps lifecycle)
-            </li>
-          </ul>
-        </div>
-      </section>
+  <MissionEducation />
+
 
       <section 
           id="core-stack" 
@@ -123,6 +106,8 @@ const latest = posts[0];
           data-scroll-section 
           data-scroll-speed="0.6"
         >
+      <CoreStackMarquee />
+      <div style="height:.6rem"></div>
       <CoreStack />
       </section>
 
@@ -139,56 +124,13 @@ const latest = posts[0];
         </div>
       </section>
 
-      <GitHubShowcase class="reveal"/>
+     <!--  <GitHubShowcase class="reveal"/> -->
 
-      <section id="blog" class="section reveal" data-scroll-section 
-          data-scroll-speed="0.5">
-        <h2>Latest Article</h2>
-        <p class="lead">
-          <a href={`/blog/${latest.id}`} class="post-link">
-            {latest.data.title} →
-          </a>
-        </p>
-      </section>
+      <BlogTeaser posts={posts} />
 
-      <section id="contact" class="section reveal" data-scroll-section 
-          data-scroll-speed="0.3">
-        <h2>Contact</h2>
-        <p>
-          If you're exploring candidates for AI, MLOps or full-stack roles, I’d
-          be happy to discuss how I can help your team ship reliable ML
-          products.
-        </p>
-        <p>
-          <a
-            class="btn primary"
-            href="mailto:luzon.thedyson@gmail.com?subject=Interest%20in%20AI%20%2F%20MLOps%20Role"
-          >
-            Email Me (Request Resume)
-          </a>
-        </p>
-        <p class="contact-links">
-          <a href="mailto:luzon.thedyson@gmail.com">Email</a>
-          <span aria-hidden="true">·</span>
-          <a
-            href="https://www.linkedin.com/in/thedysonluzon/"
-            target="_blank"
-            rel="noopener"
-            >LinkedIn</a
-          >
-          <span aria-hidden="true">·</span>
-          <a
-            href="https://github.com/ThedysonLuzon"
-            target="_blank"
-            rel="noopener"
-            >GitHub</a
-          >
-        </p>
-        <p class="resume-note">
-          * Full resume supplied on request to protect distribution.
-        </p>
-      </section>
-          <ResumeChat client:load />
+      <ContactShowcase />
+
+      <ResumeChat client:load />
     </main>
 
     <Footer />
@@ -230,6 +172,34 @@ const latest = posts[0];
       bar.style.transform = `scaleX(${pct})`;
     });
   </script>
+<script type="module">
+  // graceful exit for reduced motion
+  const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!prefersReduced) {
+    const clamp = (n, min, max) => Math.min(Math.max(n, min), max);
+    const applyTilt = (el, e) => {
+      const r = el.getBoundingClientRect();
+      const cx = r.left + r.width / 2;
+      const cy = r.top + r.height / 2;
+      const dx = (e.clientX - cx) / (r.width / 2);
+      const dy = (e.clientY - cy) / (r.height / 2);
+      const rx = clamp(-dy * 8, -8, 8);
+      const ry = clamp(dx * 10, -10, 10);
+      el.style.transform = `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(8px)`;
+      el.style.boxShadow = `0 12px 28px -10px rgba(0,0,0,.45)`;
+    };
+    const resetTilt = el => {
+      el.style.transform = "perspective(900px) rotateX(0) rotateY(0) translateZ(0)";
+      el.style.boxShadow = "";
+    };
+
+    const els = Array.from(document.querySelectorAll(".tilt-card"));
+    els.forEach(el => {
+      el.addEventListener("pointermove", e => applyTilt(el, e));
+      el.addEventListener("pointerleave", () => resetTilt(el));
+    });
+  }
+</script>
 
   </body>
 </html>

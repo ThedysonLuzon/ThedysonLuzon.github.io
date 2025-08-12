@@ -4,95 +4,132 @@ title: "About Me"
 description: "AI/MLOps engineer & full-stack dev focused on reproducible ML and pragmatic DX."
 ---
 
+import '../styles/about.css';
 import headshot from '../assets/circleportrait_transparent.png';
 import JsonLd from '../components/JsonLd.astro';
+import AvatarParallax from '../components/AvatarParallax.astro';
 
-<div class="avatar-container">
-  <img
-    src={headshot.src}
-    alt="Thedyson Eduard Luzon"
-    width="220"
-    height="220"
-    class="headshot"
-  />
-</div>
+<section className="about-spotlight reveal" aria-labelledby="about-title">
+  <div className="as-accents" aria-hidden="true">
+    <span className="beam a"></span>
+    <span className="beam b"></span>
+    <span className="bokeh"></span>
+  </div>
 
-<div class="about">
+  <div className="as-card">
+    <div className="avatar-wrap">
+      <img
+        src={headshot.src}
+        alt="Thedyson Eduard Luzon"
+        width="220"
+        height="220"
+        className="headshot"
+        id="about-avatar"
+      />
+      <span className="avatar-glow" aria-hidden="true"></span>
+    </div>
 
-## Hey, I'm **Thedyson Eduard Luzon** 👋
+    <div className="as-meta">
+      <h1 id="about-title" className="grad-name">Hey, I'm Thedyson Eduard Luzon 👋</h1>
+      <p className="tagline">
+        <strong>AI &amp; MLOps Engineer</strong> and <strong>Full-Stack Developer</strong> who turns noisy ideas into
+        <em> traceable, testable, deployable </em> ML systems—and ships frontends people actually want to use.
+      </p>
 
-I’m an **AI & MLOps Engineer** and **Full-Stack (MERN + GraphQL) Developer** who turns noisy ideas into **traceable, testable, production ML systems**—and ships frontends people actually want to use.
+      <div className="quick-chips" role="navigation" aria-label="Quick links">
+        <a className="chip" href="/#core-stack"><span>Skills</span> →</a>
+        <a className="chip" href="/#core-stack"><span>Tech Stack</span> →</a>
+        <a className="chip primary" href="/#contact"><span>Contact</span> →</a>
+      </div>
+    </div>
+  </div>
 
-**Now:** Building **SafeRoomAI** (real-time CV & behavioral intelligence) and looking for a **Fall 2025 internship** in AI/MLOps or full-stack engineering.
+  <div className="hairline" aria-hidden="true"></div>
+</section>
 
----
+<section className="about body">
+  <div className="about-grid">
+    <article className="card">
+      <h3>What I’m strong at</h3>
+      <ul>
+        <li><strong>End-to-end MLOps:</strong> DVC, MLflow, CI/CD model gates, FastAPI/BentoML, Kubernetes</li>
+        <li><strong>Full-stack builds:</strong> React/Astro frontends, FastAPI/Node backends, GraphQL &amp; REST APIs</li>
+        <li><strong>Infra &amp; DevEx:</strong> Docker/K8s, AWS S3/IAM, GitHub Actions, documentation &amp; tooling</li>
+      </ul>
+    </article>
 
-### What I’m strong at
-- **End-to-end MLOps:** DVC, MLflow, CI/CD model gates, containerized inference (FastAPI/BentoML), K8s  
-- **Full-stack builds:** React/Astro frontends, FastAPI/Node backends, GraphQL & REST APIs  
-- **Infra & DevEx:** Docker/Kubernetes, AWS S3/IAM, GitHub Actions, docs & tooling for fast onboarding
+    <article className="card">
+      <h3>Currently exploring</h3>
+      <ul>
+        <li>Agentic flows &amp; LangGraph patterns</li>
+        <li>Cost-aware GPU scheduling &amp; serving optimization</li>
+        <li>RAG eval &amp; lineage visualization for non-ML stakeholders</li>
+      </ul>
+    </article>
 
-### Currently exploring
-- LangGraph / agent orchestration patterns  
-- Cost-aware GPU scheduling & serving optimization  
-- Better RAG eval & lineage visualization for non-ML folks
+    <article className="card">
+      <h3>Recent wins</h3>
+      <ul>
+        <li>Deployed a CV pipeline with <strong>offline video fallback</strong> when live cams drop</li>
+        <li>Wired <strong>automated eval &amp; rollout gates</strong> right into CI</li>
+        <li>Rescued a legacy React repo and restored a <strong>smooth DX</strong></li>
+      </ul>
+    </article>
 
----
+    <article className="card">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>AI Design, Analysis &amp; Implementation (Co-op)</strong> — finishing</li>
+        <li><strong>Software Engineering Technology</strong> — completed</li>
+      </ul>
+    </article>
+  </div>
 
-### Recent wins
-- Deployed a CV pipeline with **offline video fallback** (no live cam? still runs)  
-- Wired **automated eval & rollout gates** straight into CI  
-- Rescued a legacy React repo (broken scripts, missing deps) and restored a smooth DX
+  <aside className="now">
+    <p><strong>Now:</strong> Building <em>SafeRoomAI</em> (real-time CV &amp; behavioral intelligence) and looking for a <strong>Fall 2025 internship</strong> in AI/MLOps or full-stack engineering.</p>
+  </aside>
 
----
+  <h3>Let’s talk</h3>
+  <div className="link-grid">
+    <a className="link-chip email" href="mailto:luzon.thedyson@gmail.com">
+      <svg className="link-icon stroke" viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="5" width="18" height="14" rx="2" ry="2" />
+        <polyline points="3 7 12 13 21 7" />
+      </svg>
+      <span>Email</span><span className="arrow">→</span>
+    </a>
 
-### Education
-- **AI Design, Analysis & Implementation (Co-op)** — finishing  
-- **Software Engineering Technology** — completed
+    <a className="link-chip linkedin" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">
+      <svg className="link-icon fill" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.447-2.136 2.94v5.666H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.368-1.85 3.601 0 4.266 2.37 4.266 5.455v6.286zM5.337 7.433a2.062 2.062 0 11-.004-4.124 2.062 2.062 0 01.004 4.124zM6.79 20.452H3.883V9h2.908v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+      </svg>
+      <span>LinkedIn</span><span className="arrow">→</span>
+    </a>
 
----
+    <a className="link-chip github" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">
+      <svg className="link-icon fill" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 .5C5.73.5.5 5.73.5 12.02c0 5.1 3.29 9.42 7.86 10.95.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.35-1.3-1.71-1.3-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.74 1.27 3.41.97.11-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.21-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.68 5.41-5.24 5.69.42.36.79 1.07.79 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.68.8.56 4.56-1.53 7.85-5.85 7.85-10.95C23.5 5.73 18.27.5 12 .5Z"/>
+      </svg>
+      <span>GitHub</span><span className="arrow">→</span>
+    </a>
+  </div>
 
-### Let’s talk
-
-<div class="link-grid">
-  <a class="link-chip email" href="mailto:luzon.thedyson@gmail.com">
-    <svg class="link-icon stroke" viewBox="0 0 24 24" aria-hidden="true">
-      <rect x="3" y="5" width="18" height="14" rx="2" ry="2" />
-      <polyline points="3 7 12 13 21 7" />
-    </svg>
-    <span>Email</span><span class="arrow">→</span>
-  </a>
-
-  <a class="link-chip linkedin" href="https://www.linkedin.com/in/thedysonluzon/" target="_blank" rel="noopener">
-    <svg class="link-icon fill" viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.447-2.136 2.94v5.666H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.368-1.85 3.601 0 4.266 2.37 4.266 5.455v6.286zM5.337 7.433a2.062 2.062 0 11-.004-4.124 2.062 2.062 0 01.004 4.124zM6.79 20.452H3.883V9h2.908v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.226.792 24 1.771 24h20.451C23.2 24 24 23.226 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
-    </svg>
-    <span>LinkedIn</span><span class="arrow">→</span>
-  </a>
-
-  <a class="link-chip github" href="https://github.com/ThedysonLuzon" target="_blank" rel="noopener">
-    <svg class="link-icon fill" viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 .5C5.73.5.5 5.73.5 12.02c0 5.1 3.29 9.42 7.86 10.95.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.35-1.3-1.71-1.3-1.71-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.74 1.27 3.41.97.11-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.21-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.43-2.68 5.41-5.24 5.69.42.36.79 1.07.79 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.68.8.56 4.56-1.53 7.85-5.85 7.85-10.95C23.5 5.73 18.27.5 12 .5Z"/>
-    </svg>
-    <span>GitHub</span><span class="arrow">→</span>
-  </a>
-</div>
-
-If you’re building something ambitious (or just need a clean CI pipeline), I’m in.
-
-</div>
+  <p className="about-footnote"><em>If you’re building something ambitious (or just need a clean CI pipeline), I’m in.</em></p>
+</section>
 
 <JsonLd
   data={{
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Thedyson Eduard Luzon",
-    email: "mailto:luzon.thedyson@gmail.com",
-    url: "https://thedysonluzon.github.io",
-    sameAs: [
+    "name": "Thedyson Eduard Luzon",
+    "email": "mailto:luzon.thedyson@gmail.com",
+    "url": "https://thedysonluzon.github.io",
+    "sameAs": [
       "https://github.com/ThedysonLuzon",
-      "https://www.linkedin.com/in/thedysonluzon/",
+      "https://www.linkedin.com/in/thedysonluzon/"
     ],
-    jobTitle: "AI & MLOps Engineer",
+    "jobTitle": "AI & MLOps Engineer"
   }}
 />
+
+<AvatarParallax />

@@ -1,6 +1,6 @@
 # Thedyson Eduard Luzon
 
-**Toronto, ON · 647-982-3796 · thedysoneduard.luzon@dcmail.ca · [LinkedIn](https://www.linkedin.com/in/thedysonluzon) · [GitHub](https://github.com/ThedysonLuzon) · [Portfolio](https://thedysonluzon.github.io)**
+**Toronto, ON · 647-982-3796 · luzon.thedyson@gmail.com · [LinkedIn](https://www.linkedin.com/in/thedysonluzon) · [GitHub](https://github.com/ThedysonLuzon) · [Portfolio](https://thedysonluzon.github.io)**
 
 ## Target Role
 **AI/MLOps & Full-Stack Engineering Intern — Fall 2025**

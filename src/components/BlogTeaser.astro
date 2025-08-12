@@ -1,0 +1,205 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+
+type PostEntry = CollectionEntry<"blog">;
+const { posts = [] as PostEntry[] } = Astro.props;
+
+// Filter drafts (if any) and sort newest → oldest (safety if caller didn’t)
+const visible = posts
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const featured = visible[0];
+const rest = visible.slice(1, 3); // next two
+---
+
+<section id="blog" class="blog-teaser reveal" aria-labelledby="blog-heading">
+  <!-- lightswind conic glow -->
+  <div class="bt-accents" aria-hidden="true">
+    <span class="beam a"></span>
+    <span class="beam b"></span>
+  </div>
+
+  <header class="bt-head">
+    <h2 id="blog-heading">From the Blog</h2>
+    <p class="sub">Real-time CV, reproducible ML, cloud-native builds—fresh posts, no fluff.</p>
+    <div class="hairline" aria-hidden="true"></div>
+  </header>
+
+  {featured ? (
+    <div class="bt-grid">
+      <!-- Featured -->
+      <a class="featured card" href={`/blog/${featured.id}/`}>
+        <div class="media">
+          {featured.data.heroImage && (
+            <Image
+              src={featured.data.heroImage}
+              width={1100}
+              height={550}
+              alt={featured.data.title}
+              loading="eager"
+              decoding="async"
+            />
+          )}
+        </div>
+        <div class="meta">
+          <time datetime={featured.data.pubDate.toISOString()}>
+            {featured.data.pubDate.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}
+          </time>
+          {featured.data.tags?.slice(0, 2).map((t) => <span class="pill">{t}</span>)}
+        </div>
+        <h3 class="title">{featured.data.title}</h3>
+        {(featured.data.description || featured.data.excerpt) && (
+          <p class="excerpt">{featured.data.description || featured.data.excerpt}</p>
+        )}
+        <span class="cta">Read Article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </a>
+
+      <!-- Two recent -->
+      <ul class="side-list" style="list-style:none; margin:0; padding:0;">
+        {rest.map((p) => (
+          <li>
+            <a class="mini card" href={`/blog/${p.id}/`}>
+              <div class="mini-head">
+                <time datetime={p.data.pubDate.toISOString()}>
+                  {p.data.pubDate.toLocaleDateString(undefined, { month: "short", day: "numeric" })}
+                </time>
+                {p.data.tags?.[0] && <span class="pill">{p.data.tags[0]}</span>}
+              </div>
+              <h4 class="mini-title">{p.data.title}</h4>
+              {(p.data.description || p.data.excerpt) && (
+                <p class="mini-excerpt">{p.data.description || p.data.excerpt}</p>
+              )}
+              <span class="mini-cta">Read
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </a>
+          </li>
+        ))}
+        <li class="view-all-wrap">
+          <a class="view-all" href="/blog">View all posts ↗</a>
+        </li>
+      </ul>
+    </div>
+  ) : (
+    <p class="empty">Articles coming soon—stay tuned!</p>
+  )}
+</section>
+
+<style>
+.blog-teaser{
+  position:relative; margin-top:3.6rem; padding:1.2rem 1.1rem 1.4rem;
+  border:1px solid var(--color-border); border-radius:var(--radius-lg);
+  background: linear-gradient(to bottom, var(--color-bg-alt), var(--color-bg));
+  overflow:hidden; box-shadow: var(--shadow-sm);
+}
+
+/* lightswind beams */
+.bt-accents{ position:absolute; inset:-22% -10%; z-index:0; pointer-events:none; filter:saturate(1.05); }
+.bt-accents .beam{
+  position:absolute; inset:0;
+  background: conic-gradient(from 0deg at 50% 50%,
+    rgba(79,70,229,.42), rgba(6,182,212,.32), rgba(34,197,94,.32), rgba(79,70,229,.42));
+  filter: blur(28px); opacity:.32; animation: bt-rot 48s linear infinite;
+}
+.bt-accents .beam.b{ transform: rotate(28deg) scale(1.05); opacity:.26; animation-duration: 60s; }
+@keyframes bt-rot { to { transform: rotate(360deg); } }
+
+/* header */
+.bt-head{ position:relative; z-index:1; text-align:center; }
+.bt-head h2{ margin:.1rem 0 .2rem; font-size: clamp(1.6rem, 3.2vw, 2.2rem); letter-spacing:.5px; }
+.bt-head .sub{ margin:0 auto .7rem; max-width:780px; opacity:.7; font-size:.92rem; }
+.hairline{
+  height:2px; margin:.35rem auto 1rem; max-width: 920px; border-radius:999px;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #34d399, #60a5fa);
+  background-size:200% 100%; animation: hairline-move 6s linear infinite;
+}
+@keyframes hairline-move { 0%{background-position:0% 50%} 100%{background-position:200% 50%} }
+
+/* layout */
+.bt-grid{
+  position:relative; z-index:1;
+  display:grid; gap:1rem;
+}
+@media (min-width: 940px){
+  .bt-grid{ grid-template-columns: minmax(0,1fr) 380px; align-items:stretch; }
+}
+
+/* cards base */
+.card{
+  position:relative; display:block; text-decoration:none; color:inherit;
+  background: var(--color-surface); border:1px solid var(--color-border);
+  border-radius:16px; box-shadow: var(--shadow-sm);
+  transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background .2s ease;
+  overflow:hidden; isolation:isolate;
+}
+.card::before{
+  content:""; position:absolute; left:12px; right:12px; top:0; height:2px; border-radius:999px;
+  background:linear-gradient(90deg, transparent, color-mix(in srgb, var(--color-accent) 80%, transparent), transparent);
+  opacity:.9;
+}
+.card:hover{ transform: translateY(-3px); border-color: color-mix(in srgb, var(--color-accent) 45%, var(--color-border)); box-shadow: var(--shadow-md); }
+
+/* featured */
+.featured{ padding: .95rem .95rem 1.05rem; }
+.media{
+  margin:-.35rem -.35rem .8rem; border-radius:14px; overflow:hidden;
+  background: var(--color-surface-alt); border:1px solid var(--color-border);
+  aspect-ratio: 16/8; line-height:0;
+}
+.media img{ width:100%; height:100%; object-fit:cover; display:block; transition: transform .6s ease; }
+.featured:hover .media img{ transform: scale(1.03); }
+
+.meta{
+  display:flex; gap:.55rem; flex-wrap:wrap; align-items:center;
+  font-size:.62rem; text-transform:uppercase; letter-spacing:.55px; font-weight:600;
+  color: var(--color-text-dim); margin:.1rem 0 .45rem;
+}
+.pill{
+  background:var(--color-surface-alt); border:1px solid var(--color-border);
+  border-radius:9999px; padding:.22rem .5rem; font-size:.62rem; letter-spacing:.4px; color:var(--color-text);
+}
+.title{ margin:.05rem 0 .35rem; font-size: clamp(1.25rem, 2.2vw, 1.6rem); line-height:1.2; letter-spacing:.4px; }
+.excerpt{ margin:0 0 .55rem; opacity:.88; font-size:.9rem; line-height:1.45; }
+.cta{
+  display:inline-flex; gap:.35rem; align-items:center; color: var(--color-accent);
+  font-weight:700; font-size:.75rem; letter-spacing:.35px;
+}
+.cta svg{ width:16px; height:16px; stroke: currentColor; fill:none; stroke-width:2; transition: transform .2s ease; }
+.featured:hover .cta svg{ transform: translateX(4px); }
+
+/* side list */
+.side-list{ display:grid; gap:1rem; }
+.mini{ padding:.85rem .95rem 1rem; }
+.mini-head{ display:flex; gap:.5rem; align-items:center; flex-wrap:wrap;
+  font-size:.62rem; text-transform:uppercase; letter-spacing:.55px; font-weight:600; color: var(--color-text-dim); }
+.mini-title{ margin:.3rem 0 .35rem; font-size:1rem; letter-spacing:.3px; }
+.mini-excerpt{ margin:0 0 .55rem; opacity:.86; font-size:.82rem; line-height:1.35; }
+.mini-cta{ display:inline-flex; gap:.35rem; align-items:center; color:var(--color-accent); font-weight:700; font-size:.72rem; }
+.mini-cta svg{ width:14px; height:14px; stroke: currentColor; fill:none; stroke-width:2; transition: transform .2s ease; }
+.mini:hover .mini-cta svg{ transform: translateX(4px); }
+
+.view-all-wrap{ display:flex; }
+.view-all{
+  display:inline-flex; justify-content:center; align-items:center;
+  padding:.6rem .9rem; border-radius:9999px; font-weight:800; letter-spacing:.35px;
+  text-decoration:none; background: var(--color-accent); color:#fff; border:1px solid var(--color-accent);
+  box-shadow: 0 10px 28px -14px rgba(79,70,229,.6);
+}
+.view-all:hover{ filter:brightness(1.08); transform: translateY(-1px); }
+
+/* empty state */
+.empty{ text-align:center; opacity:.7; }
+
+@media (max-width: 640px){
+  .featured{ padding:.85rem; }
+  .media{ margin:-.25rem -.25rem .7rem; }
+  .mini-title{ font-size:.95rem; }
+}
+@media (prefers-reduced-motion: reduce){
+  .bt-accents .beam, .hairline { animation: none !important; }
+}
+</style>

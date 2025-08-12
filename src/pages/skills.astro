@@ -1,0 +1,86 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+---
+
+<PageLayout title="Skills" description="Snapshot of my practical skills across AI, MLOps, and full-stack.">
+  <section class="page container" aria-labelledby="skills-title">
+    <header class="head">
+      <h1 id="skills-title">Skills</h1>
+      <p class="sub">Hands-on, production-tested capabilities I bring to teams.</p>
+    </header>
+
+    <div class="groups">
+      <article class="group">
+        <h3>AI / CV</h3>
+        <div class="chips">
+          <span class="chip">PyTorch</span>
+          <span class="chip">YOLOv8</span>
+          <span class="chip">OpenCV</span>
+          <span class="chip">Inference Optim.</span>
+          <span class="chip">Quantization</span>
+        </div>
+      </article>
+
+      <article class="group">
+        <h3>MLOps</h3>
+        <div class="chips">
+          <span class="chip">DVC</span>
+          <span class="chip">MLflow</span>
+          <span class="chip">BentoML</span>
+          <span class="chip">FastAPI</span>
+          <span class="chip">CI Quality Gates</span>
+        </div>
+      </article>
+
+      <article class="group">
+        <h3>Infra</h3>
+        <div class="chips">
+          <span class="chip">Docker</span>
+          <span class="chip">Kubernetes</span>
+          <span class="chip">GitHub Actions</span>
+          <span class="chip">AWS S3</span>
+          <span class="chip">Observability</span>
+        </div>
+      </article>
+
+      <article class="group">
+        <h3>Full-Stack</h3>
+        <div class="chips">
+          <span class="chip">TypeScript</span>
+          <span class="chip">React</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">GraphQL</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">MongoDB</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <style>
+    .page{ padding:2.2rem 1.1rem 3rem; }
+    .head h1{ margin:0 0 .4rem; font-size:clamp(1.8rem,3.5vw,2.3rem); letter-spacing:.4px; }
+    .head .sub{ margin:0; opacity:.75; }
+    .groups{
+      margin-top:1.2rem; display:grid; gap:1rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      align-items:stretch;
+    }
+    .group{
+      background:var(--color-bg-alt); border:1px solid var(--color-border);
+      border-radius:16px; padding:1rem; display:flex; flex-direction:column; height:100%;
+      box-shadow: var(--shadow-sm);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+    .group:hover{ transform: translateY(-2px); box-shadow: var(--shadow-md); border-color:var(--color-accent); }
+    .group h3{ margin:0 0 .6rem; font-size:1.05rem; letter-spacing:.4px; }
+    .chips{ display:flex; flex-wrap:wrap; gap:.5rem; }
+    .chip{
+      display:inline-flex; align-items:center; gap:.35rem;
+      padding:.45rem .7rem; border-radius:9999px; font-weight:700; font-size:.8rem;
+      background:var(--color-surface); border:1px solid var(--color-border);
+      transition: border-color .18s ease, color .18s ease;
+    }
+    .chip:hover{ border-color:var(--color-accent); color:var(--color-accent); }
+  </style>
+</PageLayout>

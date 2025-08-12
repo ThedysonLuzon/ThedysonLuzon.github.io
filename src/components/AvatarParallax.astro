@@ -1,0 +1,29 @@
+---
+/** Minimal, MDX-safe inline script. Looks for #about-avatar */
+---
+<script is:inline>
+  (function () {
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReduced) return;
+
+    const avatar = document.getElementById('about-avatar');
+    if (!avatar) return;
+
+    const clamp = (n, min, max) => Math.min(Math.max(n, min), max);
+
+    function onMove(e) {
+      const r = avatar.getBoundingClientRect();
+      const dx = clamp((e.clientX - (r.left + r.width/2)) / (r.width/2), -1, 1);
+      const dy = clamp((e.clientY - (r.top + r.height/2)) / (r.height/2), -1, 1);
+      avatar.style.transform = `translateZ(0) rotateX(${-dy*6}deg) rotateY(${dx*8}deg)`;
+      avatar.style.boxShadow = `0 14px 36px -18px rgba(0,0,0,.55)`;
+    }
+    function onLeave() {
+      avatar.style.transform = 'translateZ(0)';
+      avatar.style.boxShadow = '';
+    }
+
+    avatar.addEventListener('pointermove', onMove);
+    avatar.addEventListener('pointerleave', onLeave);
+  })();
+</script>

@@ -1,0 +1,63 @@
+---
+/**
+ * Punchy Mission + Education section (Lightswind style)
+ * - Keeps the #value-mission id for navbar anchor
+ * - Self-contained accents behind the section
+ * - Mission card + Education timeline card
+ */
+---
+<section id="value-mission" class="lw-section reveal" aria-label="Mission and Education">
+  <!-- background accents -->
+  <div class="lw-accents" aria-hidden="true">
+    <span class="beam a"></span>
+    <span class="beam b"></span>
+  </div>
+
+  <header class="lw-head">
+    <h2 class="lw-title">Mission &amp; Education</h2>
+    <p class="lw-sub">Trustworthy AI, reproducible pipelines, and practical impact.</p>
+  </header>
+
+  <div class="lw-grid">
+    <!-- Mission -->
+    <article class="lw-card" aria-labelledby="mission-title">
+      <div class="card-head">
+        <span class="iconify" data-icon="solar:target-line-duotone" aria-hidden="true"></span>
+        <h3 id="mission-title">Mission</h3>
+      </div>
+      <p class="card-lead">
+        Build reliable, observable AI &amp; full-stack platforms—from ingest and continual training
+        to container/K8s deployment and user dashboards—optimized for repeatable delivery
+        and business-aligned outcomes.
+      </p>
+    </article>
+
+    <!-- Education -->
+    <aside class="lw-card" aria-labelledby="edu-title">
+      <div class="card-head">
+        <span class="iconify" data-icon="solar:graduation-cap-2-line-duotone" aria-hidden="true"></span>
+        <h3 id="edu-title">Education</h3>
+      </div>
+
+      <ol class="edu-timeline">
+        <li class="edu-item">
+          <div class="dot" aria-hidden="true"></div>
+          <div class="edu-content">
+            <h4>Software Engineering Technology</h4>
+            <p class="meta">Completed</p>
+          </div>
+        </li>
+        <li class="edu-item current">
+          <div class="dot" aria-hidden="true"></div>
+          <div class="edu-content">
+            <h4>AI Design, Analysis &amp; Implementation (Co-op)</h4>
+            <p class="meta">In Progress</p>
+            <p class="note">
+              Capstone: <em>SafeRoomAI</em> — multi-stream anomaly detection + full MLOps lifecycle
+            </p>
+          </div>
+        </li>
+      </ol>
+    </aside>
+  </div>
+</section>

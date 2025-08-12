@@ -1,0 +1,124 @@
+---
+/**
+ * Punchier marquee with edge-fade, pause on hover, and opposite counter-row.
+ * Requires Iconify (already in your head).
+ */
+interface Item { name: string; icon: string; href?: string }
+const defaultItems: Item[] = [
+  { name: "Python", icon: "logos:python" },
+  { name: "PyTorch", icon: "logos:pytorch-icon" },
+  { name: "TensorFlow", icon: "logos:tensorflow-icon" },
+  { name: "FastAPI", icon: "logos:fastapi-icon" },
+  { name: "Docker", icon: "logos:docker-icon" },
+  { name: "Kubernetes", icon: "logos:kubernetes" },
+  { name: "Git", icon: "logos:git-icon" },
+  { name: "GitHub", icon: "logos:github-icon" },
+  { name: "TypeScript", icon: "logos:typescript-icon" },
+  { name: "React", icon: "logos:react" },
+  { name: "Node.js", icon: "logos:nodejs-icon" },
+  { name: "GraphQL", icon: "logos:graphql" },
+  { name: "MongoDB", icon: "logos:mongodb-icon" },
+  { name: "PostgreSQL", icon: "logos:postgresql" },
+  { name: "NGINX", icon: "logos:nginx" },
+  { name: "Azure", icon: "logos:microsoft-azure" },
+  { name: "AWS", icon: "logos:aws" },
+];
+const { items = defaultItems, speed = "26s" } = Astro.props as { items?: Item[]; speed?: string; };
+---
+
+<div class="stack-marquee" role="region" aria-label="Core technologies">
+  <div class="fade left" aria-hidden="true"></div>
+  <div class="fade right" aria-hidden="true"></div>
+
+  <div class="track" style={`--speed:${speed};`}>
+    <ul class="row row-a">
+      {items.map((it) => (
+        <li>
+          {it.href ? (
+            <a href={it.href} target="_blank" rel="noopener" aria-label={it.name} class="chip">
+              <span class="iconify" data-icon={it.icon} aria-hidden="true"></span>
+              <span>{it.name}</span>
+            </a>
+          ) : (
+            <span class="chip" aria-label={it.name}>
+              <span class="iconify" data-icon={it.icon} aria-hidden="true"></span>
+              <span>{it.name}</span>
+            </span>
+          )}
+        </li>
+      ))}
+    </ul>
+
+    <!-- counter row for parallax feel -->
+    <ul class="row row-b" aria-hidden="true">
+      {items.slice().reverse().map((it) => (
+        <li>
+          <span class="chip">
+            <span class="iconify" data-icon={it.icon} aria-hidden="true"></span>
+            <span>{it.name}</span>
+          </span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
+
+<style>
+.stack-marquee {
+  position: relative;
+  margin: .2rem 0 .2rem; /* tightens gap with CoreStack */
+  padding: .45rem 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: var(--color-surface);
+}
+
+/* edge fade masks */
+.fade {
+  position:absolute; top:0; bottom:0; width:44px; z-index:2; pointer-events:none;
+  background: linear-gradient(to right, var(--color-surface), transparent);
+}
+.fade.right { right:0; transform: scaleX(-1); }
+.fade.left { left:0; }
+
+/* rows */
+.track { position: relative; z-index:1; }
+.row {
+  display:flex; gap:.6rem; align-items:center; list-style:none; margin:0; padding:.25rem 1rem;
+}
+.row li { flex: 0 0 auto; }
+
+/* motion */
+@keyframes marquee-left { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes marquee-right { from { transform: translateX(0); } to { transform: translateX(50%); } }
+
+.row-a { animation: marquee-left var(--speed, 26s) linear infinite; }
+.row-b { animation: marquee-right calc(var(--speed, 26s) * 1.15) linear infinite; opacity:.85; }
+
+/* pause on hover/focus-within */
+.stack-marquee:hover .row,
+.stack-marquee:focus-within .row { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce){
+  .row-a, .row-b { animation: none; }
+}
+
+/* chips */
+.chip {
+  display:inline-flex; align-items:center; gap:.5rem; white-space:nowrap;
+  padding: .5rem .8rem; border-radius: 9999px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  font-weight: 700; letter-spacing:.3px;
+  text-decoration:none; color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+  transition: transform .15s ease, border-color .15s ease, color .15s ease, background .15s ease;
+}
+.chip .iconify { font-size: 1rem; }
+.chip:hover, .chip:focus-visible {
+  transform: translateY(-1px);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+</style>

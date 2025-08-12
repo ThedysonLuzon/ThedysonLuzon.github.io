@@ -16,7 +16,7 @@ export async function answerQuestionLLM(q: string): Promise<QAResult> {
 
   const text = await r.text();
   if (!r.ok) {
-    // Try to surface server error details (e.g., LLM_403 model access)
+
     try {
       const j = JSON.parse(text);
       throw new Error(`API_${r.status}: ${j.error || text}`);
