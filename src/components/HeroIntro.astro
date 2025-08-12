@@ -19,7 +19,7 @@
 
   <header class="hero-head">
     <h1 id="hero-name" class="hero-name">
-      <span class="txt">Thedyson&nbsp;Eduard&nbsp;Luzon</span>
+      <span class="txt">Thedyson Eduard<wbr> Luzon</span>
       <span class="shine" aria-hidden="true"></span>
     </h1>
 
@@ -117,10 +117,17 @@
 @keyframes heroIn { to { opacity:1; transform: none; } }
 
 /* Name: gradient shimmer + soft glow + shine sweep */
+
 .hero-name{
   position:relative; display:inline-block; margin:0 0 .9rem;
-  font-size:clamp(2.8rem, 6.2vw, 4rem); line-height:1.06; letter-spacing:.65px;
+  /* smaller minimum so it fits on narrow phones */
+  font-size:clamp(2rem, 6.2vw, 4rem);
+  line-height:1.08; letter-spacing:.65px;
   text-shadow: 0 10px 28px rgba(0,0,0,.30);
+  /* nicer multi-line wrapping */
+  text-wrap: balance;          /* modern browsers */
+  overflow-wrap: normal;
+  word-break: normal;
 }
 .hero-name .txt{
   --grad: linear-gradient(92deg, #93c5fd 0%, #a78bfa 33%, #34d399 66%, #93c5fd 100%);
