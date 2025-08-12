@@ -7,6 +7,6 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://thedysonluzon.github.io',
+    site: 'https://thedysonluzon.io',
     integrations: [mdx(), sitemap(), react()],
 });
