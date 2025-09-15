@@ -1,5 +1,5 @@
 {
-  "updated": "2025-09-08T13:32:45.751Z",
+  "updated": "2025-09-15T13:29:52.108Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,200 +10,128 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2025-09-01T13:32:00Z"
+      "pushedAt": "2025-09-08T13:32:46Z"
     }
   ],
   "contributions": [
     {
       "repo": "firefly3823/firefly3823",
-      "pr": 22936,
-      "title": "Auto-generated metrics for run #17552515471",
-      "url": "https://github.com/firefly3823/firefly3823/pull/22936",
-      "date": "2025-09-08T13:32:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "DLR-SC/tigl",
-      "pr": 1158,
-      "title": "sync: master to cpacs_creator_dev_merge",
-      "url": "https://github.com/DLR-SC/tigl/pull/1158",
-      "date": "2025-09-08T13:32:06Z",
-      "status": "merged"
-    },
-    {
-      "repo": "aws-powertools/powertools-lambda-python",
-      "pr": 7340,
-      "title": "chore(ci): changelog rebuild",
-      "url": "https://github.com/aws-powertools/powertools-lambda-python/pull/7340",
-      "date": "2025-09-08T13:30:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "TouK/nussknacker",
-      "pr": 8588,
-      "title": "Update Cypress snapshots in stickynotes-test-fix",
-      "url": "https://github.com/TouK/nussknacker/pull/8588",
-      "date": "2025-09-08T13:31:19Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jackra1n/infra",
-      "pr": 98,
-      "title": "Update media-stack-addons ghcr.io/autobrr/autobrr Docker tag to v1.66.1",
-      "url": "https://github.com/jackra1n/infra/pull/98",
-      "date": "2025-09-08T13:29:07Z",
+      "pr": 23093,
+      "title": "Auto-generated metrics for run #17734728268",
+      "url": "https://github.com/firefly3823/firefly3823/pull/23093",
+      "date": "2025-09-15T13:29:20Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 23100,
+      "pr": 23415,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/23100",
-      "date": "2025-09-08T13:30:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "PennyLaneAI/pennylane",
-      "pr": 8212,
-      "title": "Update stable dependency files",
-      "url": "https://github.com/PennyLaneAI/pennylane/pull/8212",
-      "date": "2025-09-08T13:30:22Z",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/23415",
+      "date": "2025-09-15T13:27:53Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 23099,
+      "pr": 23414,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/23099",
-      "date": "2025-09-08T13:30:52Z",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/23414",
+      "date": "2025-09-15T13:27:46Z",
       "status": "merged"
     },
     {
-      "repo": "taskforcesh/bullmq",
-      "pr": 3436,
-      "title": "chore(release): vpy2.16.0",
-      "url": "https://github.com/taskforcesh/bullmq/pull/3436",
-      "date": "2025-09-07T12:47:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "cypress-io/cypress",
-      "pr": 32439,
-      "title": "chore: Update v8 snapshot cache - linux",
-      "url": "https://github.com/cypress-io/cypress/pull/32439",
-      "date": "2025-09-08T13:30:17Z",
-      "status": "merged"
-    },
-    {
-      "repo": "MannLabs/alphabase",
-      "pr": 341,
-      "title": "[VERSION] Bump version to 1.7.0",
-      "url": "https://github.com/MannLabs/alphabase/pull/341",
-      "date": "2025-09-08T13:30:05Z",
-      "status": "merged"
-    },
-    {
-      "repo": "cypress-io/cypress",
-      "pr": 32440,
-      "title": "chore: Update v8 snapshot cache - darwin",
-      "url": "https://github.com/cypress-io/cypress/pull/32440",
-      "date": "2025-09-08T13:29:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "cypress-io/cypress",
-      "pr": 32441,
-      "title": "chore: Update v8 snapshot cache - windows",
-      "url": "https://github.com/cypress-io/cypress/pull/32441",
-      "date": "2025-09-08T13:29:44Z",
+      "repo": "viamrobotics/viam-typescript-sdk",
+      "pr": 631,
+      "title": "v0.51.0",
+      "url": "https://github.com/viamrobotics/viam-typescript-sdk/pull/631",
+      "date": "2025-09-15T13:27:17Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/3bsalam-1",
-      "pr": 24690,
+      "pr": 25008,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/24690",
-      "date": "2025-09-08T13:29:35Z",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/25008",
+      "date": "2025-09-15T13:27:14Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/3bsalam-1",
-      "pr": 24689,
+      "pr": 25007,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/24689",
-      "date": "2025-09-08T13:29:30Z",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/25007",
+      "date": "2025-09-15T13:27:09Z",
       "status": "merged"
     },
     {
-      "repo": "smartcontractkit/documentation",
-      "pr": 2952,
-      "title": "Changelog Update: New data found",
-      "url": "https://github.com/smartcontractkit/documentation/pull/2952",
-      "date": "2025-09-08T13:29:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ROCm/AMDMIGraphX",
-      "pr": 4283,
-      "title": "Onnxruntime Weekly Sync 2025-09-05",
-      "url": "https://github.com/ROCm/AMDMIGraphX/pull/4283",
-      "date": "2025-09-08T13:28:49Z",
+      "repo": "mheffner/zoom-rpm-repo",
+      "pr": 148,
+      "title": "[Update] Update to version 6.6.0.4410",
+      "url": "https://github.com/mheffner/zoom-rpm-repo/pull/148",
+      "date": "2025-09-15T13:26:58Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/MountainCar",
-      "pr": 24554,
+      "pr": 24874,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/24554",
-      "date": "2025-09-08T13:28:54Z",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/24874",
+      "date": "2025-09-15T13:26:57Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/MountainCar",
-      "pr": 24553,
+      "pr": 24873,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/24553",
-      "date": "2025-09-08T13:28:47Z",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/24873",
+      "date": "2025-09-15T13:26:50Z",
       "status": "merged"
     },
     {
-      "repo": "dfds/selfservice-portal",
-      "pr": 493,
-      "title": "Automated PR - Merging develop into master",
-      "url": "https://github.com/dfds/selfservice-portal/pull/493",
-      "date": "2025-09-08T13:28:09Z",
+      "repo": "jamenamcinteer/react-qr-barcode-scanner",
+      "pr": 366,
+      "title": "Release: 2.1.10",
+      "url": "https://github.com/jamenamcinteer/react-qr-barcode-scanner/pull/366",
+      "date": "2025-09-15T13:26:47Z",
       "status": "merged"
     },
     {
-      "repo": "TheMasterFly/MasterFly-Ruleset",
-      "pr": 30,
-      "title": "Changes by create-pull-request action",
-      "url": "https://github.com/TheMasterFly/MasterFly-Ruleset/pull/30",
-      "date": "2025-09-08T13:27:47Z",
+      "repo": "redhat-best-practices-for-k8s/certsuite",
+      "pr": 3221,
+      "title": "Update RHCOS to OCP version map",
+      "url": "https://github.com/redhat-best-practices-for-k8s/certsuite/pull/3221",
+      "date": "2025-09-15T13:26:22Z",
       "status": "merged"
     },
     {
-      "repo": "numindai/nuextract-platform-sdk",
-      "pr": 48,
-      "title": "feat(sdk): Regenerate SDK for API version 328bbffee1b016a0",
-      "url": "https://github.com/numindai/nuextract-platform-sdk/pull/48",
-      "date": "2025-09-08T13:27:37Z",
+      "repo": "reown-com/appkit",
+      "pr": 5011,
+      "title": "chore: version packages",
+      "url": "https://github.com/reown-com/appkit/pull/5011",
+      "date": "2025-09-15T13:26:06Z",
       "status": "merged"
     },
     {
-      "repo": "honkit/honkit",
-      "pr": 479,
-      "title": "Release v6.1.1",
-      "url": "https://github.com/honkit/honkit/pull/479",
-      "date": "2025-09-08T13:27:19Z",
+      "repo": "worldcoin/open-iris",
+      "pr": 154,
+      "title": "Automated docs update",
+      "url": "https://github.com/worldcoin/open-iris/pull/154",
+      "date": "2025-09-15T13:26:11Z",
       "status": "merged"
     },
     {
-      "repo": "sergelogvinov/containers",
-      "pr": 261,
-      "title": "feat(container): update ghcr.io/aquasecurity/trivy (0.65.0 → 0.66.0)",
-      "url": "https://github.com/sergelogvinov/containers/pull/261",
-      "date": "2025-09-08T13:27:14Z",
+      "repo": "tuomorphism/tuomorphism.github.io",
+      "pr": 1,
+      "title": "Content: nightly export",
+      "url": "https://github.com/tuomorphism/tuomorphism.github.io/pull/1",
+      "date": "2025-09-15T13:25:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "openedx/edx-platform",
+      "pr": 37347,
+      "title": "feat: Upgrade Python dependency edx-enterprise",
+      "url": "https://github.com/openedx/edx-platform/pull/37347",
+      "date": "2025-09-15T13:25:07Z",
       "status": "merged"
     },
     {
@@ -215,203 +143,275 @@
       "status": "merged"
     },
     {
-      "repo": "urth-inc/metatell-ai-bot",
-      "pr": 60,
-      "title": "chore(release): Version Packages",
-      "url": "https://github.com/urth-inc/metatell-ai-bot/pull/60",
-      "date": "2025-09-08T13:26:52Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jakobhoeg/built-in-ai",
-      "pr": 64,
+      "repo": "garden-co/jazz",
+      "pr": 2920,
       "title": "Version Packages",
-      "url": "https://github.com/jakobhoeg/built-in-ai/pull/64",
-      "date": "2025-09-08T13:24:20Z",
+      "url": "https://github.com/garden-co/jazz/pull/2920",
+      "date": "2025-09-15T13:23:42Z",
       "status": "merged"
     },
     {
-      "repo": "mastodon/mastodon",
-      "pr": 36045,
-      "title": "New Crowdin Translations (automated)",
-      "url": "https://github.com/mastodon/mastodon/pull/36045",
-      "date": "2025-09-08T13:22:53Z",
+      "repo": "CumulusNetworks/docs",
+      "pr": 2917,
+      "title": "Changes by create-pull-request action",
+      "url": "https://github.com/CumulusNetworks/docs/pull/2917",
+      "date": "2025-09-15T13:23:17Z",
+      "status": "merged"
+    },
+    {
+      "repo": "python/psf-salt",
+      "pr": 609,
+      "title": "Update docs/salt-server-list.rst",
+      "url": "https://github.com/python/psf-salt/pull/609",
+      "date": "2025-09-15T13:23:22Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fiberplane/mcp",
+      "pr": 67,
+      "title": "Version and publish packages",
+      "url": "https://github.com/fiberplane/mcp/pull/67",
+      "date": "2025-09-15T13:23:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "langgenius/dify",
+      "pr": 25713,
+      "title": "chore: translate i18n files and update type definitions",
+      "url": "https://github.com/langgenius/dify/pull/25713",
+      "date": "2025-09-15T13:22:57Z",
+      "status": "merged"
+    },
+    {
+      "repo": "woodruffw/abi3info",
+      "pr": 195,
+      "title": "[BOT] update stable_abi.toml",
+      "url": "https://github.com/woodruffw/abi3info/pull/195",
+      "date": "2025-09-15T13:22:24Z",
+      "status": "merged"
+    },
+    {
+      "repo": "stolostron/backplane-operator",
+      "pr": 1874,
+      "title": "Operator Bundle Update [backplane-2.9]",
+      "url": "https://github.com/stolostron/backplane-operator/pull/1874",
+      "date": "2025-09-15T13:21:58Z",
+      "status": "merged"
+    },
+    {
+      "repo": "untrustedmodders/plugify-module-python3",
+      "pr": 9,
+      "title": "chore(main): release 2.0.1",
+      "url": "https://github.com/untrustedmodders/plugify-module-python3/pull/9",
+      "date": "2025-09-15T13:21:22Z",
+      "status": "merged"
+    },
+    {
+      "repo": "untrustedmodders/plugify-module-lua",
+      "pr": 6,
+      "title": "chore(main): release 2.0.1",
+      "url": "https://github.com/untrustedmodders/plugify-module-lua/pull/6",
+      "date": "2025-09-15T13:21:19Z",
       "status": "merged"
     },
     {
       "repo": "josh-stillman/lintier",
-      "pr": 80,
+      "pr": 81,
       "title": "Update Pinned Versions",
-      "url": "https://github.com/josh-stillman/lintier/pull/80",
-      "date": "2025-09-08T13:22:43Z",
+      "url": "https://github.com/josh-stillman/lintier/pull/81",
+      "date": "2025-09-15T13:21:25Z",
       "status": "merged"
     },
     {
-      "repo": "Gummygamer/poke-env",
-      "pr": 6,
-      "title": "Automatic data update from smogon",
-      "url": "https://github.com/Gummygamer/poke-env/pull/6",
-      "date": "2025-09-08T13:22:39Z",
+      "repo": "SchweizerischeBundesbahnen/weasyprint-service",
+      "pr": 213,
+      "title": "chore(main): release 66.0.4",
+      "url": "https://github.com/SchweizerischeBundesbahnen/weasyprint-service/pull/213",
+      "date": "2025-09-15T13:16:51Z",
       "status": "merged"
     },
     {
-      "repo": "cfengine/build-website",
-      "pr": 224,
-      "title": "Upgraded Hugo version to 0.149.1",
-      "url": "https://github.com/cfengine/build-website/pull/224",
-      "date": "2025-09-08T13:20:57Z",
+      "repo": "sodiboo/niri-flake",
+      "pr": 1309,
+      "title": "Update flake.lock",
+      "url": "https://github.com/sodiboo/niri-flake/pull/1309",
+      "date": "2025-09-15T13:20:12Z",
       "status": "merged"
     },
     {
-      "repo": "kosk-t/EnglishLearning",
-      "pr": 2,
-      "title": "chore: update HTML file list in README",
-      "url": "https://github.com/kosk-t/EnglishLearning/pull/2",
-      "date": "2025-09-08T13:20:27Z",
+      "repo": "buke/quickjs-go",
+      "pr": 553,
+      "title": "QuickJS Production Library - Linux aarch64",
+      "url": "https://github.com/buke/quickjs-go/pull/553",
+      "date": "2025-09-15T13:19:23Z",
       "status": "merged"
     },
     {
-      "repo": "inventree/InvenTree",
-      "pr": 10248,
-      "title": "New Crowdin updates",
-      "url": "https://github.com/inventree/InvenTree/pull/10248",
-      "date": "2025-09-08T13:19:46Z",
+      "repo": "SunnyDev631/impactful-projects",
+      "pr": 40,
+      "title": "Auto Update",
+      "url": "https://github.com/SunnyDev631/impactful-projects/pull/40",
+      "date": "2025-09-15T13:19:17Z",
       "status": "merged"
     },
     {
-      "repo": "vexl-it/vexl",
-      "pr": 1914,
-      "title": "New Crowdin Translations",
-      "url": "https://github.com/vexl-it/vexl/pull/1914",
-      "date": "2025-09-08T13:19:01Z",
+      "repo": "ludilearn2025/ludilearn",
+      "pr": 615,
+      "title": "chore(dev): auto-update STATUS.md",
+      "url": "https://github.com/ludilearn2025/ludilearn/pull/615",
+      "date": "2025-09-15T13:19:18Z",
       "status": "merged"
     },
     {
-      "repo": "browniebroke/homebrew-tap",
-      "pr": 92,
-      "title": "Update formula stsmfa-cli",
-      "url": "https://github.com/browniebroke/homebrew-tap/pull/92",
-      "date": "2025-09-08T13:18:21Z",
+      "repo": "buke/quickjs-go",
+      "pr": 552,
+      "title": "QuickJS Production Library - Windows x86",
+      "url": "https://github.com/buke/quickjs-go/pull/552",
+      "date": "2025-09-15T13:19:08Z",
       "status": "merged"
     },
     {
-      "repo": "sergelogvinov/containers",
-      "pr": 263,
-      "title": "feat(container): update ghcr.io/sergelogvinov/reviewdog (0.20.3 → 0.21.0)",
-      "url": "https://github.com/sergelogvinov/containers/pull/263",
-      "date": "2025-09-08T13:17:53Z",
+      "repo": "luisnquin/nixos-config",
+      "pr": 145,
+      "title": "deadnix: removed dead code",
+      "url": "https://github.com/luisnquin/nixos-config/pull/145",
+      "date": "2025-09-15T13:18:59Z",
       "status": "merged"
     },
     {
-      "repo": "Songmu/chape",
-      "pr": 14,
-      "title": "Release for v0.0.3",
-      "url": "https://github.com/Songmu/chape/pull/14",
-      "date": "2025-09-08T13:17:15Z",
+      "repo": "buke/quickjs-go",
+      "pr": 551,
+      "title": "QuickJS Production Library - Windows x64",
+      "url": "https://github.com/buke/quickjs-go/pull/551",
+      "date": "2025-09-15T13:18:53Z",
       "status": "merged"
     },
     {
-      "repo": "urth-inc/metatell-ai-bot",
-      "pr": 57,
-      "title": "chore(release): Version Packages",
-      "url": "https://github.com/urth-inc/metatell-ai-bot/pull/57",
-      "date": "2025-09-08T13:16:29Z",
+      "repo": "mozilla-platform-ops/worker-images",
+      "pr": 477,
+      "title": "win2022-64-2009-alpha (20250911T2107) Image Update",
+      "url": "https://github.com/mozilla-platform-ops/worker-images/pull/477",
+      "date": "2025-09-15T13:18:44Z",
       "status": "merged"
     },
     {
-      "repo": "mathisDlmr/fff",
-      "pr": 12,
-      "title": "chore: release main",
-      "url": "https://github.com/mathisDlmr/fff/pull/12",
-      "date": "2025-09-08T08:43:30Z",
+      "repo": "buke/quickjs-go",
+      "pr": 550,
+      "title": "QuickJS Production Library - Linux x86_64",
+      "url": "https://github.com/buke/quickjs-go/pull/550",
+      "date": "2025-09-15T13:18:29Z",
       "status": "merged"
     },
     {
-      "repo": "Enterprise-CMCS/macpro-mako",
-      "pr": 1745,
-      "title": "Release to val",
-      "url": "https://github.com/Enterprise-CMCS/macpro-mako/pull/1745",
-      "date": "2025-09-08T13:16:13Z",
+      "repo": "GordonSmith/vscode-ojs",
+      "pr": 97,
+      "title": "chore(main): release observable-js 0.4.54",
+      "url": "https://github.com/GordonSmith/vscode-ojs/pull/97",
+      "date": "2025-09-15T13:18:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "buke/quickjs-go",
+      "pr": 549,
+      "title": "QuickJS Production Library - macOS ARM64",
+      "url": "https://github.com/buke/quickjs-go/pull/549",
+      "date": "2025-09-15T13:18:07Z",
+      "status": "merged"
+    },
+    {
+      "repo": "dnum-mi/referentiel-applications",
+      "pr": 1032,
+      "title": "chore(main): release 1.37.1",
+      "url": "https://github.com/dnum-mi/referentiel-applications/pull/1032",
+      "date": "2025-09-15T13:17:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "buke/quickjs-go",
+      "pr": 548,
+      "title": "QuickJS Production Library - macOS x86_64",
+      "url": "https://github.com/buke/quickjs-go/pull/548",
+      "date": "2025-09-15T13:17:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "dnnsoftware/Dnn.Platform",
+      "pr": 6704,
+      "title": "📈 Update caniuse database",
+      "url": "https://github.com/dnnsoftware/Dnn.Platform/pull/6704",
+      "date": "2025-09-15T13:17:44Z",
       "status": "merged"
     },
     {
       "repo": "ornlneutronimaging/CylindricalGeometryCorrection",
-      "pr": 9,
+      "pr": 12,
       "title": "chore: Update pixi lockfile",
-      "url": "https://github.com/ornlneutronimaging/CylindricalGeometryCorrection/pull/9",
-      "date": "2025-09-08T13:15:37Z",
+      "url": "https://github.com/ornlneutronimaging/CylindricalGeometryCorrection/pull/12",
+      "date": "2025-09-15T13:17:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "dnnsoftware/Dnn.Platform",
+      "pr": 6702,
+      "title": "Auto Compress Images",
+      "url": "https://github.com/dnnsoftware/Dnn.Platform/pull/6702",
+      "date": "2025-09-15T13:17:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "zhangfisher/autostore",
+      "pr": 73,
+      "title": "Version Packages",
+      "url": "https://github.com/zhangfisher/autostore/pull/73",
+      "date": "2025-09-15T13:15:13Z",
       "status": "merged"
     },
     {
       "repo": "Castro-Media/TopStoryReview.com",
-      "pr": 1498,
+      "pr": 1666,
       "title": "Automated data update",
-      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/1498",
-      "date": "2025-09-08T13:15:36Z",
+      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/1666",
+      "date": "2025-09-15T13:14:24Z",
       "status": "merged"
     },
     {
-      "repo": "ornlneutronimaging/CylindricalGeometryCorrection",
-      "pr": 10,
-      "title": "chore: Update pre-commit hooks",
-      "url": "https://github.com/ornlneutronimaging/CylindricalGeometryCorrection/pull/10",
-      "date": "2025-09-08T13:14:37Z",
+      "repo": "relayprotocol/relay-kit",
+      "pr": 797,
+      "title": "Release the: Fabulous Goose!",
+      "url": "https://github.com/relayprotocol/relay-kit/pull/797",
+      "date": "2025-09-15T13:01:49Z",
       "status": "merged"
     },
     {
-      "repo": "epics-extensions/EPNix",
-      "pr": 422,
-      "title": "[master] Update flake.lock",
-      "url": "https://github.com/epics-extensions/EPNix/pull/422",
-      "date": "2025-09-08T13:12:30Z",
+      "repo": "jiribenes/effekt-nix",
+      "pr": 134,
+      "title": "flake.lock: Update",
+      "url": "https://github.com/jiribenes/effekt-nix/pull/134",
+      "date": "2025-09-15T13:13:37Z",
       "status": "merged"
     },
     {
-      "repo": "epics-extensions/EPNix",
-      "pr": 423,
-      "title": "[nixos-25.05] Update flake.lock",
-      "url": "https://github.com/epics-extensions/EPNix/pull/423",
-      "date": "2025-09-08T13:12:12Z",
+      "repo": "map-of-pi/map-of-pi-frontend",
+      "pr": 442,
+      "title": "Automated PR to merge dev to main",
+      "url": "https://github.com/map-of-pi/map-of-pi-frontend/pull/442",
+      "date": "2025-09-15T13:13:12Z",
       "status": "merged"
     },
     {
-      "repo": "MetaMask/snap-solana-wallet",
-      "pr": 520,
-      "title": "2.3.8",
-      "url": "https://github.com/MetaMask/snap-solana-wallet/pull/520",
-      "date": "2025-09-08T13:10:32Z",
+      "repo": "jiribenes/effekt-nix",
+      "pr": 133,
+      "title": "Add Effekt v0.47.0",
+      "url": "https://github.com/jiribenes/effekt-nix/pull/133",
+      "date": "2025-09-15T13:13:08Z",
       "status": "merged"
     },
     {
-      "repo": "tguidoux/newspaper4k-go",
-      "pr": 27,
-      "title": "Merge to main after releasing new version 1.7.0",
-      "url": "https://github.com/tguidoux/newspaper4k-go/pull/27",
-      "date": "2025-09-08T13:09:10Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sushi-labs/sushi",
-      "pr": 304,
-      "title": "Version Packages",
-      "url": "https://github.com/sushi-labs/sushi/pull/304",
-      "date": "2025-09-08T13:08:52Z",
-      "status": "merged"
-    },
-    {
-      "repo": "quarto-dev/quarto-cli",
-      "pr": 13347,
-      "title": "[CI] Update timing file",
-      "url": "https://github.com/quarto-dev/quarto-cli/pull/13347",
-      "date": "2025-09-08T13:08:46Z",
-      "status": "merged"
-    },
-    {
-      "repo": "harryzwh/winget-pkgs",
-      "pr": 1978,
-      "title": "Fork Sync: Update from parent repository",
-      "url": "https://github.com/harryzwh/winget-pkgs/pull/1978",
-      "date": "2025-09-08T13:07:08Z",
+      "repo": "hashiryo/Library",
+      "pr": 37,
+      "title": "🤖 AI: Improve documentation for md/String/SuffixTree.md",
+      "url": "https://github.com/hashiryo/Library/pull/37",
+      "date": "2025-09-15T13:12:44Z",
       "status": "merged"
     }
   ]
