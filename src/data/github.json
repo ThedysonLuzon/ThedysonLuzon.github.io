@@ -1,5 +1,5 @@
 {
-  "updated": "2025-09-29T13:32:59.110Z",
+  "updated": "2025-10-06T13:32:21.781Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2025-09-22T13:31:56Z"
+      "pushedAt": "2025-09-29T13:32:59Z"
     }
   ],
   "contributions": [
     {
+      "repo": "LedgerHQ/app-security-key",
+      "pr": 95,
+      "title": "[auto-update] Update Ragger snapshots",
+      "url": "https://github.com/LedgerHQ/app-security-key/pull/95",
+      "date": "2025-10-06T13:31:55Z",
+      "status": "merged"
+    },
+    {
+      "repo": "LedgerHQ/app-security-key",
+      "pr": 94,
+      "title": "[auto-update] Update Ragger snapshots",
+      "url": "https://github.com/LedgerHQ/app-security-key/pull/94",
+      "date": "2025-10-06T13:31:35Z",
+      "status": "merged"
+    },
+    {
       "repo": "firefly3823/firefly3823",
-      "pr": 23407,
-      "title": "Auto-generated metrics for run #18098727584",
-      "url": "https://github.com/firefly3823/firefly3823/pull/23407",
-      "date": "2025-09-29T13:32:09Z",
+      "pr": 23565,
+      "title": "Auto-generated metrics for run #18282523856",
+      "url": "https://github.com/firefly3823/firefly3823/pull/23565",
+      "date": "2025-10-06T13:31:03Z",
       "status": "merged"
     },
     {
-      "repo": "cichy19/gotestworkflow",
-      "pr": 54,
-      "title": "Update changelog v1.0.45",
-      "url": "https://github.com/cichy19/gotestworkflow/pull/54",
-      "date": "2025-09-29T13:32:07Z",
+      "repo": "utilitywarehouse/design-systems",
+      "pr": 702,
+      "title": "Version Packages",
+      "url": "https://github.com/utilitywarehouse/design-systems/pull/702",
+      "date": "2025-10-06T13:29:57Z",
       "status": "merged"
     },
     {
-      "repo": "polarsource/polar-js",
-      "pr": 120,
-      "title": "chore: 🐝 Update SDK - Generate 0.35.3",
-      "url": "https://github.com/polarsource/polar-js/pull/120",
-      "date": "2025-09-29T12:50:21Z",
+      "repo": "trycompai/comp",
+      "pr": 1603,
+      "title": "Update reviewDate when the policy is published and make reviewDate field read-only",
+      "url": "https://github.com/trycompai/comp/pull/1603",
+      "date": "2025-10-06T13:26:03Z",
       "status": "merged"
     },
     {
-      "repo": "ramazansancar/keyiflerolsun_Kekik-cloudstream",
-      "pr": 51,
-      "title": "♻️ Domain Değişikliği",
-      "url": "https://github.com/ramazansancar/keyiflerolsun_Kekik-cloudstream/pull/51",
-      "date": "2025-09-29T13:30:31Z",
+      "repo": "3bsalam-1/Arabic-OCR",
+      "pr": 24361,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/24361",
+      "date": "2025-10-06T13:29:46Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/Arabic-OCR",
+      "pr": 24360,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/24360",
+      "date": "2025-10-06T13:29:41Z",
+      "status": "merged"
+    },
+    {
+      "repo": "jacksixth/karin-plugin-mc-rcon",
+      "pr": 17,
+      "title": "chore(main): release 1.11.0",
+      "url": "https://github.com/jacksixth/karin-plugin-mc-rcon/pull/17",
+      "date": "2025-10-06T13:28:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "humbfei-fiap/soat-tech-challenge-infra-eks",
+      "pr": 94,
+      "title": "PR aberto automaticamente: develop -> to Main",
+      "url": "https://github.com/humbfei-fiap/soat-tech-challenge-infra-eks/pull/94",
+      "date": "2025-10-06T13:29:09Z",
       "status": "merged"
     },
     {
       "repo": "GSM2017PMK-OSV/main-trunk",
-      "pr": 8030,
+      "pr": 9227,
       "title": "Автоисправление: устранение ошибок и форматирование кода",
-      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/8030",
-      "date": "2025-09-29T13:30:24Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 24046,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/24046",
-      "date": "2025-09-29T13:30:16Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 24045,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/24045",
-      "date": "2025-09-29T13:30:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sib-swiss/sparql-examples",
-      "pr": 217,
-      "title": "Add example: ./examples/UniProt/125_CORDIS_EURIO_cited_project_results_in_uniprot.ttl",
-      "url": "https://github.com/sib-swiss/sparql-examples/pull/217",
-      "date": "2025-09-29T13:29:46Z",
-      "status": "merged"
-    },
-    {
-      "repo": "stylelint/.github",
-      "pr": 54,
-      "title": "Release 0.1.0",
-      "url": "https://github.com/stylelint/.github/pull/54",
-      "date": "2025-09-29T13:12:51Z",
+      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/9227",
+      "date": "2025-10-06T13:28:44Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/3bsalam-1",
-      "pr": 25643,
+      "pr": 25957,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/25643",
-      "date": "2025-09-29T13:29:00Z",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/25957",
+      "date": "2025-10-06T13:28:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "iquiw/scoop-bucket",
+      "pr": 1219,
+      "title": "tombi: Update to version to 0.6.23",
+      "url": "https://github.com/iquiw/scoop-bucket/pull/1219",
+      "date": "2025-10-06T13:28:29Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/3bsalam-1",
-      "pr": 25642,
+      "pr": 25956,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/25642",
-      "date": "2025-09-29T13:28:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "wirenboard/eslint",
-      "pr": 7,
-      "title": "chore(main): release 1.3.0",
-      "url": "https://github.com/wirenboard/eslint/pull/7",
-      "date": "2025-09-29T13:28:51Z",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/25956",
+      "date": "2025-10-06T13:28:32Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/MountainCar",
-      "pr": 25507,
+      "pr": 25825,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/25507",
-      "date": "2025-09-29T13:28:49Z",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/25825",
+      "date": "2025-10-06T13:28:26Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/MountainCar",
-      "pr": 25506,
+      "pr": 25824,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/25506",
-      "date": "2025-09-29T13:28:42Z",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/25824",
+      "date": "2025-10-06T13:28:21Z",
       "status": "merged"
     },
     {
-      "repo": "earlyai/pull-request-test-generation",
-      "pr": 49,
-      "title": "chore(master): release 1.1.0",
-      "url": "https://github.com/earlyai/pull-request-test-generation/pull/49",
-      "date": "2025-09-29T13:27:56Z",
+      "repo": "trycompai/comp",
+      "pr": 1601,
+      "title": "[dev] [chasprowebdev] chas/test-novu",
+      "url": "https://github.com/trycompai/comp/pull/1601",
+      "date": "2025-10-06T13:24:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "humbfei-fiap/soat-tech-challenge-infra-eks",
+      "pr": 93,
+      "title": "PR aberto automaticamente: feature/fiap-eks -> develop",
+      "url": "https://github.com/humbfei-fiap/soat-tech-challenge-infra-eks/pull/93",
+      "date": "2025-10-06T13:28:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SrBlecaute01/sisCheck-api",
+      "pr": 3,
+      "title": "chore(main): release 1.0.2",
+      "url": "https://github.com/SrBlecaute01/sisCheck-api/pull/3",
+      "date": "2025-10-06T13:27:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "stackhpc/neutron",
+      "pr": 232,
+      "title": "Synchronise 2025.1 with upstream",
+      "url": "https://github.com/stackhpc/neutron/pull/232",
+      "date": "2025-10-06T13:26:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nuxt/cli",
+      "pr": 1037,
+      "title": "v3.29.0",
+      "url": "https://github.com/nuxt/cli/pull/1037",
+      "date": "2025-10-06T13:25:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SwiftPackageIndex/PackageList",
+      "pr": 11156,
+      "title": "Add FileCache",
+      "url": "https://github.com/SwiftPackageIndex/PackageList/pull/11156",
+      "date": "2025-10-06T13:25:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "trycompai/comp",
+      "pr": 1608,
+      "title": "COMP-272 [BUG] - AWS Cloud test error on dashboard",
+      "url": "https://github.com/trycompai/comp/pull/1608",
+      "date": "2025-10-06T13:23:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GSM2017PMK-OSV/main-trunk",
+      "pr": 9229,
+      "title": "Автоисправление: устранение ошибок и форматирование кода",
+      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/9229",
+      "date": "2025-10-06T13:23:30Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mikebz/djangovue",
+      "pr": 11,
+      "title": "chore: Update frontend dependencies",
+      "url": "https://github.com/mikebz/djangovue/pull/11",
+      "date": "2025-10-06T13:23:23Z",
+      "status": "merged"
+    },
+    {
+      "repo": "woocommerce/woocommerce",
+      "pr": 61283,
+      "title": "Release: Remove 10.3.0-beta.1 change files from trunk",
+      "url": "https://github.com/woocommerce/woocommerce/pull/61283",
+      "date": "2025-10-06T13:23:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "woocommerce/woocommerce",
+      "pr": 61282,
+      "title": "Release: Prepare the changelog for 10.3.0-beta.1",
+      "url": "https://github.com/woocommerce/woocommerce/pull/61282",
+      "date": "2025-10-06T13:22:55Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ektotv/xtream-api",
+      "pr": 32,
+      "title": "Prepare Release v1.4.1",
+      "url": "https://github.com/ektotv/xtream-api/pull/32",
+      "date": "2025-10-06T13:22:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Scribery/cockpit-session-recording",
+      "pr": 383,
+      "title": "cockpit-ci: Update container to 2025-10-04",
+      "url": "https://github.com/Scribery/cockpit-session-recording/pull/383",
+      "date": "2025-10-06T13:22:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "webframp/dotfiles",
+      "pr": 141,
+      "title": "Update flake.lock",
+      "url": "https://github.com/webframp/dotfiles/pull/141",
+      "date": "2025-10-06T13:22:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SrBlecaute01/sisCheck-api",
+      "pr": 2,
+      "title": "chore(main): release 1.0.1",
+      "url": "https://github.com/SrBlecaute01/sisCheck-api/pull/2",
+      "date": "2025-10-06T13:22:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "tum-ei-eda/seal5_etiss_test_env",
+      "pr": 14,
+      "title": "Auto-Update etiss submodule",
+      "url": "https://github.com/tum-ei-eda/seal5_etiss_test_env/pull/14",
+      "date": "2025-10-06T13:22:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ava-labs/avalanche-sdk-typescript",
+      "pr": 264,
+      "title": "chore: 🐝 Update SDK - Generate ChainKit SDK CHAINKIT-SDK 0.3.0-alpha.3",
+      "url": "https://github.com/ava-labs/avalanche-sdk-typescript/pull/264",
+      "date": "2025-10-06T13:21:23Z",
+      "status": "merged"
+    },
+    {
+      "repo": "greenart7c3/Amber",
+      "pr": 249,
+      "title": "New Crowdin Translations",
+      "url": "https://github.com/greenart7c3/Amber/pull/249",
+      "date": "2025-10-06T13:21:11Z",
       "status": "merged"
     },
     {
       "repo": "brodyFlannigan/stq-gtfs",
-      "pr": 267,
-      "title": "Latest data: Mon Sep 29 10:45:46 UTC 2025",
-      "url": "https://github.com/brodyFlannigan/stq-gtfs/pull/267",
-      "date": "2025-09-29T13:26:43Z",
+      "pr": 270,
+      "title": "Latest data: Mon Oct  6 10:44:33 UTC 2025",
+      "url": "https://github.com/brodyFlannigan/stq-gtfs/pull/270",
+      "date": "2025-10-06T13:20:25Z",
       "status": "merged"
     },
     {
-      "repo": "remnawave/frontend",
-      "pr": 164,
-      "title": "chore(i18n): update translations",
-      "url": "https://github.com/remnawave/frontend/pull/164",
-      "date": "2025-09-29T13:26:32Z",
+      "repo": "humbfei-fiap/soat-tech-challenge-infra-eks",
+      "pr": 92,
+      "title": "PR aberto automaticamente: develop -> to Main",
+      "url": "https://github.com/humbfei-fiap/soat-tech-challenge-infra-eks/pull/92",
+      "date": "2025-10-06T13:19:35Z",
       "status": "merged"
     },
     {
-      "repo": "VHP4Safety/cloud",
-      "pr": 175,
-      "title": "Add method JSON for issue #170",
-      "url": "https://github.com/VHP4Safety/cloud/pull/175",
-      "date": "2025-09-29T13:26:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "shriram-k/iptv-viewer",
+      "repo": "humbfei-fiap/soat-tech-challenge-infra-eks",
       "pr": 91,
-      "title": "Automated changes",
-      "url": "https://github.com/shriram-k/iptv-viewer/pull/91",
-      "date": "2025-09-29T13:25:57Z",
+      "title": "PR aberto automaticamente: feature/fiap-eks -> develop",
+      "url": "https://github.com/humbfei-fiap/soat-tech-challenge-infra-eks/pull/91",
+      "date": "2025-10-06T13:19:05Z",
       "status": "merged"
     },
     {
-      "repo": "wahooli/gitops-repo",
-      "pr": 64,
-      "title": "Flux version 2.6.4 update",
-      "url": "https://github.com/wahooli/gitops-repo/pull/64",
-      "date": "2025-07-23T19:04:34Z",
+      "repo": "appaquet/dotfiles",
+      "pr": 286,
+      "title": "Flake update",
+      "url": "https://github.com/appaquet/dotfiles/pull/286",
+      "date": "2025-10-06T13:18:47Z",
       "status": "merged"
     },
     {
-      "repo": "crypto-jobs-fyi/crawler",
-      "pr": 414,
-      "title": "Automated update from crawler.py",
-      "url": "https://github.com/crypto-jobs-fyi/crawler/pull/414",
-      "date": "2025-09-29T13:25:53Z",
+      "repo": "nginx/kubernetes-ingress",
+      "pr": 8359,
+      "title": "Update dependency grpcio to v1.75.1",
+      "url": "https://github.com/nginx/kubernetes-ingress/pull/8359",
+      "date": "2025-10-06T13:17:58Z",
       "status": "merged"
     },
     {
-      "repo": "tutur3u/platform",
-      "pr": 3661,
-      "title": "style: apply biome formatting for feat/realtime-tasks",
-      "url": "https://github.com/tutur3u/platform/pull/3661",
-      "date": "2025-09-29T13:25:47Z",
+      "repo": "GSM2017PMK-OSV/main-trunk",
+      "pr": 9228,
+      "title": "Автоисправление: устранение ошибок и форматирование кода",
+      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/9228",
+      "date": "2025-10-06T13:17:23Z",
       "status": "merged"
     },
     {
-      "repo": "rhinstaller/anaconda-webui",
-      "pr": 1021,
-      "title": "cockpit-ci: Update container to 2025-09-27",
-      "url": "https://github.com/rhinstaller/anaconda-webui/pull/1021",
-      "date": "2025-09-29T13:25:38Z",
-      "status": "merged"
-    },
-    {
-      "repo": "woocommerce/woocommerce",
-      "pr": 61185,
-      "title": "Release: Remove 10.2.2 change files from trunk",
-      "url": "https://github.com/woocommerce/woocommerce/pull/61185",
-      "date": "2025-09-29T13:25:17Z",
-      "status": "merged"
-    },
-    {
-      "repo": "woocommerce/woocommerce",
-      "pr": 61184,
-      "title": "Release: Prepare the changelog for 10.2.2",
-      "url": "https://github.com/woocommerce/woocommerce/pull/61184",
-      "date": "2025-09-29T13:25:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "dotnet/roslyn",
-      "pr": 80492,
-      "title": "[main] Unset other DOTNET_ROOT env vars when launching apphosts",
-      "url": "https://github.com/dotnet/roslyn/pull/80492",
-      "date": "2025-09-29T13:24:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "pybamm-team/pybamm.org",
-      "pr": 322,
-      "title": "Update teams weekly",
-      "url": "https://github.com/pybamm-team/pybamm.org/pull/322",
-      "date": "2025-09-29T13:22:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nitdn/nixos-machine",
-      "pr": 58,
-      "title": "Update Nix flake inputs",
-      "url": "https://github.com/nitdn/nixos-machine/pull/58",
-      "date": "2025-09-29T13:21:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sandu650/Test",
-      "pr": 5,
-      "title": "chore(main): release 0.4.0",
-      "url": "https://github.com/sandu650/Test/pull/5",
-      "date": "2025-09-29T13:19:47Z",
-      "status": "merged"
-    },
-    {
-      "repo": "cichy19/gotestworkflow",
-      "pr": 51,
-      "title": "Update changelog v1.0.44",
-      "url": "https://github.com/cichy19/gotestworkflow/pull/51",
-      "date": "2025-09-29T13:19:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "actions/runner",
-      "pr": 4057,
-      "title": "chore: update Node versions",
-      "url": "https://github.com/actions/runner/pull/4057",
-      "date": "2025-09-29T12:26:46Z",
-      "status": "merged"
-    },
-    {
-      "repo": "stellar/stellar-docs",
-      "pr": 1832,
-      "title": "Download translations and copy ignored files",
-      "url": "https://github.com/stellar/stellar-docs/pull/1832",
-      "date": "2025-09-29T13:18:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "woocommerce/woocommerce",
-      "pr": 61183,
-      "title": "Bump WooCommerce version to 10.2.2",
-      "url": "https://github.com/woocommerce/woocommerce/pull/61183",
-      "date": "2025-09-29T13:18:09Z",
-      "status": "merged"
-    },
-    {
-      "repo": "argoproj/argo-cd",
-      "pr": 24763,
-      "title": "[Bot] docs: Update Snyk report",
-      "url": "https://github.com/argoproj/argo-cd/pull/24763",
-      "date": "2025-09-29T13:15:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "storybook-community/storybook-dark-mode",
-      "pr": 34,
+      "repo": "wuchalejs/wuchale",
+      "pr": 142,
       "title": "Version Packages",
-      "url": "https://github.com/storybook-community/storybook-dark-mode/pull/34",
-      "date": "2025-09-29T13:17:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sandu650/Test",
-      "pr": 4,
-      "title": "chore(main): release 0.3.0",
-      "url": "https://github.com/sandu650/Test/pull/4",
-      "date": "2025-09-29T13:16:25Z",
-      "status": "merged"
-    },
-    {
-      "repo": "globallogicuki/globallogic-backstage-plugins",
-      "pr": 124,
-      "title": "Version Packages",
-      "url": "https://github.com/globallogicuki/globallogic-backstage-plugins/pull/124",
-      "date": "2025-09-29T13:16:26Z",
+      "url": "https://github.com/wuchalejs/wuchale/pull/142",
+      "date": "2025-10-06T13:16:32Z",
       "status": "merged"
     },
     {
       "repo": "Castro-Media/TopStoryReview.com",
-      "pr": 2002,
+      "pr": 2170,
       "title": "Automated data update",
-      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/2002",
-      "date": "2025-09-29T13:15:59Z",
+      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/2170",
+      "date": "2025-10-06T13:15:20Z",
       "status": "merged"
     },
     {
-      "repo": "tokku5552/line-message-validator",
-      "pr": 726,
-      "title": "[bot(create_release_pr)]: created at 20250926150605",
-      "url": "https://github.com/tokku5552/line-message-validator/pull/726",
-      "date": "2025-09-29T13:14:37Z",
+      "repo": "humbfei-fiap/soat-tech-challenge-infra-eks",
+      "pr": 90,
+      "title": "PR aberto automaticamente: develop -> to Main",
+      "url": "https://github.com/humbfei-fiap/soat-tech-challenge-infra-eks/pull/90",
+      "date": "2025-10-06T13:15:03Z",
       "status": "merged"
     },
     {
-      "repo": "fukamachi/dockerfiles",
-      "pr": 125,
-      "title": "Auto-update sbcl",
-      "url": "https://github.com/fukamachi/dockerfiles/pull/125",
-      "date": "2025-09-29T13:14:21Z",
+      "repo": "scaleway/scaleway-lib",
+      "pr": 2804,
+      "title": "chore: release",
+      "url": "https://github.com/scaleway/scaleway-lib/pull/2804",
+      "date": "2025-10-06T13:14:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "humbfei-fiap/soat-tech-challenge-infra-eks",
+      "pr": 89,
+      "title": "PR aberto automaticamente: feature/fiap-eks -> develop",
+      "url": "https://github.com/humbfei-fiap/soat-tech-challenge-infra-eks/pull/89",
+      "date": "2025-10-06T13:14:39Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ovh/manager",
+      "pr": 19523,
+      "title": "New release - Enablers w41",
+      "url": "https://github.com/ovh/manager/pull/19523",
+      "date": "2025-10-06T13:14:21Z",
       "status": "merged"
     },
     {
       "repo": "flathub/com.icons8.Lunacy",
-      "pr": 123,
-      "title": "🤖 Update Lunacy Beta to version 12.0.0.18176",
-      "url": "https://github.com/flathub/com.icons8.Lunacy/pull/123",
-      "date": "2025-09-29T13:06:30Z",
+      "pr": 126,
+      "title": "🤖 Update Lunacy Beta to version 12.0.0.18242",
+      "url": "https://github.com/flathub/com.icons8.Lunacy/pull/126",
+      "date": "2025-10-06T13:07:56Z",
       "status": "merged"
     },
     {
-      "repo": "tokku5552/line-message-validator",
-      "pr": 725,
-      "title": "[bot(create_pr_main_to_develop)]: created at 20250925093529",
-      "url": "https://github.com/tokku5552/line-message-validator/pull/725",
-      "date": "2025-09-29T13:13:31Z",
+      "repo": "TouK/nussknacker",
+      "pr": 8665,
+      "title": "Update Cypress snapshots in ui-fixes-and-tweaks",
+      "url": "https://github.com/TouK/nussknacker/pull/8665",
+      "date": "2025-10-06T13:13:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "briandfoy/cpan-security-advisory",
+      "pr": 219,
+      "title": "Data update for 20251006.002",
+      "url": "https://github.com/briandfoy/cpan-security-advisory/pull/219",
+      "date": "2025-10-06T13:13:15Z",
       "status": "merged"
     },
     {
       "repo": "telometto/nix-config",
-      "pr": 3429,
+      "pr": 3561,
       "title": "🧹 chore(flake.lock): update",
-      "url": "https://github.com/telometto/nix-config/pull/3429",
-      "date": "2025-09-29T13:13:25Z",
+      "url": "https://github.com/telometto/nix-config/pull/3561",
+      "date": "2025-10-06T13:13:03Z",
       "status": "merged"
     },
     {
-      "repo": "frontegg/frontegg-react",
-      "pr": 1309,
-      "title": "v7.12.9",
-      "url": "https://github.com/frontegg/frontegg-react/pull/1309",
-      "date": "2025-09-29T13:13:24Z",
-      "status": "merged"
-    },
-    {
-      "repo": "tokku5552/github-language-extension",
-      "pr": 824,
-      "title": "[bot(create_release_pr)]: created at 20250929150503",
-      "url": "https://github.com/tokku5552/github-language-extension/pull/824",
-      "date": "2025-09-29T13:13:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "danny-avila/LibreChat",
-      "pr": 9869,
-      "title": "🌍 i18n: Update translation.json with latest translations",
-      "url": "https://github.com/danny-avila/LibreChat/pull/9869",
-      "date": "2025-09-29T13:12:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "stolostron/multiclusterhub-operator",
-      "pr": 2694,
-      "title": "Chart Update [main]",
-      "url": "https://github.com/stolostron/multiclusterhub-operator/pull/2694",
-      "date": "2025-09-29T13:12:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "CROSSINGTUD/CryptSL",
-      "pr": 179,
-      "title": "Update CrySL version to 4.0.6",
-      "url": "https://github.com/CROSSINGTUD/CryptSL/pull/179",
-      "date": "2025-09-29T13:11:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "flatland-association/flatland-benchmarks",
-      "pr": 438,
-      "title": "chore(main): release 0.14.0",
-      "url": "https://github.com/flatland-association/flatland-benchmarks/pull/438",
-      "date": "2025-09-29T13:11:03Z",
-      "status": "merged"
-    },
-    {
-      "repo": "josh-stillman/lintier",
-      "pr": 83,
-      "title": "Update Pinned Versions",
-      "url": "https://github.com/josh-stillman/lintier/pull/83",
-      "date": "2025-09-29T13:11:01Z",
+      "repo": "GSM2017PMK-OSV/main-trunk",
+      "pr": 9224,
+      "title": "Автоисправление: устранение ошибок и форматирование кода",
+      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/9224",
+      "date": "2025-10-06T13:12:32Z",
       "status": "merged"
     }
   ]
