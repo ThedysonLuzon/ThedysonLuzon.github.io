@@ -1,5 +1,5 @@
 {
-  "updated": "2025-11-03T13:34:14.912Z",
+  "updated": "2025-11-10T13:34:22.212Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2025-10-27T13:35:14Z"
+      "pushedAt": "2025-11-03T13:34:15Z"
     }
   ],
   "contributions": [
     {
-      "repo": "Steve-xmh/amll-ttml-db",
-      "pr": 6275,
-      "title": "[歌词提交] ヰ世界情緒 - 物語りのワルツ",
-      "url": "https://github.com/Steve-xmh/amll-ttml-db/pull/6275",
-      "date": "2025-11-03T13:34:08Z",
-      "status": "merged"
-    },
-    {
-      "repo": "tavareshugo/test-course-versions",
-      "pr": 2,
-      "title": "chore: automated update to Quarto extensions",
-      "url": "https://github.com/tavareshugo/test-course-versions/pull/2",
-      "date": "2025-11-03T13:33:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "wobsoriano/h3-clerk",
-      "pr": 125,
-      "title": "Version Packages",
-      "url": "https://github.com/wobsoriano/h3-clerk/pull/125",
-      "date": "2025-11-03T13:33:51Z",
+      "repo": "theneworacle/theneworacle.github.io",
+      "pr": 2403,
+      "title": "New Zealand Top News: Welcome to The Oracle: Your Source for AI-Generated Insights",
+      "url": "https://github.com/theneworacle/theneworacle.github.io/pull/2403",
+      "date": "2025-11-10T13:34:14Z",
       "status": "merged"
     },
     {
       "repo": "firefly3823/firefly3823",
-      "pr": 24184,
-      "title": "Auto-generated metrics for run #19036394230",
-      "url": "https://github.com/firefly3823/firefly3823/pull/24184",
-      "date": "2025-11-03T13:33:28Z",
+      "pr": 24338,
+      "title": "Auto-generated metrics for run #19233356178",
+      "url": "https://github.com/firefly3823/firefly3823/pull/24338",
+      "date": "2025-11-10T13:33:46Z",
       "status": "merged"
     },
     {
-      "repo": "9elements/firmware-action",
-      "pr": 797,
-      "title": "Release: v0.19.4 Pull Request",
-      "url": "https://github.com/9elements/firmware-action/pull/797",
-      "date": "2025-11-03T13:33:12Z",
+      "repo": "b13o/blueberry-quest",
+      "pr": 73,
+      "title": "🎉 クエスト完了: 8/branch - Kikuka09Shochu09",
+      "url": "https://github.com/b13o/blueberry-quest/pull/73",
+      "date": "2025-11-10T13:33:37Z",
       "status": "merged"
     },
     {
-      "repo": "ALLMA-dev/allma-core",
-      "pr": 9,
-      "title": "Upcoming Release",
-      "url": "https://github.com/ALLMA-dev/allma-core/pull/9",
-      "date": "2025-11-03T13:33:07Z",
+      "repo": "EOX-A/EOxElements",
+      "pr": 1921,
+      "title": "chore: release main",
+      "url": "https://github.com/EOX-A/EOxElements/pull/1921",
+      "date": "2025-11-10T13:32:49Z",
       "status": "merged"
     },
     {
-      "repo": "ovh/manager",
-      "pr": 20118,
-      "title": "New release",
-      "url": "https://github.com/ovh/manager/pull/20118",
-      "date": "2025-11-03T13:33:03Z",
-      "status": "merged"
-    },
-    {
-      "repo": "n8n-io/n8n",
-      "pr": 21485,
-      "title": ":rocket: Release 1.119.0",
-      "url": "https://github.com/n8n-io/n8n/pull/21485",
-      "date": "2025-11-03T13:32:38Z",
-      "status": "merged"
-    },
-    {
-      "repo": "GSM2017PMK-OSV/main-trunk",
-      "pr": 12732,
-      "title": "Автоисправление: устранение ошибок и форматирование кода",
-      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/12732",
-      "date": "2025-11-03T13:32:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Coalfire-CF/terraform-aws-secretsmanager",
-      "pr": 43,
-      "title": "chore(main): release 2.1.3",
-      "url": "https://github.com/Coalfire-CF/terraform-aws-secretsmanager/pull/43",
-      "date": "2025-11-03T13:32:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nbbrd/sandbox",
-      "pr": 521,
-      "title": "Bump hugo-geekdoc.version to v1.6.2",
-      "url": "https://github.com/nbbrd/sandbox/pull/521",
-      "date": "2025-11-03T13:32:12Z",
+      "repo": "ember-cli/ember-addon-blueprint",
+      "pr": 114,
+      "title": "Prepare Release v0.15.1",
+      "url": "https://github.com/ember-cli/ember-addon-blueprint/pull/114",
+      "date": "2025-11-10T13:32:59Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 25607,
+      "pr": 25914,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/25607",
-      "date": "2025-11-03T13:31:39Z",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/25914",
+      "date": "2025-11-10T13:32:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "flathub/org.gimp.GIMP",
+      "pr": 560,
+      "title": "openjph: Update 0.25.0.tar.gz to 0.25.2",
+      "url": "https://github.com/flathub/org.gimp.GIMP/pull/560",
+      "date": "2025-11-10T13:32:14Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 25606,
+      "pr": 25913,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/25606",
-      "date": "2025-11-03T13:31:34Z",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/25913",
+      "date": "2025-11-10T13:32:14Z",
       "status": "merged"
     },
     {
-      "repo": "hendripermana/permoney",
-      "pr": 38,
-      "title": "chore(main): release 0.8.1",
-      "url": "https://github.com/hendripermana/permoney/pull/38",
-      "date": "2025-11-03T13:28:32Z",
+      "repo": "web-platform-dx/web-features",
+      "pr": 3515,
+      "title": "Update draft features",
+      "url": "https://github.com/web-platform-dx/web-features/pull/3515",
+      "date": "2025-11-10T13:32:13Z",
       "status": "merged"
     },
     {
-      "repo": "3bsalam-1/3bsalam-1",
-      "pr": 27206,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/27206",
-      "date": "2025-11-03T13:30:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/3bsalam-1",
-      "pr": 27205,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/27205",
-      "date": "2025-11-03T13:30:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jenkins-infra/metadata-plugin-modernizer",
-      "pr": 328,
-      "title": "chore: update PR statuses and branch info",
-      "url": "https://github.com/jenkins-infra/metadata-plugin-modernizer/pull/328",
-      "date": "2025-11-03T13:30:32Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/MountainCar",
-      "pr": 27074,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/27074",
-      "date": "2025-11-03T13:30:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jenkins-infra/metadata-plugin-modernizer",
-      "pr": 329,
-      "title": "chore(consolidate): Update aggregated metadata for each plugin",
-      "url": "https://github.com/jenkins-infra/metadata-plugin-modernizer/pull/329",
-      "date": "2025-11-03T13:30:17Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/MountainCar",
-      "pr": 27073,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/27073",
-      "date": "2025-11-03T13:30:12Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jenkins-infra/metadata-plugin-modernizer",
-      "pr": 330,
-      "title": "chore(reports): update plugin migration reports",
-      "url": "https://github.com/jenkins-infra/metadata-plugin-modernizer/pull/330",
-      "date": "2025-11-03T13:30:03Z",
-      "status": "merged"
-    },
-    {
-      "repo": "skeletonlabs/skeleton",
-      "pr": 4051,
+      "repo": "embeddable-hq/remarkable-ui",
+      "pr": 215,
       "title": "Version Packages",
-      "url": "https://github.com/skeletonlabs/skeleton/pull/4051",
-      "date": "2025-11-03T13:29:54Z",
+      "url": "https://github.com/embeddable-hq/remarkable-ui/pull/215",
+      "date": "2025-11-10T13:32:07Z",
       "status": "merged"
     },
     {
-      "repo": "cherrypy/cheroot",
-      "pr": 788,
-      "title": "🔖 Release v11.1.0",
-      "url": "https://github.com/cherrypy/cheroot/pull/788",
-      "date": "2025-11-03T13:29:22Z",
+      "repo": "flathub/org.gimp.GIMP",
+      "pr": 561,
+      "title": "openjph: Update 0.25.0.tar.gz to 0.25.2",
+      "url": "https://github.com/flathub/org.gimp.GIMP/pull/561",
+      "date": "2025-11-10T13:31:52Z",
       "status": "merged"
     },
     {
-      "repo": "mlibrary/search",
-      "pr": 558,
-      "title": "Update CSL files",
-      "url": "https://github.com/mlibrary/search/pull/558",
-      "date": "2025-11-03T13:29:01Z",
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 27514,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/27514",
+      "date": "2025-11-10T13:31:16Z",
       "status": "merged"
     },
     {
-      "repo": "alpenlabs/strata-bridge",
-      "pr": 279,
-      "title": "fix: update flake.lock",
-      "url": "https://github.com/alpenlabs/strata-bridge/pull/279",
-      "date": "2025-11-03T13:24:51Z",
+      "repo": "shopware/translations",
+      "pr": 340,
+      "title": "Crowdin translations",
+      "url": "https://github.com/shopware/translations/pull/340",
+      "date": "2025-11-10T13:31:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 27513,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/27513",
+      "date": "2025-11-10T13:31:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 27382,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/27382",
+      "date": "2025-11-10T13:30:42Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 27381,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/27381",
+      "date": "2025-11-10T13:30:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "BenFradet/spark-diff",
+      "pr": 27,
+      "title": "Update scalafmt-core to 3.10.1",
+      "url": "https://github.com/BenFradet/spark-diff/pull/27",
+      "date": "2025-11-10T13:30:31Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nextcloud/all-in-one",
+      "pr": 7091,
+      "title": "Imaginary update",
+      "url": "https://github.com/nextcloud/all-in-one/pull/7091",
+      "date": "2025-11-10T13:30:25Z",
+      "status": "merged"
+    },
+    {
+      "repo": "remnawave/frontend",
+      "pr": 224,
+      "title": "chore(i18n): update translations",
+      "url": "https://github.com/remnawave/frontend/pull/224",
+      "date": "2025-11-10T13:29:40Z",
       "status": "merged"
     },
     {
       "repo": "adverbdizzy7d/HW-AUS",
-      "pr": 176,
-      "title": "RAW Data Update 20251103-130957Z (run_id=19034693353)",
-      "url": "https://github.com/adverbdizzy7d/HW-AUS/pull/176",
-      "date": "2025-11-03T13:28:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "whutchinson98/dotfiles.nix",
-      "pr": 8,
-      "title": "chore: Update Nix flake dependencies",
-      "url": "https://github.com/whutchinson98/dotfiles.nix/pull/8",
-      "date": "2025-11-03T13:27:57Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nais/ds-svelte-community",
-      "pr": 345,
-      "title": "Version Packages (next)",
-      "url": "https://github.com/nais/ds-svelte-community/pull/345",
-      "date": "2025-11-03T13:27:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "cedya77/aiometadata",
-      "pr": 95,
-      "title": "chore(dev): release 1.6.1",
-      "url": "https://github.com/cedya77/aiometadata/pull/95",
-      "date": "2025-11-03T13:27:10Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Brightspace/test-reporting-action",
-      "pr": 985,
-      "title": "Update Build for PR 984",
-      "url": "https://github.com/Brightspace/test-reporting-action/pull/985",
-      "date": "2025-11-03T13:27:06Z",
+      "pr": 218,
+      "title": "RAW Data Update 20251110-130828Z (run_id=19231630655)",
+      "url": "https://github.com/adverbdizzy7d/HW-AUS/pull/218",
+      "date": "2025-11-10T13:29:40Z",
       "status": "merged"
     },
     {
       "repo": "ludilearn2025/ludilearn",
-      "pr": 2548,
+      "pr": 2827,
       "title": "chore(dev): auto-update STATUS.md",
-      "url": "https://github.com/ludilearn2025/ludilearn/pull/2548",
-      "date": "2025-11-03T13:26:44Z",
+      "url": "https://github.com/ludilearn2025/ludilearn/pull/2827",
+      "date": "2025-11-10T13:28:06Z",
       "status": "merged"
     },
     {
-      "repo": "Eduard9969/blade-polaris-icons",
-      "pr": 141,
-      "title": "update icons with the latest commit v0a5f21fa637ed60288a850ee984fb43f6a9e8ad6",
-      "url": "https://github.com/Eduard9969/blade-polaris-icons/pull/141",
-      "date": "2025-11-03T13:26:06Z",
+      "repo": "Curt-Park/watch-and-upload-gdrive",
+      "pr": 8,
+      "title": "chore(main): release 1.1.1",
+      "url": "https://github.com/Curt-Park/watch-and-upload-gdrive/pull/8",
+      "date": "2025-11-10T11:29:30Z",
       "status": "merged"
     },
     {
-      "repo": "transloadit/uppy",
-      "pr": 6049,
-      "title": "[ci] release",
-      "url": "https://github.com/transloadit/uppy/pull/6049",
-      "date": "2025-11-03T13:26:07Z",
+      "repo": "cockpit-project/cockpit-ostree",
+      "pr": 967,
+      "title": "Makefile: Update Cockpit lib to 75330b80fd49c7bb1756e41d1fdaedde",
+      "url": "https://github.com/cockpit-project/cockpit-ostree/pull/967",
+      "date": "2025-11-10T13:27:54Z",
       "status": "merged"
     },
     {
-      "repo": "apache/airflow",
-      "pr": 57728,
-      "title": "[v3-1-test] Make `extra` of Asset, AssetAlias, AssetEvent a `dict[str, JsonValue]` (#57352)",
-      "url": "https://github.com/apache/airflow/pull/57728",
-      "date": "2025-11-03T10:37:00Z",
+      "repo": "rancher/renovate-config",
+      "pr": 579,
+      "title": "Release week 46",
+      "url": "https://github.com/rancher/renovate-config/pull/579",
+      "date": "2025-11-10T13:27:50Z",
       "status": "merged"
     },
     {
-      "repo": "GSM2017PMK-OSV/main-trunk",
-      "pr": 12730,
-      "title": "Автоисправление: устранение ошибок и форматирование кода",
-      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/12730",
-      "date": "2025-11-03T13:24:29Z",
+      "repo": "To106kit/baseball-cdk",
+      "pr": 6,
+      "title": "security: Prepare repository for public release",
+      "url": "https://github.com/To106kit/baseball-cdk/pull/6",
+      "date": "2025-11-09T11:08:03Z",
       "status": "merged"
     },
     {
-      "repo": "alpenlabs/strata-p2p",
-      "pr": 112,
-      "title": "Automated update to rustc (to nightly-2025-11-01)",
-      "url": "https://github.com/alpenlabs/strata-p2p/pull/112",
-      "date": "2025-11-03T13:19:37Z",
+      "repo": "axelerant/platformsh-action",
+      "pr": 148,
+      "title": "Update known_hosts file",
+      "url": "https://github.com/axelerant/platformsh-action/pull/148",
+      "date": "2025-11-10T13:27:14Z",
       "status": "merged"
     },
     {
-      "repo": "NVIDIA/cccl",
-      "pr": 6446,
-      "title": "[Backport branch/3.1.x] Fix offset_iterator tests",
-      "url": "https://github.com/NVIDIA/cccl/pull/6446",
-      "date": "2025-11-03T13:23:23Z",
+      "repo": "headlesshq/mc-runtime-test",
+      "pr": 78,
+      "title": "chore(main): release 4.0.0",
+      "url": "https://github.com/headlesshq/mc-runtime-test/pull/78",
+      "date": "2025-11-10T13:26:26Z",
       "status": "merged"
     },
     {
-      "repo": "hugo-vrijswijk/bangin-search",
-      "pr": 169,
-      "title": "fix(bangs): update to latest bangs",
-      "url": "https://github.com/hugo-vrijswijk/bangin-search/pull/169",
-      "date": "2025-11-03T10:03:30Z",
+      "repo": "c4dt/showcase_v2",
+      "pr": 230,
+      "title": "data: Automated Weekly last commit date update",
+      "url": "https://github.com/c4dt/showcase_v2/pull/230",
+      "date": "2025-11-10T13:25:30Z",
       "status": "merged"
     },
     {
-      "repo": "hugo-vrijswijk/bangin-search",
-      "pr": 194,
-      "title": "chore(main): release 1.5.4",
-      "url": "https://github.com/hugo-vrijswijk/bangin-search/pull/194",
-      "date": "2025-11-03T10:22:20Z",
+      "repo": "To106kit/baseball-cdk",
+      "pr": 10,
+      "title": "docs: Add CodeRabbit documentation link",
+      "url": "https://github.com/To106kit/baseball-cdk/pull/10",
+      "date": "2025-11-10T13:24:06Z",
       "status": "merged"
     },
     {
-      "repo": "apache/airflow",
-      "pr": 57643,
-      "title": "[v3-1-test] Add number of queries guard in public providers list endpoints (#57635)",
-      "url": "https://github.com/apache/airflow/pull/57643",
-      "date": "2025-11-03T13:21:18Z",
+      "repo": "To106kit/baseball-cdk",
+      "pr": 8,
+      "title": "docs: Add reference links section",
+      "url": "https://github.com/To106kit/baseball-cdk/pull/8",
+      "date": "2025-11-10T13:00:06Z",
       "status": "merged"
     },
     {
-      "repo": "virt-s1/rhel-edge",
-      "pr": 10901,
-      "title": "CentOS-Stream-9-20251103.0",
-      "url": "https://github.com/virt-s1/rhel-edge/pull/10901",
-      "date": "2025-11-03T13:20:49Z",
+      "repo": "modalsource/postal",
+      "pr": 32,
+      "title": "chore(main-modalsource): release 3.5.0",
+      "url": "https://github.com/modalsource/postal/pull/32",
+      "date": "2025-11-10T13:24:31Z",
       "status": "merged"
     },
     {
-      "repo": "galaxyproject/training-material",
-      "pr": 6443,
-      "title": "Update WorkflowHub IDs",
-      "url": "https://github.com/galaxyproject/training-material/pull/6443",
-      "date": "2025-11-03T13:20:31Z",
+      "repo": "City-of-Helsinki/events-helsinki-monorepo",
+      "pr": 904,
+      "title": "chore(main): release events-graphql-proxy 1.5.1",
+      "url": "https://github.com/City-of-Helsinki/events-helsinki-monorepo/pull/904",
+      "date": "2025-11-10T13:18:29Z",
       "status": "merged"
     },
     {
-      "repo": "hendripermana/permoney",
-      "pr": 37,
-      "title": "chore(main): release 0.8.0",
-      "url": "https://github.com/hendripermana/permoney/pull/37",
-      "date": "2025-11-03T13:19:56Z",
+      "repo": "adverbdizzy7d/HW-NZL",
+      "pr": 219,
+      "title": "RAW Data Update 20251110-131103Z (run_id=19232079309)",
+      "url": "https://github.com/adverbdizzy7d/HW-NZL/pull/219",
+      "date": "2025-11-10T13:21:17Z",
       "status": "merged"
     },
     {
-      "repo": "github/vscode-codeql",
-      "pr": 4191,
-      "title": "Bump Node version to v22.19.0",
-      "url": "https://github.com/github/vscode-codeql/pull/4191",
-      "date": "2025-11-03T13:18:33Z",
+      "repo": "LedgerHQ/ledger-secure-sdk",
+      "pr": 1312,
+      "title": "[AUTO_UPDATE] Branch API_LEVEL_25",
+      "url": "https://github.com/LedgerHQ/ledger-secure-sdk/pull/1312",
+      "date": "2025-11-10T13:20:29Z",
       "status": "merged"
     },
     {
-      "repo": "IQAIcom/mcp-polymarket",
-      "pr": 35,
+      "repo": "jahands/workers-packages",
+      "pr": 162,
       "title": "Version Packages",
-      "url": "https://github.com/IQAIcom/mcp-polymarket/pull/35",
-      "date": "2025-11-03T13:18:27Z",
+      "url": "https://github.com/jahands/workers-packages/pull/162",
+      "date": "2025-11-10T13:17:47Z",
       "status": "merged"
     },
     {
-      "repo": "GSM2017PMK-OSV/main-trunk",
-      "pr": 12731,
-      "title": "Автоисправление: устранение ошибок и форматирование кода",
-      "url": "https://github.com/GSM2017PMK-OSV/main-trunk/pull/12731",
-      "date": "2025-11-03T13:05:44Z",
+      "repo": "openfoodfacts/smooth-app",
+      "pr": 7191,
+      "title": "chore: 🌐 Regenerate translation files",
+      "url": "https://github.com/openfoodfacts/smooth-app/pull/7191",
+      "date": "2025-11-10T13:17:06Z",
       "status": "merged"
     },
     {
-      "repo": "Daniel-0liver/CryptoTracker",
-      "pr": 31,
-      "title": "Daily update $(date)",
-      "url": "https://github.com/Daniel-0liver/CryptoTracker/pull/31",
-      "date": "2025-11-03T13:18:14Z",
+      "repo": "Castro-Media/TopStoryReview.com",
+      "pr": 3009,
+      "title": "Automated data update",
+      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/3009",
+      "date": "2025-11-10T13:17:01Z",
       "status": "merged"
     },
     {
-      "repo": "mozilla-ai/any-llm",
-      "pr": 597,
-      "title": "pre-commit autoupdate",
-      "url": "https://github.com/mozilla-ai/any-llm/pull/597",
-      "date": "2025-11-03T13:18:16Z",
+      "repo": "Ponrajk22/ReferMakkale",
+      "pr": 165,
+      "title": "🔄 Auto-sync: Update business data from Google Sheets",
+      "url": "https://github.com/Ponrajk22/ReferMakkale/pull/165",
+      "date": "2025-11-10T13:15:56Z",
       "status": "merged"
     },
     {
-      "repo": "asakatida/chimera",
-      "pr": 5268,
-      "title": "fix(grammar): Add type guards to expr.hpp Transform finalize methods",
-      "url": "https://github.com/asakatida/chimera/pull/5268",
-      "date": "2025-11-03T13:18:12Z",
+      "repo": "Emin017/ieda-infra",
+      "pr": 65,
+      "title": "chore: update flake lock 2025-11-10",
+      "url": "https://github.com/Emin017/ieda-infra/pull/65",
+      "date": "2025-11-10T13:14:54Z",
       "status": "merged"
     },
     {
-      "repo": "tomo-local/zen-search",
-      "pr": 102,
-      "title": "Release v1.5.1",
-      "url": "https://github.com/tomo-local/zen-search/pull/102",
-      "date": "2025-11-03T13:17:16Z",
+      "repo": "smartcontractkit/documentation",
+      "pr": 3146,
+      "title": "Update CCT Changelog: New CCIP Tokens Detected",
+      "url": "https://github.com/smartcontractkit/documentation/pull/3146",
+      "date": "2025-11-10T13:14:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "oaustegard/claude-skills",
+      "pr": 42,
+      "title": "feat(skills): Add/Update skill: developing-preact",
+      "url": "https://github.com/oaustegard/claude-skills/pull/42",
+      "date": "2025-11-05T16:58:30Z",
+      "status": "merged"
+    },
+    {
+      "repo": "telometto/nix-config",
+      "pr": 4126,
+      "title": "🧹 chore(flake.lock): update",
+      "url": "https://github.com/telometto/nix-config/pull/4126",
+      "date": "2025-11-10T13:12:50Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KBS-Labs/dataknobs",
+      "pr": 65,
+      "title": "chore: update dependencies",
+      "url": "https://github.com/KBS-Labs/dataknobs/pull/65",
+      "date": "2025-11-10T13:11:35Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ROCKNIX/distribution",
+      "pr": 1988,
+      "title": "Update kernel configs/device documentation",
+      "url": "https://github.com/ROCKNIX/distribution/pull/1988",
+      "date": "2025-11-10T13:11:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SonarSource/sonar-scanner-maven",
+      "pr": 348,
+      "title": "SCANMAVEN-329 Prepare next development iteration 5.4.0-SNAPSHOT",
+      "url": "https://github.com/SonarSource/sonar-scanner-maven/pull/348",
+      "date": "2025-11-10T13:10:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "hodanov/my-dotfiles.nvim",
+      "pr": 282,
+      "title": "chore: bump tool versions",
+      "url": "https://github.com/hodanov/my-dotfiles.nvim/pull/282",
+      "date": "2025-11-10T13:10:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mercurius-aalst/mercurius-aalst-back-end",
+      "pr": 44,
+      "title": "chore(main): release backend 0.5.1",
+      "url": "https://github.com/mercurius-aalst/mercurius-aalst-back-end/pull/44",
+      "date": "2025-11-10T13:09:30Z",
+      "status": "merged"
+    },
+    {
+      "repo": "flexera-public/policy_templates",
+      "pr": 3719,
+      "title": "Update Azure Compute Instance Types Data",
+      "url": "https://github.com/flexera-public/policy_templates/pull/3719",
+      "date": "2025-11-10T13:09:03Z",
+      "status": "merged"
+    },
+    {
+      "repo": "flexera-public/policy_templates",
+      "pr": 3718,
+      "title": "Update AWS EC2 Instance Types Data",
+      "url": "https://github.com/flexera-public/policy_templates/pull/3718",
+      "date": "2025-11-10T13:08:44Z",
+      "status": "merged"
+    },
+    {
+      "repo": "berikbekishev-source/tg-nanobanana",
+      "pr": 6,
+      "title": "feat: feature/video-format-message → staging",
+      "url": "https://github.com/berikbekishev-source/tg-nanobanana/pull/6",
+      "date": "2025-11-10T13:08:44Z",
       "status": "merged"
     }
   ]
