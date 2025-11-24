@@ -1,5 +1,5 @@
 {
-  "updated": "2025-11-17T13:35:09.518Z",
+  "updated": "2025-11-24T13:36:20.321Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2025-11-10T13:34:22Z"
+      "pushedAt": "2025-11-17T13:35:10Z"
     }
   ],
   "contributions": [
     {
-      "repo": "theneworacle/theneworacle.github.io",
-      "pr": 2571,
-      "title": "New Zealand Top News: New Zealand Considers Social Media Ban for Under 16s Amidst Mental Health Crisis",
-      "url": "https://github.com/theneworacle/theneworacle.github.io/pull/2571",
-      "date": "2025-11-17T13:35:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ovh/manager",
-      "pr": 20414,
-      "title": "New release Public Cloud",
-      "url": "https://github.com/ovh/manager/pull/20414",
-      "date": "2025-11-17T13:34:56Z",
-      "status": "merged"
-    },
-    {
       "repo": "firefly3823/firefly3823",
-      "pr": 24492,
-      "title": "Auto-generated metrics for run #19431415919",
-      "url": "https://github.com/firefly3823/firefly3823/pull/24492",
-      "date": "2025-11-17T13:34:39Z",
+      "pr": 24646,
+      "title": "Auto-generated metrics for run #19636169545",
+      "url": "https://github.com/firefly3823/firefly3823/pull/24646",
+      "date": "2025-11-24T13:35:51Z",
       "status": "merged"
     },
     {
-      "repo": "cowprotocol/cow-sdk",
-      "pr": 688,
-      "title": "chore: release main",
-      "url": "https://github.com/cowprotocol/cow-sdk/pull/688",
-      "date": "2025-11-17T13:34:26Z",
+      "repo": "theneworacle/theneworacle.github.io",
+      "pr": 2738,
+      "title": "New Zealand Top News: Welcome to The Oracle: Your Source for AI-Generated Insights",
+      "url": "https://github.com/theneworacle/theneworacle.github.io/pull/2738",
+      "date": "2025-11-24T13:36:01Z",
       "status": "merged"
     },
     {
-      "repo": "balancer/tokenlists",
-      "pr": 2613,
-      "title": "Update generated tokenlists",
-      "url": "https://github.com/balancer/tokenlists/pull/2613",
-      "date": "2025-11-17T13:34:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "maskom/astro-maskom",
-      "pr": 255,
-      "title": "chore: Update Astro framework to 5.15.8",
-      "url": "https://github.com/maskom/astro-maskom/pull/255",
-      "date": "2025-11-17T13:34:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Brightspace/test-reporting-action",
-      "pr": 1004,
-      "title": "Update Build for PR 1003",
-      "url": "https://github.com/Brightspace/test-reporting-action/pull/1004",
-      "date": "2025-11-17T13:34:32Z",
-      "status": "merged"
-    },
-    {
-      "repo": "criblio/cribl-control-plane-sdk-typescript",
-      "pr": 260,
-      "title": "chore: 🐝 Update SDK - Generate RC SDK (Prerelease) [openapi-prerelease] 0.3.0-rc.4",
-      "url": "https://github.com/criblio/cribl-control-plane-sdk-typescript/pull/260",
-      "date": "2025-11-17T13:34:26Z",
-      "status": "merged"
-    },
-    {
-      "repo": "criblio/cribl-control-plane-sdk-go",
-      "pr": 211,
-      "title": "chore: 🐝 Update SDK - Generate RC SDK (Prerelease) [openapi-prerelease] 0.3.0-rc.4",
-      "url": "https://github.com/criblio/cribl-control-plane-sdk-go/pull/211",
-      "date": "2025-11-17T13:34:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Brightspace/test-reporting-action",
-      "pr": 1007,
-      "title": "Update Build for PR 1005",
-      "url": "https://github.com/Brightspace/test-reporting-action/pull/1007",
-      "date": "2025-11-17T13:33:52Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Clement-Muth/deazl",
-      "pr": 148,
-      "title": "Promote to production",
-      "url": "https://github.com/Clement-Muth/deazl/pull/148",
-      "date": "2025-11-17T13:32:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ChrisTregaskis/ffp",
+      "repo": "dailypay/dailypay-go-sdk",
       "pr": 41,
-      "title": "Ffp 119 Web Routing",
-      "url": "https://github.com/ChrisTregaskis/ffp/pull/41",
-      "date": "2025-11-17T13:33:10Z",
+      "title": "chore: 🐝 Update SDK - Generate Go SDK GO 0.5.4",
+      "url": "https://github.com/dailypay/dailypay-go-sdk/pull/41",
+      "date": "2025-11-24T13:35:57Z",
       "status": "merged"
     },
     {
-      "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 26222,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/26222",
-      "date": "2025-11-17T13:32:51Z",
+      "repo": "thomasdavis/omega",
+      "pr": 388,
+      "title": "Fix TypeScript type check failure due to invalid default TTS voice 'bm_fable' in createBlogPost.ts and improve CLAUDE.md for persistent TS type checking",
+      "url": "https://github.com/thomasdavis/omega/pull/388",
+      "date": "2025-11-24T13:35:47Z",
       "status": "merged"
     },
     {
-      "repo": "domstolene/designsystem",
-      "pr": 1804,
-      "title": "Version Packages",
-      "url": "https://github.com/domstolene/designsystem/pull/1804",
-      "date": "2025-11-17T13:32:49Z",
+      "repo": "dailypay/dailypay-dotnet8-sdk",
+      "pr": 54,
+      "title": "chore: 🐝 Update SDK - Generate .NET 8 SDK CSHARP 0.8.4",
+      "url": "https://github.com/dailypay/dailypay-dotnet8-sdk/pull/54",
+      "date": "2025-11-24T13:35:07Z",
       "status": "merged"
     },
     {
-      "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 26221,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/26221",
-      "date": "2025-11-17T13:32:46Z",
-      "status": "merged"
-    },
-    {
-      "repo": "criblio/cribl_control_plane_sdk_python",
-      "pr": 209,
-      "title": "chore: 🐝 Update SDK - Generate RC SDK (Prerelease) [openapi-prerelease] 0.3.0rc4",
-      "url": "https://github.com/criblio/cribl_control_plane_sdk_python/pull/209",
-      "date": "2025-11-17T13:32:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/3bsalam-1",
-      "pr": 27822,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/27822",
-      "date": "2025-11-17T13:31:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/3bsalam-1",
-      "pr": 27821,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/27821",
-      "date": "2025-11-17T13:31:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zitzhen/CoCo-Community-Control",
-      "pr": 62,
-      "title": "Update D1 data (2025-11-17)",
-      "url": "https://github.com/zitzhen/CoCo-Community-Control/pull/62",
-      "date": "2025-11-17T13:31:47Z",
-      "status": "merged"
-    },
-    {
-      "repo": "remnawave/frontend",
-      "pr": 230,
-      "title": "chore(i18n): update translations",
-      "url": "https://github.com/remnawave/frontend/pull/230",
-      "date": "2025-11-17T13:31:37Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/MountainCar",
-      "pr": 27689,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/27689",
-      "date": "2025-11-17T13:31:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/MountainCar",
-      "pr": 27688,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/27688",
-      "date": "2025-11-17T13:31:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "LiskHQ/dshackle",
-      "pr": 37,
-      "title": "Sync with upstream repo",
-      "url": "https://github.com/LiskHQ/dshackle/pull/37",
-      "date": "2025-11-17T13:29:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "seuros/kaunta",
-      "pr": 62,
-      "title": "chore(master): release 0.23.0",
-      "url": "https://github.com/seuros/kaunta/pull/62",
-      "date": "2025-11-17T13:28:10Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jorgesolebur/CumulusCI",
-      "pr": 122,
-      "title": "Release v5.0.32.dev0",
-      "url": "https://github.com/jorgesolebur/CumulusCI/pull/122",
-      "date": "2025-11-17T13:27:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "aditya624/TalentMatchAI",
-      "pr": 13,
-      "title": "Release → main",
-      "url": "https://github.com/aditya624/TalentMatchAI/pull/13",
-      "date": "2025-11-17T13:27:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Donkijote/fall",
-      "pr": 73,
-      "title": "Sync Release: 0.2.0",
-      "url": "https://github.com/Donkijote/fall/pull/73",
-      "date": "2025-11-17T13:27:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "christian-draeger/kotlin-library-template",
-      "pr": 13,
-      "title": "Update version catalog",
-      "url": "https://github.com/christian-draeger/kotlin-library-template/pull/13",
-      "date": "2025-11-17T13:26:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "opentofu/registry",
-      "pr": 3137,
-      "title": "Provider Key: filess/terraform-provider-dedicated",
-      "url": "https://github.com/opentofu/registry/pull/3137",
-      "date": "2025-11-17T13:25:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "NateScarlet/obsidian-content-addressed-attachments",
-      "pr": 5,
-      "title": "chore(master): release 0.1.2",
-      "url": "https://github.com/NateScarlet/obsidian-content-addressed-attachments/pull/5",
-      "date": "2025-11-17T13:24:57Z",
-      "status": "merged"
-    },
-    {
-      "repo": "HeitorAugustoLN/betterfox-nix",
+      "repo": "dailypay/dailypay-typescript-sdk",
       "pr": 56,
-      "title": "chore(deps): update flake.lock",
-      "url": "https://github.com/HeitorAugustoLN/betterfox-nix/pull/56",
-      "date": "2025-11-17T13:25:02Z",
+      "title": "chore: 🐝 Update SDK - Generate Typescript SDK TYPESCRIPT 0.8.4",
+      "url": "https://github.com/dailypay/dailypay-typescript-sdk/pull/56",
+      "date": "2025-11-24T13:34:42Z",
       "status": "merged"
     },
     {
-      "repo": "Scribery/cockpit-session-recording",
-      "pr": 403,
-      "title": "cockpit-ci: Update container to 2025-11-15",
-      "url": "https://github.com/Scribery/cockpit-session-recording/pull/403",
-      "date": "2025-11-17T13:23:37Z",
+      "repo": "theforeman/foreman-packaging",
+      "pr": 12764,
+      "title": "Update rubygem-foreman_ovirt to 2.0.2",
+      "url": "https://github.com/theforeman/foreman-packaging/pull/12764",
+      "date": "2025-11-24T13:34:39Z",
       "status": "merged"
     },
     {
-      "repo": "Aman-PN/ADF_Deployment-PoC",
-      "pr": 122,
-      "title": "Promote develop to stage",
-      "url": "https://github.com/Aman-PN/ADF_Deployment-PoC/pull/122",
-      "date": "2025-11-17T13:23:07Z",
+      "repo": "dailypay/dailypay-dotnet9-sdk",
+      "pr": 69,
+      "title": "chore: regenerate .NET 9 SDK - OpenAPI spec updated",
+      "url": "https://github.com/dailypay/dailypay-dotnet9-sdk/pull/69",
+      "date": "2025-11-24T13:34:28Z",
       "status": "merged"
     },
     {
-      "repo": "plumelo/dev",
-      "pr": 57,
-      "title": "flake.lock: Update",
-      "url": "https://github.com/plumelo/dev/pull/57",
-      "date": "2025-11-17T13:22:29Z",
+      "repo": "stefanBid/sb-nuxt-template",
+      "pr": 33,
+      "title": "chore(main): release 1.6.5",
+      "url": "https://github.com/stefanBid/sb-nuxt-template/pull/33",
+      "date": "2025-11-24T13:34:05Z",
       "status": "merged"
     },
     {
-      "repo": "IntelPython/dpnp",
-      "pr": 2667,
-      "title": "Weekly pre-commit autoupdate",
-      "url": "https://github.com/IntelPython/dpnp/pull/2667",
-      "date": "2025-11-17T12:57:37Z",
-      "status": "merged"
-    },
-    {
-      "repo": "GEOS-ESM/MAPL",
-      "pr": 4178,
-      "title": "Auto GitFlow - develop → MAPL-v3 - v2: Update to ESMA_env 5.16.0, ESMA_cmake 3.68.0",
-      "url": "https://github.com/GEOS-ESM/MAPL/pull/4178",
-      "date": "2025-11-17T13:22:17Z",
+      "repo": "3bsalam-1/Arabic-OCR",
+      "pr": 26528,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/26528",
+      "date": "2025-11-24T13:34:17Z",
       "status": "merged"
     },
     {
       "repo": "kane50613/takumi",
-      "pr": 293,
+      "pr": 306,
       "title": "Version Packages",
-      "url": "https://github.com/kane50613/takumi/pull/293",
-      "date": "2025-11-17T13:21:26Z",
+      "url": "https://github.com/kane50613/takumi/pull/306",
+      "date": "2025-11-24T13:34:15Z",
       "status": "merged"
     },
     {
-      "repo": "enufacas/Chained",
-      "pr": 1588,
-      "title": "📊 Timeline Update - 2025-11-17 12:39:47 UTC",
-      "url": "https://github.com/enufacas/Chained/pull/1588",
-      "date": "2025-11-17T13:21:10Z",
+      "repo": "3bsalam-1/Arabic-OCR",
+      "pr": 26527,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/26527",
+      "date": "2025-11-24T13:34:11Z",
       "status": "merged"
     },
     {
-      "repo": "adverbdizzy7d/HW-NZL",
-      "pr": 261,
-      "title": "RAW Data Update 20251117-130807Z (run_id=19430077759)",
-      "url": "https://github.com/adverbdizzy7d/HW-NZL/pull/261",
-      "date": "2025-11-17T13:20:41Z",
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 28128,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/28128",
+      "date": "2025-11-24T13:33:18Z",
       "status": "merged"
     },
     {
-      "repo": "enufacas/Chained",
-      "pr": 1591,
-      "title": "📊 Goal progress update - 2025-11-17",
-      "url": "https://github.com/enufacas/Chained/pull/1591",
-      "date": "2025-11-17T13:20:40Z",
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 28127,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/28127",
+      "date": "2025-11-24T13:33:13Z",
       "status": "merged"
     },
     {
-      "repo": "plumelo/core",
-      "pr": 168,
-      "title": "flake.lock: Update",
-      "url": "https://github.com/plumelo/core/pull/168",
-      "date": "2025-11-17T13:19:42Z",
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 27994,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/27994",
+      "date": "2025-11-24T13:32:48Z",
       "status": "merged"
     },
     {
-      "repo": "titom73/avd-cli",
-      "pr": 30,
-      "title": "release: avd-cli v0.2.0",
-      "url": "https://github.com/titom73/avd-cli/pull/30",
-      "date": "2025-11-17T13:18:35Z",
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 27993,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/27993",
+      "date": "2025-11-24T13:32:43Z",
       "status": "merged"
     },
     {
-      "repo": "Castro-Media/TopStoryReview.com",
-      "pr": 3177,
-      "title": "Automated data update",
-      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/3177",
-      "date": "2025-11-17T13:17:08Z",
+      "repo": "andrew-codechimp/HA-Battery-Notes",
+      "pr": 4004,
+      "title": "Add device: Heatmiser - NeoAir V2",
+      "url": "https://github.com/andrew-codechimp/HA-Battery-Notes/pull/4004",
+      "date": "2025-11-24T13:32:23Z",
       "status": "merged"
     },
     {
-      "repo": "vex-generation-toolset/callgraph-metadata",
-      "pr": 32,
-      "title": "Add call graph for org.apache.commons:commons-collections4:4.5.0",
-      "url": "https://github.com/vex-generation-toolset/callgraph-metadata/pull/32",
-      "date": "2025-11-17T13:17:02Z",
+      "repo": "storybookjs/storybook",
+      "pr": 33136,
+      "title": "Release: Prerelease 10.1.0-beta.2",
+      "url": "https://github.com/storybookjs/storybook/pull/33136",
+      "date": "2025-11-24T13:32:06Z",
       "status": "merged"
     },
     {
-      "repo": "verily-src/workbench-app-devcontainers",
-      "pr": 267,
-      "title": "Automated devcontainer feature update",
-      "url": "https://github.com/verily-src/workbench-app-devcontainers/pull/267",
-      "date": "2025-11-17T13:16:30Z",
+      "repo": "cpa01cmz-beep/Malnu-Kananga",
+      "pr": 335,
+      "title": "AI-Powered Student Support System Implementation",
+      "url": "https://github.com/cpa01cmz-beep/Malnu-Kananga/pull/335",
+      "date": "2025-11-24T13:32:01Z",
       "status": "merged"
     },
     {
-      "repo": "lti-tool/lti-tool",
-      "pr": 30,
-      "title": "ci: Version Packages",
-      "url": "https://github.com/lti-tool/lti-tool/pull/30",
-      "date": "2025-11-17T13:16:24Z",
+      "repo": "noql-net/oven",
+      "pr": 656,
+      "title": "Update flake inputs",
+      "url": "https://github.com/noql-net/oven/pull/656",
+      "date": "2025-11-24T13:31:48Z",
       "status": "merged"
     },
     {
-      "repo": "Ponrajk22/ReferMakkale",
-      "pr": 333,
-      "title": "🔄 Auto-sync: Update business data from Google Sheets",
-      "url": "https://github.com/Ponrajk22/ReferMakkale/pull/333",
-      "date": "2025-11-17T13:16:10Z",
+      "repo": "bgd-labs/aave-address-book",
+      "pr": 1151,
+      "title": "chore(main): release 4.36.3",
+      "url": "https://github.com/bgd-labs/aave-address-book/pull/1151",
+      "date": "2025-11-24T13:30:44Z",
       "status": "merged"
     },
     {
-      "repo": "run-llama/llama-ui",
-      "pr": 180,
-      "title": "ci: version packages",
-      "url": "https://github.com/run-llama/llama-ui/pull/180",
-      "date": "2025-11-17T13:15:39Z",
+      "repo": "lucasrcezimbra/toolbox",
+      "pr": 225,
+      "title": "Update Django template with cruft",
+      "url": "https://github.com/lucasrcezimbra/toolbox/pull/225",
+      "date": "2025-11-24T13:31:34Z",
       "status": "merged"
     },
     {
-      "repo": "Clement-Muth/deazl",
-      "pr": 147,
-      "title": "Promote to production",
-      "url": "https://github.com/Clement-Muth/deazl/pull/147",
-      "date": "2025-11-17T13:14:50Z",
+      "repo": "Mission-DMX/Project-Editor",
+      "pr": 353,
+      "title": "versions update",
+      "url": "https://github.com/Mission-DMX/Project-Editor/pull/353",
+      "date": "2025-11-24T13:31:09Z",
       "status": "merged"
     },
     {
-      "repo": "equinor/ecalc",
-      "pr": 1225,
-      "title": "chore(main): release 12.0.4",
-      "url": "https://github.com/equinor/ecalc/pull/1225",
-      "date": "2025-11-17T13:11:56Z",
+      "repo": "bigbeartechworld/big-bear-universal-apps",
+      "pr": 374,
+      "title": "chore: sync app.json versions with docker-compose.yml",
+      "url": "https://github.com/bigbeartechworld/big-bear-universal-apps/pull/374",
+      "date": "2025-11-24T13:30:54Z",
+      "status": "merged"
+    },
+    {
+      "repo": "InKCre/design",
+      "pr": 5,
+      "title": "Design tokens updated from Figma",
+      "url": "https://github.com/InKCre/design/pull/5",
+      "date": "2025-11-24T13:30:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ludilearn2025/ludilearn",
+      "pr": 3324,
+      "title": "chore(dev): auto-update STATUS.md",
+      "url": "https://github.com/ludilearn2025/ludilearn/pull/3324",
+      "date": "2025-11-24T13:29:46Z",
+      "status": "merged"
+    },
+    {
+      "repo": "andrew-codechimp/HA-Battery-Notes",
+      "pr": 4002,
+      "title": "Add device: Heatmiser - Contact Sensor",
+      "url": "https://github.com/andrew-codechimp/HA-Battery-Notes/pull/4002",
+      "date": "2025-11-24T13:29:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SatyamSingh8306/trial-1",
+      "pr": 2039,
+      "title": "Auto update main.py",
+      "url": "https://github.com/SatyamSingh8306/trial-1/pull/2039",
+      "date": "2025-11-24T13:29:02Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fetus-hina/stat.ink",
+      "pr": 1640,
+      "title": "Update dependencies",
+      "url": "https://github.com/fetus-hina/stat.ink/pull/1640",
+      "date": "2025-11-24T13:28:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "HatchiX8/FIRE-Project",
+      "pr": 31,
+      "title": "Auto: Merge hatchi → dev",
+      "url": "https://github.com/HatchiX8/FIRE-Project/pull/31",
+      "date": "2025-11-24T13:27:55Z",
+      "status": "merged"
+    },
+    {
+      "repo": "bgd-labs/aave-address-book",
+      "pr": 1150,
+      "title": "fix(cache): automated cache update - updated addresses",
+      "url": "https://github.com/bgd-labs/aave-address-book/pull/1150",
+      "date": "2025-11-24T13:27:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "andrew-codechimp/HA-Battery-Notes",
+      "pr": 4000,
+      "title": "Add device: Heatmiser - Heatmiser Air Sensor",
+      "url": "https://github.com/andrew-codechimp/HA-Battery-Notes/pull/4000",
+      "date": "2025-11-24T13:27:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "the-guild-org/docs",
+      "pr": 2093,
+      "title": "Upcoming Release Changes",
+      "url": "https://github.com/the-guild-org/docs/pull/2093",
+      "date": "2025-11-24T13:27:02Z",
+      "status": "merged"
+    },
+    {
+      "repo": "equinor/isar-robot",
+      "pr": 320,
+      "title": "Update dependencies",
+      "url": "https://github.com/equinor/isar-robot/pull/320",
+      "date": "2025-11-24T13:26:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Carlos3du/chatbot_cloud",
+      "pr": 10,
+      "title": "🚀 Auto PR: Dev -> Staging",
+      "url": "https://github.com/Carlos3du/chatbot_cloud/pull/10",
+      "date": "2025-11-24T13:26:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "UXWizard25/vv-token-test-v3",
+      "pr": 51,
+      "title": "🎨 Update design tokens from Figma",
+      "url": "https://github.com/UXWizard25/vv-token-test-v3/pull/51",
+      "date": "2025-11-24T09:18:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "betagouv/mission-transition-ecologique",
+      "pr": 2318,
+      "title": "chore: update testimonies",
+      "url": "https://github.com/betagouv/mission-transition-ecologique/pull/2318",
+      "date": "2025-11-24T13:25:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "betagouv/mission-transition-ecologique",
+      "pr": 2319,
+      "title": "chore: update projects",
+      "url": "https://github.com/betagouv/mission-transition-ecologique/pull/2319",
+      "date": "2025-11-24T13:25:15Z",
+      "status": "merged"
+    },
+    {
+      "repo": "equinor/isar-robot",
+      "pr": 311,
+      "title": "Update dependencies",
+      "url": "https://github.com/equinor/isar-robot/pull/311",
+      "date": "2025-11-24T13:25:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "betagouv/mission-transition-ecologique",
+      "pr": 2314,
+      "title": "chore: update programs",
+      "url": "https://github.com/betagouv/mission-transition-ecologique/pull/2314",
+      "date": "2025-11-24T13:24:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "markpash/hashinixpkgs",
+      "pr": 60,
+      "title": "Update flake inputs",
+      "url": "https://github.com/markpash/hashinixpkgs/pull/60",
+      "date": "2025-11-24T13:24:44Z",
+      "status": "merged"
+    },
+    {
+      "repo": "6r-rd/kurage-kon-player",
+      "pr": 66,
+      "title": "Update video data with new videos",
+      "url": "https://github.com/6r-rd/kurage-kon-player/pull/66",
+      "date": "2025-11-24T13:23:45Z",
+      "status": "merged"
+    },
+    {
+      "repo": "arlac77/pmcf",
+      "pr": 472,
+      "title": "Regenerate package lock",
+      "url": "https://github.com/arlac77/pmcf/pull/472",
+      "date": "2025-11-24T13:23:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "salvogiangri/UN1CA",
+      "pr": 532,
+      "title": "Update prebuilts/samsung/r11sxxx blobs to S711BXXSCFYK3",
+      "url": "https://github.com/salvogiangri/UN1CA/pull/532",
+      "date": "2025-11-24T13:22:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "salvogiangri/UN1CA",
+      "pr": 530,
+      "title": "Update prebuilts/samsung/r9qxxx blobs to G990BXXSHIYK1",
+      "url": "https://github.com/salvogiangri/UN1CA/pull/530",
+      "date": "2025-11-24T13:22:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "salvogiangri/UN1CA",
+      "pr": 531,
+      "title": "Update prebuilts/samsung/a56xnaxx blobs to A566BXXS7BYK3",
+      "url": "https://github.com/salvogiangri/UN1CA/pull/531",
+      "date": "2025-11-24T13:22:40Z",
+      "status": "merged"
+    },
+    {
+      "repo": "minhson226/Agent-Auto-Seo-V2",
+      "pr": 1,
+      "title": "Phase planning: extract master spec from PDF",
+      "url": "https://github.com/minhson226/Agent-Auto-Seo-V2/pull/1",
+      "date": "2025-11-24T13:22:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "bgd-labs/aave-address-book",
+      "pr": 1146,
+      "title": "chore(main): release 4.36.2",
+      "url": "https://github.com/bgd-labs/aave-address-book/pull/1146",
+      "date": "2025-11-24T13:20:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sbb-design-systems/lyne-components",
+      "pr": 4204,
+      "title": "chore(main): release 4.0.0-next.3",
+      "url": "https://github.com/sbb-design-systems/lyne-components/pull/4204",
+      "date": "2025-11-24T13:15:41Z",
+      "status": "merged"
+    },
+    {
+      "repo": "stefanBid/sb-nuxt-template",
+      "pr": 31,
+      "title": "chore(main): release 1.6.4",
+      "url": "https://github.com/stefanBid/sb-nuxt-template/pull/31",
+      "date": "2025-11-24T13:20:38Z",
       "status": "merged"
     }
   ]
