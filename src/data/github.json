@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-08T13:37:59.749Z",
+  "updated": "2025-12-15T13:44:08.175Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2025-12-01T13:38:29Z"
+      "pushedAt": "2025-12-08T13:38:00Z"
     }
   ],
   "contributions": [
     {
       "repo": "theneworacle/theneworacle.github.io",
-      "pr": 3073,
+      "pr": 3241,
       "title": "New Zealand Top News: New Zealand Considers Social Media Ban for Under 16s Amidst Mental Health Crisis",
-      "url": "https://github.com/theneworacle/theneworacle.github.io/pull/3073",
-      "date": "2025-12-08T13:37:43Z",
+      "url": "https://github.com/theneworacle/theneworacle.github.io/pull/3241",
+      "date": "2025-12-15T13:43:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "bieniu/brother",
+      "pr": 715,
+      "title": "Auto-update pre-commit hooks",
+      "url": "https://github.com/bieniu/brother/pull/715",
+      "date": "2025-12-15T13:43:52Z",
       "status": "merged"
     },
     {
       "repo": "firefly3823/firefly3823",
-      "pr": 24953,
-      "title": "Auto-generated metrics for run #20029986577",
-      "url": "https://github.com/firefly3823/firefly3823/pull/24953",
-      "date": "2025-12-08T13:37:18Z",
+      "pr": 25107,
+      "title": "Auto-generated metrics for run #20234331713",
+      "url": "https://github.com/firefly3823/firefly3823/pull/25107",
+      "date": "2025-12-15T13:43:51Z",
       "status": "merged"
     },
     {
-      "repo": "home-assistant/iOS",
-      "pr": 4048,
-      "title": "Update Localized Strings",
-      "url": "https://github.com/home-assistant/iOS/pull/4048",
-      "date": "2025-12-05T17:30:08Z",
+      "repo": "bieniu/ha-meteo-imgw-pib",
+      "pr": 185,
+      "title": "Auto-update pre-commit hooks",
+      "url": "https://github.com/bieniu/ha-meteo-imgw-pib/pull/185",
+      "date": "2025-12-15T13:42:44Z",
       "status": "merged"
     },
     {
-      "repo": "strangelookingnerd/pedro-progress-bar-plugin",
-      "pr": 149,
-      "title": "Changelog update - `0.0.10`",
-      "url": "https://github.com/strangelookingnerd/pedro-progress-bar-plugin/pull/149",
-      "date": "2025-12-08T13:29:30Z",
+      "repo": "JuDFTteam/best-of-atomistic-machine-learning",
+      "pr": 533,
+      "title": "Best-of update: 2025.12.11",
+      "url": "https://github.com/JuDFTteam/best-of-atomistic-machine-learning/pull/533",
+      "date": "2025-12-15T13:42:13Z",
       "status": "merged"
     },
     {
-      "repo": "clc-blind/daisy-util",
-      "pr": 12,
-      "title": "chore(main): release 1.0.5",
-      "url": "https://github.com/clc-blind/daisy-util/pull/12",
-      "date": "2025-12-08T13:35:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Crisnyc/pvme-guides",
-      "pr": 14,
-      "title": "Update vorago-basic.txt",
-      "url": "https://github.com/Crisnyc/pvme-guides/pull/14",
-      "date": "2025-12-08T13:35:52Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ubiquity-os/plugin-sdk",
-      "pr": 157,
-      "title": "chore(main): release 3.5.4",
-      "url": "https://github.com/ubiquity-os/plugin-sdk/pull/157",
-      "date": "2025-12-08T13:15:05Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ubiquity-os/plugin-sdk",
-      "pr": 156,
-      "title": "chore(main): release 3.5.3",
-      "url": "https://github.com/ubiquity-os/plugin-sdk/pull/156",
-      "date": "2025-12-08T08:42:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ubiquity-os/plugin-sdk",
-      "pr": 155,
-      "title": "chore(main): release 3.5.2",
-      "url": "https://github.com/ubiquity-os/plugin-sdk/pull/155",
-      "date": "2025-12-08T05:07:15Z",
-      "status": "merged"
-    },
-    {
-      "repo": "daisuke-sakiyama/sumuka-okinawa",
-      "pr": 42,
-      "title": "Auto merge: claude/fix-contact-page-01LriEUuexPjMZhPaSnmqfGb",
-      "url": "https://github.com/daisuke-sakiyama/sumuka-okinawa/pull/42",
-      "date": "2025-12-08T13:35:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "SEKOIA-IO/documentation",
-      "pr": 2655,
-      "title": "Refresh intakes documentation",
-      "url": "https://github.com/SEKOIA-IO/documentation/pull/2655",
-      "date": "2025-12-08T13:35:09Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 27142,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/27142",
-      "date": "2025-12-08T13:35:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "avatune/avatune",
-      "pr": 58,
-      "title": "chore: update versions",
-      "url": "https://github.com/avatune/avatune/pull/58",
-      "date": "2025-12-08T13:35:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/Arabic-OCR",
-      "pr": 27141,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/Arabic-OCR/pull/27141",
-      "date": "2025-12-08T13:35:28Z",
-      "status": "merged"
-    },
-    {
-      "repo": "theogaditya/sih-swarajdesk-2025",
-      "pr": 62,
-      "title": "Deploy latest from main",
-      "url": "https://github.com/theogaditya/sih-swarajdesk-2025/pull/62",
-      "date": "2025-12-08T13:35:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/3bsalam-1",
-      "pr": 28744,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/28744",
-      "date": "2025-12-08T13:35:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/3bsalam-1",
-      "pr": 28743,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/28743",
-      "date": "2025-12-08T13:34:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "githubnext/gh-aw",
-      "pr": 5851,
-      "title": "[log] Add debug logging to 5 additional Go files",
-      "url": "https://github.com/githubnext/gh-aw/pull/5851",
-      "date": "2025-12-08T13:34:19Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/MountainCar",
-      "pr": 28608,
-      "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/28608",
-      "date": "2025-12-08T13:34:20Z",
-      "status": "merged"
-    },
-    {
-      "repo": "3bsalam-1/MountainCar",
-      "pr": 28607,
-      "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/28607",
-      "date": "2025-12-08T13:34:16Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zone-eu/wildduck-zonemta-zilter",
-      "pr": 71,
-      "title": "chore(master): release 1.0.32 [skip-ci]",
-      "url": "https://github.com/zone-eu/wildduck-zonemta-zilter/pull/71",
-      "date": "2025-12-08T13:33:35Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ubuntu/authd-oidc-brokers",
-      "pr": 778,
-      "title": "Auto update google branch",
-      "url": "https://github.com/ubuntu/authd-oidc-brokers/pull/778",
-      "date": "2025-12-08T13:33:36Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ubuntu/authd-oidc-brokers",
-      "pr": 777,
-      "title": "Auto update msentraid branch",
-      "url": "https://github.com/ubuntu/authd-oidc-brokers/pull/777",
-      "date": "2025-12-08T13:33:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "tokku5552/line-message-validator",
-      "pr": 765,
-      "title": "[bot(create_pr_main_to_develop)]: created at 20251207215420",
-      "url": "https://github.com/tokku5552/line-message-validator/pull/765",
-      "date": "2025-12-08T13:33:28Z",
-      "status": "merged"
-    },
-    {
-      "repo": "tokku5552/github-language-extension",
-      "pr": 871,
-      "title": "[bot(create_release_pr)]: created at 20251208150604",
-      "url": "https://github.com/tokku5552/github-language-extension/pull/871",
-      "date": "2025-12-08T13:33:15Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Conductus-Labs/baton-agents",
-      "pr": 11,
-      "title": "Release v0.1.2",
-      "url": "https://github.com/Conductus-Labs/baton-agents/pull/11",
-      "date": "2025-12-08T13:32:57Z",
-      "status": "merged"
-    },
-    {
-      "repo": "psrenergy/LightPSRIO.jl",
-      "pr": 5,
-      "title": "CompatHelper: add new compat entry for Statistics at version 1, (keep existing compat)",
-      "url": "https://github.com/psrenergy/LightPSRIO.jl/pull/5",
-      "date": "2025-12-08T13:32:02Z",
+      "repo": "dev-five-git/vespertide",
+      "pr": 21,
+      "title": "Update Versions",
+      "url": "https://github.com/dev-five-git/vespertide/pull/21",
+      "date": "2025-12-15T13:41:38Z",
       "status": "merged"
     },
     {
       "repo": "FrancoStino/FrancoStino",
-      "pr": 1049,
+      "pr": 2054,
       "title": "🤖 Auto-update: GitHub Stats & Visualizations",
-      "url": "https://github.com/FrancoStino/FrancoStino/pull/1049",
-      "date": "2025-12-08T13:31:42Z",
+      "url": "https://github.com/FrancoStino/FrancoStino/pull/2054",
+      "date": "2025-12-15T13:41:44Z",
       "status": "merged"
     },
     {
-      "repo": "chakra-ui/panda",
-      "pr": 3435,
-      "title": "Version Packages",
-      "url": "https://github.com/chakra-ui/panda/pull/3435",
-      "date": "2025-12-08T13:31:37Z",
-      "status": "merged"
-    },
-    {
-      "repo": "psrenergy/LightPSRIO.jl",
-      "pr": 4,
-      "title": "CompatHelper: add new compat entry for LuaNova at version 0.1, (keep existing compat)",
-      "url": "https://github.com/psrenergy/LightPSRIO.jl/pull/4",
-      "date": "2025-12-08T13:31:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "reichlab/variant-nowcast-hub",
-      "pr": 863,
-      "title": "Add new round 2025-12-08_03-41-43",
-      "url": "https://github.com/reichlab/variant-nowcast-hub/pull/863",
-      "date": "2025-12-08T13:31:15Z",
-      "status": "merged"
-    },
-    {
-      "repo": "NewbieXvwu/ParticleSaturn",
+      "repo": "Pushikoo/pushikoo-adapter-testprocesser",
       "pr": 2,
-      "title": "style: auto-format code with clang-format",
-      "url": "https://github.com/NewbieXvwu/ParticleSaturn/pull/2",
-      "date": "2025-12-08T13:30:57Z",
+      "title": "chore(main): release 0.1.1",
+      "url": "https://github.com/Pushikoo/pushikoo-adapter-testprocesser/pull/2",
+      "date": "2025-12-15T13:41:01Z",
       "status": "merged"
     },
     {
-      "repo": "romiem/ai-bands",
-      "pr": 160,
-      "title": "Add Crowning Flame",
-      "url": "https://github.com/romiem/ai-bands/pull/160",
-      "date": "2025-12-08T13:30:38Z",
+      "repo": "bieniu/ha-shellies-discovery-gen2",
+      "pr": 738,
+      "title": "Auto-update pre-commit hooks",
+      "url": "https://github.com/bieniu/ha-shellies-discovery-gen2/pull/738",
+      "date": "2025-12-15T13:41:02Z",
       "status": "merged"
     },
     {
-      "repo": "riscv-admin/riscv-landscape",
-      "pr": 1037,
-      "title": "Update Landscape from LFX 2025-12-04",
-      "url": "https://github.com/riscv-admin/riscv-landscape/pull/1037",
-      "date": "2025-12-08T13:30:36Z",
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 29050,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/29050",
+      "date": "2025-12-15T13:40:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 29049,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/29049",
+      "date": "2025-12-15T13:40:32Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 28920,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/28920",
+      "date": "2025-12-15T13:40:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 28919,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/28919",
+      "date": "2025-12-15T13:40:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Signalium/signalium",
+      "pr": 139,
+      "title": "Version Packages",
+      "url": "https://github.com/Signalium/signalium/pull/139",
+      "date": "2025-12-15T13:39:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "puiyq/nyx-loner",
+      "pr": 4,
+      "title": "Bump 20251215-1",
+      "url": "https://github.com/puiyq/nyx-loner/pull/4",
+      "date": "2025-12-15T13:30:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "rancher/renovate-config",
+      "pr": 612,
+      "title": "Release week 51",
+      "url": "https://github.com/rancher/renovate-config/pull/612",
+      "date": "2025-12-15T13:38:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "openshift-pipelines/operator",
+      "pr": 12824,
+      "title": "[bot] Update next from tektoncd/operator to 97bcaaf9d6de915ae20d6b5edec80ce8fd0c87bf",
+      "url": "https://github.com/openshift-pipelines/operator/pull/12824",
+      "date": "2025-12-15T13:37:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "rstagi/confts",
+      "pr": 16,
+      "title": "Version Packages",
+      "url": "https://github.com/rstagi/confts/pull/16",
+      "date": "2025-12-15T13:37:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ludilearn2025/ludilearn",
+      "pr": 4097,
+      "title": "chore(dev): auto-update STATUS.md",
+      "url": "https://github.com/ludilearn2025/ludilearn/pull/4097",
+      "date": "2025-12-15T13:37:03Z",
+      "status": "merged"
+    },
+    {
+      "repo": "bieniu/imgw-pib",
+      "pr": 374,
+      "title": "Auto-update pre-commit hooks",
+      "url": "https://github.com/bieniu/imgw-pib/pull/374",
+      "date": "2025-12-15T13:37:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Mattlk13/all-in-one",
+      "pr": 26,
+      "title": "PHP dependency updates",
+      "url": "https://github.com/Mattlk13/all-in-one/pull/26",
+      "date": "2025-12-15T13:36:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Mattlk13/all-in-one",
+      "pr": 31,
+      "title": "watchtower container update",
+      "url": "https://github.com/Mattlk13/all-in-one/pull/31",
+      "date": "2025-12-15T13:36:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Mattlk13/all-in-one",
+      "pr": 28,
+      "title": "Nextcloud dependency update",
+      "url": "https://github.com/Mattlk13/all-in-one/pull/28",
+      "date": "2025-12-15T13:36:33Z",
       "status": "merged"
     },
     {
       "repo": "SatyamSingh8306/trial-1",
-      "pr": 2298,
+      "pr": 2411,
       "title": "Auto update main.py",
-      "url": "https://github.com/SatyamSingh8306/trial-1/pull/2298",
-      "date": "2025-12-08T13:30:26Z",
+      "url": "https://github.com/SatyamSingh8306/trial-1/pull/2411",
+      "date": "2025-12-15T13:36:14Z",
       "status": "merged"
     },
     {
-      "repo": "CheckPointSW/mcp-servers",
-      "pr": 168,
-      "title": "Update dependencies 2025-12-08",
-      "url": "https://github.com/CheckPointSW/mcp-servers/pull/168",
-      "date": "2025-12-08T13:30:12Z",
+      "repo": "bieniu/nettigo-air-monitor",
+      "pr": 652,
+      "title": "Auto-update pre-commit hooks",
+      "url": "https://github.com/bieniu/nettigo-air-monitor/pull/652",
+      "date": "2025-12-15T13:36:06Z",
       "status": "merged"
     },
     {
-      "repo": "quarto-dev/quarto-web",
-      "pr": 1838,
-      "title": "[Sync to prerelease] docs(lua-api): Add Typst path function to lua-api documentation",
-      "url": "https://github.com/quarto-dev/quarto-web/pull/1838",
-      "date": "2025-12-08T13:29:44Z",
+      "repo": "icampana/jsonl-viewer",
+      "pr": 5,
+      "title": "chore(main): release jsonl-viewer 0.4.0",
+      "url": "https://github.com/icampana/jsonl-viewer/pull/5",
+      "date": "2025-12-15T13:33:34Z",
       "status": "merged"
     },
     {
-      "repo": "SonarSource/sonar-java-jdt",
-      "pr": 68,
-      "title": "Prepare next development iteration 1.8",
-      "url": "https://github.com/SonarSource/sonar-java-jdt/pull/68",
-      "date": "2025-12-08T13:28:06Z",
+      "repo": "mastodon/joinmastodon",
+      "pr": 1030,
+      "title": "New Crowdin translations (automated)",
+      "url": "https://github.com/mastodon/joinmastodon/pull/1030",
+      "date": "2025-12-15T13:34:24Z",
       "status": "merged"
     },
     {
-      "repo": "opentofu/registry",
-      "pr": 3223,
-      "title": "Module: AWS Account Bootstrap",
-      "url": "https://github.com/opentofu/registry/pull/3223",
-      "date": "2025-12-08T13:27:50Z",
+      "repo": "dnpm-dip/mtb-validation-service",
+      "pr": 14,
+      "title": "chore(main): release 1.1.6",
+      "url": "https://github.com/dnpm-dip/mtb-validation-service/pull/14",
+      "date": "2025-12-15T13:33:53Z",
       "status": "merged"
     },
     {
-      "repo": "aicodingstack/aicodingstack.io",
-      "pr": 31,
-      "title": "chore: update GitHub stars data",
-      "url": "https://github.com/aicodingstack/aicodingstack.io/pull/31",
-      "date": "2025-12-08T13:27:46Z",
+      "repo": "dnpm-dip/rd-validation-service",
+      "pr": 13,
+      "title": "chore(main): release 1.1.7",
+      "url": "https://github.com/dnpm-dip/rd-validation-service/pull/13",
+      "date": "2025-12-15T13:33:43Z",
       "status": "merged"
     },
     {
-      "repo": "babushkai/Biblio",
-      "pr": 47,
-      "title": "🤖 Weekly Research Paper Update",
-      "url": "https://github.com/babushkai/Biblio/pull/47",
-      "date": "2025-12-08T13:27:29Z",
+      "repo": "Sn0wo2/CatSync",
+      "pr": 32,
+      "title": "chore(lint): fix issues",
+      "url": "https://github.com/Sn0wo2/CatSync/pull/32",
+      "date": "2025-12-15T13:33:08Z",
       "status": "merged"
     },
     {
-      "repo": "kcalvelli/axios",
-      "pr": 17,
-      "title": "chore: update flake.lock",
-      "url": "https://github.com/kcalvelli/axios/pull/17",
-      "date": "2025-12-08T13:27:22Z",
+      "repo": "reichlab/variant-nowcast-hub",
+      "pr": 877,
+      "title": "Add new round 2025-12-15_03-42-04",
+      "url": "https://github.com/reichlab/variant-nowcast-hub/pull/877",
+      "date": "2025-12-15T13:32:58Z",
       "status": "merged"
     },
     {
-      "repo": "AtB-AS/design-system",
-      "pr": 367,
-      "title": "chore(main): release theme 15.0.1",
-      "url": "https://github.com/AtB-AS/design-system/pull/367",
-      "date": "2025-12-08T13:26:30Z",
+      "repo": "reichlab/variant-nowcast-hub",
+      "pr": 876,
+      "title": "2025-12-10-unscored-locations",
+      "url": "https://github.com/reichlab/variant-nowcast-hub/pull/876",
+      "date": "2025-12-15T13:32:34Z",
       "status": "merged"
     },
     {
-      "repo": "ruan-cat/monorepo",
-      "pr": 74,
-      "title": "📢 publish: release package(s)",
-      "url": "https://github.com/ruan-cat/monorepo/pull/74",
-      "date": "2025-12-08T13:26:35Z",
+      "repo": "syngrisi/syngrisi",
+      "pr": 6,
+      "title": "chore(release): version packages",
+      "url": "https://github.com/syngrisi/syngrisi/pull/6",
+      "date": "2025-12-15T13:32:31Z",
       "status": "merged"
     },
     {
-      "repo": "planetscale/cloudranger",
-      "pr": 213,
-      "title": "🤖 update cloud provider IP ranges 2025-12-08_0346",
-      "url": "https://github.com/planetscale/cloudranger/pull/213",
-      "date": "2025-12-08T13:25:33Z",
+      "repo": "launchdarkly/launchdarkly-toolbar",
+      "pr": 427,
+      "title": "chore(main): release 2.4.0-beta.1",
+      "url": "https://github.com/launchdarkly/launchdarkly-toolbar/pull/427",
+      "date": "2025-12-15T13:32:09Z",
       "status": "merged"
     },
     {
-      "repo": "kaugesaar/lucide-go",
-      "pr": 9,
-      "title": "chore: Update lucide icons to 0.555.0",
-      "url": "https://github.com/kaugesaar/lucide-go/pull/9",
-      "date": "2025-12-08T13:24:15Z",
+      "repo": "Yoquec/dotfiles",
+      "pr": 1,
+      "title": "flake.lock: Update",
+      "url": "https://github.com/Yoquec/dotfiles/pull/1",
+      "date": "2025-12-15T13:32:00Z",
       "status": "merged"
     },
     {
-      "repo": "osmosis-labs/assetlists",
-      "pr": 3297,
-      "title": "assetlist and chainlist Update",
-      "url": "https://github.com/osmosis-labs/assetlists/pull/3297",
-      "date": "2025-12-08T13:24:21Z",
+      "repo": "FrancoStino/FrancoStino",
+      "pr": 2053,
+      "title": "🤖 Auto-update: GitHub Stats & Visualizations",
+      "url": "https://github.com/FrancoStino/FrancoStino/pull/2053",
+      "date": "2025-12-15T13:31:44Z",
       "status": "merged"
     },
     {
-      "repo": "daisuke-sakiyama/sumuka-okinawa",
-      "pr": 41,
-      "title": "Auto merge: claude/fix-contact-page-01LriEUuexPjMZhPaSnmqfGb",
-      "url": "https://github.com/daisuke-sakiyama/sumuka-okinawa/pull/41",
-      "date": "2025-12-08T13:24:14Z",
+      "repo": "obsidian-community/obsidian-hub",
+      "pr": 828,
+      "title": "Scripted update of Hub content",
+      "url": "https://github.com/obsidian-community/obsidian-hub/pull/828",
+      "date": "2025-12-15T13:31:17Z",
       "status": "merged"
     },
     {
-      "repo": "flathub/com.icons8.Lunacy",
-      "pr": 145,
-      "title": "🤖 Update Lunacy Beta to version 12.0.0.18754",
-      "url": "https://github.com/flathub/com.icons8.Lunacy/pull/145",
-      "date": "2025-12-08T13:22:57Z",
+      "repo": "dnpm-dip/service-base",
+      "pr": 19,
+      "title": "chore(main): release 1.2.3",
+      "url": "https://github.com/dnpm-dip/service-base/pull/19",
+      "date": "2025-12-15T13:30:08Z",
       "status": "merged"
     },
     {
-      "repo": "theogaditya/sih-swarajdesk-2025",
-      "pr": 61,
-      "title": "Deploy latest from main",
-      "url": "https://github.com/theogaditya/sih-swarajdesk-2025/pull/61",
-      "date": "2025-12-08T13:22:00Z",
+      "repo": "Pushikoo/pushikoo-adapter-testprocesser",
+      "pr": 1,
+      "title": "chore(main): release 0.1.0",
+      "url": "https://github.com/Pushikoo/pushikoo-adapter-testprocesser/pull/1",
+      "date": "2025-12-15T13:29:51Z",
+      "status": "merged"
+    },
+    {
+      "repo": "RED-CAT-PICTURES/red-cat-pictures",
+      "pr": 160,
+      "title": "ci(release): update version",
+      "url": "https://github.com/RED-CAT-PICTURES/red-cat-pictures/pull/160",
+      "date": "2025-12-15T13:28:44Z",
+      "status": "merged"
+    },
+    {
+      "repo": "seb-oss/Spark-packages",
+      "pr": 1027,
+      "title": "chore(release): update versions",
+      "url": "https://github.com/seb-oss/Spark-packages/pull/1027",
+      "date": "2025-12-15T13:28:04Z",
+      "status": "merged"
+    },
+    {
+      "repo": "greenelab/greenelab.com",
+      "pr": 165,
+      "title": "Periodic citation update",
+      "url": "https://github.com/greenelab/greenelab.com/pull/165",
+      "date": "2025-12-15T13:27:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "firefly-iii/firefly-iii",
+      "pr": 11364,
+      "title": "🤖 Automatic PR to merge all changes into the 'develop' branch.",
+      "url": "https://github.com/firefly-iii/firefly-iii/pull/11364",
+      "date": "2025-12-15T13:26:58Z",
+      "status": "merged"
+    },
+    {
+      "repo": "The-DevOps-Daily/devops-daily",
+      "pr": 638,
+      "title": "DevOps Weekly Digest - Week 51, 2025",
+      "url": "https://github.com/The-DevOps-Daily/devops-daily/pull/638",
+      "date": "2025-12-15T13:26:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sergiorgiraldo/AdventOfCode2025",
+      "pr": 97,
+      "title": "chore(main): release 13.1.0",
+      "url": "https://github.com/sergiorgiraldo/AdventOfCode2025/pull/97",
+      "date": "2025-12-15T13:25:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sergiorgiraldo/AdventOfCode2025",
+      "pr": 96,
+      "title": "chore(main): release 13.1.0",
+      "url": "https://github.com/sergiorgiraldo/AdventOfCode2025/pull/96",
+      "date": "2025-12-15T13:24:41Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ykmp-dev/Photo-Studio-Pricing-Simulator",
+      "pr": 70,
+      "title": "Auto-merge: claude/photo-pricing-simulator-01BmvtLhyedN4MCeLRHfWDFK",
+      "url": "https://github.com/ykmp-dev/Photo-Studio-Pricing-Simulator/pull/70",
+      "date": "2025-12-15T13:24:54Z",
+      "status": "merged"
+    },
+    {
+      "repo": "NextNodeSolutions/validation",
+      "pr": 3,
+      "title": "v2.0.0",
+      "url": "https://github.com/NextNodeSolutions/validation/pull/3",
+      "date": "2025-12-15T13:24:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "CMSgov/bluebutton-web-server",
+      "pr": 1446,
+      "title": "docs(contributor): contributors readme action update",
+      "url": "https://github.com/CMSgov/bluebutton-web-server/pull/1446",
+      "date": "2025-12-15T13:24:26Z",
+      "status": "merged"
+    },
+    {
+      "repo": "MurrellGroup/BranchChain.jl",
+      "pr": 3,
+      "title": "CompatHelper: bump compat for JLD2 to 0.6, (keep existing compat)",
+      "url": "https://github.com/MurrellGroup/BranchChain.jl/pull/3",
+      "date": "2025-12-15T13:24:14Z",
       "status": "merged"
     }
   ]
