@@ -1,5 +1,5 @@
 {
-  "updated": "2025-12-22T13:37:40.300Z",
+  "updated": "2025-12-29T13:41:01.426Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2025-12-15T13:44:08Z"
+      "pushedAt": "2025-12-22T13:37:40Z"
     }
   ],
   "contributions": [
     {
-      "repo": "e-m-b-a/emba",
-      "pr": 1835,
-      "title": "Metasploit database update",
-      "url": "https://github.com/e-m-b-a/emba/pull/1835",
-      "date": "2025-12-22T13:37:17Z",
+      "repo": "firefly3823/firefly3823",
+      "pr": 25412,
+      "title": "Auto-generated metrics for run #20574222163",
+      "url": "https://github.com/firefly3823/firefly3823/pull/25412",
+      "date": "2025-12-29T13:40:27Z",
       "status": "merged"
     },
     {
-      "repo": "jacobdjwilson/awesome-annual-security-reports",
-      "pr": 271,
-      "title": "📄 Add Splunk Ciso Report (2025) report",
-      "url": "https://github.com/jacobdjwilson/awesome-annual-security-reports/pull/271",
-      "date": "2025-12-22T13:37:13Z",
+      "repo": "theneworacle/theneworacle.github.io",
+      "pr": 3577,
+      "title": "New Zealand Top News: Welcome to The Oracle: Your Source for AI-Generated Insights",
+      "url": "https://github.com/theneworacle/theneworacle.github.io/pull/3577",
+      "date": "2025-12-29T13:40:28Z",
       "status": "merged"
     },
     {
-      "repo": "smartcontractkit/documentation",
-      "pr": 3315,
-      "title": "Changelog Update: New data found",
-      "url": "https://github.com/smartcontractkit/documentation/pull/3315",
-      "date": "2025-12-22T13:37:03Z",
+      "repo": "TrainLCD/MobileApp",
+      "pr": 4831,
+      "title": "chore: Bump version for PR #4830",
+      "url": "https://github.com/TrainLCD/MobileApp/pull/4831",
+      "date": "2025-12-29T13:40:16Z",
       "status": "merged"
     },
     {
-      "repo": "e-m-b-a/emba",
-      "pr": 1834,
-      "title": "Linux kernel version database update",
-      "url": "https://github.com/e-m-b-a/emba/pull/1834",
-      "date": "2025-12-22T13:37:04Z",
+      "repo": "gOOvER/pelican-ptero-images",
+      "pr": 73,
+      "title": "📝 Update README - New Docker Images Detected",
+      "url": "https://github.com/gOOvER/pelican-ptero-images/pull/73",
+      "date": "2025-12-29T13:38:27Z",
       "status": "merged"
     },
     {
-      "repo": "FreeCAD/FreeCAD",
-      "pr": 26383,
-      "title": "[Backport releases/FreeCAD-1-1] PD: Fix missing silent mode check in GetTopoShapeVerifiedFace",
-      "url": "https://github.com/FreeCAD/FreeCAD/pull/26383",
-      "date": "2025-12-22T13:36:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "e-m-b-a/emba",
-      "pr": 1833,
-      "title": "CISA known exploited database update",
-      "url": "https://github.com/e-m-b-a/emba/pull/1833",
-      "date": "2025-12-22T13:36:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kubecost/kubecost",
-      "pr": 4502,
-      "title": ":cherries: Change deployment guide to saas deployment to v3.0",
-      "url": "https://github.com/kubecost/kubecost/pull/4502",
-      "date": "2025-12-22T13:36:03Z",
-      "status": "merged"
-    },
-    {
-      "repo": "juspay/blend-design-system",
-      "pr": 864,
-      "title": "chore(release): v0.0.31 [STABLE]",
-      "url": "https://github.com/juspay/blend-design-system/pull/864",
-      "date": "2025-12-22T13:35:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jacobdjwilson/awesome-annual-security-reports",
-      "pr": 270,
-      "title": "📄 Add Mixmode State Of AI In Cybersecurity Report (2025) report",
-      "url": "https://github.com/jacobdjwilson/awesome-annual-security-reports/pull/270",
-      "date": "2025-12-22T13:35:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "mpvkit/MPVKit",
-      "pr": 56,
-      "title": "vulkan bump version to 1.4.1",
-      "url": "https://github.com/mpvkit/MPVKit/pull/56",
-      "date": "2025-12-22T13:35:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "danesjenovdan/parlameter",
-      "pr": 1808,
-      "title": "Pulling refs/heads/dev into slovenija",
-      "url": "https://github.com/danesjenovdan/parlameter/pull/1808",
-      "date": "2025-12-22T13:34:53Z",
+      "repo": "exoscale/egoscale",
+      "pr": 735,
+      "title": "v3: regenerate from new API spec",
+      "url": "https://github.com/exoscale/egoscale/pull/735",
+      "date": "2025-12-29T13:37:41Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/3bsalam-1",
-      "pr": 29408,
+      "pr": 29714,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/29408",
-      "date": "2025-12-22T13:34:25Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OlivierZal/melcloud-api",
-      "pr": 1268,
-      "title": "Maintenance PR",
-      "url": "https://github.com/OlivierZal/melcloud-api/pull/1268",
-      "date": "2025-12-22T13:34:06Z",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/29714",
+      "date": "2025-12-29T13:37:21Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/3bsalam-1",
-      "pr": 29407,
+      "pr": 29713,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/29407",
-      "date": "2025-12-22T13:34:20Z",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/29713",
+      "date": "2025-12-29T13:37:14Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/MountainCar",
-      "pr": 29227,
+      "pr": 29530,
       "title": "Pull Request..",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/29227",
-      "date": "2025-12-22T13:33:52Z",
-      "status": "merged"
-    },
-    {
-      "repo": "romiem/ai-bands",
-      "pr": 630,
-      "title": "Add Enlly Blue",
-      "url": "https://github.com/romiem/ai-bands/pull/630",
-      "date": "2025-12-22T13:33:50Z",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/29530",
+      "date": "2025-12-29T13:37:02Z",
       "status": "merged"
     },
     {
       "repo": "3bsalam-1/MountainCar",
-      "pr": 29226,
+      "pr": 29529,
       "title": "Pull Request.",
-      "url": "https://github.com/3bsalam-1/MountainCar/pull/29226",
-      "date": "2025-12-22T13:33:47Z",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/29529",
+      "date": "2025-12-29T13:36:58Z",
       "status": "merged"
     },
     {
-      "repo": "robertbruckbauer/petclinic",
-      "pr": 149,
-      "title": "renovate: Update Node.js to c921b97",
-      "url": "https://github.com/robertbruckbauer/petclinic/pull/149",
-      "date": "2025-12-22T13:33:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "moelholm/moelholm.github.io",
-      "pr": 434,
-      "title": "Refresh Strava activities",
-      "url": "https://github.com/moelholm/moelholm.github.io/pull/434",
-      "date": "2025-12-22T13:33:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "romiem/ai-bands",
-      "pr": 628,
-      "title": "Add Yvora",
-      "url": "https://github.com/romiem/ai-bands/pull/628",
-      "date": "2025-12-22T13:32:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "subomi/convoy-mcp-typescript",
-      "pr": 4,
-      "title": "chore: 🐝 Update SDK - Generate 0.7.0",
-      "url": "https://github.com/subomi/convoy-mcp-typescript/pull/4",
-      "date": "2025-12-22T13:32:37Z",
-      "status": "merged"
-    },
-    {
-      "repo": "robertbruckbauer/petclinic",
-      "pr": 126,
-      "title": "renovate: Update dependency @playwright/test to v1.57.0",
-      "url": "https://github.com/robertbruckbauer/petclinic/pull/126",
-      "date": "2025-12-22T13:32:32Z",
+      "repo": "jacobdjwilson/awesome-annual-security-reports",
+      "pr": 337,
+      "title": "📄 Add Sans Appsec Report And API Survey (2024) report",
+      "url": "https://github.com/jacobdjwilson/awesome-annual-security-reports/pull/337",
+      "date": "2025-12-29T13:36:44Z",
       "status": "merged"
     },
     {
       "repo": "ediamin/ifastgb-conversion-rate-monitor",
-      "pr": 369,
+      "pr": 650,
       "title": "Update conversion rates - USD to BDT",
-      "url": "https://github.com/ediamin/ifastgb-conversion-rate-monitor/pull/369",
-      "date": "2025-12-22T13:32:08Z",
+      "url": "https://github.com/ediamin/ifastgb-conversion-rate-monitor/pull/650",
+      "date": "2025-12-29T13:35:21Z",
+      "status": "merged"
+    },
+    {
+      "repo": "jacobdjwilson/awesome-annual-security-reports",
+      "pr": 336,
+      "title": "📄 Add Bigid Data Discovery And Classification Top 5 (2025) report",
+      "url": "https://github.com/jacobdjwilson/awesome-annual-security-reports/pull/336",
+      "date": "2025-12-29T13:34:29Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ludilearn2025/ludilearn",
+      "pr": 4616,
+      "title": "chore(dev): auto-update STATUS.md",
+      "url": "https://github.com/ludilearn2025/ludilearn/pull/4616",
+      "date": "2025-12-29T13:33:32Z",
+      "status": "merged"
+    },
+    {
+      "repo": "CMSgov/bluebutton-web-server",
+      "pr": 1456,
+      "title": "docs(contributor): contributors readme action update",
+      "url": "https://github.com/CMSgov/bluebutton-web-server/pull/1456",
+      "date": "2025-12-29T13:33:01Z",
       "status": "merged"
     },
     {
       "repo": "FrancoStino/FrancoStino",
-      "pr": 4086,
+      "pr": 7139,
       "title": "🔄 First Update: Stats to Develop",
-      "url": "https://github.com/FrancoStino/FrancoStino/pull/4086",
-      "date": "2025-12-22T13:31:54Z",
+      "url": "https://github.com/FrancoStino/FrancoStino/pull/7139",
+      "date": "2025-12-29T13:31:30Z",
       "status": "merged"
     },
     {
-      "repo": "alltheplaces/alltheplaces",
-      "pr": 14795,
-      "title": "Test removing requires_proxy from `coop_atlantique_fr`",
-      "url": "https://github.com/alltheplaces/alltheplaces/pull/14795",
-      "date": "2025-12-22T13:31:49Z",
+      "repo": "reichlab/variant-nowcast-hub",
+      "pr": 916,
+      "title": "Add new round 2025-12-29_03-47-54",
+      "url": "https://github.com/reichlab/variant-nowcast-hub/pull/916",
+      "date": "2025-12-29T13:29:39Z",
       "status": "merged"
     },
     {
-      "repo": "romiem/ai-bands",
-      "pr": 626,
-      "title": "Add kuroki.",
-      "url": "https://github.com/romiem/ai-bands/pull/626",
-      "date": "2025-12-22T13:30:56Z",
+      "repo": "spiceai/spiceai",
+      "pr": 8695,
+      "title": "Update acknowledgements",
+      "url": "https://github.com/spiceai/spiceai/pull/8695",
+      "date": "2025-12-29T13:29:13Z",
       "status": "merged"
     },
     {
-      "repo": "romiem/ai-bands",
-      "pr": 624,
-      "title": "Add Procrastopia",
-      "url": "https://github.com/romiem/ai-bands/pull/624",
-      "date": "2025-12-22T13:29:59Z",
+      "repo": "Blockception/minecraft-bedrock-language-server",
+      "pr": 176,
+      "title": "chore: bump version (patch)",
+      "url": "https://github.com/Blockception/minecraft-bedrock-language-server/pull/176",
+      "date": "2025-12-29T13:28:31Z",
       "status": "merged"
     },
     {
-      "repo": "Glatzel/demon-forge",
-      "pr": 573,
-      "title": "chore: update `fresh-editor` from `0.1.56` to `0.1.58`",
-      "url": "https://github.com/Glatzel/demon-forge/pull/573",
-      "date": "2025-12-22T13:29:44Z",
+      "repo": "YTakahashii/portmux",
+      "pr": 55,
+      "title": "chore: release packages",
+      "url": "https://github.com/YTakahashii/portmux/pull/55",
+      "date": "2025-12-29T13:27:22Z",
       "status": "merged"
     },
     {
-      "repo": "SatyamSingh8306/trial-1",
-      "pr": 2542,
-      "title": "Auto update main.py",
-      "url": "https://github.com/SatyamSingh8306/trial-1/pull/2542",
-      "date": "2025-12-22T13:29:44Z",
+      "repo": "kaltura/kaltura-player-js",
+      "pr": 1153,
+      "title": "chore: upgrade kaltura-player dependencies",
+      "url": "https://github.com/kaltura/kaltura-player-js/pull/1153",
+      "date": "2025-12-29T13:27:18Z",
       "status": "merged"
     },
     {
-      "repo": "2060-io/credo-ts-indy-vdr-proxy",
-      "pr": 54,
-      "title": "chore: release credo-ts-indy-vdr-proxy-client 0.2.5",
-      "url": "https://github.com/2060-io/credo-ts-indy-vdr-proxy/pull/54",
-      "date": "2025-12-22T13:25:19Z",
+      "repo": "makerspace-partheland/api-docs",
+      "pr": 22,
+      "title": "Update SwaggerUI to v5.31.0",
+      "url": "https://github.com/makerspace-partheland/api-docs/pull/22",
+      "date": "2025-12-29T13:26:47Z",
       "status": "merged"
     },
     {
-      "repo": "lukasoyen/bazel_linux_packages",
-      "pr": 161,
-      "title": "Updated bazel_skylib to 1.9.0",
-      "url": "https://github.com/lukasoyen/bazel_linux_packages/pull/161",
-      "date": "2025-12-22T13:28:45Z",
+      "repo": "momeemt/config",
+      "pr": 144,
+      "title": "Update Nix flake inputs",
+      "url": "https://github.com/momeemt/config/pull/144",
+      "date": "2025-12-29T13:26:08Z",
       "status": "merged"
     },
     {
-      "repo": "decentraland/core-components",
-      "pr": 50,
-      "title": "chore: version packages",
-      "url": "https://github.com/decentraland/core-components/pull/50",
-      "date": "2025-12-22T13:28:28Z",
+      "repo": "makerspace-partheland/makerspace-partheland.github.io",
+      "pr": 14,
+      "title": "Update Alpine.js to 3.15.3 (major)",
+      "url": "https://github.com/makerspace-partheland/makerspace-partheland.github.io/pull/14",
+      "date": "2025-12-29T13:25:11Z",
       "status": "merged"
     },
     {
-      "repo": "jesperancinha/your-finance-je",
-      "pr": 515,
-      "title": "Update cypress dependencies and containers",
-      "url": "https://github.com/jesperancinha/your-finance-je/pull/515",
-      "date": "2025-12-22T13:28:03Z",
+      "repo": "paziresh24/patient",
+      "pr": 1576,
+      "title": "[plasmic] Sync project Paziresh24/Search",
+      "url": "https://github.com/paziresh24/patient/pull/1576",
+      "date": "2025-12-29T13:23:46Z",
       "status": "merged"
     },
     {
-      "repo": "dioneapp/dioneapp",
-      "pr": 175,
-      "title": "chore(format): run biome on main",
-      "url": "https://github.com/dioneapp/dioneapp/pull/175",
-      "date": "2025-12-22T13:27:34Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Glatzel/demon-forge",
-      "pr": 574,
-      "title": "chore: update `nerdctl` from `2.2.0` to `2.2.1`",
-      "url": "https://github.com/Glatzel/demon-forge/pull/574",
-      "date": "2025-12-22T13:27:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Glatzel/demon-forge",
-      "pr": 572,
-      "title": "chore: update `nerdctl-full` from `2.2.0` to `2.2.1`",
-      "url": "https://github.com/Glatzel/demon-forge/pull/572",
-      "date": "2025-12-22T13:27:28Z",
-      "status": "merged"
-    },
-    {
-      "repo": "dioneapp/dioneapp",
-      "pr": 180,
-      "title": "chore(format): run biome on feat/topbar",
-      "url": "https://github.com/dioneapp/dioneapp/pull/180",
-      "date": "2025-12-22T13:27:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OlivierZal/heatzy-api",
-      "pr": 774,
-      "title": "Maintenance PR",
-      "url": "https://github.com/OlivierZal/heatzy-api/pull/774",
-      "date": "2025-12-22T13:27:05Z",
-      "status": "merged"
-    },
-    {
-      "repo": "cardamomcode/fable-python",
-      "pr": 11,
-      "title": "docs: blogpost update",
-      "url": "https://github.com/cardamomcode/fable-python/pull/11",
-      "date": "2025-12-22T13:27:08Z",
-      "status": "merged"
-    },
-    {
-      "repo": "dioneapp/dioneapp",
-      "pr": 173,
-      "title": "chore(format): run biome on exp/new-icons",
-      "url": "https://github.com/dioneapp/dioneapp/pull/173",
-      "date": "2025-12-19T14:16:51Z",
-      "status": "merged"
-    },
-    {
-      "repo": "dioneapp/dioneapp",
-      "pr": 168,
-      "title": "chore(format): run biome on fix-&&",
-      "url": "https://github.com/dioneapp/dioneapp/pull/168",
-      "date": "2025-12-19T14:17:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "AlixBa/nats.scala",
+      "repo": "DenisGorbachev/errgonomic",
       "pr": 4,
-      "title": "Update testcontainers to 2.0.3",
-      "url": "https://github.com/AlixBa/nats.scala/pull/4",
-      "date": "2025-12-22T13:26:44Z",
+      "title": "chore: release v0.2.1",
+      "url": "https://github.com/DenisGorbachev/errgonomic/pull/4",
+      "date": "2025-12-29T13:23:25Z",
       "status": "merged"
     },
     {
-      "repo": "romiem/ai-bands",
-      "pr": 616,
-      "title": "Add Auric Veil",
-      "url": "https://github.com/romiem/ai-bands/pull/616",
-      "date": "2025-12-22T13:26:44Z",
+      "repo": "pnp/vscode-viva",
+      "pr": 680,
+      "title": "Sample data update",
+      "url": "https://github.com/pnp/vscode-viva/pull/680",
+      "date": "2025-12-27T14:38:50Z",
       "status": "merged"
     },
     {
-      "repo": "AlixBa/nats.scala",
-      "pr": 3,
-      "title": "Update scalafmt-core to 3.9.10",
-      "url": "https://github.com/AlixBa/nats.scala/pull/3",
-      "date": "2025-12-22T13:26:32Z",
+      "repo": "FrancoStino/FrancoStino",
+      "pr": 7136,
+      "title": "🔄 First Update: Stats to Develop",
+      "url": "https://github.com/FrancoStino/FrancoStino/pull/7136",
+      "date": "2025-12-29T13:21:32Z",
       "status": "merged"
     },
     {
-      "repo": "AlixBa/nats.scala",
+      "repo": "flathub/com.icons8.Lunacy",
+      "pr": 151,
+      "title": "🤖 Update Lunacy Beta to version 12.0.0.18883",
+      "url": "https://github.com/flathub/com.icons8.Lunacy/pull/151",
+      "date": "2025-12-29T13:20:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Castro-Media/TopStoryReview.com",
+      "pr": 4179,
+      "title": "Automated data update",
+      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/4179",
+      "date": "2025-12-29T13:19:54Z",
+      "status": "merged"
+    },
+    {
+      "repo": "IAHispano/Applio",
+      "pr": 1197,
+      "title": "chore(format): run black on main",
+      "url": "https://github.com/IAHispano/Applio/pull/1197",
+      "date": "2025-12-29T13:19:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Ponrajk22/ReferMakkale",
+      "pr": 1333,
+      "title": "🔄 Auto-sync: Update business data from Google Sheets",
+      "url": "https://github.com/Ponrajk22/ReferMakkale/pull/1333",
+      "date": "2025-12-29T13:18:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SwiftPackageIndex/PackageList",
+      "pr": 11813,
+      "title": "Add FlowRouter",
+      "url": "https://github.com/SwiftPackageIndex/PackageList/pull/11813",
+      "date": "2025-12-29T13:17:53Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Mustapha-AJEGHRIR/Mustapha-AJEGHRIR",
+      "pr": 3968,
+      "title": "Auto-generated metrics for run #20573599736",
+      "url": "https://github.com/Mustapha-AJEGHRIR/Mustapha-AJEGHRIR/pull/3968",
+      "date": "2025-12-29T13:17:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "diegorv/another-bloated-obsidian-mcp-server",
       "pr": 1,
-      "title": "Update iron to 3.2.2",
-      "url": "https://github.com/AlixBa/nats.scala/pull/1",
-      "date": "2025-12-22T13:25:48Z",
+      "title": "chore(main): release 1.0.0",
+      "url": "https://github.com/diegorv/another-bloated-obsidian-mcp-server/pull/1",
+      "date": "2025-12-29T13:15:52Z",
       "status": "merged"
     },
     {
-      "repo": "lukasoyen/bazel_linux_packages",
-      "pr": 163,
-      "title": "Updated rules_cc to 0.2.16",
-      "url": "https://github.com/lukasoyen/bazel_linux_packages/pull/163",
-      "date": "2025-12-22T13:25:29Z",
+      "repo": "tawasta/account-invoicing",
+      "pr": 151,
+      "title": "Sync  to 17.0-dev",
+      "url": "https://github.com/tawasta/account-invoicing/pull/151",
+      "date": "2025-12-29T13:16:12Z",
       "status": "merged"
     },
     {
-      "repo": "atman-33/mcp-terminal-runner",
-      "pr": 9,
-      "title": "chore(release): bump version to v0.2.1",
-      "url": "https://github.com/atman-33/mcp-terminal-runner/pull/9",
-      "date": "2025-12-22T13:25:25Z",
+      "repo": "LabKey/onprcEHRModules",
+      "pr": 1590,
+      "title": "[bot] Merge 25.7 to 25.11",
+      "url": "https://github.com/LabKey/onprcEHRModules/pull/1590",
+      "date": "2025-12-29T13:14:51Z",
       "status": "merged"
     },
     {
-      "repo": "AlixBa/nats.scala",
-      "pr": 2,
-      "title": "Update munit to 1.2.1",
-      "url": "https://github.com/AlixBa/nats.scala/pull/2",
-      "date": "2025-12-22T13:25:22Z",
+      "repo": "gravity-ui/landing",
+      "pr": 556,
+      "title": "docs: update packages readme",
+      "url": "https://github.com/gravity-ui/landing/pull/556",
+      "date": "2025-12-29T13:14:50Z",
       "status": "merged"
     },
     {
-      "repo": "sodiboo/niri-flake",
-      "pr": 1536,
-      "title": "Update flake.lock",
-      "url": "https://github.com/sodiboo/niri-flake/pull/1536",
-      "date": "2025-12-22T13:23:00Z",
+      "repo": "LabKey/snprcEHRModules",
+      "pr": 872,
+      "title": "[bot] Merge 25.7 to 25.11",
+      "url": "https://github.com/LabKey/snprcEHRModules/pull/872",
+      "date": "2025-12-29T13:14:50Z",
       "status": "merged"
     },
     {
-      "repo": "flathub-infra/flatpak-builder-lint",
-      "pr": 806,
-      "title": "(Automated) Purge stale exceptions",
-      "url": "https://github.com/flathub-infra/flatpak-builder-lint/pull/806",
-      "date": "2025-12-22T13:22:35Z",
+      "repo": "georgeguimaraes/soothsayer",
+      "pr": 18,
+      "title": "chore(main): release 0.6.1",
+      "url": "https://github.com/georgeguimaraes/soothsayer/pull/18",
+      "date": "2025-12-29T13:14:19Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nightwnvol/test-workflows",
+      "pr": 22,
+      "title": "maint: sync develop with main after release 14.0.0",
+      "url": "https://github.com/nightwnvol/test-workflows/pull/22",
+      "date": "2025-12-29T13:14:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ryu-sato/ctrf-html-reporter",
+      "pr": 39,
+      "title": "Version Packages",
+      "url": "https://github.com/ryu-sato/ctrf-html-reporter/pull/39",
+      "date": "2025-12-29T13:12:59Z",
+      "status": "merged"
+    },
+    {
+      "repo": "dont-code/ng-xtend",
+      "pr": 39,
+      "title": "chore(main): release xt-type 0.9.4",
+      "url": "https://github.com/dont-code/ng-xtend/pull/39",
+      "date": "2025-12-29T13:12:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Castro-Media/Analysis",
+      "pr": 4283,
+      "title": "Automated pipeline run",
+      "url": "https://github.com/Castro-Media/Analysis/pull/4283",
+      "date": "2025-12-29T13:11:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "FrancoStino/FrancoStino",
+      "pr": 7133,
+      "title": "🔄 First Update: Stats to Develop",
+      "url": "https://github.com/FrancoStino/FrancoStino/pull/7133",
+      "date": "2025-12-29T13:11:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "esengine/esengine",
+      "pr": 391,
+      "title": "chore: release packages",
+      "url": "https://github.com/esengine/esengine/pull/391",
+      "date": "2025-12-29T13:10:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "LoriKarikari/kedge",
+      "pr": 27,
+      "title": "chore(main): release 0.1.0",
+      "url": "https://github.com/LoriKarikari/kedge/pull/27",
+      "date": "2025-12-29T13:10:03Z",
+      "status": "merged"
+    },
+    {
+      "repo": "apache/airflow",
+      "pr": 59884,
+      "title": "[v3-1-test] Fix flaky tests related to github api rate limits (#59879)",
+      "url": "https://github.com/apache/airflow/pull/59884",
+      "date": "2025-12-29T13:07:15Z",
+      "status": "merged"
+    },
+    {
+      "repo": "davidsbond/dns",
+      "pr": 6,
+      "title": "internal/list: update block/allow lists",
+      "url": "https://github.com/davidsbond/dns/pull/6",
+      "date": "2025-12-29T13:06:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "moelholm/moelholm.github.io",
+      "pr": 556,
+      "title": "Refresh toot files",
+      "url": "https://github.com/moelholm/moelholm.github.io/pull/556",
+      "date": "2025-12-29T13:03:43Z",
+      "status": "merged"
+    },
+    {
+      "repo": "stanislavbebej/ejks",
+      "pr": 63,
+      "title": "Update content",
+      "url": "https://github.com/stanislavbebej/ejks/pull/63",
+      "date": "2025-12-29T13:02:24Z",
       "status": "merged"
     }
   ]
