@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T14:21:59.097Z",
+  "updated": "2026-03-23T14:17:18.592Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-03-09T14:07:30Z"
+      "pushedAt": "2026-03-16T14:21:59Z"
     }
   ],
   "contributions": [
     {
-      "repo": "quantified-uncertainty/longterm-wiki",
-      "pr": 2426,
-      "title": "Auto-update: 2026-03-16 daily wiki refresh",
-      "url": "https://github.com/quantified-uncertainty/longterm-wiki/pull/2426",
-      "date": "2026-03-16T14:21:07Z",
+      "repo": "aws/CICD-for-SageMakerUnifiedStudio",
+      "pr": 102,
+      "title": "chore: auto-translate README to multiple languages",
+      "url": "https://github.com/aws/CICD-for-SageMakerUnifiedStudio/pull/102",
+      "date": "2026-03-23T14:17:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "pathoplexus/loculus_deployments",
+      "pr": 647,
+      "title": "Bump staging to 3a9ea9",
+      "url": "https://github.com/pathoplexus/loculus_deployments/pull/647",
+      "date": "2026-03-23T13:54:29Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ippei-shimizu/buzzbase_front",
+      "pr": 243,
+      "title": "リリース: 2026/03/20 stg → main",
+      "url": "https://github.com/ippei-shimizu/buzzbase_front/pull/243",
+      "date": "2026-03-20T08:06:15Z",
+      "status": "merged"
+    },
+    {
+      "repo": "getsentry/sentry-unity",
+      "pr": 2596,
+      "title": "chore(deps): update Cocoa SDK to v9.8.0",
+      "url": "https://github.com/getsentry/sentry-unity/pull/2596",
+      "date": "2026-03-23T14:16:17Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sharkusmanch/playnite-ludusavi-restic",
+      "pr": 109,
+      "title": "Release v1.2.1",
+      "url": "https://github.com/sharkusmanch/playnite-ludusavi-restic/pull/109",
+      "date": "2026-03-23T14:16:07Z",
       "status": "merged"
     },
     {
       "repo": "generative-ai-practice/news-summarizer-ai",
-      "pr": 1440,
+      "pr": 1608,
       "title": "[Auto] Update Gemini news articles",
-      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/1440",
-      "date": "2026-03-16T14:21:00Z",
+      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/1608",
+      "date": "2026-03-23T14:15:59Z",
       "status": "merged"
     },
     {
-      "repo": "thebentobot/bento-web",
-      "pr": 553,
-      "title": "chore(master): release 0.1.8",
-      "url": "https://github.com/thebentobot/bento-web/pull/553",
-      "date": "2026-03-16T14:20:33Z",
+      "repo": "mayl/EMerge_Nix_Flake",
+      "pr": 5,
+      "title": "chore: update flake inputs",
+      "url": "https://github.com/mayl/EMerge_Nix_Flake/pull/5",
+      "date": "2026-03-23T14:15:03Z",
       "status": "merged"
     },
     {
-      "repo": "bitwarden/ios",
-      "pr": 2453,
-      "title": "Update public suffix list",
-      "url": "https://github.com/bitwarden/ios/pull/2453",
-      "date": "2026-03-16T14:20:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "control-toolbox/CTBenchmarks.jl",
-      "pr": 164,
-      "title": "[AUTO] JuliaFormatter.jl run",
-      "url": "https://github.com/control-toolbox/CTBenchmarks.jl/pull/164",
-      "date": "2026-03-16T14:19:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "plumelo/core",
-      "pr": 215,
-      "title": "flake.lock: Update",
-      "url": "https://github.com/plumelo/core/pull/215",
-      "date": "2026-03-16T14:19:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "plumelo/dev",
-      "pr": 83,
-      "title": "flake.lock: Update",
-      "url": "https://github.com/plumelo/dev/pull/83",
-      "date": "2026-03-16T14:19:17Z",
-      "status": "merged"
-    },
-    {
-      "repo": "medmodels/graphrecords",
-      "pr": 38,
-      "title": "release(python): 0.3.0",
-      "url": "https://github.com/medmodels/graphrecords/pull/38",
-      "date": "2026-03-09T15:06:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "medmodels/graphrecords",
-      "pr": 45,
-      "title": "release(python): 0.4.0",
-      "url": "https://github.com/medmodels/graphrecords/pull/45",
-      "date": "2026-03-16T14:18:54Z",
+      "repo": "cliq-ssh/lucide_flutter",
+      "pr": 74,
+      "title": "chore: upgrade lucide to 1.0.0",
+      "url": "https://github.com/cliq-ssh/lucide_flutter/pull/74",
+      "date": "2026-03-23T14:15:18Z",
       "status": "merged"
     },
     {
       "repo": "AICMO/Autonomous-Agent-X-Bluesky",
-      "pr": 983,
+      "pr": 1260,
       "title": "[Bot] Posted content",
-      "url": "https://github.com/AICMO/Autonomous-Agent-X-Bluesky/pull/983",
-      "date": "2026-03-16T14:19:00Z",
+      "url": "https://github.com/AICMO/Autonomous-Agent-X-Bluesky/pull/1260",
+      "date": "2026-03-23T14:14:23Z",
       "status": "merged"
     },
     {
-      "repo": "elastic/docs-content",
-      "pr": 5504,
-      "title": "Update CSV from Google Sheets",
-      "url": "https://github.com/elastic/docs-content/pull/5504",
-      "date": "2026-03-16T14:19:00Z",
+      "repo": "ippei-shimizu/buzzbase_front",
+      "pr": 245,
+      "title": "リリース: 2026/03/23 stg → main",
+      "url": "https://github.com/ippei-shimizu/buzzbase_front/pull/245",
+      "date": "2026-03-23T14:14:11Z",
       "status": "merged"
     },
     {
-      "repo": "claw-arsenal/openclawd-monorepo",
-      "pr": 24,
-      "title": "Auto PR: fix/remove-openclaw-github-plugin → main",
-      "url": "https://github.com/claw-arsenal/openclawd-monorepo/pull/24",
-      "date": "2026-03-16T14:18:57Z",
+      "repo": "getsentry/sentry-unity",
+      "pr": 2597,
+      "title": "chore(deps): update Native SDK to v0.13.3",
+      "url": "https://github.com/getsentry/sentry-unity/pull/2597",
+      "date": "2026-03-23T14:13:53Z",
       "status": "merged"
     },
     {
-      "repo": "pagopa/io-cdc",
-      "pr": 259,
+      "repo": "sharkusmanch/playnite-media-audit",
+      "pr": 3,
+      "title": "Release v1.0.1",
+      "url": "https://github.com/sharkusmanch/playnite-media-audit/pull/3",
+      "date": "2026-03-23T14:13:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sharkusmanch/playnite-upcoming-games-tagger",
+      "pr": 2,
+      "title": "Release v1.0.1",
+      "url": "https://github.com/sharkusmanch/playnite-upcoming-games-tagger/pull/2",
+      "date": "2026-03-23T14:13:31Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sharkusmanch/playnite-apollo-sync",
+      "pr": 2,
+      "title": "Release v1.0.1",
+      "url": "https://github.com/sharkusmanch/playnite-apollo-sync/pull/2",
+      "date": "2026-03-23T14:13:25Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ItalyPaleAle/bootc",
+      "pr": 203,
+      "title": "Update versions",
+      "url": "https://github.com/ItalyPaleAle/bootc/pull/203",
+      "date": "2026-03-23T14:13:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "rauterfrank-ui/Peak_Trade",
+      "pr": 2006,
+      "title": "auto: feat/workflow-officer-v0-severity-mapping -> main",
+      "url": "https://github.com/rauterfrank-ui/Peak_Trade/pull/2006",
+      "date": "2026-03-23T14:12:51Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kubb-labs/kubb",
+      "pr": 2873,
+      "title": "chore: update generated examples",
+      "url": "https://github.com/kubb-labs/kubb/pull/2873",
+      "date": "2026-03-23T14:12:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GriceTurrble/python-type-stripper",
+      "pr": 164,
+      "title": "pre-commit autoupdate",
+      "url": "https://github.com/GriceTurrble/python-type-stripper/pull/164",
+      "date": "2026-03-23T14:12:17Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kantocompany/taimi",
+      "pr": 8,
+      "title": "Price update 2026-03-20",
+      "url": "https://github.com/kantocompany/taimi/pull/8",
+      "date": "2026-03-20T18:18:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "s152628/Stage-project-curity",
+      "pr": 128,
+      "title": "Auto-promotion: develop to main",
+      "url": "https://github.com/s152628/Stage-project-curity/pull/128",
+      "date": "2026-03-23T14:12:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KonnorRogers/rhino-editor",
+      "pr": 322,
       "title": "Version Packages",
-      "url": "https://github.com/pagopa/io-cdc/pull/259",
-      "date": "2026-03-16T14:18:44Z",
+      "url": "https://github.com/KonnorRogers/rhino-editor/pull/322",
+      "date": "2026-03-23T14:12:02Z",
       "status": "merged"
     },
     {
-      "repo": "urbanisierung/copilot-swarm",
-      "pr": 109,
-      "title": "chore: version packages",
-      "url": "https://github.com/urbanisierung/copilot-swarm/pull/109",
-      "date": "2026-03-16T14:18:28Z",
+      "repo": "ippei-shimizu/buzzbase_back",
+      "pr": 150,
+      "title": "リリース: 2026/03/23 stg → main",
+      "url": "https://github.com/ippei-shimizu/buzzbase_back/pull/150",
+      "date": "2026-03-23T14:12:03Z",
       "status": "merged"
     },
     {
-      "repo": "event-catalog/generators",
-      "pr": 361,
+      "repo": "JMBJ2457/frontend2-projet-Frontend_III",
+      "pr": 2,
+      "title": "chore(main): release 1.0.0",
+      "url": "https://github.com/JMBJ2457/frontend2-projet-Frontend_III/pull/2",
+      "date": "2026-03-23T14:11:49Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GriceTurrble/discord-bot-template",
+      "pr": 120,
+      "title": "pre-commit autoupdate",
+      "url": "https://github.com/GriceTurrble/discord-bot-template/pull/120",
+      "date": "2026-03-23T14:12:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GriceTurrble/multi-lang-app-demo",
+      "pr": 42,
+      "title": "pre-commit autoupdate",
+      "url": "https://github.com/GriceTurrble/multi-lang-app-demo/pull/42",
+      "date": "2026-03-23T14:11:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "disafronov/dummy-frontend",
+      "pr": 396,
+      "title": "refactor: update Browserslist db",
+      "url": "https://github.com/disafronov/dummy-frontend/pull/396",
+      "date": "2026-03-23T14:11:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "adrighem/domoticz-mcp",
+      "pr": 4,
+      "title": "chore(main): release 0.1.1",
+      "url": "https://github.com/adrighem/domoticz-mcp/pull/4",
+      "date": "2026-03-23T14:11:26Z",
+      "status": "merged"
+    },
+    {
+      "repo": "infitx-org/profile-cd",
+      "pr": 1052,
+      "title": "ml-api-adapter:v16.9.0-infitx.5:minor-infitx",
+      "url": "https://github.com/infitx-org/profile-cd/pull/1052",
+      "date": "2026-03-23T14:11:29Z",
+      "status": "merged"
+    },
+    {
+      "repo": "pagopa/selfcare-monorepo-poc",
+      "pr": 71,
       "title": "Version Packages",
-      "url": "https://github.com/event-catalog/generators/pull/361",
-      "date": "2026-03-16T14:11:56Z",
+      "url": "https://github.com/pagopa/selfcare-monorepo-poc/pull/71",
+      "date": "2026-03-23T14:11:17Z",
       "status": "merged"
     },
     {
-      "repo": "sofvo-dev/sofvo",
-      "pr": 549,
-      "title": "Auto merge: claude/fix-image-media-type-wdtiV",
-      "url": "https://github.com/sofvo-dev/sofvo/pull/549",
-      "date": "2026-03-16T14:18:05Z",
+      "repo": "fern-api/docs-templates",
+      "pr": 265,
+      "title": "chore: update Fern CLI to 4.42.1",
+      "url": "https://github.com/fern-api/docs-templates/pull/265",
+      "date": "2026-03-23T14:10:57Z",
       "status": "merged"
     },
     {
-      "repo": "emanuelbesliu/homeassistant-bft",
-      "pr": 12,
-      "title": "chore(main): release 2.1.0",
-      "url": "https://github.com/emanuelbesliu/homeassistant-bft/pull/12",
-      "date": "2026-03-16T14:17:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Krombik/use-phone-input",
-      "pr": 204,
-      "title": "[2026-03-16] Update Phone Number Data",
-      "url": "https://github.com/Krombik/use-phone-input/pull/204",
-      "date": "2026-03-16T14:17:15Z",
-      "status": "merged"
-    },
-    {
-      "repo": "mirek-parasoft/agenticsa",
-      "pr": 20,
-      "title": "AI fixes for static analysis (PR #19)",
-      "url": "https://github.com/mirek-parasoft/agenticsa/pull/20",
-      "date": "2026-03-16T14:15:26Z",
-      "status": "merged"
-    },
-    {
-      "repo": "holgerfriedrich/openhab-addons",
-      "pr": 77,
-      "title": "Resolve itest dependencies",
-      "url": "https://github.com/holgerfriedrich/openhab-addons/pull/77",
-      "date": "2026-03-16T14:01:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "franklinbaldo/rosencrantz-coin",
-      "pr": 642,
-      "title": "[pearl] 2026-03-16",
-      "url": "https://github.com/franklinbaldo/rosencrantz-coin/pull/642",
-      "date": "2026-03-16T14:16:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jamesstineheath/agent-forge",
-      "pr": 74,
-      "title": "fix: accept pr_merged from any non-terminal orchestrator state",
-      "url": "https://github.com/jamesstineheath/agent-forge/pull/74",
-      "date": "2026-03-16T14:16:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "coolbress/VertexLab",
-      "pr": 106,
-      "title": "chore(main): release vertex-forager 0.2.0",
-      "url": "https://github.com/coolbress/VertexLab/pull/106",
-      "date": "2026-03-16T14:15:47Z",
-      "status": "merged"
-    },
-    {
-      "repo": "aeria-org/aeria-ui",
-      "pr": 569,
+      "repo": "hirokisakabe/pom",
+      "pr": 412,
       "title": "Version Packages",
-      "url": "https://github.com/aeria-org/aeria-ui/pull/569",
-      "date": "2026-03-16T14:15:43Z",
+      "url": "https://github.com/hirokisakabe/pom/pull/412",
+      "date": "2026-03-23T14:10:18Z",
       "status": "merged"
     },
     {
-      "repo": "ELIXIR-Belgium/ENA-metadata-templates",
-      "pr": 109,
-      "title": "Automatic update ENA templates",
-      "url": "https://github.com/ELIXIR-Belgium/ENA-metadata-templates/pull/109",
-      "date": "2026-03-16T14:15:40Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Redocly/redocly-cli",
-      "pr": 2663,
-      "title": "chore: 🔖 release new versions",
-      "url": "https://github.com/Redocly/redocly-cli/pull/2663",
-      "date": "2026-03-16T14:15:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jamesstineheath/agent-forge",
-      "pr": 73,
-      "title": "fix: harden ATC lock with zombie detection and cycle timeout",
-      "url": "https://github.com/jamesstineheath/agent-forge/pull/73",
-      "date": "2026-03-16T14:14:51Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kody-w/rappterverse",
-      "pr": 2090,
-      "title": "[action] Agent dispatch activity",
-      "url": "https://github.com/kody-w/rappterverse/pull/2090",
-      "date": "2026-03-16T14:14:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "shauryemahajanSF/registry-testing",
-      "pr": 36,
-      "title": "CI: update catalog.json after ZIP merge",
-      "url": "https://github.com/shauryemahajanSF/registry-testing/pull/36",
-      "date": "2026-03-16T14:14:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "db-ux-design-system/db-ux-design-system.github.io",
-      "pr": 133,
-      "title": "Automated PR: auto update snapshots",
-      "url": "https://github.com/db-ux-design-system/db-ux-design-system.github.io/pull/133",
-      "date": "2026-03-16T14:12:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "medmodels/graphrecords",
-      "pr": 44,
-      "title": "release(rust): 0.4.0",
-      "url": "https://github.com/medmodels/graphrecords/pull/44",
-      "date": "2026-03-16T14:12:26Z",
-      "status": "merged"
-    },
-    {
-      "repo": "PEDZEO/cabinet-frontend",
-      "pr": 40,
-      "title": "chore(main): release 1.9.0",
-      "url": "https://github.com/PEDZEO/cabinet-frontend/pull/40",
-      "date": "2026-03-16T14:12:06Z",
-      "status": "merged"
-    },
-    {
-      "repo": "plantcapybara/moltplace",
-      "pr": 1101,
-      "title": "🎨 Render canvas",
-      "url": "https://github.com/plantcapybara/moltplace/pull/1101",
-      "date": "2026-03-16T14:12:12Z",
+      "repo": "zaxbysauce/opencode-swarm",
+      "pr": 256,
+      "title": "chore(main): release 6.32.0",
+      "url": "https://github.com/zaxbysauce/opencode-swarm/pull/256",
+      "date": "2026-03-23T14:09:28Z",
       "status": "merged"
     },
     {
       "repo": "Unique-AG/connectors",
-      "pr": 362,
-      "title": "chore(main): release confluence-connector 2.0.0-alpha.3",
-      "url": "https://github.com/Unique-AG/connectors/pull/362",
-      "date": "2026-03-16T14:11:52Z",
+      "pr": 393,
+      "title": "chore(main): release outlook-semantic-mcp 0.2.15",
+      "url": "https://github.com/Unique-AG/connectors/pull/393",
+      "date": "2026-03-23T14:08:57Z",
       "status": "merged"
     },
     {
-      "repo": "0xPabloLI/aaveapy",
-      "pr": 78,
-      "title": "chore(icons): sync token icons",
-      "url": "https://github.com/0xPabloLI/aaveapy/pull/78",
-      "date": "2026-03-16T14:11:56Z",
+      "repo": "hardmuf/repo1",
+      "pr": 2,
+      "title": "Incremented Version number by +1",
+      "url": "https://github.com/hardmuf/repo1/pull/2",
+      "date": "2026-03-23T14:09:00Z",
       "status": "merged"
     },
     {
-      "repo": "maptiler/maptiler-sdk-kotlin",
-      "pr": 183,
-      "title": "RD-1639: Add removeImage command - Kotlin SDK",
-      "url": "https://github.com/maptiler/maptiler-sdk-kotlin/pull/183",
-      "date": "2026-03-16T14:11:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "SantiagoDDaniel/clinica-estetica-backend",
-      "pr": 4,
-      "title": "release: v1.0.1",
-      "url": "https://github.com/SantiagoDDaniel/clinica-estetica-backend/pull/4",
-      "date": "2026-03-16T14:10:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "lfrmonteiro99/monthy_budget",
-      "pr": 591,
-      "title": "issue-577: recipe rating system with 1-5 stars replacing binary feedback #577",
-      "url": "https://github.com/lfrmonteiro99/monthy_budget/pull/591",
-      "date": "2026-03-16T14:10:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "lfrmonteiro99/monthy_budget",
-      "pr": 599,
-      "title": "issue-577: fix service file to retain main's methods after rebase #577",
-      "url": "https://github.com/lfrmonteiro99/monthy_budget/pull/599",
-      "date": "2026-03-16T14:10:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "seb-oss/Spark-packages",
-      "pr": 1290,
-      "title": "chore(release): update versions",
-      "url": "https://github.com/seb-oss/Spark-packages/pull/1290",
-      "date": "2026-03-16T14:10:41Z",
-      "status": "merged"
-    },
-    {
-      "repo": "pagopa/io-messages",
-      "pr": 658,
+      "repo": "sveltejs/svelte",
+      "pr": 17984,
       "title": "Version Packages",
-      "url": "https://github.com/pagopa/io-messages/pull/658",
-      "date": "2026-03-16T14:10:40Z",
+      "url": "https://github.com/sveltejs/svelte/pull/17984",
+      "date": "2026-03-23T14:08:50Z",
       "status": "merged"
     },
     {
-      "repo": "nymtech/nym-vpn-client",
-      "pr": 4884,
-      "title": "Localization: Update Android Translations (release/2026.5-ochsen)",
-      "url": "https://github.com/nymtech/nym-vpn-client/pull/4884",
-      "date": "2026-03-16T14:09:59Z",
+      "repo": "bitwarden/ios",
+      "pr": 2473,
+      "title": "Update public suffix list",
+      "url": "https://github.com/bitwarden/ios/pull/2473",
+      "date": "2026-03-23T14:07:38Z",
       "status": "merged"
     },
     {
-      "repo": "seanthimons/ComptoxR",
-      "pr": 128,
-      "title": "chore: API schema updates detected",
-      "url": "https://github.com/seanthimons/ComptoxR/pull/128",
-      "date": "2026-03-16T14:09:18Z",
+      "repo": "andrinklarer/KahoOST",
+      "pr": 65,
+      "title": "docs: update KahoOST.pdf",
+      "url": "https://github.com/andrinklarer/KahoOST/pull/65",
+      "date": "2026-03-23T14:08:22Z",
       "status": "merged"
     },
     {
-      "repo": "datasciencecampus/terraform-gcs-remote-state-bootstrap",
-      "pr": 8,
-      "title": "chore(main): release 0.3.3",
-      "url": "https://github.com/datasciencecampus/terraform-gcs-remote-state-bootstrap/pull/8",
-      "date": "2026-03-16T14:09:00Z",
+      "repo": "GTNewHorizons/Galaxia",
+      "pr": 146,
+      "title": "Optimising images contained in Loc for #145",
+      "url": "https://github.com/GTNewHorizons/Galaxia/pull/146",
+      "date": "2026-03-23T14:08:05Z",
       "status": "merged"
     },
     {
-      "repo": "DragosDreptate/the-playground",
-      "pr": 247,
-      "title": "chore(main): release the-playground 1.15.0",
-      "url": "https://github.com/DragosDreptate/the-playground/pull/247",
-      "date": "2026-03-16T14:08:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "newrelic/docs-website",
-      "pr": 23434,
-      "title": "[PREVIEW COPY] Updated release notes for fluent-bit and logs to include helm charts and updated supported version",
-      "url": "https://github.com/newrelic/docs-website/pull/23434",
-      "date": "2026-03-16T14:07:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "SantiagoDDaniel/clinica-estetica-backend",
-      "pr": 3,
-      "title": "release: Promover develop → homolog",
-      "url": "https://github.com/SantiagoDDaniel/clinica-estetica-backend/pull/3",
-      "date": "2026-03-16T14:07:32Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sillsdev/web-xforge",
-      "pr": 3662,
-      "title": "Update all translation files from Crowdin",
-      "url": "https://github.com/sillsdev/web-xforge/pull/3662",
-      "date": "2026-02-01T18:55:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "chillwhales/lsp-indexer",
-      "pr": 335,
+      "repo": "tenphi/glaze",
+      "pr": 31,
       "title": "chore: version packages",
-      "url": "https://github.com/chillwhales/lsp-indexer/pull/335",
-      "date": "2026-03-16T14:06:10Z",
+      "url": "https://github.com/tenphi/glaze/pull/31",
+      "date": "2026-03-23T14:07:59Z",
       "status": "merged"
     },
     {
-      "repo": "hydra-genetics/reports",
-      "pr": 135,
-      "title": "chore(main): release 1.0.1",
-      "url": "https://github.com/hydra-genetics/reports/pull/135",
-      "date": "2026-03-16T14:05:33Z",
+      "repo": "Subway-Builder-Modded/The-Railyard",
+      "pr": 457,
+      "title": "chore: regenerate download counts (hourly)",
+      "url": "https://github.com/Subway-Builder-Modded/The-Railyard/pull/457",
+      "date": "2026-03-23T14:07:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GoPowerDNS-Admin/GoPowerDNS-Admin",
+      "pr": 43,
+      "title": "chore(changelog): update for v0.1.0-alpha.2",
+      "url": "https://github.com/GoPowerDNS-Admin/GoPowerDNS-Admin/pull/43",
+      "date": "2026-03-23T14:07:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ZeliardM/homebridge-kasa-python",
+      "pr": 269,
+      "title": "Release: v3.2.0",
+      "url": "https://github.com/ZeliardM/homebridge-kasa-python/pull/269",
+      "date": "2026-03-23T14:06:55Z",
+      "status": "merged"
+    },
+    {
+      "repo": "streetsidesoftware/cspell",
+      "pr": 8741,
+      "title": "chore: Update Integration Test Performance Data",
+      "url": "https://github.com/streetsidesoftware/cspell/pull/8741",
+      "date": "2026-03-23T14:06:21Z",
+      "status": "merged"
+    },
+    {
+      "repo": "clivoa/awesome-security-feeds",
+      "pr": 16,
+      "title": "🔎 New security feed candidates discovered",
+      "url": "https://github.com/clivoa/awesome-security-feeds/pull/16",
+      "date": "2026-03-23T14:05:28Z",
+      "status": "merged"
+    },
+    {
+      "repo": "clivoa/awesome-security-feeds",
+      "pr": 17,
+      "title": "🔎 New security feed candidates discovered",
+      "url": "https://github.com/clivoa/awesome-security-feeds/pull/17",
+      "date": "2026-03-23T14:05:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ZeliardM/homebridge-ttlock-accesscode",
+      "pr": 48,
+      "title": "Release: v2.1.0",
+      "url": "https://github.com/ZeliardM/homebridge-ttlock-accesscode/pull/48",
+      "date": "2026-03-23T14:05:15Z",
+      "status": "merged"
+    },
+    {
+      "repo": "deliveryhero/asya",
+      "pr": 370,
+      "title": "Update CHANGELOG.md for v0.5.10",
+      "url": "https://github.com/deliveryhero/asya/pull/370",
+      "date": "2026-03-23T14:04:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "spheceo/create-stk",
+      "pr": 19,
+      "title": "Version Packages",
+      "url": "https://github.com/spheceo/create-stk/pull/19",
+      "date": "2026-03-23T14:04:21Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KBVE/kbve",
+      "pr": 8925,
+      "title": "Release: 5 chores → Main",
+      "url": "https://github.com/KBVE/kbve/pull/8925",
+      "date": "2026-03-23T14:03:41Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nebius/soperator",
+      "pr": 2352,
+      "title": "Merge to soperator-release-3.0: SCHED-1205: Remove global concurrency group from resolve-profile",
+      "url": "https://github.com/nebius/soperator/pull/2352",
+      "date": "2026-03-23T14:02:57Z",
       "status": "merged"
     }
   ]
