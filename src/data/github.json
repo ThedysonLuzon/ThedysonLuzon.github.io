@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-30T14:41:43.236Z",
+  "updated": "2026-04-06T14:11:49.829Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-03-23T14:17:19Z"
+      "pushedAt": "2026-03-30T14:41:44Z"
     }
   ],
   "contributions": [
     {
-      "repo": "plantcapybara/moltplace",
-      "pr": 1741,
-      "title": "🎨 Render canvas",
-      "url": "https://github.com/plantcapybara/moltplace/pull/1741",
-      "date": "2026-03-30T14:41:21Z",
+      "repo": "CMSgov/bluebutton-web-server",
+      "pr": 1545,
+      "title": "docs(contributor): contributors readme action update",
+      "url": "https://github.com/CMSgov/bluebutton-web-server/pull/1545",
+      "date": "2026-04-06T14:11:32Z",
       "status": "merged"
     },
     {
-      "repo": "PanthroCorp-Limited/openclaw-skills",
-      "pr": 24,
-      "title": "chore(main): release zoho-mail 0.2.1",
-      "url": "https://github.com/PanthroCorp-Limited/openclaw-skills/pull/24",
-      "date": "2026-03-30T14:41:08Z",
+      "repo": "DinoCore-Labs/DinoRPG-Remastered",
+      "pr": 202,
+      "title": "🚀 Release",
+      "url": "https://github.com/DinoCore-Labs/DinoRPG-Remastered/pull/202",
+      "date": "2026-04-06T14:11:21Z",
       "status": "merged"
     },
     {
-      "repo": "sulhadin/orchestrator",
-      "pr": 18,
-      "title": "chore(next): release orchestrator 3.0.0-beta.1",
-      "url": "https://github.com/sulhadin/orchestrator/pull/18",
-      "date": "2026-03-30T14:40:55Z",
+      "repo": "PennyLaneAI/pennylane",
+      "pr": 9254,
+      "title": "Update test durations",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9254",
+      "date": "2026-04-06T14:10:50Z",
       "status": "merged"
     },
     {
-      "repo": "agmmnn/tauri-ui",
-      "pr": 28,
-      "title": "chore: release",
-      "url": "https://github.com/agmmnn/tauri-ui/pull/28",
-      "date": "2026-03-30T14:40:55Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sul-dlss/libsys-airflow",
-      "pr": 1725,
-      "title": "Updated Python dependencies",
-      "url": "https://github.com/sul-dlss/libsys-airflow/pull/1725",
-      "date": "2026-03-30T14:40:30Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sympozium-ai/sympozium",
-      "pr": 64,
-      "title": "chore(main): release 0.8.0",
-      "url": "https://github.com/sympozium-ai/sympozium/pull/64",
-      "date": "2026-03-30T14:40:05Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Saeroi-Ahn/AI-Project-Orchestrator",
-      "pr": 199,
-      "title": "fix(import): 엑셀 임포트 날짜 편집 문제 3중 방어 처리",
-      "url": "https://github.com/Saeroi-Ahn/AI-Project-Orchestrator/pull/199",
-      "date": "2026-03-30T14:40:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jamiojala/evalrail",
-      "pr": 1,
-      "title": "Version Packages",
-      "url": "https://github.com/jamiojala/evalrail/pull/1",
-      "date": "2026-03-30T14:40:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "MGS-BR/eng-softII-2026",
-      "pr": 16,
-      "title": "🤖 Atualização automática de diagramas",
-      "url": "https://github.com/MGS-BR/eng-softII-2026/pull/16",
-      "date": "2026-03-30T14:39:46Z",
-      "status": "merged"
-    },
-    {
-      "repo": "par-tec/dati-semantic-csv-apis",
-      "pr": 138,
-      "title": "feat: DB generation for assets/controlled-vocabularies/ateco-2025",
-      "url": "https://github.com/par-tec/dati-semantic-csv-apis/pull/138",
-      "date": "2026-03-30T14:39:40Z",
-      "status": "merged"
-    },
-    {
-      "repo": "The-Vibe-Company/companion",
-      "pr": 624,
-      "title": "chore(main): release the-companion 0.94.0",
-      "url": "https://github.com/The-Vibe-Company/companion/pull/624",
-      "date": "2026-03-30T14:39:15Z",
-      "status": "merged"
-    },
-    {
-      "repo": "s3rgiosan/vscode-wp-theme-json-editor",
-      "pr": 2,
-      "title": "chore: refresh core-scan definitions",
-      "url": "https://github.com/s3rgiosan/vscode-wp-theme-json-editor/pull/2",
-      "date": "2026-03-30T14:39:25Z",
-      "status": "merged"
-    },
-    {
-      "repo": "pacman82/odbc-sys",
-      "pr": 88,
-      "title": "chore(odbc-sys): release v0.31.0",
-      "url": "https://github.com/pacman82/odbc-sys/pull/88",
-      "date": "2026-03-30T14:39:26Z",
-      "status": "merged"
-    },
-    {
-      "repo": "db-ux-design-system/db-ux-design-system.github.io",
-      "pr": 271,
-      "title": "Automated PR: auto update snapshots",
-      "url": "https://github.com/db-ux-design-system/db-ux-design-system.github.io/pull/271",
-      "date": "2026-03-30T14:39:19Z",
-      "status": "merged"
-    },
-    {
-      "repo": "fern-api/docs",
-      "pr": 4621,
-      "title": "Update versions from docker hub",
-      "url": "https://github.com/fern-api/docs/pull/4621",
-      "date": "2026-03-30T14:39:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "afolabi-seun/Nexus-2.0",
-      "pr": 3,
-      "title": "Auto-merge: dev → main (CI passed)",
-      "url": "https://github.com/afolabi-seun/Nexus-2.0/pull/3",
-      "date": "2026-03-30T14:39:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "croquiscom/cormo",
-      "pr": 351,
-      "title": "chore(graphql): release 2.3.0",
-      "url": "https://github.com/croquiscom/cormo/pull/351",
-      "date": "2026-03-30T14:39:06Z",
-      "status": "merged"
-    },
-    {
-      "repo": "azinchen/nordvpn",
-      "pr": 1102,
-      "title": "🔑 Update XOR TLS auth key - 260330",
-      "url": "https://github.com/azinchen/nordvpn/pull/1102",
-      "date": "2026-03-30T14:39:06Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Castro-Media/TopStoryReview.com",
-      "pr": 6267,
-      "title": "Automated data update",
-      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/6267",
-      "date": "2026-03-30T14:38:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "azinchen/nordvpn",
-      "pr": 1103,
-      "title": "📦 Update APK packages - 260330",
-      "url": "https://github.com/azinchen/nordvpn/pull/1103",
-      "date": "2026-03-30T14:38:30Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Ponrajk22/ReferMakkale",
-      "pr": 3442,
-      "title": "🔄 Auto-sync: Update business data from Google Sheets",
-      "url": "https://github.com/Ponrajk22/ReferMakkale/pull/3442",
-      "date": "2026-03-30T14:38:00Z",
-      "status": "merged"
-    },
-    {
-      "repo": "greenelab/greenelab.com",
-      "pr": 168,
-      "title": "Periodic citation update",
-      "url": "https://github.com/greenelab/greenelab.com/pull/168",
-      "date": "2026-03-30T14:37:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "devantler-tech/ksail",
-      "pr": 3498,
-      "title": "docs: add AI assistant setup guide for Claude, Cursor, and Windsurf MCP integration",
-      "url": "https://github.com/devantler-tech/ksail/pull/3498",
-      "date": "2026-03-30T14:37:26Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ROKT/rokt-ux-helper-ios",
-      "pr": 228,
-      "title": "Prepare release 0.8.3",
-      "url": "https://github.com/ROKT/rokt-ux-helper-ios/pull/228",
-      "date": "2026-03-30T14:37:16Z",
-      "status": "merged"
-    },
-    {
-      "repo": "yext/answers-hitchhiker-theme",
-      "pr": 1248,
-      "title": "Merge master (v1.36.2) into develop",
-      "url": "https://github.com/yext/answers-hitchhiker-theme/pull/1248",
-      "date": "2026-03-30T14:37:00Z",
-      "status": "merged"
-    },
-    {
-      "repo": "us/null-e",
-      "pr": 8,
-      "title": "chore(main): release 0.4.1",
-      "url": "https://github.com/us/null-e/pull/8",
-      "date": "2026-03-30T14:36:41Z",
-      "status": "merged"
-    },
-    {
-      "repo": "itsoltech/canopy-desktop",
-      "pr": 31,
-      "title": "chore: promote next to main",
-      "url": "https://github.com/itsoltech/canopy-desktop/pull/31",
-      "date": "2026-03-30T14:36:09Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Qiskit/documentation",
-      "pr": 4910,
-      "title": "Update API dev docs",
-      "url": "https://github.com/Qiskit/documentation/pull/4910",
-      "date": "2026-03-30T14:36:19Z",
-      "status": "merged"
-    },
-    {
-      "repo": "asafelobotomy/copilot-instructions-template",
-      "pr": 33,
-      "title": "chore(main): release 5.1.0",
-      "url": "https://github.com/asafelobotomy/copilot-instructions-template/pull/33",
-      "date": "2026-03-30T14:36:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "brody-0125/nadeuri.today",
-      "pr": 604,
-      "title": "chore: collect realtime data",
-      "url": "https://github.com/brody-0125/nadeuri.today/pull/604",
-      "date": "2026-03-30T14:35:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "customerio/ciolabs",
-      "pr": 47,
-      "title": "chore: release packages",
-      "url": "https://github.com/customerio/ciolabs/pull/47",
-      "date": "2026-03-30T14:35:37Z",
-      "status": "merged"
-    },
-    {
-      "repo": "CumulusNetworks/docs",
-      "pr": 3163,
-      "title": "Changes by create-pull-request action",
-      "url": "https://github.com/CumulusNetworks/docs/pull/3163",
-      "date": "2026-03-30T14:35:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "npupko/agency-mcp-server",
-      "pr": 2,
-      "title": "Version Packages",
-      "url": "https://github.com/npupko/agency-mcp-server/pull/2",
-      "date": "2026-03-30T14:35:30Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nansen-ai/nansen-cli",
-      "pr": 371,
-      "title": "Version Packages",
-      "url": "https://github.com/nansen-ai/nansen-cli/pull/371",
-      "date": "2026-03-30T14:35:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "callaars/film-calendar",
-      "pr": 166,
-      "title": "Update IE calendar for 2026-03-30",
-      "url": "https://github.com/callaars/film-calendar/pull/166",
-      "date": "2026-03-30T14:35:09Z",
-      "status": "merged"
-    },
-    {
-      "repo": "devantler-tech/ksail",
-      "pr": 3495,
-      "title": "chore(deps): update copilot skills",
-      "url": "https://github.com/devantler-tech/ksail/pull/3495",
-      "date": "2026-03-30T14:35:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "FuelLabs/fuel-core",
-      "pr": 3235,
-      "title": "Weekly `cargo update`",
-      "url": "https://github.com/FuelLabs/fuel-core/pull/3235",
-      "date": "2026-03-30T14:34:32Z",
-      "status": "merged"
-    },
-    {
-      "repo": "getsentry/sentry-react-native",
-      "pr": 5925,
-      "title": "chore(deps): update CLI to v3.3.5",
-      "url": "https://github.com/getsentry/sentry-react-native/pull/5925",
-      "date": "2026-03-30T14:34:30Z",
-      "status": "merged"
-    },
-    {
-      "repo": "EtienneLescot/yagr",
-      "pr": 28,
+      "repo": "plutonhq/pluton",
+      "pr": 44,
       "title": "chore: release main",
-      "url": "https://github.com/EtienneLescot/yagr/pull/28",
-      "date": "2026-03-30T14:33:52Z",
+      "url": "https://github.com/plutonhq/pluton/pull/44",
+      "date": "2026-04-06T14:10:29Z",
       "status": "merged"
     },
     {
-      "repo": "mucsi96/skeleton-app",
-      "pr": 11,
-      "title": "Update all dependencies",
-      "url": "https://github.com/mucsi96/skeleton-app/pull/11",
-      "date": "2026-03-30T14:33:05Z",
+      "repo": "generative-ai-practice/news-summarizer-ai",
+      "pr": 1943,
+      "title": "[Auto] Update Gemini news articles",
+      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/1943",
+      "date": "2026-04-06T14:10:35Z",
       "status": "merged"
     },
     {
-      "repo": "morinokami/rune",
-      "pr": 43,
-      "title": "[ci] release",
-      "url": "https://github.com/morinokami/rune/pull/43",
-      "date": "2026-03-30T14:32:59Z",
+      "repo": "medelman17/eyecite-ts",
+      "pr": 163,
+      "title": "chore: version packages",
+      "url": "https://github.com/medelman17/eyecite-ts/pull/163",
+      "date": "2026-04-06T14:09:28Z",
       "status": "merged"
     },
     {
-      "repo": "andrew-codechimp/HA-Battery-Notes",
-      "pr": 4557,
-      "title": "Add device: Echos - Thermostatic radiator valve",
-      "url": "https://github.com/andrew-codechimp/HA-Battery-Notes/pull/4557",
-      "date": "2026-03-30T14:32:39Z",
+      "repo": "Josefjosefjosef/filtr",
+      "pr": 1801,
+      "title": "chore(data): update articles data",
+      "url": "https://github.com/Josefjosefjosef/filtr/pull/1801",
+      "date": "2026-04-06T14:09:13Z",
       "status": "merged"
     },
     {
-      "repo": "bitwarden/ios",
-      "pr": 2503,
-      "title": "Update public suffix list",
-      "url": "https://github.com/bitwarden/ios/pull/2503",
-      "date": "2026-03-30T14:32:01Z",
+      "repo": "uglyp/org-copilot",
+      "pr": 6,
+      "title": "chore: 发布 0.8.0",
+      "url": "https://github.com/uglyp/org-copilot/pull/6",
+      "date": "2026-04-06T14:08:43Z",
       "status": "merged"
     },
     {
-      "repo": "sulhadin/orchestrator",
-      "pr": 17,
-      "title": "chore(next): release orchestrator 3.0.0-beta",
-      "url": "https://github.com/sulhadin/orchestrator/pull/17",
-      "date": "2026-03-30T14:32:11Z",
+      "repo": "AICMO/Autonomous-Agent-X-Bluesky",
+      "pr": 1605,
+      "title": "[Bot] Posted content",
+      "url": "https://github.com/AICMO/Autonomous-Agent-X-Bluesky/pull/1605",
+      "date": "2026-04-06T14:08:53Z",
       "status": "merged"
     },
     {
-      "repo": "devantler-tech/ksail",
-      "pr": 3494,
-      "title": "[docs] docs: add missing ksail-cluster action inputs to reference table",
-      "url": "https://github.com/devantler-tech/ksail/pull/3494",
-      "date": "2026-03-30T14:32:13Z",
+      "repo": "t1nyb0x/discord-twitter-embed-rx",
+      "pr": 404,
+      "title": "chore(deps): update dashboard submodule",
+      "url": "https://github.com/t1nyb0x/discord-twitter-embed-rx/pull/404",
+      "date": "2026-04-06T14:06:14Z",
       "status": "merged"
     },
     {
-      "repo": "contentful-labs/worklog",
-      "pr": 40,
-      "title": "chore(main): release 1.6.1",
-      "url": "https://github.com/contentful-labs/worklog/pull/40",
-      "date": "2026-03-30T14:31:56Z",
+      "repo": "1001-digital/layers",
+      "pr": 36,
+      "title": "Version Packages",
+      "url": "https://github.com/1001-digital/layers/pull/36",
+      "date": "2026-04-06T14:08:26Z",
       "status": "merged"
     },
     {
-      "repo": "entur/gha-terraform",
-      "pr": 113,
-      "title": "chore(main): release 2.3.0",
-      "url": "https://github.com/entur/gha-terraform/pull/113",
-      "date": "2026-03-30T14:31:48Z",
+      "repo": "grantcodes/ui",
+      "pr": 47,
+      "title": "chore: release main",
+      "url": "https://github.com/grantcodes/ui/pull/47",
+      "date": "2026-04-06T14:08:03Z",
       "status": "merged"
     },
     {
-      "repo": "ARUP-CAS/aiscr-webamcr",
-      "pr": 3752,
-      "title": "Pre-commit fixes for PR #3751",
-      "url": "https://github.com/ARUP-CAS/aiscr-webamcr/pull/3752",
-      "date": "2026-03-30T14:31:48Z",
+      "repo": "pkimetal/pkimetal",
+      "pr": 1350,
+      "title": "Dependency Update",
+      "url": "https://github.com/pkimetal/pkimetal/pull/1350",
+      "date": "2026-04-06T14:05:40Z",
       "status": "merged"
     },
     {
-      "repo": "bibudem/ui",
-      "pr": 76,
-      "title": "chore(main): release 1.3.8",
-      "url": "https://github.com/bibudem/ui/pull/76",
-      "date": "2026-03-30T14:31:28Z",
+      "repo": "hyshka/nix-config",
+      "pr": 66,
+      "title": "chore: bump llm-agents",
+      "url": "https://github.com/hyshka/nix-config/pull/66",
+      "date": "2026-04-06T14:05:28Z",
       "status": "merged"
     },
     {
-      "repo": "pacman82/odbc-sys",
-      "pr": 86,
-      "title": "chore(odbc-sys): release v0.30.0",
-      "url": "https://github.com/pacman82/odbc-sys/pull/86",
-      "date": "2026-03-27T10:10:25Z",
+      "repo": "Subway-Builder-Modded/registry",
+      "pr": 987,
+      "title": "chore: regenerate download counts (hourly)",
+      "url": "https://github.com/Subway-Builder-Modded/registry/pull/987",
+      "date": "2026-04-06T14:05:24Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Lunatixz/KODI_Addons",
+      "pr": 297,
+      "title": "Sync of addon metadata translations",
+      "url": "https://github.com/Lunatixz/KODI_Addons/pull/297",
+      "date": "2026-04-06T14:05:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "vnedyalk0v/react19-simple-maps",
+      "pr": 69,
+      "title": "chore: sync main into dev",
+      "url": "https://github.com/vnedyalk0v/react19-simple-maps/pull/69",
+      "date": "2026-04-06T14:04:02Z",
+      "status": "merged"
+    },
+    {
+      "repo": "hckhanh/pulumi-any-terraform",
+      "pr": 407,
+      "title": "Release packages",
+      "url": "https://github.com/hckhanh/pulumi-any-terraform/pull/407",
+      "date": "2026-04-06T14:03:43Z",
+      "status": "merged"
+    },
+    {
+      "repo": "dotnet/macios",
+      "pr": 25070,
+      "title": "[automated] Merge branch 'main' => 'net11.0'",
+      "url": "https://github.com/dotnet/macios/pull/25070",
+      "date": "2026-04-06T14:02:46Z",
+      "status": "merged"
+    },
+    {
+      "repo": "chlee1001/kabin",
+      "pr": 10,
+      "title": "chore(main): release kabin 0.1.6",
+      "url": "https://github.com/chlee1001/kabin/pull/10",
+      "date": "2026-04-06T14:02:26Z",
+      "status": "merged"
+    },
+    {
+      "repo": "rtk-ai/vox",
+      "pr": 54,
+      "title": "chore(main): release 0.12.0",
+      "url": "https://github.com/rtk-ai/vox/pull/54",
+      "date": "2026-04-06T14:02:23Z",
+      "status": "merged"
+    },
+    {
+      "repo": "vnedyalk0v/react19-simple-maps",
+      "pr": 70,
+      "title": "chore: release package",
+      "url": "https://github.com/vnedyalk0v/react19-simple-maps/pull/70",
+      "date": "2026-04-06T14:01:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "naa0yama/dna-assistant",
+      "pr": 38,
+      "title": "Release for v0.1.4",
+      "url": "https://github.com/naa0yama/dna-assistant/pull/38",
+      "date": "2026-04-06T14:01:40Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GonkaGate/n8n-nodes-gonkagate",
+      "pr": 2,
+      "title": "chore(main): release 0.2.0",
+      "url": "https://github.com/GonkaGate/n8n-nodes-gonkagate/pull/2",
+      "date": "2026-04-06T14:01:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "opendatahub-io/llama-stack-provider-trustyai-garak",
+      "pr": 101,
+      "title": "sync: main to incubation",
+      "url": "https://github.com/opendatahub-io/llama-stack-provider-trustyai-garak/pull/101",
+      "date": "2026-04-06T14:00:19Z",
+      "status": "merged"
+    },
+    {
+      "repo": "metaneutrons/ruscore",
+      "pr": 1,
+      "title": "chore(main): release 1.0.0",
+      "url": "https://github.com/metaneutrons/ruscore/pull/1",
+      "date": "2026-04-06T13:59:31Z",
+      "status": "merged"
+    },
+    {
+      "repo": "xpert-ai/xpert-plugins",
+      "pr": 178,
+      "title": "chore(release): version xpertai packages",
+      "url": "https://github.com/xpert-ai/xpert-plugins/pull/178",
+      "date": "2026-04-06T13:58:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "NullPointersGroup/Documentazione",
+      "pr": 308,
+      "title": "Pull Request Automatica - feature/analisi-requisiti → main",
+      "url": "https://github.com/NullPointersGroup/Documentazione/pull/308",
+      "date": "2026-04-06T13:58:54Z",
+      "status": "merged"
+    },
+    {
+      "repo": "davidsbond/dns",
+      "pr": 34,
+      "title": "internal/list: update block/allow lists",
+      "url": "https://github.com/davidsbond/dns/pull/34",
+      "date": "2026-04-06T13:58:43Z",
+      "status": "merged"
+    },
+    {
+      "repo": "moelholm/moelholm.github.io",
+      "pr": 1984,
+      "title": "Refresh toot files",
+      "url": "https://github.com/moelholm/moelholm.github.io/pull/1984",
+      "date": "2026-04-06T13:58:28Z",
+      "status": "merged"
+    },
+    {
+      "repo": "tktcorporation/good-morning",
+      "pr": 52,
+      "title": "Version Packages",
+      "url": "https://github.com/tktcorporation/good-morning/pull/52",
+      "date": "2026-04-06T13:58:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "finos/legend-studio",
+      "pr": 5052,
+      "title": "Iteration Release v13.208.0",
+      "url": "https://github.com/finos/legend-studio/pull/5052",
+      "date": "2026-04-06T13:57:06Z",
+      "status": "merged"
+    },
+    {
+      "repo": "missionlane/prometheus-mailgun-exporter",
+      "pr": 110,
+      "title": "chore(main): release 2.0.1",
+      "url": "https://github.com/missionlane/prometheus-mailgun-exporter/pull/110",
+      "date": "2026-04-06T13:55:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Josefjosefjosef/filtr",
+      "pr": 1800,
+      "title": "chore(data): update articles data",
+      "url": "https://github.com/Josefjosefjosef/filtr/pull/1800",
+      "date": "2026-04-06T13:55:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "iamnbutler/tasks",
+      "pr": 738,
+      "title": "[Docs] Sync docs: CI gate before merge (#731)",
+      "url": "https://github.com/iamnbutler/tasks/pull/738",
+      "date": "2026-04-06T13:55:07Z",
+      "status": "merged"
+    },
+    {
+      "repo": "CIRACON/ciracon.github.io",
+      "pr": 34,
+      "title": "New Insight: Observability and Monitoring in DevOps Automation",
+      "url": "https://github.com/CIRACON/ciracon.github.io/pull/34",
+      "date": "2026-04-06T13:54:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "iamnbutler/tasks",
+      "pr": 739,
+      "title": "[Docs] Document context compaction in agent session architecture",
+      "url": "https://github.com/iamnbutler/tasks/pull/739",
+      "date": "2026-04-06T13:55:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "CIRACON/ciracon.github.io",
+      "pr": 33,
+      "title": "New Insight: Software Developer Practices in Platform Engineering",
+      "url": "https://github.com/CIRACON/ciracon.github.io/pull/33",
+      "date": "2026-04-01T15:36:39Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kaishuu0123/rebacklogs",
+      "pr": 287,
+      "title": "Release",
+      "url": "https://github.com/kaishuu0123/rebacklogs/pull/287",
+      "date": "2026-04-06T13:54:32Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ueokande/playwright-webextext",
+      "pr": 367,
+      "title": "chore(master): release 0.0.5",
+      "url": "https://github.com/ueokande/playwright-webextext/pull/367",
+      "date": "2026-04-06T07:11:46Z",
+      "status": "merged"
+    },
+    {
+      "repo": "appvia/terraform-aws-instance-scheduler",
+      "pr": 75,
+      "title": "[UPDATE] - Instance Scheduler Cloudformation",
+      "url": "https://github.com/appvia/terraform-aws-instance-scheduler/pull/75",
+      "date": "2026-04-06T13:54:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "node9-ai/node9-proxy",
+      "pr": 69,
+      "title": "[node9] AI review: main",
+      "url": "https://github.com/node9-ai/node9-proxy/pull/69",
+      "date": "2026-04-06T13:54:04Z",
+      "status": "merged"
+    },
+    {
+      "repo": "chicks-net/data-curated",
+      "pr": 251,
+      "title": "🔄 [github] Update GitHub data (2026-04-06)",
+      "url": "https://github.com/chicks-net/data-curated/pull/251",
+      "date": "2026-04-06T13:54:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "akhilsdeportfolio/TypeRacer",
+      "pr": 143,
+      "title": "🤖 Augment Agent: optimize",
+      "url": "https://github.com/akhilsdeportfolio/TypeRacer/pull/143",
+      "date": "2026-04-06T13:53:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "stripe/ai",
+      "pr": 353,
+      "title": "[automated] sync skills from docs.stripe.com",
+      "url": "https://github.com/stripe/ai/pull/353",
+      "date": "2026-04-06T13:53:07Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ToppyMicroServices/beads-git-graph",
+      "pr": 37,
+      "title": "docs: refresh unreleased changelog",
+      "url": "https://github.com/ToppyMicroServices/beads-git-graph/pull/37",
+      "date": "2026-04-06T13:53:03Z",
+      "status": "merged"
+    },
+    {
+      "repo": "pufflyai/prompt-studio",
+      "pr": 103,
+      "title": "Version Packages",
+      "url": "https://github.com/pufflyai/prompt-studio/pull/103",
+      "date": "2026-04-06T13:52:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nvaccess/addon-datastore",
+      "pr": 8330,
+      "title": "[Submit add-on]: contactsManager",
+      "url": "https://github.com/nvaccess/addon-datastore/pull/8330",
+      "date": "2026-04-06T13:51:46Z",
+      "status": "merged"
+    },
+    {
+      "repo": "CIRACON/ciracon.github.io",
+      "pr": 30,
+      "title": "New Insight: Backstage for AI Engineering Teams",
+      "url": "https://github.com/CIRACON/ciracon.github.io/pull/30",
+      "date": "2026-04-06T13:51:04Z",
+      "status": "merged"
+    },
+    {
+      "repo": "DaveDev42/git-worktree-manager",
+      "pr": 56,
+      "title": "chore(main): release 0.0.25",
+      "url": "https://github.com/DaveDev42/git-worktree-manager/pull/56",
+      "date": "2026-04-06T13:50:47Z",
       "status": "merged"
     }
   ]
