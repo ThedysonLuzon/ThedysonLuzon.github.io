@@ -3,7 +3,6 @@
 <p align="center">
   <b>AI & MLOps Engineer · Full‑Stack (MERN + GraphQL) Developer</b><br>
   Real-Time Computer Vision • Reproducible ML Pipelines • Scalable Web Platforms<br>
-  <i>Seeking Fall 2025 AI / MLOps / Full‑Stack Internship</i>
 </p>
 
 <!-- Contact / Social (single row with labels) -->
