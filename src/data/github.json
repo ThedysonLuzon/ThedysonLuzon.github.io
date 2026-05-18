@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T16:01:08.725Z",
+  "updated": "2026-05-18T16:28:21.350Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-05-09T00:13:39Z"
+      "pushedAt": "2026-05-11T16:01:09Z"
     }
   ],
   "contributions": [
     {
-      "repo": "Suntory-N-Water/claude-code-changelog-viewer",
-      "pr": 151,
-      "title": "chore: Update Claude Code docs - 5 files changed",
-      "url": "https://github.com/Suntory-N-Water/claude-code-changelog-viewer/pull/151",
-      "date": "2026-05-11T16:00:54Z",
+      "repo": "lucasaarch/lemon",
+      "pr": 94,
+      "title": "chore: bump versions",
+      "url": "https://github.com/lucasaarch/lemon/pull/94",
+      "date": "2026-05-18T16:28:13Z",
       "status": "merged"
     },
     {
-      "repo": "witanlabs/witan-cli",
-      "pr": 61,
-      "title": "chore(changelog): release 0.10.0",
-      "url": "https://github.com/witanlabs/witan-cli/pull/61",
-      "date": "2026-05-11T16:00:48Z",
+      "repo": "carbon-design-system/carbon-ai-chat",
+      "pr": 1414,
+      "title": "chore(release): v1.13.0",
+      "url": "https://github.com/carbon-design-system/carbon-ai-chat/pull/1414",
+      "date": "2026-05-18T16:27:49Z",
       "status": "merged"
     },
     {
-      "repo": "edm00se/feed",
-      "pr": 46,
-      "title": "build(deps): update NPM packages",
-      "url": "https://github.com/edm00se/feed/pull/46",
-      "date": "2026-05-11T16:00:40Z",
+      "repo": "sveltejs/svelte.dev",
+      "pr": 1980,
+      "title": "Sync `svelte` docs",
+      "url": "https://github.com/sveltejs/svelte.dev/pull/1980",
+      "date": "2026-05-18T16:27:30Z",
       "status": "merged"
     },
     {
-      "repo": "Castro-Media/Analysis",
-      "pr": 7393,
-      "title": "Automated pipeline run",
-      "url": "https://github.com/Castro-Media/Analysis/pull/7393",
-      "date": "2026-05-11T16:00:36Z",
+      "repo": "firefly3823/firefly3823",
+      "pr": 27696,
+      "title": "Auto-generated metrics for run #26046203088",
+      "url": "https://github.com/firefly3823/firefly3823/pull/27696",
+      "date": "2026-05-18T16:26:57Z",
       "status": "merged"
     },
     {
-      "repo": "brody-0125/nadeuri.today",
-      "pr": 1235,
-      "title": "chore: collect environment data",
-      "url": "https://github.com/brody-0125/nadeuri.today/pull/1235",
-      "date": "2026-05-11T16:00:20Z",
+      "repo": "bikeindex/bike_index",
+      "pr": 3565,
+      "title": "Automated translations sync from CI",
+      "url": "https://github.com/bikeindex/bike_index/pull/3565",
+      "date": "2026-05-18T16:26:57Z",
       "status": "merged"
     },
     {
-      "repo": "edm00se/pointing-sound-board",
-      "pr": 751,
-      "title": "build(deps): update NPM packages",
-      "url": "https://github.com/edm00se/pointing-sound-board/pull/751",
-      "date": "2026-05-11T16:00:09Z",
+      "repo": "gocloudLa/terraform-aws-standard-platform",
+      "pr": 89,
+      "title": "fix(project/wrapper-rds): (1.2.0→1.2.1) update final_snapshot_identifier_prefix variable",
+      "url": "https://github.com/gocloudLa/terraform-aws-standard-platform/pull/89",
+      "date": "2026-05-18T16:26:54Z",
       "status": "merged"
     },
     {
-      "repo": "bacteriostat/pkgbuilds",
-      "pr": 5,
-      "title": "xmind: update to 26.03.04126-202604200411",
-      "url": "https://github.com/bacteriostat/pkgbuilds/pull/5",
-      "date": "2026-05-11T15:59:37Z",
+      "repo": "MarkusNeusinger/anyplot",
+      "pr": 7262,
+      "title": "feat(matplotlib): implement scatter-matrix-interactive",
+      "url": "https://github.com/MarkusNeusinger/anyplot/pull/7262",
+      "date": "2026-05-18T16:26:52Z",
       "status": "merged"
     },
     {
-      "repo": "frak-id/wallet",
-      "pr": 192,
-      "title": "chore(mobile): release 1.0.50 (dev)",
-      "url": "https://github.com/frak-id/wallet/pull/192",
-      "date": "2026-05-11T15:59:31Z",
+      "repo": "bigbossguru/ibtws",
+      "pr": 3,
+      "title": "chore: update CHANGELOG.md",
+      "url": "https://github.com/bigbossguru/ibtws/pull/3",
+      "date": "2026-05-18T16:26:28Z",
       "status": "merged"
     },
     {
-      "repo": "zabio3/omaira",
-      "pr": 51,
-      "title": "chore: add words - ヤバい",
-      "url": "https://github.com/zabio3/omaira/pull/51",
-      "date": "2026-05-11T15:59:08Z",
+      "repo": "cuongtranba/kanna",
+      "pr": 214,
+      "title": "chore(main): release 0.61.1",
+      "url": "https://github.com/cuongtranba/kanna/pull/214",
+      "date": "2026-05-18T16:25:36Z",
       "status": "merged"
     },
     {
-      "repo": "globus/globus-sdk-javascript",
-      "pr": 842,
-      "title": "chore(Flows): Updates OpenAPI generated types for Globus Service APIs",
-      "url": "https://github.com/globus/globus-sdk-javascript/pull/842",
-      "date": "2026-05-11T15:58:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kapishdima/create-shadcn-start",
-      "pr": 4,
+      "repo": "scaffold-eth/create-eth",
+      "pr": 425,
       "title": "Version Packages",
-      "url": "https://github.com/kapishdima/create-shadcn-start/pull/4",
-      "date": "2026-05-11T15:58:01Z",
+      "url": "https://github.com/scaffold-eth/create-eth/pull/425",
+      "date": "2026-05-18T16:25:51Z",
       "status": "merged"
     },
     {
-      "repo": "miradorlabs/web-sdk",
-      "pr": 74,
-      "title": "chore(main): release 2.1.0",
-      "url": "https://github.com/miradorlabs/web-sdk/pull/74",
-      "date": "2026-05-11T15:57:28Z",
+      "repo": "Arni1197/test-Jenkins",
+      "pr": 373,
+      "title": "Promote audit-service to dev: sha-90fe70ac08dcd653be109f8523918c7c83419942",
+      "url": "https://github.com/Arni1197/test-Jenkins/pull/373",
+      "date": "2026-05-18T16:25:48Z",
       "status": "merged"
     },
     {
-      "repo": "aminvakil/google-ip-list",
-      "pr": 461,
-      "title": "Automatic Crawl",
-      "url": "https://github.com/aminvakil/google-ip-list/pull/461",
-      "date": "2026-05-11T15:57:16Z",
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 34723,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/34723",
+      "date": "2026-05-18T16:25:32Z",
       "status": "merged"
     },
     {
-      "repo": "Montekkundan/opendungeon",
-      "pr": 2,
-      "title": "chore: version packages",
-      "url": "https://github.com/Montekkundan/opendungeon/pull/2",
-      "date": "2026-05-11T15:57:11Z",
+      "repo": "gravity-ui/landing",
+      "pr": 648,
+      "title": "chore(sandbox): upgrade sandbox packages",
+      "url": "https://github.com/gravity-ui/landing/pull/648",
+      "date": "2026-05-18T16:25:28Z",
       "status": "merged"
     },
     {
-      "repo": "geoblocks/etter",
-      "pr": 120,
-      "title": "chore(main): release 0.4.0",
-      "url": "https://github.com/geoblocks/etter/pull/120",
-      "date": "2026-05-11T15:56:16Z",
+      "repo": "poukai-inc/poukai-ui",
+      "pr": 60,
+      "title": "feat(Statement): add Statement molecule (#54)",
+      "url": "https://github.com/poukai-inc/poukai-ui/pull/60",
+      "date": "2026-05-18T16:25:29Z",
       "status": "merged"
     },
     {
-      "repo": "mucsi96/learn-language",
-      "pr": 288,
-      "title": "Update all dependencies",
-      "url": "https://github.com/mucsi96/learn-language/pull/288",
-      "date": "2026-05-11T15:56:23Z",
+      "repo": "3bsalam-1/3bsalam-1",
+      "pr": 34722,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/3bsalam-1/pull/34722",
+      "date": "2026-05-18T16:25:23Z",
       "status": "merged"
     },
     {
-      "repo": "oddbird/oddleventy",
-      "pr": 1107,
-      "title": "Automated webmentions update",
-      "url": "https://github.com/oddbird/oddleventy/pull/1107",
-      "date": "2026-05-11T15:55:22Z",
+      "repo": "MarkusNeusinger/anyplot",
+      "pr": 7265,
+      "title": "feat(bokeh): implement scatter-matrix-interactive",
+      "url": "https://github.com/MarkusNeusinger/anyplot/pull/7265",
+      "date": "2026-05-18T16:25:18Z",
       "status": "merged"
     },
     {
-      "repo": "generative-ai-practice/news-summarizer-ai",
-      "pr": 2736,
-      "title": "[Auto] Update Gemini news articles",
-      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/2736",
-      "date": "2026-05-11T15:55:20Z",
+      "repo": "sokunmin/research-agent",
+      "pr": 13,
+      "title": "feat: add supervisor HITL, paper selection gate, and query transformation",
+      "url": "https://github.com/sokunmin/research-agent/pull/13",
+      "date": "2026-05-18T16:25:17Z",
       "status": "merged"
     },
     {
-      "repo": "Kage0x3B/svelte-advanced-datatable",
-      "pr": 19,
-      "title": "chore(stable): release 0.14.3",
-      "url": "https://github.com/Kage0x3B/svelte-advanced-datatable/pull/19",
-      "date": "2026-05-11T15:55:01Z",
+      "repo": "poukai-inc/poukai-ui",
+      "pr": 59,
+      "title": "feat(tokens): add --surface-section — fourth elevation tier for section rhythm",
+      "url": "https://github.com/poukai-inc/poukai-ui/pull/59",
+      "date": "2026-05-18T16:25:15Z",
       "status": "merged"
     },
     {
-      "repo": "vobase/vobase",
-      "pr": 86,
-      "title": "chore: version packages",
-      "url": "https://github.com/vobase/vobase/pull/86",
-      "date": "2026-05-11T15:55:13Z",
+      "repo": "kaovilai/dotfiles",
+      "pr": 284,
+      "title": "[dotfiles-improvement] fix: add --connect-timeout to curl calls to prevent indefinite hangs",
+      "url": "https://github.com/kaovilai/dotfiles/pull/284",
+      "date": "2026-05-18T16:23:28Z",
       "status": "merged"
     },
     {
-      "repo": "mbarneyjr/aws-iam-language-server",
-      "pr": 7,
-      "title": "chore(data): update scraped AWS IAM data (v0.0.27)",
-      "url": "https://github.com/mbarneyjr/aws-iam-language-server/pull/7",
-      "date": "2026-05-11T15:55:00Z",
-      "status": "merged"
-    },
-    {
-      "repo": "devops-infra/action-container-structure-test",
-      "pr": 6,
-      "title": "fix: update permissions to allow read access for issues in cron-dependency-update.yml",
-      "url": "https://github.com/devops-infra/action-container-structure-test/pull/6",
-      "date": "2026-05-11T15:55:03Z",
-      "status": "merged"
-    },
-    {
-      "repo": "myitsolutionspg/myrss-feed-gen101",
-      "pr": 513,
-      "title": "Auto update RSS feed",
-      "url": "https://github.com/myitsolutionspg/myrss-feed-gen101/pull/513",
-      "date": "2026-05-11T15:54:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "software-mansion/agentic-engineering",
-      "pr": 30,
-      "title": "changelog: 2026-05-08",
-      "url": "https://github.com/software-mansion/agentic-engineering/pull/30",
-      "date": "2026-05-11T15:54:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "PrefectHQ/prefect",
-      "pr": 21893,
-      "title": "docs: document worker channel WebSocket+REST fallback and testing pattern",
-      "url": "https://github.com/PrefectHQ/prefect/pull/21893",
-      "date": "2026-05-11T15:54:40Z",
-      "status": "merged"
-    },
-    {
-      "repo": "balancer/backend",
-      "pr": 2593,
-      "title": "publish to prod",
-      "url": "https://github.com/balancer/backend/pull/2593",
-      "date": "2026-05-11T15:54:38Z",
-      "status": "merged"
-    },
-    {
-      "repo": "triton-lang/triton-ext",
-      "pr": 80,
-      "title": "ci: update Triton pin to dc57615a",
-      "url": "https://github.com/triton-lang/triton-ext/pull/80",
-      "date": "2026-05-11T15:54:12Z",
-      "status": "merged"
-    },
-    {
-      "repo": "mikebz/djangovue",
-      "pr": 52,
-      "title": "chore: Update frontend dependencies",
-      "url": "https://github.com/mikebz/djangovue/pull/52",
-      "date": "2026-05-11T15:54:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kubev2v/forklift",
-      "pr": 6268,
-      "title": "[release-2.11] MTV-5320 | Remove automatic VIB installation from populator",
-      "url": "https://github.com/kubev2v/forklift/pull/6268",
-      "date": "2026-05-11T15:54:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "colinlienard/sv-router",
-      "pr": 286,
-      "title": "chore: release",
-      "url": "https://github.com/colinlienard/sv-router/pull/286",
-      "date": "2026-05-11T15:53:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "k1LoW/octocov-cachegrind",
-      "pr": 48,
-      "title": "Release for v0.2.6",
-      "url": "https://github.com/k1LoW/octocov-cachegrind/pull/48",
-      "date": "2026-05-11T15:53:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nurazon59/nippo",
-      "pr": 10,
-      "title": "Release for v0.0.1",
-      "url": "https://github.com/nurazon59/nippo/pull/10",
-      "date": "2026-05-11T15:53:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "carrtech-dev/ct-ops",
-      "pr": 1296,
-      "title": "chore: release main",
-      "url": "https://github.com/carrtech-dev/ct-ops/pull/1296",
-      "date": "2026-05-11T15:52:46Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sonofmagic/weapp-tailwindcss",
-      "pr": 854,
-      "title": "Version Packages (next)",
-      "url": "https://github.com/sonofmagic/weapp-tailwindcss/pull/854",
-      "date": "2026-05-11T15:52:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sonofmagic/monorepo-template",
-      "pr": 684,
-      "title": "Version Packages",
-      "url": "https://github.com/sonofmagic/monorepo-template/pull/684",
-      "date": "2026-05-11T15:52:48Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sergelogvinov/terraform-oracle-image",
-      "pr": 1,
-      "title": "chore: release v0.1.0",
-      "url": "https://github.com/sergelogvinov/terraform-oracle-image/pull/1",
-      "date": "2026-05-11T15:52:08Z",
+      "repo": "architects-toolkit/SmartHopper",
+      "pr": 506,
+      "title": "chore: sync main → dev-1.4.2 (infra + provider models)",
+      "url": "https://github.com/architects-toolkit/SmartHopper/pull/506",
+      "date": "2026-05-18T16:24:25Z",
       "status": "merged"
     },
     {
       "repo": "csstools/postcss-plugins-directory",
-      "pr": 2833,
-      "title": "postcss-colormin-8.0.0",
-      "url": "https://github.com/csstools/postcss-plugins-directory/pull/2833",
-      "date": "2026-05-11T15:52:05Z",
+      "pr": 2872,
+      "title": "postcss-merge-longhand-8.0.0",
+      "url": "https://github.com/csstools/postcss-plugins-directory/pull/2872",
+      "date": "2026-05-18T16:24:21Z",
       "status": "merged"
     },
     {
-      "repo": "npm/cli",
-      "pr": 9338,
-      "title": "fix(arborist): prune removed-workspace entries from package-lock.json",
-      "url": "https://github.com/npm/cli/pull/9338",
-      "date": "2026-05-11T15:51:50Z",
+      "repo": "JonathanBerhe/gvdb",
+      "pr": 109,
+      "title": "chore(main): release 0.34.0",
+      "url": "https://github.com/JonathanBerhe/gvdb/pull/109",
+      "date": "2026-05-18T16:24:00Z",
       "status": "merged"
     },
     {
-      "repo": "baseballyama/xlsx-kit",
-      "pr": 77,
-      "title": "chore(release): version packages",
-      "url": "https://github.com/baseballyama/xlsx-kit/pull/77",
-      "date": "2026-05-11T15:51:49Z",
+      "repo": "generative-ai-practice/news-summarizer-ai",
+      "pr": 2881,
+      "title": "[Auto] Update Gemini news articles",
+      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/2881",
+      "date": "2026-05-18T16:23:38Z",
       "status": "merged"
     },
     {
-      "repo": "Installomator/Installomator",
-      "pr": 2922,
-      "title": "🤖 Regenerate Installomator.sh and Labels.txt",
-      "url": "https://github.com/Installomator/Installomator/pull/2922",
-      "date": "2026-05-11T15:51:09Z",
+      "repo": "bxrne/tau",
+      "pr": 22,
+      "title": "chore(master): release 1.0.0",
+      "url": "https://github.com/bxrne/tau/pull/22",
+      "date": "2026-05-18T16:23:06Z",
       "status": "merged"
     },
     {
-      "repo": "yunhai-dev/Clouisle",
-      "pr": 117,
-      "title": "[docs-sync] Correct POSTGRES_HOST to POSTGRES_SERVER in deployment docs",
-      "url": "https://github.com/yunhai-dev/Clouisle/pull/117",
-      "date": "2026-05-11T15:50:59Z",
+      "repo": "MarkusNeusinger/anyplot",
+      "pr": 7264,
+      "title": "feat(plotly): implement scatter-matrix-interactive",
+      "url": "https://github.com/MarkusNeusinger/anyplot/pull/7264",
+      "date": "2026-05-18T16:22:50Z",
       "status": "merged"
     },
     {
-      "repo": "effect-app/libs",
-      "pr": 734,
-      "title": "chore: update versions (beta)",
-      "url": "https://github.com/effect-app/libs/pull/734",
-      "date": "2026-05-11T15:50:37Z",
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 34511,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/34511",
+      "date": "2026-05-18T16:22:37Z",
       "status": "merged"
     },
     {
-      "repo": "evolonix/react-router-next",
-      "pr": 17,
-      "title": "chore(release): version packages 0.3.1",
-      "url": "https://github.com/evolonix/react-router-next/pull/17",
-      "date": "2026-05-11T15:49:30Z",
+      "repo": "Elwinmage/ha-usr-r16-component",
+      "pr": 9,
+      "title": "chore(pre-commit): autoupdate hooks",
+      "url": "https://github.com/Elwinmage/ha-usr-r16-component/pull/9",
+      "date": "2026-05-18T16:22:35Z",
       "status": "merged"
     },
     {
-      "repo": "brndkfr/goalie-vault",
-      "pr": 81,
-      "title": "2026-05-11 15:49:17 UTC - updating thumbnail URLs - 5 ok / 6 tried (macos-latest)",
-      "url": "https://github.com/brndkfr/goalie-vault/pull/81",
-      "date": "2026-05-11T15:49:27Z",
+      "repo": "3bsalam-1/MountainCar",
+      "pr": 34510,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/MountainCar/pull/34510",
+      "date": "2026-05-18T16:22:29Z",
       "status": "merged"
     },
     {
-      "repo": "auditive-tokyo/auditive",
-      "pr": 15,
-      "title": "Release 2026-05-11",
-      "url": "https://github.com/auditive-tokyo/auditive/pull/15",
-      "date": "2026-05-11T15:48:59Z",
+      "repo": "shapeshift/web",
+      "pr": 12347,
+      "title": "feat: regenerate asset data 05/16/2026",
+      "url": "https://github.com/shapeshift/web/pull/12347",
+      "date": "2026-05-18T16:22:25Z",
       "status": "merged"
     },
     {
-      "repo": "ShionTerunaga/gh-issue",
-      "pr": 49,
-      "title": "chore: release packages",
-      "url": "https://github.com/ShionTerunaga/gh-issue/pull/49",
-      "date": "2026-05-11T15:48:49Z",
+      "repo": "gocloudLa/terraform-aws-wrapper-rds",
+      "pr": 32,
+      "title": "chore(main): release 1.2.1",
+      "url": "https://github.com/gocloudLa/terraform-aws-wrapper-rds/pull/32",
+      "date": "2026-05-18T16:21:05Z",
       "status": "merged"
     },
     {
-      "repo": "rocker-org/devcontainer-features",
-      "pr": 281,
-      "title": "Automated documentation update",
-      "url": "https://github.com/rocker-org/devcontainer-features/pull/281",
-      "date": "2026-05-11T15:48:32Z",
+      "repo": "github/gh-aw",
+      "pr": 33065,
+      "title": "[dead-code] chore: remove dead functions — 3 functions removed",
+      "url": "https://github.com/github/gh-aw/pull/33065",
+      "date": "2026-05-18T16:21:10Z",
       "status": "merged"
     },
     {
-      "repo": "meshtastic/Meshtastic-Android",
-      "pr": 5387,
-      "title": "docs: update CHANGELOG.md",
-      "url": "https://github.com/meshtastic/Meshtastic-Android/pull/5387",
-      "date": "2026-05-11T15:48:20Z",
+      "repo": "ballerina-platform/ballerina-dev-website",
+      "pr": 10313,
+      "title": "[Automated] Deploy website",
+      "url": "https://github.com/ballerina-platform/ballerina-dev-website/pull/10313",
+      "date": "2026-05-18T16:20:58Z",
       "status": "merged"
     },
     {
-      "repo": "NxTECH-studio/fuju-bank-backend",
-      "pr": 112,
-      "title": "Release 2026-05-12",
-      "url": "https://github.com/NxTECH-studio/fuju-bank-backend/pull/112",
-      "date": "2026-05-11T15:48:20Z",
+      "repo": "kaovilai/dotfiles",
+      "pr": 283,
+      "title": "[dotfiles-improvement] fix: replace echo-n+read with ZSH read prompt idiom",
+      "url": "https://github.com/kaovilai/dotfiles/pull/283",
+      "date": "2026-05-18T16:18:47Z",
       "status": "merged"
     },
     {
-      "repo": "ACyphus/pagerduty-send-event",
-      "pr": 81,
-      "title": "chore(main): release 1.3.0",
-      "url": "https://github.com/ACyphus/pagerduty-send-event/pull/81",
-      "date": "2026-05-11T15:47:41Z",
+      "repo": "nwxnw/cosmic-ext-connected",
+      "pr": 34,
+      "title": "Update COSMIC git dependencies",
+      "url": "https://github.com/nwxnw/cosmic-ext-connected/pull/34",
+      "date": "2026-05-18T16:20:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GeraVallejos/Eldanor_ERP",
+      "pr": 94,
+      "title": "chore: sync dev into main",
+      "url": "https://github.com/GeraVallejos/Eldanor_ERP/pull/94",
+      "date": "2026-05-18T16:20:50Z",
+      "status": "merged"
+    },
+    {
+      "repo": "gocloudLa/terraform-aws-wrapper-ec2-instance",
+      "pr": 19,
+      "title": "chore(main): release 0.2.1",
+      "url": "https://github.com/gocloudLa/terraform-aws-wrapper-ec2-instance/pull/19",
+      "date": "2026-05-18T16:20:22Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nwxnw/cosmic-ext-whether",
+      "pr": 8,
+      "title": "Update COSMIC git dependencies",
+      "url": "https://github.com/nwxnw/cosmic-ext-whether/pull/8",
+      "date": "2026-05-18T16:20:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "quran/api-js",
+      "pr": 62,
+      "title": "chore(release): 📦 version packages",
+      "url": "https://github.com/quran/api-js/pull/62",
+      "date": "2026-05-18T16:20:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sineorg/store",
+      "pr": 857,
+      "title": "Add / update mod: blended-addressbar",
+      "url": "https://github.com/sineorg/store/pull/857",
+      "date": "2026-05-18T16:20:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "AlteredCraft/knobs-cc",
+      "pr": 13,
+      "title": "chore: sync catalog with upstream docs",
+      "url": "https://github.com/AlteredCraft/knobs-cc/pull/13",
+      "date": "2026-05-18T16:19:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "elsak667/property-match-tauri",
+      "pr": 105,
+      "title": "chore: sync Feishu data 2026-05-18",
+      "url": "https://github.com/elsak667/property-match-tauri/pull/105",
+      "date": "2026-05-18T16:19:44Z",
+      "status": "merged"
+    },
+    {
+      "repo": "defenseunicorns-udm/udm-common",
+      "pr": 76,
+      "title": "chore(main): release 0.10.0",
+      "url": "https://github.com/defenseunicorns-udm/udm-common/pull/76",
+      "date": "2026-05-18T16:19:06Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fumtas1k/devtools",
+      "pr": 452,
+      "title": "chore: main の変更を develop へ同期",
+      "url": "https://github.com/fumtas1k/devtools/pull/452",
+      "date": "2026-05-18T16:19:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Jahia/jahia-cypress",
+      "pr": 220,
+      "title": "chore: release",
+      "url": "https://github.com/Jahia/jahia-cypress/pull/220",
+      "date": "2026-05-18T16:18:55Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kaovilai/fidelity-margin-calculator-auto",
+      "pr": 199,
+      "title": "[improve] Use Array.at(-1) and Array.includes() for modern JS",
+      "url": "https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/199",
+      "date": "2026-05-18T16:18:50Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sineorg/store",
+      "pr": 856,
+      "title": "Add / update mod: blended-addressbar",
+      "url": "https://github.com/sineorg/store/pull/856",
+      "date": "2026-05-18T16:18:44Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sineorg/store",
+      "pr": 855,
+      "title": "Add / update mod: Arc-2.0",
+      "url": "https://github.com/sineorg/store/pull/855",
+      "date": "2026-05-18T16:18:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "NCAR/miam",
+      "pr": 37,
+      "title": "Auto-format code changes",
+      "url": "https://github.com/NCAR/miam/pull/37",
+      "date": "2026-05-18T16:18:23Z",
+      "status": "merged"
+    },
+    {
+      "repo": "pokt-network/igniter",
+      "pr": 291,
+      "title": "Release v0.11.2",
+      "url": "https://github.com/pokt-network/igniter/pull/291",
+      "date": "2026-05-18T16:18:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "event-catalog/eventcatalog",
+      "pr": 2548,
+      "title": "Version Packages",
+      "url": "https://github.com/event-catalog/eventcatalog/pull/2548",
+      "date": "2026-05-18T16:17:58Z",
       "status": "merged"
     }
   ]
