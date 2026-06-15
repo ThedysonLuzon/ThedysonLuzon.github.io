@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T16:50:30.974Z",
+  "updated": "2026-06-15T17:58:36.887Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-06-01T18:41:12Z"
+      "pushedAt": "2026-06-08T16:50:31Z"
     }
   ],
   "contributions": [
     {
-      "repo": "Taylor-CCB-Group/SpatialData.js",
-      "pr": 43,
-      "title": "Version packages (next)",
-      "url": "https://github.com/Taylor-CCB-Group/SpatialData.js/pull/43",
-      "date": "2026-06-08T16:50:22Z",
+      "repo": "braintrustdata/braintrust-proxy",
+      "pr": 785,
+      "title": "chore: update model catalog from bot issues",
+      "url": "https://github.com/braintrustdata/braintrust-proxy/pull/785",
+      "date": "2026-06-15T17:58:09Z",
       "status": "merged"
     },
     {
-      "repo": "MahdiHedhli/threatpedia",
-      "pr": 1085,
-      "title": "Pipeline task-state sync — PR #1083 merged",
-      "url": "https://github.com/MahdiHedhli/threatpedia/pull/1085",
-      "date": "2026-06-08T16:49:49Z",
+      "repo": "Enterprise-CMCS/macpro-mdct-carts",
+      "pr": 140370,
+      "title": "CARTS production release (11 June 2026)",
+      "url": "https://github.com/Enterprise-CMCS/macpro-mdct-carts/pull/140370",
+      "date": "2026-06-15T17:57:52Z",
       "status": "merged"
     },
     {
-      "repo": "nexnos/nexnos-dev",
-      "pr": 25,
-      "title": "📦 build(release): release nexnos v0.5.1",
-      "url": "https://github.com/nexnos/nexnos-dev/pull/25",
-      "date": "2026-06-08T10:55:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "generative-ai-practice/news-summarizer-ai",
-      "pr": 3256,
-      "title": "[Auto] Update Gemini news articles",
-      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/3256",
-      "date": "2026-06-08T16:48:42Z",
-      "status": "merged"
-    },
-    {
-      "repo": "decentraland/godot-explorer",
-      "pr": 2217,
-      "title": "bump version v69 (iOS short_version 1.7)",
-      "url": "https://github.com/decentraland/godot-explorer/pull/2217",
-      "date": "2026-06-08T16:47:36Z",
-      "status": "merged"
-    },
-    {
-      "repo": "brody-0125/nadeuri.today",
-      "pr": 1573,
-      "title": "chore: collect realtime data",
-      "url": "https://github.com/brody-0125/nadeuri.today/pull/1573",
-      "date": "2026-06-08T16:47:32Z",
-      "status": "merged"
-    },
-    {
-      "repo": "josemiguelmelo/agent-foundry",
-      "pr": 27,
-      "title": "chore(main): release 1.0.0",
-      "url": "https://github.com/josemiguelmelo/agent-foundry/pull/27",
-      "date": "2026-06-08T16:46:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "hurricane-pinecone/Segfault-Simulator",
-      "pr": 12,
-      "title": "docs: add voxel terrain and water docs, update render modules page",
-      "url": "https://github.com/hurricane-pinecone/Segfault-Simulator/pull/12",
-      "date": "2026-06-08T16:47:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nicholas-fedor/speedtest-go",
-      "pr": 116,
-      "title": "docs(changelog): update changelog",
-      "url": "https://github.com/nicholas-fedor/speedtest-go/pull/116",
-      "date": "2026-06-08T16:46:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "DFXswiss/api",
-      "pr": 3837,
-      "title": "Release: develop -> main",
-      "url": "https://github.com/DFXswiss/api/pull/3837",
-      "date": "2026-06-08T16:46:25Z",
-      "status": "merged"
-    },
-    {
-      "repo": "AngelGota/AngelGota",
-      "pr": 622,
-      "title": "feat: feature/auto-fill-20260607-125851 → main",
-      "url": "https://github.com/AngelGota/AngelGota/pull/622",
-      "date": "2026-06-08T16:45:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Subway-Builder-Modded/registry",
-      "pr": 3199,
-      "title": "chore: regenerate download counts (hourly)",
-      "url": "https://github.com/Subway-Builder-Modded/registry/pull/3199",
-      "date": "2026-06-08T16:45:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Augno/typescript-sdk",
-      "pr": 18,
-      "title": "chore: version packages",
-      "url": "https://github.com/Augno/typescript-sdk/pull/18",
-      "date": "2026-06-08T16:44:55Z",
-      "status": "merged"
-    },
-    {
-      "repo": "TanStack/table",
-      "pr": 6306,
-      "title": "fix: table-core versions",
-      "url": "https://github.com/TanStack/table/pull/6306",
-      "date": "2026-06-08T16:41:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "osmosis-labs/assetlists",
-      "pr": 3562,
-      "title": "[AUTO] Asset and Chain Update",
-      "url": "https://github.com/osmosis-labs/assetlists/pull/3562",
-      "date": "2026-06-08T16:43:48Z",
-      "status": "merged"
-    },
-    {
-      "repo": "9r4rxssx64-creator/CMCteams",
-      "pr": 961,
-      "title": "Auto-merge claude/commands-clickable-prefill into main (claude-code automation)",
-      "url": "https://github.com/9r4rxssx64-creator/CMCteams/pull/961",
-      "date": "2026-06-08T16:44:28Z",
-      "status": "merged"
-    },
-    {
-      "repo": "pkimetal/pkimetal",
-      "pr": 1593,
-      "title": "Dependency Update",
-      "url": "https://github.com/pkimetal/pkimetal/pull/1593",
-      "date": "2026-06-08T16:44:25Z",
-      "status": "merged"
-    },
-    {
-      "repo": "newrelic/eslint-config-newrelic",
-      "pr": 50,
-      "title": "chore: release v0.8.0",
-      "url": "https://github.com/newrelic/eslint-config-newrelic/pull/50",
-      "date": "2026-06-08T16:43:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Fidelxyz/rime-wanxiang-slim",
-      "pr": 20,
-      "title": "chore(main): release 0.6.0-beta.2",
-      "url": "https://github.com/Fidelxyz/rime-wanxiang-slim/pull/20",
-      "date": "2026-06-08T16:43:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "doidor/markbook",
-      "pr": 9,
-      "title": "chore: version packages",
-      "url": "https://github.com/doidor/markbook/pull/9",
-      "date": "2026-06-08T16:43:34Z",
-      "status": "merged"
-    },
-    {
-      "repo": "danesjenovdan/glas-ljudstva.si",
-      "pr": 98,
-      "title": "Pulling refs/heads/main into k8s",
-      "url": "https://github.com/danesjenovdan/glas-ljudstva.si/pull/98",
-      "date": "2026-06-08T16:43:32Z",
-      "status": "merged"
-    },
-    {
-      "repo": "justin13888/iqa-rs",
-      "pr": 12,
-      "title": "chore: release v0.1.1",
-      "url": "https://github.com/justin13888/iqa-rs/pull/12",
-      "date": "2026-06-08T16:43:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "MahdiHedhli/threatpedia",
-      "pr": 1082,
-      "title": "Pipeline task-state sync — PR #1081 merged",
-      "url": "https://github.com/MahdiHedhli/threatpedia/pull/1082",
-      "date": "2026-06-08T16:43:17Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sholdee/drydock",
-      "pr": 116,
-      "title": "chore(main): release 0.1.19",
-      "url": "https://github.com/sholdee/drydock/pull/116",
-      "date": "2026-06-08T16:43:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "gravity-ui/landing",
-      "pr": 659,
-      "title": "chore(sandbox): upgrade sandbox packages",
-      "url": "https://github.com/gravity-ui/landing/pull/659",
-      "date": "2026-06-08T16:42:10Z",
-      "status": "merged"
-    },
-    {
-      "repo": "swappland/execution-apis",
-      "pr": 2,
-      "title": "docs: release notes for v1.0.6-beta - update pages to the latest release",
-      "url": "https://github.com/swappland/execution-apis/pull/2",
-      "date": "2026-06-08T16:42:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "EISSeuropa/EISSeuropa.github.io",
-      "pr": 575,
-      "title": "chore(roadmap): refresh milestone progress data",
-      "url": "https://github.com/EISSeuropa/EISSeuropa.github.io/pull/575",
-      "date": "2026-06-08T16:41:41Z",
-      "status": "merged"
-    },
-    {
-      "repo": "baseballyama/rsvelte",
-      "pr": 926,
-      "title": "chore(release): version packages",
-      "url": "https://github.com/baseballyama/rsvelte/pull/926",
-      "date": "2026-06-08T16:41:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "semos-labs/attyx",
-      "pr": 247,
-      "title": "chore: merge release v0.4.4 into main",
-      "url": "https://github.com/semos-labs/attyx/pull/247",
-      "date": "2026-06-08T16:40:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "danesjenovdan/glas-ljudstva.si",
-      "pr": 97,
-      "title": "Pulling refs/heads/main into k8s",
-      "url": "https://github.com/danesjenovdan/glas-ljudstva.si/pull/97",
-      "date": "2026-06-08T16:40:47Z",
-      "status": "merged"
-    },
-    {
-      "repo": "9r4rxssx64-creator/CMCteams",
-      "pr": 959,
-      "title": "Auto-merge claude/priority-action-workflow-iKc0T into main (claude-code automation)",
-      "url": "https://github.com/9r4rxssx64-creator/CMCteams/pull/959",
-      "date": "2026-06-08T16:40:39Z",
-      "status": "merged"
-    },
-    {
-      "repo": "EISSeuropa/EISSeuropa.github.io",
-      "pr": 574,
-      "title": "chore(roadmap): refresh milestone progress data",
-      "url": "https://github.com/EISSeuropa/EISSeuropa.github.io/pull/574",
-      "date": "2026-06-08T16:40:38Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jkroepke/helm-secrets",
+      "repo": "kubewarden/docs",
       "pr": 792,
-      "title": "[docs] Set version to v4.7.7",
-      "url": "https://github.com/jkroepke/helm-secrets/pull/792",
-      "date": "2026-06-08T16:40:33Z",
+      "title": "Update Kubewarden admission controller documentation version",
+      "url": "https://github.com/kubewarden/docs/pull/792",
+      "date": "2026-06-15T17:57:31Z",
       "status": "merged"
     },
     {
-      "repo": "LordFckHelmchen/git-commands",
+      "repo": "elastic/elasticsearch-js",
+      "pr": 3340,
+      "title": "[8.19] fix(ci): use x-access-token format for git clone in codegen",
+      "url": "https://github.com/elastic/elasticsearch-js/pull/3340",
+      "date": "2026-06-15T17:57:23Z",
+      "status": "merged"
+    },
+    {
+      "repo": "credfeto/credfeto-systemd",
+      "pr": 8,
+      "title": "fix: use sudo when removing root-owned sysctl config files (#7)",
+      "url": "https://github.com/credfeto/credfeto-systemd/pull/8",
+      "date": "2026-06-15T17:57:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nasgunawann/bensin-api",
+      "pr": 102,
+      "title": "chore: update v1 fuel price snapshots",
+      "url": "https://github.com/nasgunawann/bensin-api/pull/102",
+      "date": "2026-06-15T17:57:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "elastic/elasticsearch-js",
+      "pr": 3339,
+      "title": "[9.3] fix(ci): use x-access-token format for git clone in codegen",
+      "url": "https://github.com/elastic/elasticsearch-js/pull/3339",
+      "date": "2026-06-15T17:57:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/Car-Info",
+      "pr": 5411,
+      "title": "Pull Request..",
+      "url": "https://github.com/3bsalam-1/Car-Info/pull/5411",
+      "date": "2026-06-15T17:57:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "3bsalam-1/Car-Info",
+      "pr": 5410,
+      "title": "Pull Request.",
+      "url": "https://github.com/3bsalam-1/Car-Info/pull/5410",
+      "date": "2026-06-15T17:57:02Z",
+      "status": "merged"
+    },
+    {
+      "repo": "elastic/elasticsearch-js",
+      "pr": 3338,
+      "title": "[9.4] fix(ci): use x-access-token format for git clone in codegen",
+      "url": "https://github.com/elastic/elasticsearch-js/pull/3338",
+      "date": "2026-06-15T17:56:49Z",
+      "status": "merged"
+    },
+    {
+      "repo": "elastic/elasticsearch-js",
+      "pr": 3337,
+      "title": "[9.2] fix(ci): use x-access-token format for git clone in codegen",
+      "url": "https://github.com/elastic/elasticsearch-js/pull/3337",
+      "date": "2026-06-15T17:56:32Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Enterprise-CMCS/macpro-mdct-mcr",
+      "pr": 12785,
+      "title": "MCR production release (15 June 2026)",
+      "url": "https://github.com/Enterprise-CMCS/macpro-mdct-mcr/pull/12785",
+      "date": "2026-06-15T17:56:25Z",
+      "status": "merged"
+    },
+    {
+      "repo": "opencadc/perfpulse",
+      "pr": 17,
+      "title": "chore(main): release 0.1.13",
+      "url": "https://github.com/opencadc/perfpulse/pull/17",
+      "date": "2026-06-15T17:54:57Z",
+      "status": "merged"
+    },
+    {
+      "repo": "vercel/ai",
+      "pr": 16132,
+      "title": "chore(provider/gateway): update gateway model settings files",
+      "url": "https://github.com/vercel/ai/pull/16132",
+      "date": "2026-06-15T17:55:40Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mdopp/servicebay",
+      "pr": 1863,
+      "title": "chore(main): release servicebay 4.119.0",
+      "url": "https://github.com/mdopp/servicebay/pull/1863",
+      "date": "2026-06-15T17:55:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ischemist/project-daedalus",
+      "pr": 23,
+      "title": "version packages",
+      "url": "https://github.com/ischemist/project-daedalus/pull/23",
+      "date": "2026-06-15T17:44:26Z",
+      "status": "merged"
+    },
+    {
+      "repo": "muelley86/zaehler",
+      "pr": 287,
+      "title": "chore(main): release 2.66.0",
+      "url": "https://github.com/muelley86/zaehler/pull/287",
+      "date": "2026-06-15T17:53:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "AFSoto/pipecell-laravel",
+      "pr": 20,
+      "title": "Auto PR: feature/modulo-inventario -> develop",
+      "url": "https://github.com/AFSoto/pipecell-laravel/pull/20",
+      "date": "2026-06-15T17:54:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Josefjosefjosef/filtr",
+      "pr": 5424,
+      "title": "chore(data): update videos data",
+      "url": "https://github.com/Josefjosefjosef/filtr/pull/5424",
+      "date": "2026-06-15T17:54:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "beesyst/beeui",
+      "pr": 70,
+      "title": "chore(main): release beeui 0.20.0",
+      "url": "https://github.com/beesyst/beeui/pull/70",
+      "date": "2026-06-15T17:54:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "BN-Content/text-align",
+      "pr": 9,
+      "title": "chore: GHA alignment output — RV09 NT run 27552691310",
+      "url": "https://github.com/BN-Content/text-align/pull/9",
+      "date": "2026-06-15T17:52:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "seuros/chrono_machines",
+      "pr": 13,
+      "title": "chore: release master",
+      "url": "https://github.com/seuros/chrono_machines/pull/13",
+      "date": "2026-06-15T17:53:44Z",
+      "status": "merged"
+    },
+    {
+      "repo": "guitarrapc/csharp-lab",
+      "pr": 433,
+      "title": "[automated] GitHub IP automated update",
+      "url": "https://github.com/guitarrapc/csharp-lab/pull/433",
+      "date": "2026-06-15T17:53:51Z",
+      "status": "merged"
+    },
+    {
+      "repo": "vercel/ai",
+      "pr": 16131,
+      "title": "Backport: chore(provider/gateway): update gateway model settings files v5",
+      "url": "https://github.com/vercel/ai/pull/16131",
+      "date": "2026-06-15T17:53:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "vercel/ai",
+      "pr": 16130,
+      "title": "Backport: chore(provider/gateway): update gateway model settings files v6",
+      "url": "https://github.com/vercel/ai/pull/16130",
+      "date": "2026-06-15T17:53:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "saya6k/ha-jinja-files",
+      "pr": 1,
+      "title": "chore(main): release jinja_files 1.0.0",
+      "url": "https://github.com/saya6k/ha-jinja-files/pull/1",
+      "date": "2026-06-15T17:50:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "krisarmstrong/maple",
       "pr": 16,
-      "title": "build(deps): Update prek-hooks",
-      "url": "https://github.com/LordFckHelmchen/git-commands/pull/16",
-      "date": "2026-06-08T16:40:27Z",
+      "title": "chore(main): release 0.1.2",
+      "url": "https://github.com/krisarmstrong/maple/pull/16",
+      "date": "2026-06-15T17:49:55Z",
       "status": "merged"
     },
     {
-      "repo": "tyleradams2002/studio-stud",
-      "pr": 6,
-      "title": "Release: development → main (113 commits)",
-      "url": "https://github.com/tyleradams2002/studio-stud/pull/6",
-      "date": "2026-06-08T16:40:07Z",
+      "repo": "sineorg/store",
+      "pr": 928,
+      "title": "Add theme: Zen's Missing Hotkeys",
+      "url": "https://github.com/sineorg/store/pull/928",
+      "date": "2026-06-15T17:52:45Z",
       "status": "merged"
     },
     {
-      "repo": "brndkfr/goalie-vault",
-      "pr": 551,
-      "title": "2026-06-08 16:39:49 UTC - updating thumbnail URLs - 6 ok / 6 tried (macos-latest)",
-      "url": "https://github.com/brndkfr/goalie-vault/pull/551",
-      "date": "2026-06-08T16:39:57Z",
+      "repo": "zuke-build/zuke",
+      "pr": 24,
+      "title": "chore: release master",
+      "url": "https://github.com/zuke-build/zuke/pull/24",
+      "date": "2026-06-15T17:51:57Z",
       "status": "merged"
     },
     {
-      "repo": "mohamed-rekiba/arvel",
-      "pr": 150,
-      "title": "chore( arvel): release 0.19.5",
-      "url": "https://github.com/mohamed-rekiba/arvel/pull/150",
-      "date": "2026-06-08T16:39:10Z",
+      "repo": "icombilisim/ICLIC-Host-Agent",
+      "pr": 18,
+      "title": "chore(main): release 0.10.0",
+      "url": "https://github.com/icombilisim/ICLIC-Host-Agent/pull/18",
+      "date": "2026-06-15T17:51:59Z",
       "status": "merged"
     },
     {
-      "repo": "jsekulowicz/design-system-library",
-      "pr": 56,
-      "title": "release: 0.20.0",
-      "url": "https://github.com/jsekulowicz/design-system-library/pull/56",
-      "date": "2026-06-08T16:39:37Z",
+      "repo": "gcentegit/cpa1",
+      "pr": 8,
+      "title": "chore(release): version packages",
+      "url": "https://github.com/gcentegit/cpa1/pull/8",
+      "date": "2026-06-15T17:51:57Z",
       "status": "merged"
     },
     {
-      "repo": "mohamed-rekiba/arvel",
-      "pr": 151,
-      "title": "chore( arvel-oauth): release 0.6.3",
-      "url": "https://github.com/mohamed-rekiba/arvel/pull/151",
-      "date": "2026-06-08T16:38:14Z",
+      "repo": "Songmu/OctoBiz",
+      "pr": 8,
+      "title": "Release for v0.1.0",
+      "url": "https://github.com/Songmu/OctoBiz/pull/8",
+      "date": "2026-06-15T17:51:42Z",
+      "status": "merged"
+    },
+    {
+      "repo": "chaynHQ/bloom-frontend",
+      "pr": 1843,
+      "title": "Merge Develop onto Main",
+      "url": "https://github.com/chaynHQ/bloom-frontend/pull/1843",
+      "date": "2026-06-15T17:36:05Z",
+      "status": "merged"
+    },
+    {
+      "repo": "CCPBioSim/ccpbiosim.github.io",
+      "pr": 167,
+      "title": "Update to assets.json",
+      "url": "https://github.com/CCPBioSim/ccpbiosim.github.io/pull/167",
+      "date": "2026-06-15T17:51:15Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KevinDeBenedetti/github-workflows",
+      "pr": 35,
+      "title": "chore(main): release 0.12.2",
+      "url": "https://github.com/KevinDeBenedetti/github-workflows/pull/35",
+      "date": "2026-06-15T17:50:02Z",
+      "status": "merged"
+    },
+    {
+      "repo": "juergenbr/karakeep-sailfishos",
+      "pr": 10,
+      "title": "chore(main): release 0.3.2",
+      "url": "https://github.com/juergenbr/karakeep-sailfishos/pull/10",
+      "date": "2026-06-15T17:49:30Z",
+      "status": "merged"
+    },
+    {
+      "repo": "flathub/org.rayforge.rayforge",
+      "pr": 76,
+      "title": "[beta] rayforge: Update rayforge.git to 1.8.0-beta3",
+      "url": "https://github.com/flathub/org.rayforge.rayforge/pull/76",
+      "date": "2026-06-15T17:50:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sineorg/store",
+      "pr": 943,
+      "title": "Add / update mod: Arc-2.0",
+      "url": "https://github.com/sineorg/store/pull/943",
+      "date": "2026-06-15T17:50:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "flxlm/employee_portal",
+      "pr": 91,
+      "title": "Fix event inquiries PAST filter to use event date for all statuses (+1 more)",
+      "url": "https://github.com/flxlm/employee_portal/pull/91",
+      "date": "2026-06-15T17:49:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Twingate-Solutions/twingate-assistant",
+      "pr": 7,
+      "title": "docs: weekly reference update (v2026.165.0)",
+      "url": "https://github.com/Twingate-Solutions/twingate-assistant/pull/7",
+      "date": "2026-06-15T17:49:07Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fury-gl/fury",
+      "pr": 1255,
+      "title": "Update pre-commit hooks",
+      "url": "https://github.com/fury-gl/fury/pull/1255",
+      "date": "2026-06-15T17:48:55Z",
       "status": "merged"
     },
     {
       "repo": "9r4rxssx64-creator/CMCteams",
-      "pr": 957,
-      "title": "Auto-deploy Apex v13.4.316 build",
-      "url": "https://github.com/9r4rxssx64-creator/CMCteams/pull/957",
-      "date": "2026-06-08T16:38:47Z",
+      "pr": 1417,
+      "title": "Auto-merge claude/cmcteams-detection-errors-48gbod into main (claude-code automation)",
+      "url": "https://github.com/9r4rxssx64-creator/CMCteams/pull/1417",
+      "date": "2026-06-15T17:48:51Z",
       "status": "merged"
     },
     {
-      "repo": "objectionary/hone-maven-plugin",
-      "pr": 682,
-      "title": "New coverage results",
-      "url": "https://github.com/objectionary/hone-maven-plugin/pull/682",
-      "date": "2026-06-08T16:38:47Z",
+      "repo": "Enterprise-CMCS/macpro-mdct-mcr",
+      "pr": 12784,
+      "title": "MCR val release (15 June 2026)",
+      "url": "https://github.com/Enterprise-CMCS/macpro-mdct-mcr/pull/12784",
+      "date": "2026-06-15T17:48:07Z",
       "status": "merged"
     },
     {
-      "repo": "rancher/image-build-external-snapshotter",
-      "pr": 14,
-      "title": "Bump external-snapshotter version to v8.6.0",
-      "url": "https://github.com/rancher/image-build-external-snapshotter/pull/14",
-      "date": "2026-06-08T16:38:39Z",
+      "repo": "3-Common/sdk",
+      "pr": 85,
+      "title": "chore(openapi): sync spec",
+      "url": "https://github.com/3-Common/sdk/pull/85",
+      "date": "2026-06-15T17:46:47Z",
       "status": "merged"
     },
     {
-      "repo": "wisefoxme/apex-test-list",
-      "pr": 336,
-      "title": "chore(master): release 1.13.8",
-      "url": "https://github.com/wisefoxme/apex-test-list/pull/336",
-      "date": "2026-06-08T16:37:59Z",
+      "repo": "9r4rxssx64-creator/CMCteams",
+      "pr": 1416,
+      "title": "Auto-merge claude/apex-chat-messages-gtyqwl into main (claude-code automation)",
+      "url": "https://github.com/9r4rxssx64-creator/CMCteams/pull/1416",
+      "date": "2026-06-15T17:46:29Z",
       "status": "merged"
     },
     {
-      "repo": "pivlab/pivlab-website",
-      "pr": 61,
-      "title": "Periodic citation update",
-      "url": "https://github.com/pivlab/pivlab-website/pull/61",
-      "date": "2026-06-08T16:38:13Z",
+      "repo": "vercel/ai",
+      "pr": 16127,
+      "title": "Version Packages (canary)",
+      "url": "https://github.com/vercel/ai/pull/16127",
+      "date": "2026-06-15T17:46:18Z",
       "status": "merged"
     },
     {
-      "repo": "mohamed-rekiba/arvel",
-      "pr": 149,
-      "title": "chore( arvel-permission): release 0.6.4",
-      "url": "https://github.com/mohamed-rekiba/arvel/pull/149",
-      "date": "2026-06-08T16:37:54Z",
+      "repo": "openedx/openedx-platform",
+      "pr": 38761,
+      "title": "feat: Upgrade Python dependency edx-enterprise",
+      "url": "https://github.com/openedx/openedx-platform/pull/38761",
+      "date": "2026-06-15T17:46:16Z",
       "status": "merged"
     },
     {
-      "repo": "jongio/azd-app",
-      "pr": 331,
-      "title": "chore: Release v0.19.2",
-      "url": "https://github.com/jongio/azd-app/pull/331",
-      "date": "2026-06-08T16:37:57Z",
+      "repo": "alvar3zjos3/dev-readme-stats",
+      "pr": 46,
+      "title": "Actualizar combinaciones de tarjetas y temas",
+      "url": "https://github.com/alvar3zjos3/dev-readme-stats/pull/46",
+      "date": "2026-06-15T17:46:08Z",
       "status": "merged"
     },
     {
-      "repo": "dotnet/dotnet-monitor",
-      "pr": 9497,
-      "title": "[release/8.x] Sync non-code with origin/main",
-      "url": "https://github.com/dotnet/dotnet-monitor/pull/9497",
-      "date": "2026-06-08T16:37:38Z",
+      "repo": "kolatts/pncli",
+      "pr": 215,
+      "title": "fix: issue #214 (automated)",
+      "url": "https://github.com/kolatts/pncli/pull/215",
+      "date": "2026-06-15T17:45:45Z",
       "status": "merged"
     },
     {
-      "repo": "Nimrod-B-H/sparrow-KV-bench",
-      "pr": 6,
-      "title": "Feature: popolate redis",
-      "url": "https://github.com/Nimrod-B-H/sparrow-KV-bench/pull/6",
-      "date": "2026-06-08T16:37:40Z",
-      "status": "merged"
-    },
-    {
-      "repo": "mondoohq/mql",
-      "pr": 8244,
-      "title": "🧹 Update deps for mql and providers 20260608",
-      "url": "https://github.com/mondoohq/mql/pull/8244",
-      "date": "2026-06-08T16:37:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ramirofoschini/ms-healthplan",
-      "pr": 22,
-      "title": "feat(customers): carga masiva de clientes desde Excel (.xlsx)",
-      "url": "https://github.com/ramirofoschini/ms-healthplan/pull/22",
-      "date": "2026-06-08T16:37:26Z",
+      "repo": "runZeroInc/mac-tracker",
+      "pr": 836,
+      "title": "Auto: Update files from IEEE",
+      "url": "https://github.com/runZeroInc/mac-tracker/pull/836",
+      "date": "2026-06-15T17:45:41Z",
       "status": "merged"
     }
   ]
