@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T15:13:53.299Z",
+  "updated": "2026-07-27T15:45:09.759Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-07-13T15:43:40Z"
+      "pushedAt": "2026-07-20T15:13:54Z"
     }
   ],
   "contributions": [
     {
-      "repo": "kubeshop/testkube-thirdparty-artifacts",
-      "pr": 64,
-      "title": "chore: Update SeaweedFS to 4.39",
-      "url": "https://github.com/kubeshop/testkube-thirdparty-artifacts/pull/64",
-      "date": "2026-07-20T15:13:33Z",
+      "repo": "t6vb9ns645-boop/ecoflow",
+      "pr": 21,
+      "title": "Smart-Plug-Kacheln: strukturierte Messdaten live, kumulierte Energie im Σ-Zeitraum",
+      "url": "https://github.com/t6vb9ns645-boop/ecoflow/pull/21",
+      "date": "2026-07-27T15:44:41Z",
       "status": "merged"
     },
     {
-      "repo": "AurevLan/WhatIsUp",
-      "pr": 276,
-      "title": "chore: release main",
-      "url": "https://github.com/AurevLan/WhatIsUp/pull/276",
-      "date": "2026-07-20T15:13:30Z",
+      "repo": "oleh-devlab/olive",
+      "pr": 13,
+      "title": "Style: Auto-format Python code (main)",
+      "url": "https://github.com/oleh-devlab/olive/pull/13",
+      "date": "2026-07-27T15:44:25Z",
       "status": "merged"
     },
     {
-      "repo": "channel-io/cht-app-sdk",
-      "pr": 25,
-      "title": "chore: release packages",
-      "url": "https://github.com/channel-io/cht-app-sdk/pull/25",
-      "date": "2026-07-20T15:13:24Z",
+      "repo": "aminvakil/google-ip-list",
+      "pr": 507,
+      "title": "Automatic Crawl",
+      "url": "https://github.com/aminvakil/google-ip-list/pull/507",
+      "date": "2026-07-27T15:44:23Z",
       "status": "merged"
     },
     {
-      "repo": "SonarSource/sonarlint-language-server",
-      "pr": 735,
-      "title": "SLLS-566 Prepare next development iteration",
-      "url": "https://github.com/SonarSource/sonarlint-language-server/pull/735",
-      "date": "2026-07-20T15:13:18Z",
+      "repo": "jbr/ferritin",
+      "pr": 329,
+      "title": "chore: update snaps to rustc 1.99.0-nightly (dc3f85158 2026-07-26) (main)",
+      "url": "https://github.com/jbr/ferritin/pull/329",
+      "date": "2026-07-27T15:44:22Z",
       "status": "merged"
     },
     {
-      "repo": "bmadninja/scuba",
-      "pr": 127,
-      "title": "data: daily GFW fishing-pressure refresh",
-      "url": "https://github.com/bmadninja/scuba/pull/127",
-      "date": "2026-07-20T15:13:16Z",
+      "repo": "SwiftPackageIndex/PackageList",
+      "pr": 14592,
+      "title": "Add <Package>",
+      "url": "https://github.com/SwiftPackageIndex/PackageList/pull/14592",
+      "date": "2026-07-27T15:44:12Z",
       "status": "merged"
     },
     {
-      "repo": "0xMiden/miden-debug",
-      "pr": 105,
-      "title": "chore: release",
-      "url": "https://github.com/0xMiden/miden-debug/pull/105",
-      "date": "2026-07-20T15:12:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "samcleveland/chicago-city-updates",
-      "pr": 14,
-      "title": "Automated city data update",
-      "url": "https://github.com/samcleveland/chicago-city-updates/pull/14",
-      "date": "2026-07-20T15:01:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "timasoft/ambiway",
-      "pr": 74,
-      "title": "chore: update flake.lock",
-      "url": "https://github.com/timasoft/ambiway/pull/74",
-      "date": "2026-07-20T15:12:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "EERNINUO/ArbWave30",
-      "pr": 6,
-      "title": "docs: auto-update README from template",
-      "url": "https://github.com/EERNINUO/ArbWave30/pull/6",
-      "date": "2026-07-20T15:12:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "vercel/eve",
-      "pr": 968,
-      "title": "Version Packages",
-      "url": "https://github.com/vercel/eve/pull/968",
-      "date": "2026-07-20T15:12:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ydb-platform/ydb",
-      "pr": 47229,
-      "title": "Auto-translate docs from PR #3131",
-      "url": "https://github.com/ydb-platform/ydb/pull/47229",
-      "date": "2026-07-20T15:12:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ClickHouse/ClickBench",
-      "pr": 1008,
-      "title": "Automated results for clickhouse-web",
-      "url": "https://github.com/ClickHouse/ClickBench/pull/1008",
-      "date": "2026-07-20T15:12:08Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ClickHouse/ClickBench",
-      "pr": 1006,
-      "title": "Automated results for clickhouse-datalake",
-      "url": "https://github.com/ClickHouse/ClickBench/pull/1006",
-      "date": "2026-07-20T15:11:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "WCRP-CMIP/Essential-Model-Documentation",
-      "pr": 1064,
-      "title": "| g214 | New Horizontal_grid_cell : tempgrid_rjstouffer-1783956033",
-      "url": "https://github.com/WCRP-CMIP/Essential-Model-Documentation/pull/1064",
-      "date": "2026-07-20T15:10:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "generative-ai-practice/news-summarizer-ai",
-      "pr": 4080,
-      "title": "[Auto] Update Gemini news articles",
-      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/4080",
-      "date": "2026-07-20T15:11:03Z",
-      "status": "merged"
-    },
-    {
-      "repo": "timasoft/immich-analyze",
-      "pr": 134,
-      "title": "chore: update flake.lock",
-      "url": "https://github.com/timasoft/immich-analyze/pull/134",
-      "date": "2026-07-20T15:10:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ClickHouse/ClickBench",
-      "pr": 1007,
-      "title": "Automated results for clickhouse-datalake-partitioned",
-      "url": "https://github.com/ClickHouse/ClickBench/pull/1007",
-      "date": "2026-07-20T15:10:48Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ARUP-CAS/aiscr-webamcr",
-      "pr": 4156,
-      "title": "Pre-commit fixes for PR #4155",
-      "url": "https://github.com/ARUP-CAS/aiscr-webamcr/pull/4156",
-      "date": "2026-07-20T15:10:36Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Itzfeminisce/penvhq",
-      "pr": 29,
-      "title": "chore: version packages",
-      "url": "https://github.com/Itzfeminisce/penvhq/pull/29",
-      "date": "2026-07-20T15:10:29Z",
-      "status": "merged"
-    },
-    {
-      "repo": "PSDI-UK/psdi-organic-toolkit",
-      "pr": 35,
-      "title": "Merge rc-0.1.4 into release",
-      "url": "https://github.com/PSDI-UK/psdi-organic-toolkit/pull/35",
-      "date": "2026-07-20T15:04:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zhanglunet/mba",
-      "pr": 182,
-      "title": "feat(watch): 2026-07-20 舆情建议入库（LLM 预分类，人工审 diff 合并）",
-      "url": "https://github.com/zhanglunet/mba/pull/182",
-      "date": "2026-07-20T15:10:12Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Jammmmmaa/JamToolSMcp",
-      "pr": 2,
-      "title": "chore: sync upstream changes",
-      "url": "https://github.com/Jammmmmaa/JamToolSMcp/pull/2",
-      "date": "2026-07-20T15:10:08Z",
-      "status": "merged"
-    },
-    {
-      "repo": "moelholm/moelholm.github.io",
-      "pr": 3014,
-      "title": "Refresh Strava activities",
-      "url": "https://github.com/moelholm/moelholm.github.io/pull/3014",
-      "date": "2026-07-20T15:09:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "edspencer/herdctl",
-      "pr": 392,
-      "title": "chore: version packages",
-      "url": "https://github.com/edspencer/herdctl/pull/392",
-      "date": "2026-07-20T15:09:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "yasuhiro-jj/ootsuki2",
-      "pr": 19,
-      "title": "Notion公開知識スナップショットを更新する",
-      "url": "https://github.com/yasuhiro-jj/ootsuki2/pull/19",
-      "date": "2026-07-20T15:09:06Z",
-      "status": "merged"
-    },
-    {
-      "repo": "bruin-data/bruin",
-      "pr": 2418,
-      "title": "chore: bump ingestr to v1.1.4",
-      "url": "https://github.com/bruin-data/bruin/pull/2418",
-      "date": "2026-07-20T15:08:55Z",
-      "status": "merged"
-    },
-    {
-      "repo": "datafe/markdown-chart",
-      "pr": 20,
-      "title": "Version Packages",
-      "url": "https://github.com/datafe/markdown-chart/pull/20",
-      "date": "2026-07-20T15:08:48Z",
-      "status": "merged"
-    },
-    {
-      "repo": "crowdin/docs",
-      "pr": 822,
-      "title": "chore: update translations",
-      "url": "https://github.com/crowdin/docs/pull/822",
-      "date": "2026-07-20T15:08:20Z",
-      "status": "merged"
-    },
-    {
-      "repo": "myzkey/awesome-gh-extensions",
-      "pr": 31,
-      "title": "chore: auto-update awesome extensions list",
-      "url": "https://github.com/myzkey/awesome-gh-extensions/pull/31",
-      "date": "2026-07-20T15:08:19Z",
-      "status": "merged"
-    },
-    {
-      "repo": "lyse-labs/lyse",
-      "pr": 208,
-      "title": "Version Packages (alpha)",
-      "url": "https://github.com/lyse-labs/lyse/pull/208",
-      "date": "2026-07-20T15:08:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "MrRefactoring/confluence.js",
-      "pr": 153,
-      "title": "chore(release): version packages",
-      "url": "https://github.com/MrRefactoring/confluence.js/pull/153",
-      "date": "2026-07-20T11:11:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Terrance-TT/Mach-Speed",
-      "pr": 32,
-      "title": "auto-fix(platform-lock-in): verified rewrite",
-      "url": "https://github.com/Terrance-TT/Mach-Speed/pull/32",
-      "date": "2026-07-20T15:07:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zeroedin/golit",
-      "pr": 37,
-      "title": "chore: prepare release v0.1.0",
-      "url": "https://github.com/zeroedin/golit/pull/37",
-      "date": "2026-07-20T15:07:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "timasoft/hyprviz",
-      "pr": 140,
-      "title": "chore: update flake.lock",
-      "url": "https://github.com/timasoft/hyprviz/pull/140",
-      "date": "2026-07-20T15:07:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "anthropics/claude-plugins-official",
-      "pr": 4250,
-      "title": "bump(sap-mdk-server): 20f6b571 → 65c088d1",
-      "url": "https://github.com/anthropics/claude-plugins-official/pull/4250",
-      "date": "2026-07-20T15:07:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "anthropics/claude-plugins-official",
-      "pr": 4248,
-      "title": "bump(carta-crm): 4f46ba01 → 62e9f9a0",
-      "url": "https://github.com/anthropics/claude-plugins-official/pull/4248",
-      "date": "2026-07-20T15:06:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "lipov3cz3k/ha-aicooking-ble",
-      "pr": 4,
-      "title": "chore(main): release ha-aicooking-ble 1.1.0",
-      "url": "https://github.com/lipov3cz3k/ha-aicooking-ble/pull/4",
-      "date": "2026-07-20T15:06:41Z",
-      "status": "merged"
-    },
-    {
-      "repo": "loft-sh/vcluster-docs",
-      "pr": 2464,
-      "title": "docs: sync platform-released v4.11.0-rc.7",
-      "url": "https://github.com/loft-sh/vcluster-docs/pull/2464",
-      "date": "2026-07-20T15:06:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "anthropics/claude-plugins-official",
-      "pr": 4256,
-      "title": "bump(pydantic-ai): fb1b3a8e → ec86ff6b",
-      "url": "https://github.com/anthropics/claude-plugins-official/pull/4256",
-      "date": "2026-07-20T15:06:35Z",
-      "status": "merged"
-    },
-    {
-      "repo": "elastic/elastic-agent",
-      "pr": 15663,
-      "title": "[8.19][Automation] Update versions",
-      "url": "https://github.com/elastic/elastic-agent/pull/15663",
-      "date": "2026-07-20T15:06:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kubeflow/hub",
-      "pr": 2978,
-      "title": "chore: sync go generated output",
-      "url": "https://github.com/kubeflow/hub/pull/2978",
-      "date": "2026-07-20T15:00:36Z",
-      "status": "merged"
-    },
-    {
-      "repo": "anthropics/claude-plugins-official",
-      "pr": 4257,
-      "title": "bump(qdrant-skills): d1af526e → e043b731",
-      "url": "https://github.com/anthropics/claude-plugins-official/pull/4257",
-      "date": "2026-07-20T15:06:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "universal-ember/ember-primitives",
-      "pr": 786,
-      "title": "Prepare Release",
-      "url": "https://github.com/universal-ember/ember-primitives/pull/786",
-      "date": "2026-07-20T15:06:08Z",
-      "status": "merged"
-    },
-    {
-      "repo": "233XvX233/Silksong-Steam-multiplayer-mod-data",
-      "pr": 28731,
-      "title": "Auto-append feedback to comments.txt",
-      "url": "https://github.com/233XvX233/Silksong-Steam-multiplayer-mod-data/pull/28731",
-      "date": "2026-07-20T15:05:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kdlbs/kandev",
-      "pr": 1824,
-      "title": "release: 0.80.0",
-      "url": "https://github.com/kdlbs/kandev/pull/1824",
-      "date": "2026-07-20T15:05:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "anthropics/claude-plugins-official",
-      "pr": 4247,
-      "title": "bump(base44): 58a183b6 → 876f080f",
-      "url": "https://github.com/anthropics/claude-plugins-official/pull/4247",
-      "date": "2026-07-20T15:05:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "JJWren/CalCrony",
-      "pr": 52,
-      "title": "chore(master): release 0.15.2",
-      "url": "https://github.com/JJWren/CalCrony/pull/52",
-      "date": "2026-07-20T15:05:33Z",
+      "repo": "shorepine/amy",
+      "pr": 992,
+      "title": "Bump version to 1.2.101",
+      "url": "https://github.com/shorepine/amy/pull/992",
+      "date": "2026-07-27T15:44:09Z",
       "status": "merged"
     },
     {
       "repo": "OdedTamir/sparksai-demo",
-      "pr": 145,
-      "title": "Demo PR 2: update activity (392 lines)",
-      "url": "https://github.com/OdedTamir/sparksai-demo/pull/145",
-      "date": "2026-07-20T15:05:44Z",
+      "pr": 182,
+      "title": "Demo PR 3: update activity (451 lines)",
+      "url": "https://github.com/OdedTamir/sparksai-demo/pull/182",
+      "date": "2026-07-27T15:44:07Z",
       "status": "merged"
     },
     {
-      "repo": "The-Life-Church/tlc-tech-policies",
-      "pr": 50,
-      "title": "Bump GitHub CLI pin: 2.93.0 -> 2.96.0",
-      "url": "https://github.com/The-Life-Church/tlc-tech-policies/pull/50",
-      "date": "2026-07-20T15:05:42Z",
+      "repo": "magnusvmt/vidcast",
+      "pr": 107,
+      "title": "GitOps: bump image tag(s) to 02ce07e70aad41e69ccaf8621f942f3dfcaba4ed",
+      "url": "https://github.com/magnusvmt/vidcast/pull/107",
+      "date": "2026-07-27T15:43:02Z",
       "status": "merged"
     },
     {
-      "repo": "ccusage/ccusage",
-      "pr": 1426,
-      "title": "chore: release v20.0.18",
-      "url": "https://github.com/ccusage/ccusage/pull/1426",
-      "date": "2026-07-20T15:05:01Z",
+      "repo": "prabinbessie/scrapPy",
+      "pr": 110,
+      "title": "Market data updates for 2026-07-27 (NPT)",
+      "url": "https://github.com/prabinbessie/scrapPy/pull/110",
+      "date": "2026-07-27T15:43:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "MarcelMuechler/Vorrat",
+      "pr": 346,
+      "title": "chore(main): release 1.1.0",
+      "url": "https://github.com/MarcelMuechler/Vorrat/pull/346",
+      "date": "2026-07-27T15:42:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "insession-space/design-system",
+      "pr": 114,
+      "title": "chore: version packages",
+      "url": "https://github.com/insession-space/design-system/pull/114",
+      "date": "2026-07-27T15:42:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "quartz-community/encrypted-pages",
+      "pr": 1,
+      "title": "chore: version package",
+      "url": "https://github.com/quartz-community/encrypted-pages/pull/1",
+      "date": "2026-07-27T15:42:30Z",
+      "status": "merged"
+    },
+    {
+      "repo": "k1LoW/octocov-action",
+      "pr": 39,
+      "title": "Release for v1.5.2",
+      "url": "https://github.com/k1LoW/octocov-action/pull/39",
+      "date": "2026-07-27T15:42:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "niedch/nixos-dotfiles",
+      "pr": 12,
+      "title": "Update Nix flake inputs",
+      "url": "https://github.com/niedch/nixos-dotfiles/pull/12",
+      "date": "2026-07-27T15:42:02Z",
+      "status": "merged"
+    },
+    {
+      "repo": "heyMP/scratchpad",
+      "pr": 88,
+      "title": "Version Packages (next)",
+      "url": "https://github.com/heyMP/scratchpad/pull/88",
+      "date": "2026-07-27T15:41:53Z",
+      "status": "merged"
+    },
+    {
+      "repo": "chankov/agent-fleet",
+      "pr": 6,
+      "title": "chore: release",
+      "url": "https://github.com/chankov/agent-fleet/pull/6",
+      "date": "2026-07-27T15:41:40Z",
+      "status": "merged"
+    },
+    {
+      "repo": "generative-ai-practice/news-summarizer-ai",
+      "pr": 4231,
+      "title": "[Auto] Update Gemini news articles",
+      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/4231",
+      "date": "2026-07-27T15:41:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ManishAradwad/pocket-financer-android",
+      "pr": 15,
+      "title": "chore(main): release 1.0.0",
+      "url": "https://github.com/ManishAradwad/pocket-financer-android/pull/15",
+      "date": "2026-07-27T15:40:45Z",
+      "status": "merged"
+    },
+    {
+      "repo": "CCBR/MOSuite",
+      "pr": 238,
+      "title": "chore: post-release cleanup for v0.4.0",
+      "url": "https://github.com/CCBR/MOSuite/pull/238",
+      "date": "2026-07-27T15:40:46Z",
+      "status": "merged"
+    },
+    {
+      "repo": "hatayama/unity-cli-loop",
+      "pr": 2030,
+      "title": "chore: release v3-beta",
+      "url": "https://github.com/hatayama/unity-cli-loop/pull/2030",
+      "date": "2026-07-27T15:40:39Z",
+      "status": "merged"
+    },
+    {
+      "repo": "triggerdotdev/trigger.dev",
+      "pr": 4364,
+      "title": "chore: release v4.5.8",
+      "url": "https://github.com/triggerdotdev/trigger.dev/pull/4364",
+      "date": "2026-07-27T15:40:32Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nbgallery/docker-images",
+      "pr": 53,
+      "title": "chore: sync to jupyter/base-notebook sha256:50d8c29bb555af7ba18e956c97734c31ada26ee12d7e6dc77927608cb730d108",
+      "url": "https://github.com/nbgallery/docker-images/pull/53",
+      "date": "2026-07-27T15:40:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "OdedTamir/sparksai-demo",
+      "pr": 181,
+      "title": "Demo PR 2: update activity (6 lines)",
+      "url": "https://github.com/OdedTamir/sparksai-demo/pull/181",
+      "date": "2026-07-27T15:40:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cyberlabrs/andro-cd",
+      "pr": 3,
+      "title": "chore(main): release 0.3.1",
+      "url": "https://github.com/cyberlabrs/andro-cd/pull/3",
+      "date": "2026-07-27T15:39:29Z",
+      "status": "merged"
+    },
+    {
+      "repo": "ArunKumar-25/Plant-Leaf-Recognition",
+      "pr": 20,
+      "title": "2026-07 automated retrain",
+      "url": "https://github.com/ArunKumar-25/Plant-Leaf-Recognition/pull/20",
+      "date": "2026-07-27T15:40:04Z",
+      "status": "merged"
+    },
+    {
+      "repo": "thomhurst/Dekaf",
+      "pr": 2426,
+      "title": "docs: Update benchmark results",
+      "url": "https://github.com/thomhurst/Dekaf/pull/2426",
+      "date": "2026-07-27T15:39:59Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Seasawher/mathlib4-help",
+      "pr": 773,
+      "title": "Lean/Mathlib update",
+      "url": "https://github.com/Seasawher/mathlib4-help/pull/773",
+      "date": "2026-07-27T15:39:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mendix/native-template",
+      "pr": 1295,
+      "title": "[BUILD] Update Release List and Version Compatibility",
+      "url": "https://github.com/mendix/native-template/pull/1295",
+      "date": "2026-07-27T15:39:41Z",
+      "status": "merged"
+    },
+    {
+      "repo": "macanderson/stella",
+      "pr": 767,
+      "title": "chore(release): sync versions to 0.5.58 [skip release]",
+      "url": "https://github.com/macanderson/stella/pull/767",
+      "date": "2026-07-27T15:39:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "scarlin90/signingroom",
+      "pr": 32,
+      "title": "chore(compliance): update SBOM",
+      "url": "https://github.com/scarlin90/signingroom/pull/32",
+      "date": "2026-07-27T15:33:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "jUXTAPOSITION1/V.A.P.E",
+      "pr": 315,
+      "title": "SKILLFORGE skills update 2026-07-27",
+      "url": "https://github.com/jUXTAPOSITION1/V.A.P.E/pull/315",
+      "date": "2026-07-27T15:39:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "opendatahub-io/kube-rbac-proxy",
+      "pr": 25,
+      "title": "release v3.5.0",
+      "url": "https://github.com/opendatahub-io/kube-rbac-proxy/pull/25",
+      "date": "2026-07-27T15:10:51Z",
+      "status": "merged"
+    },
+    {
+      "repo": "danesjenovdan/izvoli.eu",
+      "pr": 106,
+      "title": "Pulling refs/heads/main into k8s",
+      "url": "https://github.com/danesjenovdan/izvoli.eu/pull/106",
+      "date": "2026-07-27T15:38:45Z",
+      "status": "merged"
+    },
+    {
+      "repo": "IbbyLabs/XRDB",
+      "pr": 79,
+      "title": "chore(main): release 3.10.1",
+      "url": "https://github.com/IbbyLabs/XRDB/pull/79",
+      "date": "2026-07-27T15:38:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "OdedTamir/sparksai-demo",
+      "pr": 180,
+      "title": "Demo PR 1: update activity (5 lines)",
+      "url": "https://github.com/OdedTamir/sparksai-demo/pull/180",
+      "date": "2026-07-27T15:38:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "NASA-IMPACT/veda-odd",
+      "pr": 449,
+      "title": "Update reports (2026-07-27)",
+      "url": "https://github.com/NASA-IMPACT/veda-odd/pull/449",
+      "date": "2026-07-27T15:37:57Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mkrasikoff/epigraph",
+      "pr": 579,
+      "title": "Release v0.21.13",
+      "url": "https://github.com/mkrasikoff/epigraph/pull/579",
+      "date": "2026-07-27T15:37:59Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fetter-io/fetter-py",
+      "pr": 73,
+      "title": "Version Update null (29418100729)",
+      "url": "https://github.com/fetter-io/fetter-py/pull/73",
+      "date": "2026-07-27T15:37:35Z",
+      "status": "merged"
+    },
+    {
+      "repo": "bhklab/handbook",
+      "pr": 338,
+      "title": "chore(main): release 0.12.0",
+      "url": "https://github.com/bhklab/handbook/pull/338",
+      "date": "2026-07-27T15:36:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Wikid82/Charon",
+      "pr": 1185,
+      "title": "Weekly: Promote nightly to main (2026-07-27)",
+      "url": "https://github.com/Wikid82/Charon/pull/1185",
+      "date": "2026-07-27T15:37:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "pkimetal/pkimetal",
+      "pr": 1738,
+      "title": "Dependency Update",
+      "url": "https://github.com/pkimetal/pkimetal/pull/1738",
+      "date": "2026-07-27T15:36:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "tenstorrent/tt-awesome",
+      "pr": 140,
+      "title": "chore: update planet feeds",
+      "url": "https://github.com/tenstorrent/tt-awesome/pull/140",
+      "date": "2026-07-27T15:36:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KalaayPT/rotom",
+      "pr": 2,
+      "title": "chore: release v0.3.0",
+      "url": "https://github.com/KalaayPT/rotom/pull/2",
+      "date": "2026-07-12T23:52:31Z",
+      "status": "merged"
+    },
+    {
+      "repo": "BOTOOM/google-antigravity-bin-arch",
+      "pr": 33,
+      "title": "Update Antigravity 2.0 to 2.4.2",
+      "url": "https://github.com/BOTOOM/google-antigravity-bin-arch/pull/33",
+      "date": "2026-07-27T15:36:26Z",
+      "status": "merged"
+    },
+    {
+      "repo": "apideck-libraries/sdk-java",
+      "pr": 136,
+      "title": "chore: 🐝 Update SDK - Generate 0.33.0",
+      "url": "https://github.com/apideck-libraries/sdk-java/pull/136",
+      "date": "2026-07-27T15:36:25Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KalaayPT/rotom",
+      "pr": 3,
+      "title": "chore: release v0.4.0",
+      "url": "https://github.com/KalaayPT/rotom/pull/3",
+      "date": "2026-07-27T15:36:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "apideck-libraries/sdk-csharp",
+      "pr": 118,
+      "title": "chore: 🐝 Update SDK - Generate 0.24.0",
+      "url": "https://github.com/apideck-libraries/sdk-csharp/pull/118",
+      "date": "2026-07-27T15:36:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "samcleveland/chicago-city-updates",
+      "pr": 25,
+      "title": "Automated city data update",
+      "url": "https://github.com/samcleveland/chicago-city-updates/pull/25",
+      "date": "2026-07-27T15:36:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "apideck-libraries/sdk-python",
+      "pr": 182,
+      "title": "chore: 🐝 Update SDK - Generate 0.32.0",
+      "url": "https://github.com/apideck-libraries/sdk-python/pull/182",
+      "date": "2026-07-27T15:36:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kortix-ai/suna",
+      "pr": 5596,
+      "title": "chore(dev-eks): deploy dev-96c8d84a [skip ci]",
+      "url": "https://github.com/kortix-ai/suna/pull/5596",
+      "date": "2026-07-27T15:34:38Z",
       "status": "merged"
     }
   ]
