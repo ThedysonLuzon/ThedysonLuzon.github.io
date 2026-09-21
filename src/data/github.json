@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T18:27:05.321Z",
+  "updated": "2026-09-21T18:33:33.364Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-09-07T18:10:16Z"
+      "pushedAt": "2026-09-14T18:27:06Z"
     }
   ],
   "contributions": [
     {
-      "repo": "mintopia/harmonic",
-      "pr": 592,
-      "title": "chore(main): release 2.10.0",
-      "url": "https://github.com/mintopia/harmonic/pull/592",
-      "date": "2026-09-14T18:26:29Z",
+      "repo": "felipeadeildo/pi-ask-permission",
+      "pr": 6,
+      "title": "chore(main): release 2.0.1",
+      "url": "https://github.com/felipeadeildo/pi-ask-permission/pull/6",
+      "date": "2026-09-21T18:33:09Z",
       "status": "merged"
     },
     {
-      "repo": "mermaid-js/mermaid-live-editor",
-      "pr": 2030,
-      "title": "Release live editor",
-      "url": "https://github.com/mermaid-js/mermaid-live-editor/pull/2030",
-      "date": "2026-09-14T18:26:11Z",
+      "repo": "cubeshipd/cubeship-ackee-template",
+      "pr": 9,
+      "title": "chore(main): release 1.0.4",
+      "url": "https://github.com/cubeshipd/cubeship-ackee-template/pull/9",
+      "date": "2026-09-21T18:33:09Z",
       "status": "merged"
     },
     {
-      "repo": "team-reflect/reflect-open",
-      "pr": 1272,
-      "title": "chore: release 0.12.0-beta.6",
-      "url": "https://github.com/team-reflect/reflect-open/pull/1272",
-      "date": "2026-09-14T18:25:48Z",
+      "repo": "CloudForgeCI/cloudforge-cli",
+      "pr": 14,
+      "title": "chore: bump cfc-core to 3.2.17-SNAPSHOT",
+      "url": "https://github.com/CloudForgeCI/cloudforge-cli/pull/14",
+      "date": "2026-09-21T18:32:12Z",
       "status": "merged"
     },
     {
-      "repo": "RocketsAreNostalgic/ran-wp-branch-updater",
-      "pr": 44,
-      "title": "chore(main): release 1.0.0-beta.4",
-      "url": "https://github.com/RocketsAreNostalgic/ran-wp-branch-updater/pull/44",
-      "date": "2026-09-14T18:12:42Z",
+      "repo": "dotnet/runtime",
+      "pr": 134216,
+      "title": "[release/11.0] Fix GC on Windows with multiple CPU groups",
+      "url": "https://github.com/dotnet/runtime/pull/134216",
+      "date": "2026-09-21T18:15:24Z",
       "status": "merged"
     },
     {
-      "repo": "Arggon/ArggonManager",
-      "pr": 171,
-      "title": "chore(auto): mark items done (PR #164 merged)",
-      "url": "https://github.com/Arggon/ArggonManager/pull/171",
-      "date": "2026-09-14T18:25:45Z",
+      "repo": "powerset-co/powerpacks",
+      "pr": 547,
+      "title": "chore(main): release powerpacks 2.11.0",
+      "url": "https://github.com/powerset-co/powerpacks/pull/547",
+      "date": "2026-09-21T18:31:53Z",
       "status": "merged"
     },
     {
-      "repo": "OdedTamir/sparksai-demo",
-      "pr": 476,
-      "title": "Demo PR 3: update activity (378 lines)",
-      "url": "https://github.com/OdedTamir/sparksai-demo/pull/476",
-      "date": "2026-09-14T18:25:22Z",
+      "repo": "dotnet/runtime",
+      "pr": 134267,
+      "title": "[release/11.0] Remove open delegate Equals fastpath",
+      "url": "https://github.com/dotnet/runtime/pull/134267",
+      "date": "2026-09-21T18:31:59Z",
       "status": "merged"
     },
     {
-      "repo": "AniDachi/anidachi-LP",
-      "pr": 334,
-      "title": "Release concise microphone hints",
-      "url": "https://github.com/AniDachi/anidachi-LP/pull/334",
-      "date": "2026-09-14T18:20:49Z",
+      "repo": "pdecat/taimux",
+      "pr": 9,
+      "title": "chore(main): release 0.16.0",
+      "url": "https://github.com/pdecat/taimux/pull/9",
+      "date": "2026-09-21T18:31:47Z",
       "status": "merged"
     },
     {
-      "repo": "Agenta-AI/agenta",
-      "pr": 6784,
-      "title": "[release] v0.118.1",
-      "url": "https://github.com/Agenta-AI/agenta/pull/6784",
-      "date": "2026-09-14T18:24:42Z",
+      "repo": "neil1123-vip/padm",
+      "pr": 6,
+      "title": "chore(deps): refresh upstream versions",
+      "url": "https://github.com/neil1123-vip/padm/pull/6",
+      "date": "2026-09-20T06:24:20Z",
       "status": "merged"
     },
     {
-      "repo": "21gifts/api",
-      "pr": 139,
-      "title": "Release: develop -> main",
-      "url": "https://github.com/21gifts/api/pull/139",
-      "date": "2026-09-14T18:24:47Z",
+      "repo": "Falconiere/toolu-ghactions",
+      "pr": 112,
+      "title": "chore(main): release 7.3.2",
+      "url": "https://github.com/Falconiere/toolu-ghactions/pull/112",
+      "date": "2026-09-21T18:31:41Z",
       "status": "merged"
     },
     {
-      "repo": "Goodwiinz/rag",
-      "pr": 1642,
-      "title": "chore(gitops): deploy dev image 9b6e19b",
-      "url": "https://github.com/Goodwiinz/rag/pull/1642",
-      "date": "2026-09-14T18:24:34Z",
+      "repo": "DiLoretoT/estadisticas-argentinas",
+      "pr": 282,
+      "title": "data: dolar intradia 2026-09-21T18:31Z",
+      "url": "https://github.com/DiLoretoT/estadisticas-argentinas/pull/282",
+      "date": "2026-09-21T18:31:47Z",
       "status": "merged"
     },
     {
-      "repo": "nintyboy/workshop-trigger-test",
-      "pr": 6113,
-      "title": "chore: add Luca Rossi to test log",
-      "url": "https://github.com/nintyboy/workshop-trigger-test/pull/6113",
-      "date": "2026-09-14T18:24:05Z",
+      "repo": "openshift-pipelines/p12n-manual-approval-gate",
+      "pr": 477,
+      "title": "[bot] Update release-v1.24.x from openshift-pipelines/manual-approval-gate:release-v0.9.1 to 2ec8c3ba892105570223a7ddbb03e157b38f4114",
+      "url": "https://github.com/openshift-pipelines/p12n-manual-approval-gate/pull/477",
+      "date": "2026-09-21T18:31:33Z",
       "status": "merged"
     },
     {
-      "repo": "icrxz/crm-api-core",
-      "pr": 104,
-      "title": "chore: backport PR #103 to develop",
-      "url": "https://github.com/icrxz/crm-api-core/pull/104",
-      "date": "2026-09-12T21:10:18Z",
+      "repo": "nbgallery/docker-images",
+      "pr": 70,
+      "title": "chore: sync to jupyter/base-notebook sha256:6d0358f11292d59dbf621ea5f3a68b7432f6873a03ed92513799939ab372a5f7",
+      "url": "https://github.com/nbgallery/docker-images/pull/70",
+      "date": "2026-09-21T18:31:30Z",
       "status": "merged"
     },
     {
-      "repo": "ssc-sp/datahub-resource-modules",
-      "pr": 287,
-      "title": "chore(main): release 7.1.4",
-      "url": "https://github.com/ssc-sp/datahub-resource-modules/pull/287",
-      "date": "2026-09-14T18:23:31Z",
+      "repo": "SandeepKomal/KOMORAPY_V4",
+      "pr": 101,
+      "title": "🤖 Automated project health report",
+      "url": "https://github.com/SandeepKomal/KOMORAPY_V4/pull/101",
+      "date": "2026-09-21T18:31:14Z",
       "status": "merged"
     },
     {
-      "repo": "icrxz/crm-api-core",
-      "pr": 113,
-      "title": "chore: backport PR #112 to develop",
-      "url": "https://github.com/icrxz/crm-api-core/pull/113",
-      "date": "2026-09-13T23:51:46Z",
+      "repo": "openshift-pipelines/p12n-console-plugin-pf5",
+      "pr": 268,
+      "title": "[bot] Update release-v1.24.x from openshift-pipelines/console-plugin:release-v1.22.x to 87072cc1800b024ac420fbf8f80984c086374804",
+      "url": "https://github.com/openshift-pipelines/p12n-console-plugin-pf5/pull/268",
+      "date": "2026-09-21T18:30:52Z",
       "status": "merged"
     },
     {
-      "repo": "crtsh/ctsubmit",
-      "pr": 388,
-      "title": "Dependency Update",
-      "url": "https://github.com/crtsh/ctsubmit/pull/388",
-      "date": "2026-09-14T18:23:34Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OneLiteFeatherNET/stelaris",
-      "pr": 170,
-      "title": "chore(develop): release 1.5.0",
-      "url": "https://github.com/OneLiteFeatherNET/stelaris/pull/170",
-      "date": "2026-09-14T18:23:16Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sheldor26/productosvirales",
-      "pr": 92,
-      "title": "Precios ML (Bright Data) — 2026-09-14",
-      "url": "https://github.com/sheldor26/productosvirales/pull/92",
-      "date": "2026-09-14T18:21:17Z",
-      "status": "merged"
-    },
-    {
-      "repo": "icrxz/crm-api-core",
-      "pr": 118,
-      "title": "chore: backport PR #117 to develop",
-      "url": "https://github.com/icrxz/crm-api-core/pull/118",
-      "date": "2026-09-14T18:22:55Z",
+      "repo": "tstapler/docspan",
+      "pr": 129,
+      "title": "chore(main): release docspan 0.8.0",
+      "url": "https://github.com/tstapler/docspan/pull/129",
+      "date": "2026-09-21T18:30:32Z",
       "status": "merged"
     },
     {
       "repo": "jdg2896/agentic-engineering",
-      "pr": 73,
-      "title": "Weekly verification — 142 ok / 0 quarantined / 0 recovered / 6 dead / 0 migrated",
-      "url": "https://github.com/jdg2896/agentic-engineering/pull/73",
-      "date": "2026-09-14T18:22:53Z",
+      "pr": 75,
+      "title": "Weekly verification — 143 ok / 0 quarantined / 0 recovered / 5 dead / 0 migrated",
+      "url": "https://github.com/jdg2896/agentic-engineering/pull/75",
+      "date": "2026-09-21T18:30:32Z",
       "status": "merged"
     },
     {
-      "repo": "antono4/github-achievements",
-      "pr": 15770,
-      "title": "chore: achievement run 1789410152",
-      "url": "https://github.com/antono4/github-achievements/pull/15770",
-      "date": "2026-09-14T18:22:38Z",
+      "repo": "exolinodev/dot-market-monitor",
+      "pr": 359,
+      "title": "data: validated light publication (35638620985)",
+      "url": "https://github.com/exolinodev/dot-market-monitor/pull/359",
+      "date": "2026-09-21T18:30:26Z",
       "status": "merged"
     },
     {
-      "repo": "marmotz/kurotako",
-      "pr": 174,
-      "title": "Version Packages",
-      "url": "https://github.com/marmotz/kurotako/pull/174",
-      "date": "2026-09-14T18:22:36Z",
-      "status": "merged"
-    },
-    {
-      "repo": "journeyapps-platform/runtime-version-string",
-      "pr": 13,
-      "title": "Version Packages",
-      "url": "https://github.com/journeyapps-platform/runtime-version-string/pull/13",
-      "date": "2026-09-14T18:22:23Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ravikovind/flutter_lucide",
-      "pr": 24,
-      "title": "feat: bump to Lucide 1.46.0 (v1.46.0)",
-      "url": "https://github.com/ravikovind/flutter_lucide/pull/24",
-      "date": "2026-09-14T18:22:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zot24/skills",
-      "pr": 245,
-      "title": "fix(hermes): sync for upstream release v2026.9.14",
-      "url": "https://github.com/zot24/skills/pull/245",
-      "date": "2026-09-14T18:22:16Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OneLiteFeatherNET/Vulpes-Backend",
-      "pr": 185,
-      "title": "chore(main): release 3.0.0",
-      "url": "https://github.com/OneLiteFeatherNET/Vulpes-Backend/pull/185",
-      "date": "2026-09-14T18:22:00Z",
-      "status": "merged"
-    },
-    {
-      "repo": "byte8io/magento-pulsar",
-      "pr": 6,
-      "title": "chore(main): release 1.14.0",
-      "url": "https://github.com/byte8io/magento-pulsar/pull/6",
-      "date": "2026-09-14T18:21:51Z",
-      "status": "merged"
-    },
-    {
-      "repo": "WhyLisaWhy/SaltyBetBot",
-      "pr": 945,
-      "title": "Update community personal match records",
-      "url": "https://github.com/WhyLisaWhy/SaltyBetBot/pull/945",
-      "date": "2026-09-14T18:21:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "SalesforceCommerceCloud/commerce-apps",
-      "pr": 147,
-      "title": "CI: update catalog.json after ZIP merge into release/26.9",
-      "url": "https://github.com/SalesforceCommerceCloud/commerce-apps/pull/147",
-      "date": "2026-09-14T18:21:10Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Castro-Media/TopStoryReview.com",
-      "pr": 9609,
-      "title": "Automated data update",
-      "url": "https://github.com/Castro-Media/TopStoryReview.com/pull/9609",
-      "date": "2026-09-14T18:20:34Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OdedTamir/sparksai-demo",
-      "pr": 475,
-      "title": "Demo PR 2: update activity (45 lines)",
-      "url": "https://github.com/OdedTamir/sparksai-demo/pull/475",
-      "date": "2026-09-14T18:20:25Z",
-      "status": "merged"
-    },
-    {
-      "repo": "brooksmcmillin/pi-observational-memory",
-      "pr": 5,
-      "title": "chore: sync upstream updates",
-      "url": "https://github.com/brooksmcmillin/pi-observational-memory/pull/5",
-      "date": "2026-09-14T18:20:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "vercel/ai",
-      "pr": 20720,
-      "title": "Backport: chore(provider/gateway): update gateway model settings files v5",
-      "url": "https://github.com/vercel/ai/pull/20720",
-      "date": "2026-09-14T17:13:02Z",
-      "status": "merged"
-    },
-    {
-      "repo": "LAPKB/pharmsol",
-      "pr": 364,
-      "title": "chore: release v0.29.1",
-      "url": "https://github.com/LAPKB/pharmsol/pull/364",
-      "date": "2026-09-14T18:20:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "vercel/ai",
-      "pr": 20718,
-      "title": "Backport: chore(provider/gateway): update gateway model settings files v6",
-      "url": "https://github.com/vercel/ai/pull/20718",
-      "date": "2026-09-14T17:12:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Andylol111/client-affairs-tools",
-      "pr": 121,
-      "title": "Promote verified develop to feature",
-      "url": "https://github.com/Andylol111/client-affairs-tools/pull/121",
-      "date": "2026-09-14T18:19:57Z",
-      "status": "merged"
-    },
-    {
-      "repo": "vercel/ai",
-      "pr": 20719,
-      "title": "chore(provider/gateway): update gateway model settings files",
-      "url": "https://github.com/vercel/ai/pull/20719",
-      "date": "2026-09-14T17:18:12Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ingeniomaps/cauce",
-      "pr": 432,
-      "title": "release: 0.89.0",
-      "url": "https://github.com/ingeniomaps/cauce/pull/432",
-      "date": "2026-09-14T18:19:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Fabric-Labs/polyester-sdk-typescript",
-      "pr": 142,
-      "title": "chore(release): version polyester sdk",
-      "url": "https://github.com/Fabric-Labs/polyester-sdk-typescript/pull/142",
-      "date": "2026-09-14T18:19:45Z",
-      "status": "merged"
-    },
-    {
-      "repo": "mia-riezebos/Caelestis",
-      "pr": 391,
-      "title": "chore(release): version apps",
-      "url": "https://github.com/mia-riezebos/Caelestis/pull/391",
-      "date": "2026-09-14T18:15:39Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Pnwcomputers/ULTIMATE-CYBERSECURITY-MASTER-GUIDE",
-      "pr": 78,
-      "title": "chore: auto-update CHANGELOG.md",
-      "url": "https://github.com/Pnwcomputers/ULTIMATE-CYBERSECURITY-MASTER-GUIDE/pull/78",
-      "date": "2026-09-14T18:19:42Z",
-      "status": "merged"
-    },
-    {
-      "repo": "dotgibson/dotfiles-Windows",
-      "pr": 260,
-      "title": "chore(nvim): sync nvim/ from dotfiles-core",
-      "url": "https://github.com/dotgibson/dotfiles-Windows/pull/260",
-      "date": "2026-09-14T18:19:37Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Timurtek/zengin",
-      "pr": 6,
-      "title": "Version packages",
-      "url": "https://github.com/Timurtek/zengin/pull/6",
-      "date": "2026-09-14T18:19:38Z",
-      "status": "merged"
-    },
-    {
-      "repo": "antono4/github-achievements",
-      "pr": 15768,
-      "title": "chore: achievement run 1789409965",
-      "url": "https://github.com/antono4/github-achievements/pull/15768",
-      "date": "2026-09-14T18:19:30Z",
-      "status": "merged"
-    },
-    {
-      "repo": "rancher/rke2-charts",
-      "pr": 1195,
-      "title": "Bump vsphere charts",
-      "url": "https://github.com/rancher/rke2-charts/pull/1195",
-      "date": "2026-09-14T17:05:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "rancher/rke2-charts",
-      "pr": 1203,
-      "title": "Update ingress-nginx prime image to v1.15.1-prime12",
-      "url": "https://github.com/rancher/rke2-charts/pull/1203",
-      "date": "2026-09-14T18:15:07Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OBOFoundry/obo-nor.github.io",
-      "pr": 225,
-      "title": "Update dashboard run",
-      "url": "https://github.com/OBOFoundry/obo-nor.github.io/pull/225",
-      "date": "2026-09-14T18:18:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OdedTamir/sparksai-demo",
-      "pr": 474,
-      "title": "Demo PR 1: update activity (380 lines)",
-      "url": "https://github.com/OdedTamir/sparksai-demo/pull/474",
-      "date": "2026-09-14T18:17:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "BV-BRC/BV-BRC-Web",
-      "pr": 1434,
-      "title": "Release v3.60.1",
-      "url": "https://github.com/BV-BRC/BV-BRC-Web/pull/1434",
-      "date": "2026-09-14T18:17:16Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Castro-Media/Analysis",
-      "pr": 10037,
-      "title": "Automated pipeline run",
-      "url": "https://github.com/Castro-Media/Analysis/pull/10037",
-      "date": "2026-09-14T18:17:37Z",
-      "status": "merged"
-    },
-    {
-      "repo": "yjin84/ai-for-developers-project-387",
+      "repo": "cubeshipd/cubeship-n8n-template",
       "pr": 9,
-      "title": "chore(main): release 0.3.0",
-      "url": "https://github.com/yjin84/ai-for-developers-project-387/pull/9",
-      "date": "2026-09-14T18:17:04Z",
+      "title": "chore(main): release 1.0.4",
+      "url": "https://github.com/cubeshipd/cubeship-n8n-template/pull/9",
+      "date": "2026-09-21T18:30:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "signalk-espOS/espOS",
+      "pr": 120,
+      "title": "chore: release 0.10.2",
+      "url": "https://github.com/signalk-espOS/espOS/pull/120",
+      "date": "2026-09-21T18:29:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "topgrade-rs/topgrade",
+      "pr": 2365,
+      "title": "chore: release v17.12.1",
+      "url": "https://github.com/topgrade-rs/topgrade/pull/2365",
+      "date": "2026-09-21T18:30:22Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mozilla-mobile/firefox-ios",
+      "pr": 35739,
+      "title": "Localize FXIOS [Strings] Import l10n from 2026-09-21 for v158",
+      "url": "https://github.com/mozilla-mobile/firefox-ios/pull/35739",
+      "date": "2026-09-21T18:30:10Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cubeshipd/cubeship-wordpress-template",
+      "pr": 5,
+      "title": "chore(main): release 1.0.1",
+      "url": "https://github.com/cubeshipd/cubeship-wordpress-template/pull/5",
+      "date": "2026-09-21T18:29:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "JoshCLWren/comic-pile",
+      "pr": 2814,
+      "title": "Retire IssueList.css and DependencyFlowchart.css onto shared theme/surface grammar",
+      "url": "https://github.com/JoshCLWren/comic-pile/pull/2814",
+      "date": "2026-09-21T18:30:19Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cubeshipd/cubeship-litellm-template",
+      "pr": 8,
+      "title": "chore(main): release 1.2.0",
+      "url": "https://github.com/cubeshipd/cubeship-litellm-template/pull/8",
+      "date": "2026-09-21T18:29:54Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Elijah-Dangerfield/Cards",
+      "pr": 154,
+      "title": "chore: release main",
+      "url": "https://github.com/Elijah-Dangerfield/Cards/pull/154",
+      "date": "2026-09-21T18:29:57Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cubeshipd/cubeship-verdaccio-template",
+      "pr": 7,
+      "title": "chore(main): release 1.0.2",
+      "url": "https://github.com/cubeshipd/cubeship-verdaccio-template/pull/7",
+      "date": "2026-09-21T18:30:04Z",
+      "status": "merged"
+    },
+    {
+      "repo": "wemuda/launchrail",
+      "pr": 73,
+      "title": "chore(master): release 1.19.0",
+      "url": "https://github.com/wemuda/launchrail/pull/73",
+      "date": "2026-09-21T18:29:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cubeshipd/cubeship-mailpit-template",
+      "pr": 6,
+      "title": "chore(main): release 1.1.1",
+      "url": "https://github.com/cubeshipd/cubeship-mailpit-template/pull/6",
+      "date": "2026-09-21T18:29:43Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kourtni/dotfiles",
+      "pr": 32,
+      "title": "chore: update flake inputs",
+      "url": "https://github.com/kourtni/dotfiles/pull/32",
+      "date": "2026-09-21T18:24:41Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cubeshipd/cubeship-openclaw-template",
+      "pr": 8,
+      "title": "chore(main): release 1.0.3",
+      "url": "https://github.com/cubeshipd/cubeship-openclaw-template/pull/8",
+      "date": "2026-09-21T18:29:23Z",
+      "status": "merged"
+    },
+    {
+      "repo": "orobsonn/claude-harness",
+      "pr": 1021,
+      "title": "chore(main): release 3.3.4",
+      "url": "https://github.com/orobsonn/claude-harness/pull/1021",
+      "date": "2026-09-21T18:29:22Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SkenSMasteR/SpoTUI",
+      "pr": 105,
+      "title": "chore: update bundled theme.js",
+      "url": "https://github.com/SkenSMasteR/SpoTUI/pull/105",
+      "date": "2026-09-21T18:29:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "salesforce/sf-pi",
+      "pr": 717,
+      "title": "chore(main): release v0.291.3",
+      "url": "https://github.com/salesforce/sf-pi/pull/717",
+      "date": "2026-09-21T18:29:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cubeshipd/cubeship-metabase-template",
+      "pr": 8,
+      "title": "chore(main): release 1.0.2",
+      "url": "https://github.com/cubeshipd/cubeship-metabase-template/pull/8",
+      "date": "2026-09-21T18:29:14Z",
+      "status": "merged"
+    },
+    {
+      "repo": "RaphaGil/OpenMS-website",
+      "pr": 25,
+      "title": "Automated Google Calendar sync",
+      "url": "https://github.com/RaphaGil/OpenMS-website/pull/25",
+      "date": "2026-09-21T18:29:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "EdgarAlvarez10/CleanArchitecture",
+      "pr": 2,
+      "title": "[architecture bootstrap] Bootstrap architecture docs",
+      "url": "https://github.com/EdgarAlvarez10/CleanArchitecture/pull/2",
+      "date": "2026-09-21T18:29:03Z",
+      "status": "merged"
+    },
+    {
+      "repo": "maxoulaf2/EventCo",
+      "pr": 11,
+      "title": "Met à jour les captures de référence (non-régression visuelle)",
+      "url": "https://github.com/maxoulaf2/EventCo/pull/11",
+      "date": "2026-09-21T17:19:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mdarocha/omp-auth-broker",
+      "pr": 44,
+      "title": "docs: refresh README screenshots",
+      "url": "https://github.com/mdarocha/omp-auth-broker/pull/44",
+      "date": "2026-09-21T18:28:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sheldor26/productosvirales",
+      "pr": 99,
+      "title": "Precios ML (Bright Data) — 2026-09-21",
+      "url": "https://github.com/sheldor26/productosvirales/pull/99",
+      "date": "2026-09-21T18:27:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Far-Horizons-SS14/Far-Horizons-SS14",
+      "pr": 1794,
+      "title": "[CI] Update patchnotes for #1792",
+      "url": "https://github.com/Far-Horizons-SS14/Far-Horizons-SS14/pull/1794",
+      "date": "2026-09-21T18:28:30Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cubeshipd/cubeship-grok-build-template",
+      "pr": 9,
+      "title": "chore(main): release 1.0.3",
+      "url": "https://github.com/cubeshipd/cubeship-grok-build-template/pull/9",
+      "date": "2026-09-21T18:28:17Z",
+      "status": "merged"
+    },
+    {
+      "repo": "WahdanZ/SpockAdb",
+      "pr": 105,
+      "title": "Post-release: bump version to 4.0.5",
+      "url": "https://github.com/WahdanZ/SpockAdb/pull/105",
+      "date": "2026-09-21T18:28:06Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cwahli/Health-tracker",
+      "pr": 25,
+      "title": "fix(opencode-bot): allow external dirs and load shared skills",
+      "url": "https://github.com/cwahli/Health-tracker/pull/25",
+      "date": "2026-09-21T18:28:02Z",
+      "status": "merged"
+    },
+    {
+      "repo": "BROTLib/MONETcommon",
+      "pr": 31,
+      "title": "Release v0.4.0",
+      "url": "https://github.com/BROTLib/MONETcommon/pull/31",
+      "date": "2026-09-21T18:27:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "PrinsFrank/standards",
+      "pr": 406,
+      "title": "Automatic country spec update",
+      "url": "https://github.com/PrinsFrank/standards/pull/406",
+      "date": "2026-09-21T18:27:28Z",
+      "status": "merged"
+    },
+    {
+      "repo": "rebizzz/dwl-flake",
+      "pr": 7,
+      "title": "update: dwl b83881f, dwl-patches 77bc508",
+      "url": "https://github.com/rebizzz/dwl-flake/pull/7",
+      "date": "2026-09-21T18:27:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "GetStream/stream-node",
+      "pr": 351,
+      "title": "chore(main): release 0.8.7",
+      "url": "https://github.com/GetStream/stream-node/pull/351",
+      "date": "2026-09-21T18:26:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kevinmatthes/git-harvest",
+      "pr": 122,
+      "title": "[GitHub Actions] Release:  bump to 0.4.1",
+      "url": "https://github.com/kevinmatthes/git-harvest/pull/122",
+      "date": "2026-09-21T18:26:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "danielscholl/keelson",
+      "pr": 910,
+      "title": "chore(release): bump to 0.108.0",
+      "url": "https://github.com/danielscholl/keelson/pull/910",
+      "date": "2026-09-21T18:26:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Sevenflanks/opencode-manager-web",
+      "pr": 29,
+      "title": "chore(main): release 0.1.2",
+      "url": "https://github.com/Sevenflanks/opencode-manager-web/pull/29",
+      "date": "2026-09-21T18:26:21Z",
       "status": "merged"
     }
   ]
