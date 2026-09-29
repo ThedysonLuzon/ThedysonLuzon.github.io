@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thedysonluzon.github.io/sitemap-index.xml
