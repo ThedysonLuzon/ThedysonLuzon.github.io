@@ -1,7 +1,7 @@
 ---
 import MagneticCTA from "./MagneticCTA.tsx";
 const EMAIL = "luzon.thedyson@gmail.com";
-const SUBJECT = "Interest in AI / MLOps Role";
+const SUBJECT = "Project or Engineering Opportunity";
 const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent(SUBJECT)}`;
 ---
 
@@ -16,15 +16,15 @@ const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent(SUBJECT)}`;
   <header class="cs-head">
     <h2 id="contact-heading">Let’s build something great</h2>
     <p class="sub">
-      Hiring for AI, MLOps, or full-stack? I ship reliable systems—let’s talk outcomes, not buzzwords.
+      Need a developer for a project, or hiring for your team? I’m open to freelance, contract, and full-time engineering opportunities.
     </p>
     <div class="hairline" aria-hidden="true"></div>
   </header>
 
   <div class="cta-row">
     <!-- Primary: magnetic email -->
-    <MagneticCTA client:load href={mailto} class="cta-primary">
-      Email Me (Request Resume)
+    <MagneticCTA client:load href={mailto} className="cta-primary">
+      Start a Conversation
     </MagneticCTA>
 
     <!-- Secondary: copy email (confetti) -->
@@ -59,12 +59,12 @@ const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent(SUBJECT)}`;
     </div>
     <div class="info-card" role="listitem">
       <div class="label">Open to</div>
-      <div class="value">AI / MLOps / Full-Stack</div>
-      <div class="note">Contract • Full-time • Co-op</div>
+      <div class="value">Software • Web • Applied AI</div>
+      <div class="note">Freelance • Contract • Full-time</div>
     </div>
   </div>
 
-  <p class="resume-note">* Full resume supplied on request to protect distribution.</p>
+  <p class="resume-note">Recruiters: ask for my resume and availability.</p>
 </section>
 
 <style>
@@ -163,9 +163,8 @@ const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent(SUBJECT)}`;
 </style>
 
 <!-- Copy + confetti -->
-<script type="module">
+<script type="module" define:vars={{ email: EMAIL }}>
   const btn = document.getElementById('copy-email');
-  const email = ${JSON.stringify(EMAIL)};
   const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function burstConfetti(target){
