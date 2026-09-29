@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T15:11:29.478Z",
+  "updated": "2026-09-28T20:03:00.635Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-04-27T15:09:34Z"
+      "pushedAt": "2026-09-21T18:33:34Z"
     }
   ],
   "contributions": [
     {
-      "repo": "jeromeguillaume/KongAir",
-      "pr": 22,
-      "title": "❗PRD❗: Staged changes for Kong Gateway PRD deployment",
-      "url": "https://github.com/jeromeguillaume/KongAir/pull/22",
-      "date": "2026-05-04T15:10:20Z",
+      "repo": "aiyu-ayaan/Aiyu",
+      "pr": 302,
+      "title": "chore(master): release v6.0.2",
+      "url": "https://github.com/aiyu-ayaan/Aiyu/pull/302",
+      "date": "2026-09-28T20:02:44Z",
       "status": "merged"
     },
     {
-      "repo": "generative-ai-practice/news-summarizer-ai",
-      "pr": 2584,
-      "title": "[Auto] Update Gemini news articles",
-      "url": "https://github.com/generative-ai-practice/news-summarizer-ai/pull/2584",
-      "date": "2026-05-04T15:10:07Z",
+      "repo": "Subway-Builder-Modded/registry",
+      "pr": 11889,
+      "title": "chore: cache website analytics",
+      "url": "https://github.com/Subway-Builder-Modded/registry/pull/11889",
+      "date": "2026-09-28T20:02:37Z",
       "status": "merged"
     },
     {
-      "repo": "Josefjosefjosef/filtr",
-      "pr": 3920,
-      "title": "chore(data): update articles data",
-      "url": "https://github.com/Josefjosefjosef/filtr/pull/3920",
-      "date": "2026-05-04T15:09:59Z",
+      "repo": "exolinodev/dot-market-monitor",
+      "pr": 1078,
+      "title": "data: validated collector publication (36475941257)",
+      "url": "https://github.com/exolinodev/dot-market-monitor/pull/1078",
+      "date": "2026-09-28T20:02:25Z",
       "status": "merged"
     },
     {
-      "repo": "MarioWinter/merch-miner",
-      "pr": 37,
-      "title": "chore(main): release 0.2.1",
-      "url": "https://github.com/MarioWinter/merch-miner/pull/37",
-      "date": "2026-05-04T15:09:34Z",
+      "repo": "AbelCS/secopy",
+      "pr": 66,
+      "title": "chore(main): release 0.10.0",
+      "url": "https://github.com/AbelCS/secopy/pull/66",
+      "date": "2026-09-28T20:02:13Z",
       "status": "merged"
     },
     {
-      "repo": "robase/flowlib",
-      "pr": 11,
-      "title": "chore: version packages",
-      "url": "https://github.com/robase/flowlib/pull/11",
-      "date": "2026-05-04T15:09:13Z",
+      "repo": "nbgallery/docker-images",
+      "pr": 71,
+      "title": "chore: sync to jupyter/base-notebook sha256:8f8901da8b05d5d756d781b807d12165e08be5a7266117bd94fe49bdd93fa954",
+      "url": "https://github.com/nbgallery/docker-images/pull/71",
+      "date": "2026-09-28T20:02:24Z",
       "status": "merged"
     },
     {
-      "repo": "laplace-live/facet",
-      "pr": 3,
-      "title": "Version Packages",
-      "url": "https://github.com/laplace-live/facet/pull/3",
-      "date": "2026-05-04T15:09:14Z",
+      "repo": "OpenWaggle/OpenWaggle",
+      "pr": 248,
+      "title": "chore(release): v0.4.0-alpha.9",
+      "url": "https://github.com/OpenWaggle/OpenWaggle/pull/248",
+      "date": "2026-09-28T20:02:12Z",
       "status": "merged"
     },
     {
-      "repo": "zehengl/pip-check-updates",
-      "pr": 218,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/pip-check-updates/pull/218",
-      "date": "2026-05-04T15:09:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-community-metrics",
-      "pr": 122,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-community-metrics/pull/122",
-      "date": "2026-05-04T15:09:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ab-physicians",
-      "pr": 130,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ab-physicians/pull/130",
-      "date": "2026-05-04T15:08:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ezapi-tmdb",
-      "pr": 235,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ezapi-tmdb/pull/235",
-      "date": "2026-05-04T15:08:53Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kandamukeshkumar4-cmyk/pawvital-ai",
-      "pr": 443,
-      "title": "VET-1442: vet 1442c shadow planner scenario eval harness",
-      "url": "https://github.com/kandamukeshkumar4-cmyk/pawvital-ai/pull/443",
-      "date": "2026-05-04T15:08:51Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ezapi-yelp",
-      "pr": 177,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ezapi-yelp/pull/177",
-      "date": "2026-05-04T15:08:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ezapi-icc-pro-demo",
-      "pr": 110,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ezapi-icc-pro-demo/pull/110",
-      "date": "2026-05-04T15:08:46Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/cookiecutter-py-package",
-      "pr": 169,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/cookiecutter-py-package/pull/169",
-      "date": "2026-05-04T15:08:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-gtfs",
-      "pr": 116,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-gtfs/pull/116",
-      "date": "2026-05-04T15:08:41Z",
-      "status": "merged"
-    },
-    {
-      "repo": "coding-armadillo/learn-music",
-      "pr": 240,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/coding-armadillo/learn-music/pull/240",
-      "date": "2026-05-04T15:08:38Z",
-      "status": "merged"
-    },
-    {
-      "repo": "CAPX17/Fiches-Valeurs-PEA-PME",
-      "pr": 43,
-      "title": "docs: rapport fix auto-trigger generate.yml + concurrency",
-      "url": "https://github.com/CAPX17/Fiches-Valeurs-PEA-PME/pull/43",
-      "date": "2026-05-04T15:08:24Z",
-      "status": "merged"
-    },
-    {
-      "repo": "mcarvin8/sf-decomposer",
-      "pr": 431,
-      "title": "chore(main): release 6.17.0",
-      "url": "https://github.com/mcarvin8/sf-decomposer/pull/431",
-      "date": "2026-05-04T15:08:03Z",
-      "status": "merged"
-    },
-    {
-      "repo": "s2-streamstore/s2",
-      "pr": 431,
-      "title": "chore: sync specs submodule",
-      "url": "https://github.com/s2-streamstore/s2/pull/431",
-      "date": "2026-05-04T15:08:09Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/face-timeline",
-      "pr": 214,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/face-timeline/pull/214",
-      "date": "2026-05-04T15:08:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-traffic-cam",
-      "pr": 246,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-traffic-cam/pull/246",
-      "date": "2026-05-04T15:08:09Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/toisan-lang",
-      "pr": 157,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/toisan-lang/pull/157",
-      "date": "2026-05-04T15:08:06Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ez-address-parser",
-      "pr": 131,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ez-address-parser/pull/131",
-      "date": "2026-05-04T15:08:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "tee-labs/agent-standby",
-      "pr": 11,
-      "title": "\n\n用户要求我对之前的分析回复做一个简短总结（40字符以内）。\n\n这是一个简单的总结请求，不需要搜索或分析。\n\n**总结：**\n\n分析AGENTS.md现状，发现5个问题：缺闭合标记、MCP硬编码、缺skills注册说明、gist与本地不同步、注释未解释。建议同步更新。\n\n（共39字符的中文总结版：）\n\nAGENTS.md需更新：修复5项问题，同步gist与本地版本。",
-      "url": "https://github.com/tee-labs/agent-standby/pull/11",
-      "date": "2026-05-04T15:08:00Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-community-game",
-      "pr": 57,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-community-game/pull/57",
-      "date": "2026-05-04T15:08:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/scrapy-darksky-api",
-      "pr": 199,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/scrapy-darksky-api/pull/199",
-      "date": "2026-05-04T15:07:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ezapi-tmdb-demo",
-      "pr": 85,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ezapi-tmdb-demo/pull/85",
-      "date": "2026-05-04T15:07:57Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-building-energy-benchmarking",
-      "pr": 100,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-building-energy-benchmarking/pull/100",
-      "date": "2026-05-04T15:07:54Z",
-      "status": "merged"
-    },
-    {
-      "repo": "coding-armadillo/good-neighbor-halloween",
-      "pr": 225,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/coding-armadillo/good-neighbor-halloween/pull/225",
-      "date": "2026-05-04T15:07:52Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ez-address-parser-model",
-      "pr": 132,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ez-address-parser-model/pull/132",
-      "date": "2026-05-04T15:07:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/lighten-up-calgary",
-      "pr": 151,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/lighten-up-calgary/pull/151",
-      "date": "2026-05-04T15:07:47Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/fitbit-visualization",
-      "pr": 113,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/fitbit-visualization/pull/113",
-      "date": "2026-05-04T15:07:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/cookiecutter-py-script",
-      "pr": 177,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/cookiecutter-py-script/pull/177",
-      "date": "2026-05-04T15:07:42Z",
-      "status": "merged"
-    },
-    {
-      "repo": "AICMO/Autonomous-Agent-X-Bluesky",
-      "pr": 2266,
-      "title": "[Bot] Posted content",
-      "url": "https://github.com/AICMO/Autonomous-Agent-X-Bluesky/pull/2266",
-      "date": "2026-05-04T15:07:38Z",
-      "status": "merged"
-    },
-    {
-      "repo": "sait-data-475/data",
-      "pr": 94,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/sait-data-475/data/pull/94",
-      "date": "2026-05-04T15:07:39Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/stock-price-prediction",
-      "pr": 156,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/stock-price-prediction/pull/156",
-      "date": "2026-05-04T15:07:35Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ezapi-sysaid",
-      "pr": 126,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ezapi-sysaid/pull/126",
-      "date": "2026-05-04T15:07:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-compensation-disclosure",
-      "pr": 106,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-compensation-disclosure/pull/106",
-      "date": "2026-05-04T15:07:30Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/scrapy-indeed-company-reviews",
-      "pr": 184,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/scrapy-indeed-company-reviews/pull/184",
-      "date": "2026-05-04T15:07:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-historical-city-limits",
-      "pr": 100,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-historical-city-limits/pull/100",
-      "date": "2026-05-04T15:07:24Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ez-cuisine-classifier",
-      "pr": 177,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ez-cuisine-classifier/pull/177",
-      "date": "2026-05-04T15:07:21Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-survey-2022-fall",
-      "pr": 74,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-survey-2022-fall/pull/74",
-      "date": "2026-05-04T15:07:19Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/level-up-calgary",
-      "pr": 189,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/level-up-calgary/pull/189",
-      "date": "2026-05-04T15:07:17Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/cookiecutter-streamlit",
-      "pr": 273,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/cookiecutter-streamlit/pull/273",
-      "date": "2026-05-04T15:07:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/yyc-library-review",
-      "pr": 140,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/yyc-library-review/pull/140",
-      "date": "2026-05-04T15:07:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "zehengl/ezapi-icc-pro",
-      "pr": 137,
-      "title": "[pcu] Refresh Deps",
-      "url": "https://github.com/zehengl/ezapi-icc-pro/pull/137",
-      "date": "2026-05-04T15:06:48Z",
-      "status": "merged"
-    },
-    {
-      "repo": "twentyhq/twenty",
-      "pr": 20238,
-      "title": "i18n - docs translations",
-      "url": "https://github.com/twentyhq/twenty/pull/20238",
-      "date": "2026-05-04T15:06:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Engenharia-de-Software-Fatec/eng-softII-2026",
-      "pr": 34,
-      "title": "Atualização automática de diagramas",
-      "url": "https://github.com/Engenharia-de-Software-Fatec/eng-softII-2026/pull/34",
-      "date": "2026-05-04T15:06:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Pagayo/pagayo-maintenance",
-      "pr": 79,
-      "title": "chore(releases): verify pagayo-storefront@e07b9afa2353 in staging",
-      "url": "https://github.com/Pagayo/pagayo-maintenance/pull/79",
-      "date": "2026-05-04T15:06:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jeromeguillaume/KongAir",
+      "repo": "rykhalskyi/homelab",
       "pr": 21,
-      "title": "Stage Kong Gateway Configuration",
-      "url": "https://github.com/jeromeguillaume/KongAir/pull/21",
-      "date": "2026-05-04T15:06:22Z",
+      "title": "Pin nginx site image to sha-cca1674",
+      "url": "https://github.com/rykhalskyi/homelab/pull/21",
+      "date": "2026-09-28T20:01:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sedecim-com/nostr",
+      "pr": 312,
+      "title": "backlog: sync desde GitHub Issues",
+      "url": "https://github.com/sedecim-com/nostr/pull/312",
+      "date": "2026-09-28T20:01:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "tkgstrator/rialto",
+      "pr": 583,
+      "title": "chore: weekly dependency update",
+      "url": "https://github.com/tkgstrator/rialto/pull/583",
+      "date": "2026-09-28T20:01:28Z",
+      "status": "merged"
+    },
+    {
+      "repo": "myitsolutionspg/myrss-feed-gen101",
+      "pr": 2693,
+      "title": "Update published feeds",
+      "url": "https://github.com/myitsolutionspg/myrss-feed-gen101/pull/2693",
+      "date": "2026-09-28T20:01:11Z",
+      "status": "merged"
+    },
+    {
+      "repo": "jdg2896/agentic-engineering",
+      "pr": 93,
+      "title": "Weekly verification 2026-W40 — 143 ok / 0 quarantined / 0 recovered / 5 dead / 0 migrated",
+      "url": "https://github.com/jdg2896/agentic-engineering/pull/93",
+      "date": "2026-09-28T20:01:09Z",
+      "status": "merged"
+    },
+    {
+      "repo": "azmartone67/dchub-backend",
+      "pr": 5847,
+      "title": "chore: weekly shadow route inventory refresh",
+      "url": "https://github.com/azmartone67/dchub-backend/pull/5847",
+      "date": "2026-09-28T20:01:04Z",
+      "status": "merged"
+    },
+    {
+      "repo": "slop-place/zulu",
+      "pr": 19,
+      "title": "chore(main): release zulu 1.9.2",
+      "url": "https://github.com/slop-place/zulu/pull/19",
+      "date": "2026-09-28T20:00:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sealant-sh/sealantd",
+      "pr": 126,
+      "title": "chore: version packages",
+      "url": "https://github.com/sealant-sh/sealantd/pull/126",
+      "date": "2026-09-28T20:00:24Z",
+      "status": "merged"
+    },
+    {
+      "repo": "glasshome/widget-cli",
+      "pr": 15,
+      "title": "chore(main): release 0.14.4",
+      "url": "https://github.com/glasshome/widget-cli/pull/15",
+      "date": "2026-09-28T20:00:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "code2nguyen/web-components",
+      "pr": 73,
+      "title": "chore(release): publish v0.0.17",
+      "url": "https://github.com/code2nguyen/web-components/pull/73",
+      "date": "2026-09-28T20:00:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "glasshome/ha-types",
+      "pr": 2,
+      "title": "chore(main): release 0.2.1",
+      "url": "https://github.com/glasshome/ha-types/pull/2",
+      "date": "2026-09-28T19:59:56Z",
+      "status": "merged"
+    },
+    {
+      "repo": "stevologic/security-recipes.ai",
+      "pr": 346,
+      "title": "Refresh MCP authorization for OAuth metadata SSRF checks",
+      "url": "https://github.com/stevologic/security-recipes.ai/pull/346",
+      "date": "2026-09-28T19:59:59Z",
+      "status": "merged"
+    },
+    {
+      "repo": "msupino/NavigationApp",
+      "pr": 2456,
+      "title": "Dev to main (d6e9a41)",
+      "url": "https://github.com/msupino/NavigationApp/pull/2456",
+      "date": "2026-09-28T19:59:49Z",
+      "status": "merged"
+    },
+    {
+      "repo": "floydspace/effect-aws",
+      "pr": 232,
+      "title": "Version Packages (beta)",
+      "url": "https://github.com/floydspace/effect-aws/pull/232",
+      "date": "2026-09-28T19:59:15Z",
+      "status": "merged"
+    },
+    {
+      "repo": "trueberryless/opendeck.space",
+      "pr": 36,
+      "title": "chore(i18n): German translation reviews",
+      "url": "https://github.com/trueberryless/opendeck.space/pull/36",
+      "date": "2026-09-28T19:59:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "wp-document-revisions/wp-document-revisions",
+      "pr": 716,
+      "title": "Update POT file",
+      "url": "https://github.com/wp-document-revisions/wp-document-revisions/pull/716",
+      "date": "2026-09-28T19:58:53Z",
+      "status": "merged"
+    },
+    {
+      "repo": "withastro/flue",
+      "pr": 792,
+      "title": "Version Packages",
+      "url": "https://github.com/withastro/flue/pull/792",
+      "date": "2026-09-28T19:58:50Z",
+      "status": "merged"
+    },
+    {
+      "repo": "albert-mueller/OpenCore-Legacy-Patcher-T2",
+      "pr": 448,
+      "title": "Auto-fix: syntax & lint (main)",
+      "url": "https://github.com/albert-mueller/OpenCore-Legacy-Patcher-T2/pull/448",
+      "date": "2026-09-28T19:58:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "e18e/e18e",
+      "pr": 255,
+      "title": "chore: sync module replacements",
+      "url": "https://github.com/e18e/e18e/pull/255",
+      "date": "2026-09-28T19:58:45Z",
+      "status": "merged"
+    },
+    {
+      "repo": "will-corrigan/Wayfarer",
+      "pr": 107,
+      "title": "chore(main): release 1.10.0",
+      "url": "https://github.com/will-corrigan/Wayfarer/pull/107",
+      "date": "2026-09-28T19:58:32Z",
+      "status": "merged"
+    },
+    {
+      "repo": "arelove/goliath-siem",
+      "pr": 105,
+      "title": "chore: release",
+      "url": "https://github.com/arelove/goliath-siem/pull/105",
+      "date": "2026-09-28T19:58:37Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sstirling/nj-designates",
+      "pr": 25,
+      "title": "Weekly data refresh (session 2026)",
+      "url": "https://github.com/sstirling/nj-designates/pull/25",
+      "date": "2026-09-28T19:58:31Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fcuny/cheeseboard",
+      "pr": 15,
+      "title": "Pizza schedule update — 2026-09-28",
+      "url": "https://github.com/fcuny/cheeseboard/pull/15",
+      "date": "2026-09-28T19:58:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "DadonStyle/LULLWOOD",
+      "pr": 910,
+      "title": "Sync release/next after v2026.09.28-1",
+      "url": "https://github.com/DadonStyle/LULLWOOD/pull/910",
+      "date": "2026-09-28T19:57:49Z",
+      "status": "merged"
+    },
+    {
+      "repo": "frostiks777/ai-for-developers-project-386",
+      "pr": 78,
+      "title": "chore(main): release 1.22.1",
+      "url": "https://github.com/frostiks777/ai-for-developers-project-386/pull/78",
+      "date": "2026-09-28T19:57:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "NaniSoft/prism",
+      "pr": 130,
+      "title": "chore(release): version packages",
+      "url": "https://github.com/NaniSoft/prism/pull/130",
+      "date": "2026-09-28T19:57:39Z",
+      "status": "merged"
+    },
+    {
+      "repo": "TheAngryPit/TheAngrySkills",
+      "pr": 92,
+      "title": "Review cursor/pstack upstream drift",
+      "url": "https://github.com/TheAngryPit/TheAngrySkills/pull/92",
+      "date": "2026-09-28T19:57:34Z",
+      "status": "merged"
+    },
+    {
+      "repo": "nintyboy/workshop-trigger-test",
+      "pr": 7473,
+      "title": "chore: add Carlos Diaz to test log",
+      "url": "https://github.com/nintyboy/workshop-trigger-test/pull/7473",
+      "date": "2026-09-28T19:57:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KoushikPraneeth/typescale-platform",
+      "pr": 14,
+      "title": "chore: update TypeScale image to 5abe5957d695",
+      "url": "https://github.com/KoushikPraneeth/typescale-platform/pull/14",
+      "date": "2026-09-28T19:57:07Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fjcloudaiconsulting/ziftbook",
+      "pr": 129,
+      "title": "chore(main): release 0.18.1",
+      "url": "https://github.com/fjcloudaiconsulting/ziftbook/pull/129",
+      "date": "2026-09-28T19:54:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "alpamayo-solutions/colca",
+      "pr": 118,
+      "title": "chore(main): release 0.22.0",
+      "url": "https://github.com/alpamayo-solutions/colca/pull/118",
+      "date": "2026-09-28T19:56:49Z",
+      "status": "merged"
+    },
+    {
+      "repo": "matthewhudson/current-device",
+      "pr": 423,
+      "title": "chore: version packages",
+      "url": "https://github.com/matthewhudson/current-device/pull/423",
+      "date": "2026-09-28T19:56:28Z",
+      "status": "merged"
+    },
+    {
+      "repo": "DadonStyle/LULLWOOD",
+      "pr": 909,
+      "title": "Release v2026.09.28-1",
+      "url": "https://github.com/DadonStyle/LULLWOOD/pull/909",
+      "date": "2026-09-28T19:56:24Z",
+      "status": "merged"
+    },
+    {
+      "repo": "OdedTamir/sparksai-demo",
+      "pr": 555,
+      "title": "Demo PR 1: update activity (78 lines)",
+      "url": "https://github.com/OdedTamir/sparksai-demo/pull/555",
+      "date": "2026-09-28T19:56:16Z",
+      "status": "merged"
+    },
+    {
+      "repo": "glasshome/sync-layer",
+      "pr": 11,
+      "title": "chore(main): release 0.10.2",
+      "url": "https://github.com/glasshome/sync-layer/pull/11",
+      "date": "2026-09-28T19:55:40Z",
+      "status": "merged"
+    },
+    {
+      "repo": "powerset-co/powerpacks",
+      "pr": 606,
+      "title": "chore(main): release powerpacks 3.6.2",
+      "url": "https://github.com/powerset-co/powerpacks/pull/606",
+      "date": "2026-09-28T19:55:35Z",
+      "status": "merged"
+    },
+    {
+      "repo": "glasshome/widget-sdk",
+      "pr": 16,
+      "title": "chore(main): release 1.18.1",
+      "url": "https://github.com/glasshome/widget-sdk/pull/16",
+      "date": "2026-09-28T19:55:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "glasshome/ui",
+      "pr": 48,
+      "title": "chore(main): release 1.21.2",
+      "url": "https://github.com/glasshome/ui/pull/48",
+      "date": "2026-09-28T19:55:32Z",
+      "status": "merged"
+    },
+    {
+      "repo": "community-scripts/Incus",
+      "pr": 134,
+      "title": "Sync scripts from ProxmoxVE",
+      "url": "https://github.com/community-scripts/Incus/pull/134",
+      "date": "2026-09-28T19:55:41Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kenstott/calcite",
+      "pr": 425,
+      "title": "chore(main): release engine 0.99.1",
+      "url": "https://github.com/kenstott/calcite/pull/425",
+      "date": "2026-09-28T19:55:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "openai/codex-security",
+      "pr": 1027,
+      "title": "chore(release): 0.1.32",
+      "url": "https://github.com/openai/codex-security/pull/1027",
+      "date": "2026-09-28T19:55:17Z",
+      "status": "merged"
+    },
+    {
+      "repo": "claudio-darkkenergy/loom-js",
+      "pr": 54,
+      "title": "Version Packages",
+      "url": "https://github.com/claudio-darkkenergy/loom-js/pull/54",
+      "date": "2026-09-28T19:55:12Z",
+      "status": "merged"
+    },
+    {
+      "repo": "proshiba/vuln-intel-agent",
+      "pr": 115,
+      "title": "Daily vulnerability advisory update",
+      "url": "https://github.com/proshiba/vuln-intel-agent/pull/115",
+      "date": "2026-09-28T19:55:19Z",
+      "status": "merged"
+    },
+    {
+      "repo": "IIAS-Research/Pannot",
+      "pr": 1,
+      "title": "chore(main): release 0.1.0",
+      "url": "https://github.com/IIAS-Research/Pannot/pull/1",
+      "date": "2026-09-28T19:53:47Z",
       "status": "merged"
     }
   ]
