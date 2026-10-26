@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T19:09:30.210Z",
+  "updated": "2026-10-26T19:04:45.710Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-10-12T21:38:58Z"
+      "pushedAt": "2026-10-19T19:09:31Z"
     }
   ],
   "contributions": [
     {
-      "repo": "alaraun/homeassistant-eufy-home-security",
-      "pr": 112,
-      "title": "chore(main): release 0.4.2",
-      "url": "https://github.com/alaraun/homeassistant-eufy-home-security/pull/112",
-      "date": "2026-10-19T19:09:12Z",
+      "repo": "pelotech/smolbento",
+      "pr": 1,
+      "title": "chore(main): release 0.1.0",
+      "url": "https://github.com/pelotech/smolbento/pull/1",
+      "date": "2026-10-26T19:04:26Z",
       "status": "merged"
     },
     {
-      "repo": "aminvakil/google-ip-list",
-      "pr": 570,
-      "title": "Automatic Crawl",
-      "url": "https://github.com/aminvakil/google-ip-list/pull/570",
-      "date": "2026-10-19T19:09:15Z",
+      "repo": "HIBIKI5201/SymphonyKillChord",
+      "pr": 2600,
+      "title": "ロックオン対象がいない射撃も正面の敵に当てる",
+      "url": "https://github.com/HIBIKI5201/SymphonyKillChord/pull/2600",
+      "date": "2026-10-26T19:04:35Z",
       "status": "merged"
     },
     {
-      "repo": "elastic/beats",
-      "pr": 53867,
-      "title": "[updatecli] update elastic stack version for testing 9.4.9-4dbd8145",
-      "url": "https://github.com/elastic/beats/pull/53867",
-      "date": "2026-10-19T19:09:10Z",
+      "repo": "yohanvillarp/space-for-you",
+      "pr": 58,
+      "title": "chore(develop): release space-for-you 1.1.0",
+      "url": "https://github.com/yohanvillarp/space-for-you/pull/58",
+      "date": "2026-10-26T06:49:39Z",
       "status": "merged"
     },
     {
-      "repo": "cpa03/blueprintify",
-      "pr": 3823,
-      "title": "fix(web): keep LastSavedIndicator live region stable across save-state flips",
-      "url": "https://github.com/cpa03/blueprintify/pull/3823",
-      "date": "2026-10-19T19:08:32Z",
+      "repo": "nbgallery/docker-images",
+      "pr": 77,
+      "title": "chore: sync to jupyter/base-notebook sha256:24c361de0719fc1f07af93b65933a01e82d3b7c75f01869d5f0003f104ad52e6",
+      "url": "https://github.com/nbgallery/docker-images/pull/77",
+      "date": "2026-10-26T19:04:34Z",
       "status": "merged"
     },
     {
-      "repo": "corylwtsn/k8s-gitops",
-      "pr": 2134,
-      "title": "chore(deps): update ghcr.io/rhyssullivan/executor-selfhost docker tag to v1.6.10",
-      "url": "https://github.com/corylwtsn/k8s-gitops/pull/2134",
-      "date": "2026-10-19T19:08:42Z",
+      "repo": "KilloconQ/finance-tdah",
+      "pr": 51,
+      "title": "chore(main): release 0.1.0",
+      "url": "https://github.com/KilloconQ/finance-tdah/pull/51",
+      "date": "2026-10-26T19:04:22Z",
       "status": "merged"
     },
     {
-      "repo": "Larasell-dev/ui",
-      "pr": 65,
-      "title": "chore: release 0.1.12",
-      "url": "https://github.com/Larasell-dev/ui/pull/65",
-      "date": "2026-10-19T19:08:27Z",
+      "repo": "yohanvillarp/space-for-you",
+      "pr": 72,
+      "title": "chore(develop): release space-for-you 1.2.5",
+      "url": "https://github.com/yohanvillarp/space-for-you/pull/72",
+      "date": "2026-10-26T19:04:17Z",
       "status": "merged"
     },
     {
-      "repo": "rakutenrewards/eslint-config",
-      "pr": 398,
-      "title": "chore(main): release 5.0.0",
-      "url": "https://github.com/rakutenrewards/eslint-config/pull/398",
-      "date": "2026-10-19T19:08:17Z",
+      "repo": "yohanvillarp/space-for-you",
+      "pr": 66,
+      "title": "chore(develop): release space-for-you 1.2.1",
+      "url": "https://github.com/yohanvillarp/space-for-you/pull/66",
+      "date": "2026-10-26T16:27:33Z",
       "status": "merged"
     },
     {
-      "repo": "koutalart/ticket.picha.fr",
-      "pr": 122,
-      "title": "Cas clients : chiffres du 19/10",
-      "url": "https://github.com/koutalart/ticket.picha.fr/pull/122",
-      "date": "2026-10-19T19:08:30Z",
+      "repo": "yohanvillarp/space-for-you",
+      "pr": 61,
+      "title": "chore(develop): release space-for-you 1.2.0",
+      "url": "https://github.com/yohanvillarp/space-for-you/pull/61",
+      "date": "2026-10-26T08:12:01Z",
       "status": "merged"
     },
     {
-      "repo": "foundriesio/meta-foundries",
-      "pr": 78,
-      "title": "ci: update the kas lockfiles to upstream master",
-      "url": "https://github.com/foundriesio/meta-foundries/pull/78",
-      "date": "2026-10-19T19:08:27Z",
+      "repo": "firetower-cloud/firetower",
+      "pr": 232,
+      "title": "chore: release main",
+      "url": "https://github.com/firetower-cloud/firetower/pull/232",
+      "date": "2026-10-26T19:03:58Z",
       "status": "merged"
     },
     {
-      "repo": "serpcompany/keybumps",
-      "pr": 568,
-      "title": "release: Keybumps 0.0.3-beta.29",
-      "url": "https://github.com/serpcompany/keybumps/pull/568",
-      "date": "2026-10-19T19:08:14Z",
+      "repo": "yohanvillarp/space-for-you",
+      "pr": 67,
+      "title": "chore(develop): release space-for-you 1.2.2",
+      "url": "https://github.com/yohanvillarp/space-for-you/pull/67",
+      "date": "2026-10-26T17:55:34Z",
       "status": "merged"
     },
     {
-      "repo": "ultrametricai/ultrametric",
-      "pr": 312,
-      "title": "story-runner: ai-code-review refresh",
-      "url": "https://github.com/ultrametricai/ultrametric/pull/312",
-      "date": "2026-10-19T19:08:15Z",
+      "repo": "yohanvillarp/space-for-you",
+      "pr": 68,
+      "title": "chore(develop): release space-for-you 1.2.3",
+      "url": "https://github.com/yohanvillarp/space-for-you/pull/68",
+      "date": "2026-10-26T17:56:56Z",
       "status": "merged"
     },
     {
-      "repo": "ultrametricai/ultrametric",
-      "pr": 329,
-      "title": "vendor-radar: scans 2026-10-15..19, settled against the seen-ledger",
-      "url": "https://github.com/ultrametricai/ultrametric/pull/329",
-      "date": "2026-10-19T19:08:16Z",
+      "repo": "relayprotocol/relay-kit",
+      "pr": 1161,
+      "title": "Release the: Loyal Spadefoot Toad!",
+      "url": "https://github.com/relayprotocol/relay-kit/pull/1161",
+      "date": "2026-10-26T19:04:06Z",
       "status": "merged"
     },
     {
-      "repo": "delitamakanda/angular-qrcode-restaurant",
-      "pr": 192,
-      "title": "[agent] #35 Créer BottomCartBar sticky",
-      "url": "https://github.com/delitamakanda/angular-qrcode-restaurant/pull/192",
-      "date": "2026-10-19T19:08:06Z",
+      "repo": "yohanvillarp/space-for-you",
+      "pr": 70,
+      "title": "chore(develop): release space-for-you 1.2.4",
+      "url": "https://github.com/yohanvillarp/space-for-you/pull/70",
+      "date": "2026-10-26T18:46:21Z",
       "status": "merged"
     },
     {
-      "repo": "wastelandsurvivalguide/wastelandsurvivalguide.github.io",
-      "pr": 214,
-      "title": "chore: update dependencies, Node.js and pnpm",
-      "url": "https://github.com/wastelandsurvivalguide/wastelandsurvivalguide.github.io/pull/214",
-      "date": "2026-10-19T19:08:03Z",
+      "repo": "sergelogvinov/kubernetes-custom-metrics",
+      "pr": 18,
+      "title": "chore: release v0.2.1",
+      "url": "https://github.com/sergelogvinov/kubernetes-custom-metrics/pull/18",
+      "date": "2026-10-26T19:03:52Z",
       "status": "merged"
     },
     {
-      "repo": "stefanochieli/copilot-effort-guard",
-      "pr": 13,
-      "title": "chore: release 0.1.2",
-      "url": "https://github.com/stefanochieli/copilot-effort-guard/pull/13",
-      "date": "2026-10-19T19:07:50Z",
+      "repo": "flexera-public/unified-openapi",
+      "pr": 15,
+      "title": "chore: automated OpenAPI spec refresh",
+      "url": "https://github.com/flexera-public/unified-openapi/pull/15",
+      "date": "2026-10-26T19:03:59Z",
       "status": "merged"
     },
     {
-      "repo": "alehar9320/agentic-odi",
-      "pr": 27,
-      "title": "chore(main): release 0.5.0",
-      "url": "https://github.com/alehar9320/agentic-odi/pull/27",
-      "date": "2026-10-19T19:07:58Z",
+      "repo": "linagora/tmail-backend",
+      "pr": 2768,
+      "title": "Update James submodule to latest version",
+      "url": "https://github.com/linagora/tmail-backend/pull/2768",
+      "date": "2026-10-26T19:03:57Z",
       "status": "merged"
     },
     {
-      "repo": "tangle-network/agent-sdk",
-      "pr": 550,
+      "repo": "Kardbord/Boxes",
+      "pr": 24,
+      "title": "Update flatpak upstream sources",
+      "url": "https://github.com/Kardbord/Boxes/pull/24",
+      "date": "2026-10-26T19:03:51Z",
+      "status": "merged"
+    },
+    {
+      "repo": "HansKristoffer/tokenmaxxing",
+      "pr": 92,
+      "title": "chore(main): release 1.10.0",
+      "url": "https://github.com/HansKristoffer/tokenmaxxing/pull/92",
+      "date": "2026-10-26T19:03:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "npm/bin-links",
+      "pr": 195,
+      "title": "chore: release 5.0.1",
+      "url": "https://github.com/npm/bin-links/pull/195",
+      "date": "2026-10-26T19:03:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "lbockenstedt/lm",
+      "pr": 1325,
+      "title": "promote: dev -> qa (sim: stop logging two INFO lines every 45s for an unbound tenant)",
+      "url": "https://github.com/lbockenstedt/lm/pull/1325",
+      "date": "2026-10-26T19:03:27Z",
+      "status": "merged"
+    },
+    {
+      "repo": "lbockenstedt/netbox",
+      "pr": 107,
+      "title": "promote: dev -> qa (netbox: fix two 400s seen in live sync logs)",
+      "url": "https://github.com/lbockenstedt/netbox/pull/107",
+      "date": "2026-10-26T19:03:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "NikitaMGrimm/slither-sim",
+      "pr": 167,
+      "title": "chore(release): prepare v0.6.1",
+      "url": "https://github.com/NikitaMGrimm/slither-sim/pull/167",
+      "date": "2026-10-26T19:00:31Z",
+      "status": "merged"
+    },
+    {
+      "repo": "wighawag/wherever",
+      "pr": 85,
       "title": "Version Packages",
-      "url": "https://github.com/tangle-network/agent-sdk/pull/550",
-      "date": "2026-10-19T19:07:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nasty-project/nasty",
-      "pr": 1004,
-      "title": "flake: weekly nixpkgs bump — Linux 6.18.56 → 6.18.57",
-      "url": "https://github.com/nasty-project/nasty/pull/1004",
-      "date": "2026-10-19T19:07:55Z",
-      "status": "merged"
-    },
-    {
-      "repo": "dotnet/efcore",
-      "pr": 39301,
-      "title": "[automated] Merge branch 'release/10.0' => 'release/11.0'",
-      "url": "https://github.com/dotnet/efcore/pull/39301",
-      "date": "2026-10-19T19:07:47Z",
-      "status": "merged"
-    },
-    {
-      "repo": "GuardBee/guardbee-mcp",
-      "pr": 157,
-      "title": "Version Packages",
-      "url": "https://github.com/GuardBee/guardbee-mcp/pull/157",
-      "date": "2026-10-19T19:07:41Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Hasan-Smajlovic/Pogled-Assist",
-      "pr": 90,
-      "title": "Release v0.5.0",
-      "url": "https://github.com/Hasan-Smajlovic/Pogled-Assist/pull/90",
-      "date": "2026-10-19T19:07:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "deepak786/intercom_flutter",
-      "pr": 667,
-      "title": "Update intercom-ios 19.9.1",
-      "url": "https://github.com/deepak786/intercom_flutter/pull/667",
-      "date": "2026-10-19T19:06:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "fulviofreitas/home-assistant-eero",
-      "pr": 11,
-      "title": "chore(main): release 2.1.2",
-      "url": "https://github.com/fulviofreitas/home-assistant-eero/pull/11",
-      "date": "2026-10-19T19:07:04Z",
-      "status": "merged"
-    },
-    {
-      "repo": "antongulin/robin",
-      "pr": 113,
-      "title": "chore: release 2.12.1",
-      "url": "https://github.com/antongulin/robin/pull/113",
-      "date": "2026-10-19T19:07:09Z",
-      "status": "merged"
-    },
-    {
-      "repo": "stolostron/backplane-operator",
-      "pr": 4171,
-      "title": "[Automated] MCE 2.10 ART Build Digest Update",
-      "url": "https://github.com/stolostron/backplane-operator/pull/4171",
-      "date": "2026-10-19T19:06:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "danesjenovdan/center-rog",
-      "pr": 1111,
-      "title": "Pulling refs/heads/dev into k8s-staging",
-      "url": "https://github.com/danesjenovdan/center-rog/pull/1111",
-      "date": "2026-10-19T19:06:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "vercel/ai",
-      "pr": 23565,
-      "title": "Version Packages",
-      "url": "https://github.com/vercel/ai/pull/23565",
-      "date": "2026-10-19T19:06:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "danesjenovdan/center-rog",
-      "pr": 1113,
-      "title": "Pulling refs/heads/main into k8s",
-      "url": "https://github.com/danesjenovdan/center-rog/pull/1113",
-      "date": "2026-10-19T19:06:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "phang-willy/parisii-optique",
-      "pr": 106,
-      "title": "chore(release): 1.3.1-beta.2",
-      "url": "https://github.com/phang-willy/parisii-optique/pull/106",
-      "date": "2026-10-19T19:06:13Z",
-      "status": "merged"
-    },
-    {
-      "repo": "fgarofalo56/csa-inabox",
-      "pr": 5017,
-      "title": "chore(main): release csa-inabox 0.112.1",
-      "url": "https://github.com/fgarofalo56/csa-inabox/pull/5017",
-      "date": "2026-10-19T19:05:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ccusage/ccusage",
-      "pr": 1935,
-      "title": "fix(claude): count requestless resp_ content blocks once",
-      "url": "https://github.com/ccusage/ccusage/pull/1935",
-      "date": "2026-10-19T19:05:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "cliffpyles/codepen-cli",
-      "pr": 9,
-      "title": "chore(main): release 2.1.0",
-      "url": "https://github.com/cliffpyles/codepen-cli/pull/9",
-      "date": "2026-10-19T19:05:40Z",
-      "status": "merged"
-    },
-    {
-      "repo": "corylwtsn/k8s-gitops",
-      "pr": 2154,
-      "title": "chore(deps): update helm release cluster to v0.9.0",
-      "url": "https://github.com/corylwtsn/k8s-gitops/pull/2154",
-      "date": "2026-10-19T19:05:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "crtsh/ctsubmit",
-      "pr": 514,
-      "title": "Dependency Update",
-      "url": "https://github.com/crtsh/ctsubmit/pull/514",
-      "date": "2026-10-19T19:05:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Pivot-Madagascar/PRIDEC-package",
-      "pr": 8,
-      "title": "chore(release): release v0.1.0",
-      "url": "https://github.com/Pivot-Madagascar/PRIDEC-package/pull/8",
-      "date": "2026-10-19T19:05:05Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ow-mods/ow-mod-db",
-      "pr": 1275,
-      "title": "Add mod: Raicuparta.TestModPlsIgnore",
-      "url": "https://github.com/ow-mods/ow-mod-db/pull/1275",
-      "date": "2026-10-19T19:05:11Z",
-      "status": "merged"
-    },
-    {
-      "repo": "mitchfen/mitchfen.com",
-      "pr": 368,
-      "title": "Update npm dependencies",
-      "url": "https://github.com/mitchfen/mitchfen.com/pull/368",
-      "date": "2026-10-19T19:05:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "CCPBioSim/ccpbiosim.github.io",
-      "pr": 236,
-      "title": "Update to assets.json",
-      "url": "https://github.com/CCPBioSim/ccpbiosim.github.io/pull/236",
-      "date": "2026-10-19T19:04:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "langchain-ai/docs",
-      "pr": 6857,
-      "title": "docs: list SuperPDFLoader integration",
-      "url": "https://github.com/langchain-ai/docs/pull/6857",
-      "date": "2026-10-19T19:05:00Z",
+      "url": "https://github.com/wighawag/wherever/pull/85",
+      "date": "2026-10-26T19:03:16Z",
       "status": "merged"
     },
     {
       "repo": "jdg2896/agentic-engineering",
-      "pr": 159,
-      "title": "Weekly verification 2026-W43 — 172 ok / 0 quarantined / 0 recovered / 3 dead / 0 migrated",
-      "url": "https://github.com/jdg2896/agentic-engineering/pull/159",
-      "date": "2026-10-19T19:04:57Z",
+      "pr": 160,
+      "title": "Weekly verification 2026-W44 — 167 ok / 0 quarantined / 0 recovered / 3 dead / 5 migrated",
+      "url": "https://github.com/jdg2896/agentic-engineering/pull/160",
+      "date": "2026-10-26T19:03:12Z",
       "status": "merged"
     },
     {
-      "repo": "dotnet/aspnetcore",
-      "pr": 69928,
-      "title": "[release/11.0] Fix skipped and collection union cases in Minimal API validation",
-      "url": "https://github.com/dotnet/aspnetcore/pull/69928",
-      "date": "2026-10-19T19:04:40Z",
+      "repo": "PlasmaStorm49/musicle-jp",
+      "pr": 115,
+      "title": "chore: parada de 2026-10-26 (agenda até 2026-11-16) e Anime (agenda até 2026-11-23)",
+      "url": "https://github.com/PlasmaStorm49/musicle-jp/pull/115",
+      "date": "2026-10-26T19:03:09Z",
       "status": "merged"
     },
     {
-      "repo": "uichat-mira/mira-desktop",
-      "pr": 400,
-      "title": "agent: #367 [DSK-001] Show Managed Browser in Extensions Capabilities",
-      "url": "https://github.com/uichat-mira/mira-desktop/pull/400",
-      "date": "2026-10-19T19:00:14Z",
+      "repo": "PedrFelip/EngineRoom",
+      "pr": 41,
+      "title": "chore: sincroniza main com develop",
+      "url": "https://github.com/PedrFelip/EngineRoom/pull/41",
+      "date": "2026-10-26T19:03:02Z",
       "status": "merged"
     },
     {
-      "repo": "linabrihoum/cloud-job-board",
-      "pr": 54,
-      "title": "chore(data): daily job refresh 2026-10-19",
-      "url": "https://github.com/linabrihoum/cloud-job-board/pull/54",
-      "date": "2026-10-19T19:04:28Z",
+      "repo": "darioegb/plume-ui-react",
+      "pr": 172,
+      "title": "Version Packages",
+      "url": "https://github.com/darioegb/plume-ui-react/pull/172",
+      "date": "2026-10-26T19:03:03Z",
       "status": "merged"
     },
     {
-      "repo": "sycamoremvp/mvp-menu",
-      "pr": 20,
-      "title": "Sync events from the website (Oct 19)",
-      "url": "https://github.com/sycamoremvp/mvp-menu/pull/20",
-      "date": "2026-10-19T19:04:27Z",
+      "repo": "enekesabel/playwright-lite",
+      "pr": 299,
+      "title": "chore(release): 0.9.4",
+      "url": "https://github.com/enekesabel/playwright-lite/pull/299",
+      "date": "2026-10-26T19:02:36Z",
       "status": "merged"
     },
     {
-      "repo": "omaboot/omaboot.live",
-      "pr": 13,
-      "title": "Fixes: sync from DoesItOmarchy.com",
-      "url": "https://github.com/omaboot/omaboot.live/pull/13",
-      "date": "2026-10-19T19:03:49Z",
+      "repo": "Jaded-Encoding-Thaumaturgy/vs-view",
+      "pr": 306,
+      "title": "release: frameprops-extended/v0.3.0",
+      "url": "https://github.com/Jaded-Encoding-Thaumaturgy/vs-view/pull/306",
+      "date": "2026-10-26T19:02:51Z",
       "status": "merged"
     },
     {
-      "repo": "sokolaidev/maf-extensions",
-      "pr": 2036,
-      "title": "chore: require maf-sandbox 0.51 in every sample's declared floor",
-      "url": "https://github.com/sokolaidev/maf-extensions/pull/2036",
-      "date": "2026-10-19T19:04:27Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jeggao/muman",
-      "pr": 51,
-      "title": "deps: update flake.lock",
-      "url": "https://github.com/jeggao/muman/pull/51",
-      "date": "2026-10-19T19:04:15Z",
-      "status": "merged"
-    },
-    {
-      "repo": "LabKey/platform",
-      "pr": 8202,
-      "title": "[bot] Fast-forward for 26.3.20",
-      "url": "https://github.com/LabKey/platform/pull/8202",
-      "date": "2026-10-19T19:03:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "SmailG/claude-cursor-plugins",
-      "pr": 7,
-      "title": "chore: sync with cursor/plugins — pstack: add Opus 5 to model panels (#169)",
-      "url": "https://github.com/SmailG/claude-cursor-plugins/pull/7",
-      "date": "2026-07-26T08:23:12Z",
-      "status": "merged"
-    },
-    {
-      "repo": "SmailG/claude-cursor-plugins",
+      "repo": "andreww2012/typescript-project-template",
       "pr": 5,
-      "title": "chore: sync with cursor/plugins — pstack: add public usage tutorial (#164)",
-      "url": "https://github.com/SmailG/claude-cursor-plugins/pull/5",
-      "date": "2026-07-23T08:33:44Z",
+      "title": "chore: release typescript-project-template@0.4.0, commitlint-config@0.0.1, npm-check-updates-config@0.1.1",
+      "url": "https://github.com/andreww2012/typescript-project-template/pull/5",
+      "date": "2026-10-26T19:02:49Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Subway-Builder-Modded/registry",
+      "pr": 13934,
+      "title": "chore: regenerate download counts (hourly)",
+      "url": "https://github.com/Subway-Builder-Modded/registry/pull/13934",
+      "date": "2026-10-26T19:02:40Z",
+      "status": "merged"
+    },
+    {
+      "repo": "malkreide/future-skills-evidence-graph",
+      "pr": 247,
+      "title": "chore: add research candidates",
+      "url": "https://github.com/malkreide/future-skills-evidence-graph/pull/247",
+      "date": "2026-10-26T19:02:24Z",
+      "status": "merged"
+    },
+    {
+      "repo": "anurag-roy/any-llm-ts",
+      "pr": 40,
+      "title": "Version Packages",
+      "url": "https://github.com/anurag-roy/any-llm-ts/pull/40",
+      "date": "2026-10-26T19:02:26Z",
+      "status": "merged"
+    },
+    {
+      "repo": "glauberxyz/modulato",
+      "pr": 27,
+      "title": "Version Packages",
+      "url": "https://github.com/glauberxyz/modulato/pull/27",
+      "date": "2026-10-26T19:02:26Z",
+      "status": "merged"
+    },
+    {
+      "repo": "cthtrifork/trivy-dashboard-wail3",
+      "pr": 87,
+      "title": "Update screenshots",
+      "url": "https://github.com/cthtrifork/trivy-dashboard-wail3/pull/87",
+      "date": "2026-10-26T19:02:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "drizztdourden08/tessera",
+      "pr": 214,
+      "title": "release: version packages",
+      "url": "https://github.com/drizztdourden08/tessera/pull/214",
+      "date": "2026-10-26T19:02:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "fradelli/design-system",
+      "pr": 18,
+      "title": "chore(release): publish @fradelli/ui 0.5.1",
+      "url": "https://github.com/fradelli/design-system/pull/18",
+      "date": "2026-10-26T19:01:50Z",
+      "status": "merged"
+    },
+    {
+      "repo": "MrDemonWolf/wolfwave",
+      "pr": 525,
+      "title": "chore(docs): update sponsors SVG",
+      "url": "https://github.com/MrDemonWolf/wolfwave/pull/525",
+      "date": "2026-10-26T19:01:45Z",
+      "status": "merged"
+    },
+    {
+      "repo": "arkme-senx/arkme-dsh-plugin",
+      "pr": 1003,
+      "title": "chore(release): prepare v3.0.32",
+      "url": "https://github.com/arkme-senx/arkme-dsh-plugin/pull/1003",
+      "date": "2026-10-26T19:01:39Z",
+      "status": "merged"
+    },
+    {
+      "repo": "miroslav-jokovic/fuel-guard",
+      "pr": 1760,
+      "title": "Release candidate — main @ 48da6d8",
+      "url": "https://github.com/miroslav-jokovic/fuel-guard/pull/1760",
+      "date": "2026-10-26T19:01:40Z",
+      "status": "merged"
+    },
+    {
+      "repo": "lutejka/vite-opentelemetry-inspector",
+      "pr": 31,
+      "title": "v0.1.1",
+      "url": "https://github.com/lutejka/vite-opentelemetry-inspector/pull/31",
+      "date": "2026-10-26T19:01:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "SignalK/freeboard-sk",
+      "pr": 1172,
+      "title": "3.4.0-beta.3",
+      "url": "https://github.com/SignalK/freeboard-sk/pull/1172",
+      "date": "2026-10-26T19:01:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "braintrustdata/braintrust-proxy",
+      "pr": 1683,
+      "title": "chore: add model to catalog",
+      "url": "https://github.com/braintrustdata/braintrust-proxy/pull/1683",
+      "date": "2026-10-26T19:01:24Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Jaded-Encoding-Thaumaturgy/vs-view",
+      "pr": 300,
+      "title": "release: fftspectrum/v0.3.0",
+      "url": "https://github.com/Jaded-Encoding-Thaumaturgy/vs-view/pull/300",
+      "date": "2026-10-26T19:01:18Z",
+      "status": "merged"
+    },
+    {
+      "repo": "michalvirt/pico2dmx-4port-gateway",
+      "pr": 14,
+      "title": "chore(main): release 1.4.0",
+      "url": "https://github.com/michalvirt/pico2dmx-4port-gateway/pull/14",
+      "date": "2026-10-26T19:01:07Z",
+      "status": "merged"
+    },
+    {
+      "repo": "soteiro/cassandra",
+      "pr": 84,
+      "title": "chore(main): release 0.16.1",
+      "url": "https://github.com/soteiro/cassandra/pull/84",
+      "date": "2026-10-26T19:01:04Z",
+      "status": "merged"
+    },
+    {
+      "repo": "daylyn-n/SFU-CS-Course-Graph",
+      "pr": 12,
+      "title": "Refresh course data (offerings, 2026-10-26)",
+      "url": "https://github.com/daylyn-n/SFU-CS-Course-Graph/pull/12",
+      "date": "2026-10-26T19:01:13Z",
+      "status": "merged"
+    },
+    {
+      "repo": "hivecommons/homebrew-hive",
+      "pr": 178,
+      "title": "✨ tap: generated contribute formula contribute-df021736cebe",
+      "url": "https://github.com/hivecommons/homebrew-hive/pull/178",
+      "date": "2026-10-26T19:00:05Z",
+      "status": "merged"
+    },
+    {
+      "repo": "keenkim1202/AI_Sosic",
+      "pr": 53,
+      "title": "docs: 2026-10-12 정기 점검, 문서 1건 추가",
+      "url": "https://github.com/keenkim1202/AI_Sosic/pull/53",
+      "date": "2026-10-26T19:01:08Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Subway-Builder-Modded/registry",
+      "pr": 13933,
+      "title": "chore: cache website analytics",
+      "url": "https://github.com/Subway-Builder-Modded/registry/pull/13933",
+      "date": "2026-10-26T19:01:11Z",
       "status": "merged"
     }
   ]
