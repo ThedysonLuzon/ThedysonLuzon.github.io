@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T22:55:25.086Z",
+  "updated": "2026-11-16T22:47:27.210Z",
   "login": "github-actions[bot]",
   "name": null,
   "repos": [
@@ -10,408 +10,408 @@
       "stars": 0,
       "forks": 0,
       "primaryLanguage": "Astro",
-      "pushedAt": "2026-11-02T22:14:02Z"
+      "pushedAt": "2026-11-09T22:55:26Z"
     }
   ],
   "contributions": [
     {
-      "repo": "rcbailey12/voidsworn",
-      "pr": 331,
-      "title": "Issue 329: Tree skills in battle, job 5: the Ashfall Hullbreakers, full tree (#305) [deepseek arm]",
-      "url": "https://github.com/rcbailey12/voidsworn/pull/331",
-      "date": "2026-11-09T22:55:06Z",
+      "repo": "kluvs-app/kluvs-api",
+      "pr": 19,
+      "title": "chore: Update OpenAPI specification",
+      "url": "https://github.com/kluvs-app/kluvs-api/pull/19",
+      "date": "2026-11-16T22:47:12Z",
       "status": "merged"
     },
     {
-      "repo": "omgniche/dbs",
-      "pr": 21,
-      "title": "Jaguars Trade for Eagles DT Jordan Davis, Per Report",
-      "url": "https://github.com/omgniche/dbs/pull/21",
-      "date": "2026-11-09T22:55:00Z",
+      "repo": "jeremybboy/torah-skills",
+      "pr": 13,
+      "title": "Weekly parashah: vayetzei",
+      "url": "https://github.com/jeremybboy/torah-skills/pull/13",
+      "date": "2026-11-16T22:47:13Z",
       "status": "merged"
     },
     {
-      "repo": "omgniche/dbs",
-      "pr": 22,
-      "title": "Packers RB Josh Jacobs to Have Finger Surgery This Week",
-      "url": "https://github.com/omgniche/dbs/pull/22",
-      "date": "2026-11-09T22:54:37Z",
+      "repo": "pereorga/mediawiki-extensions-TitleKey",
+      "pr": 1,
+      "title": "chore: sync with upstream",
+      "url": "https://github.com/pereorga/mediawiki-extensions-TitleKey/pull/1",
+      "date": "2026-11-16T22:47:04Z",
       "status": "merged"
     },
     {
-      "repo": "matiasfr/boogle",
-      "pr": 1304,
-      "title": "Split-rock plan: the forge rack after the fit and the hidden Take rails (+2 more)",
-      "url": "https://github.com/matiasfr/boogle/pull/1304",
-      "date": "2026-11-09T22:54:22Z",
-      "status": "merged"
-    },
-    {
-      "repo": "robert-nagy/sentinel",
-      "pr": 20,
-      "title": "chore: version packages",
-      "url": "https://github.com/robert-nagy/sentinel/pull/20",
-      "date": "2026-11-09T22:54:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "RauPro/MDH-SV",
-      "pr": 324,
-      "title": "chore: update public history snapshots",
-      "url": "https://github.com/RauPro/MDH-SV/pull/324",
-      "date": "2026-11-09T22:54:20Z",
-      "status": "merged"
-    },
-    {
-      "repo": "baseballyama/rsvelte",
-      "pr": 4915,
-      "title": "chore(deps): update shadcn-svelte submodule to 3c4152d7d390",
-      "url": "https://github.com/baseballyama/rsvelte/pull/4915",
-      "date": "2026-11-09T22:54:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jatmn/jModGuard",
-      "pr": 275,
-      "title": "chore(main): release 0.2.0",
-      "url": "https://github.com/jatmn/jModGuard/pull/275",
-      "date": "2026-11-09T22:45:14Z",
-      "status": "merged"
-    },
-    {
-      "repo": "dotnet/roslyn",
-      "pr": 86360,
-      "title": "[release/dev16.11-vs-deps] Remove obsolete DevDiv insertion variable group",
-      "url": "https://github.com/dotnet/roslyn/pull/86360",
-      "date": "2026-11-09T22:54:01Z",
-      "status": "merged"
-    },
-    {
-      "repo": "estevanhernandez-stack-ed/Sanduhr_f-r_Claude",
-      "pr": 482,
-      "title": "release(mac): 2.42.3 appcast and cask",
-      "url": "https://github.com/estevanhernandez-stack-ed/Sanduhr_f-r_Claude/pull/482",
-      "date": "2026-11-09T22:53:56Z",
-      "status": "merged"
-    },
-    {
-      "repo": "piconic-ai/barefootjs",
-      "pr": 3865,
-      "title": "Version Packages",
-      "url": "https://github.com/piconic-ai/barefootjs/pull/3865",
-      "date": "2026-11-09T22:53:44Z",
-      "status": "merged"
-    },
-    {
-      "repo": "marcelodevops/dupond",
-      "pr": 23,
-      "title": "chore(main): release 0.3.0",
-      "url": "https://github.com/marcelodevops/dupond/pull/23",
-      "date": "2026-11-09T22:45:59Z",
-      "status": "merged"
-    },
-    {
-      "repo": "gabebartolo-spec/Afl-auto-battler",
-      "pr": 1275,
-      "title": "Roadmap: close row 120 (#1259)",
-      "url": "https://github.com/gabebartolo-spec/Afl-auto-battler/pull/1275",
-      "date": "2026-11-09T22:53:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "kody-w/rappterverse",
-      "pr": 14772,
-      "title": "[state-reconciler] publish PR #14771 at de11e532f92ec555eb9ea0280e5b10b13b9cea04 from 31037ee686dc4cced0d2cd70923529d783e86de3",
-      "url": "https://github.com/kody-w/rappterverse/pull/14772",
-      "date": "2026-11-09T22:53:12Z",
-      "status": "merged"
-    },
-    {
-      "repo": "OpenBladeProject/openblade-core",
-      "pr": 918,
-      "title": "docs: record changelog through 0.58.2-nightly.110",
-      "url": "https://github.com/OpenBladeProject/openblade-core/pull/918",
-      "date": "2026-11-09T22:53:10Z",
-      "status": "merged"
-    },
-    {
-      "repo": "HarnessRouter/harnessrouter",
-      "pr": 665,
-      "title": "Console: an agent's Settings › Memory is the list of memories, each with On and Off (0.41.2)",
-      "url": "https://github.com/HarnessRouter/harnessrouter/pull/665",
-      "date": "2026-11-09T22:52:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "ionut-t/bark",
-      "pr": 103,
-      "title": "chore(main): release 2.27.0",
-      "url": "https://github.com/ionut-t/bark/pull/103",
-      "date": "2026-11-09T22:52:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jackyzha0/quartz",
-      "pr": 2598,
-      "title": "chore: release Quartz",
-      "url": "https://github.com/jackyzha0/quartz/pull/2598",
-      "date": "2026-11-09T22:52:43Z",
-      "status": "merged"
-    },
-    {
-      "repo": "iTwin/stratakit",
-      "pr": 2005,
-      "title": "Release packages",
-      "url": "https://github.com/iTwin/stratakit/pull/2005",
-      "date": "2026-11-09T22:35:33Z",
-      "status": "merged"
-    },
-    {
-      "repo": "nishiokya/pokefuta-tracker",
-      "pr": 845,
-      "title": "Daily design manhole dataset update",
-      "url": "https://github.com/nishiokya/pokefuta-tracker/pull/845",
-      "date": "2026-11-09T22:52:35Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Automattic/vip-workflows",
-      "pr": 178,
-      "title": "v1.0.0-beta.1",
-      "url": "https://github.com/Automattic/vip-workflows/pull/178",
-      "date": "2026-11-09T22:52:25Z",
-      "status": "merged"
-    },
-    {
-      "repo": "jhonsoad/FrontendCodeHub",
-      "pr": 12,
-      "title": "Automated PR: develop",
-      "url": "https://github.com/jhonsoad/FrontendCodeHub/pull/12",
-      "date": "2026-11-09T22:52:18Z",
-      "status": "merged"
-    },
-    {
-      "repo": "gabebartolo-spec/Afl-auto-battler",
-      "pr": 1271,
-      "title": "Roadmap: close row 73 (#1258)",
-      "url": "https://github.com/gabebartolo-spec/Afl-auto-battler/pull/1271",
-      "date": "2026-11-09T22:52:15Z",
-      "status": "merged"
-    },
-    {
-      "repo": "gaato/mbt-sdk",
-      "pr": 79,
-      "title": "Update vendored anthropic spec",
-      "url": "https://github.com/gaato/mbt-sdk/pull/79",
-      "date": "2026-11-09T22:52:00Z",
-      "status": "merged"
-    },
-    {
-      "repo": "rushiranpise/Shizuku-Next",
-      "pr": 199,
-      "title": "chore(i18n): new translations from Crowdin",
-      "url": "https://github.com/rushiranpise/Shizuku-Next/pull/199",
-      "date": "2026-11-09T22:50:58Z",
-      "status": "merged"
-    },
-    {
-      "repo": "overtio/lines",
-      "pr": 224,
-      "title": "chore(release): v0.3.1",
-      "url": "https://github.com/overtio/lines/pull/224",
-      "date": "2026-11-09T22:51:49Z",
-      "status": "merged"
-    },
-    {
-      "repo": "NVIDIA/mig-parted",
-      "pr": 583,
-      "title": "[release-0.15] Bump github.com/NVIDIA/nvidia-container-toolkit from 1.20.2-0.20261028213818-2251bb91d972 to 1.20.2 in /deployments/devel",
-      "url": "https://github.com/NVIDIA/mig-parted/pull/583",
-      "date": "2026-11-09T22:51:50Z",
-      "status": "merged"
-    },
-    {
-      "repo": "Vinsmoke-Tech/dailyupdate",
-      "pr": 14608,
-      "title": "📊 Routine Progress Sync",
-      "url": "https://github.com/Vinsmoke-Tech/dailyupdate/pull/14608",
-      "date": "2026-11-09T22:51:34Z",
-      "status": "merged"
-    },
-    {
-      "repo": "MetaMask/github-tools",
-      "pr": 310,
-      "title": "1.22.2",
-      "url": "https://github.com/MetaMask/github-tools/pull/310",
-      "date": "2026-11-09T22:51:31Z",
-      "status": "merged"
-    },
-    {
-      "repo": "wentasah/ros2nix",
-      "pr": 130,
-      "title": "Rosdistro update",
-      "url": "https://github.com/wentasah/ros2nix/pull/130",
-      "date": "2026-11-09T22:51:28Z",
-      "status": "merged"
-    },
-    {
-      "repo": "arachnidworks/google_workspace_mcp",
-      "pr": 17,
-      "title": "Sync upstream v2.4.0",
-      "url": "https://github.com/arachnidworks/google_workspace_mcp/pull/17",
-      "date": "2026-11-09T22:51:28Z",
+      "repo": "allagentsdev/oh-my-promptfoo",
+      "pr": 209,
+      "title": "chore(release): release 1.31.1",
+      "url": "https://github.com/allagentsdev/oh-my-promptfoo/pull/209",
+      "date": "2026-11-16T22:46:46Z",
       "status": "merged"
     },
     {
       "repo": "daylyn-n/SFU-CS-Course-Graph",
-      "pr": 14,
-      "title": "Refresh course data (offerings, 2026-11-09)",
-      "url": "https://github.com/daylyn-n/SFU-CS-Course-Graph/pull/14",
-      "date": "2026-11-09T22:51:22Z",
+      "pr": 19,
+      "title": "Refresh course data (offerings, 2026-11-16)",
+      "url": "https://github.com/daylyn-n/SFU-CS-Course-Graph/pull/19",
+      "date": "2026-11-16T22:46:59Z",
       "status": "merged"
     },
     {
-      "repo": "nishiokya/pokefuta-tracker",
-      "pr": 853,
-      "title": "Daily pokefuta dataset update",
-      "url": "https://github.com/nishiokya/pokefuta-tracker/pull/853",
-      "date": "2026-11-09T22:51:23Z",
+      "repo": "pereorga/mediawiki-extensions-LastUserLogin",
+      "pr": 2,
+      "title": "chore: sync with upstream",
+      "url": "https://github.com/pereorga/mediawiki-extensions-LastUserLogin/pull/2",
+      "date": "2026-11-16T22:47:01Z",
       "status": "merged"
     },
     {
-      "repo": "TrentBrown/gatereeve",
-      "pr": 104,
-      "title": "Publish GateReeve 0.1.0-rc.26 Desktop update metadata",
-      "url": "https://github.com/TrentBrown/gatereeve/pull/104",
-      "date": "2026-11-09T22:51:18Z",
+      "repo": "allagentsdev/allagents",
+      "pr": 632,
+      "title": "chore(release): release 1.27.1",
+      "url": "https://github.com/allagentsdev/allagents/pull/632",
+      "date": "2026-11-16T22:46:48Z",
       "status": "merged"
     },
     {
-      "repo": "acidicX/ha-gkd-bayern",
-      "pr": 9,
-      "title": "chore: release 1.2.5",
-      "url": "https://github.com/acidicX/ha-gkd-bayern/pull/9",
-      "date": "2026-11-09T22:51:07Z",
+      "repo": "kody-w/rappterverse",
+      "pr": 17654,
+      "title": "[state-reconciler] publish PR #17653 at 8dea29bc55bc11d1522405c60277a799c5ca1df3 from 4c48ccbebca0e9c394d83e05d5cc5b211b712f7a",
+      "url": "https://github.com/kody-w/rappterverse/pull/17654",
+      "date": "2026-11-16T22:46:53Z",
       "status": "merged"
     },
     {
-      "repo": "piano-ml/piano-ml",
-      "pr": 342,
-      "title": "Release: promote develop to main",
-      "url": "https://github.com/piano-ml/piano-ml/pull/342",
-      "date": "2026-11-09T22:51:07Z",
+      "repo": "AdamPlatin123/dsh-plugin-radar",
+      "pr": 1714,
+      "title": "[Readme-Render-Bot] README 渲染自快照 20261116T224503Z",
+      "url": "https://github.com/AdamPlatin123/dsh-plugin-radar/pull/1714",
+      "date": "2026-11-16T22:46:55Z",
       "status": "merged"
     },
     {
-      "repo": "aether-lang-dev/aether",
-      "pr": 3643,
-      "title": "chore: release 0.906.0",
-      "url": "https://github.com/aether-lang-dev/aether/pull/3643",
-      "date": "2026-11-09T22:50:50Z",
+      "repo": "AUAUST/lib-js-toolkit",
+      "pr": 287,
+      "title": "Version Packages",
+      "url": "https://github.com/AUAUST/lib-js-toolkit/pull/287",
+      "date": "2026-11-16T22:46:43Z",
       "status": "merged"
     },
     {
-      "repo": "batfish/batfish",
-      "pr": 10476,
-      "title": "Updated at.yawk.lz4:lz4-java to 1.14.0",
-      "url": "https://github.com/batfish/batfish/pull/10476",
-      "date": "2026-11-09T22:46:54Z",
+      "repo": "patimweb-labs/sprechwerk",
+      "pr": 5,
+      "title": "chore: Release 1.1.0",
+      "url": "https://github.com/patimweb-labs/sprechwerk/pull/5",
+      "date": "2026-11-16T22:46:19Z",
       "status": "merged"
     },
     {
-      "repo": "matiasfr/boogle",
-      "pr": 1303,
-      "title": "Log the boiler prompt's pedestal-edge reach (+3 more)",
-      "url": "https://github.com/matiasfr/boogle/pull/1303",
-      "date": "2026-11-09T22:50:10Z",
+      "repo": "MarahHQ/marah-os",
+      "pr": 6,
+      "title": "chore(main): release 0.2.0",
+      "url": "https://github.com/MarahHQ/marah-os/pull/6",
+      "date": "2026-11-16T22:46:08Z",
       "status": "merged"
     },
     {
-      "repo": "kere-sifon/laptop-config",
-      "pr": 8,
-      "title": "Rotate patch rings (2026-11-09)",
-      "url": "https://github.com/kere-sifon/laptop-config/pull/8",
-      "date": "2026-11-09T22:50:09Z",
+      "repo": "genocode-org/GenoCode",
+      "pr": 127,
+      "title": "Add Icosprout to the community gallery",
+      "url": "https://github.com/genocode-org/GenoCode/pull/127",
+      "date": "2026-11-16T22:46:11Z",
       "status": "merged"
     },
     {
-      "repo": "agenticuantico/AgenticWeb",
-      "pr": 8,
-      "title": "[UX y textos] Claridad en el punto de privacidad",
-      "url": "https://github.com/agenticuantico/AgenticWeb/pull/8",
-      "date": "2026-11-09T22:49:52Z",
+      "repo": "tonyedgal/ui-theme",
+      "pr": 62,
+      "title": "Version Packages",
+      "url": "https://github.com/tonyedgal/ui-theme/pull/62",
+      "date": "2026-11-16T22:45:58Z",
       "status": "merged"
     },
     {
-      "repo": "enzo-thuilliez/my-starter-kit",
-      "pr": 31,
-      "title": "chore(main): release my-starter-kit 0.2.1",
-      "url": "https://github.com/enzo-thuilliez/my-starter-kit/pull/31",
-      "date": "2026-11-09T22:49:26Z",
+      "repo": "zane-lang/compiler",
+      "pr": 382,
+      "title": "chore: update development tools",
+      "url": "https://github.com/zane-lang/compiler/pull/382",
+      "date": "2026-11-16T22:45:50Z",
       "status": "merged"
     },
     {
-      "repo": "agentfront/frontmcp",
-      "pr": 1266,
-      "title": "chore: sync version to v1.11.3",
-      "url": "https://github.com/agentfront/frontmcp/pull/1266",
-      "date": "2026-11-09T22:49:33Z",
+      "repo": "Salesflare/TheMachine",
+      "pr": 1755,
+      "title": "Languages: the day's translations",
+      "url": "https://github.com/Salesflare/TheMachine/pull/1755",
+      "date": "2026-11-16T22:45:47Z",
       "status": "merged"
     },
     {
-      "repo": "behivetech/bht-component-registry",
-      "pr": 31,
-      "title": "chore: release packages",
-      "url": "https://github.com/behivetech/bht-component-registry/pull/31",
-      "date": "2026-11-09T22:49:32Z",
+      "repo": "ActiveEngagement/mailbox",
+      "pr": 17,
+      "title": "Version Packages",
+      "url": "https://github.com/ActiveEngagement/mailbox/pull/17",
+      "date": "2026-11-16T22:45:30Z",
       "status": "merged"
     },
     {
-      "repo": "poligle/Nihil-Shell",
-      "pr": 27,
-      "title": "Changes from features",
-      "url": "https://github.com/poligle/Nihil-Shell/pull/27",
-      "date": "2026-11-09T22:49:33Z",
+      "repo": "sassdavid/tfcensus",
+      "pr": 69,
+      "title": "chore(main): release 0.4.0",
+      "url": "https://github.com/sassdavid/tfcensus/pull/69",
+      "date": "2026-11-16T22:45:16Z",
       "status": "merged"
     },
     {
-      "repo": "atomeam/void-loop",
-      "pr": 2597,
-      "title": "Resolve index.json merge by taking the registered list",
-      "url": "https://github.com/atomeam/void-loop/pull/2597",
-      "date": "2026-11-09T22:49:21Z",
+      "repo": "AshlynOrSomethin/nix-pelican-panel",
+      "pr": 1,
+      "title": "chore: update panel 1.0.0-rc.3, wings 1.0.0-rc.2",
+      "url": "https://github.com/AshlynOrSomethin/nix-pelican-panel/pull/1",
+      "date": "2026-11-16T22:45:12Z",
       "status": "merged"
     },
     {
       "repo": "OdedTamir/sparksai-demo",
-      "pr": 799,
-      "title": "Demo PR 2: update activity (12 lines)",
-      "url": "https://github.com/OdedTamir/sparksai-demo/pull/799",
-      "date": "2026-11-09T22:49:16Z",
+      "pr": 842,
+      "title": "Demo PR 2: update activity (306 lines)",
+      "url": "https://github.com/OdedTamir/sparksai-demo/pull/842",
+      "date": "2026-11-16T22:44:49Z",
       "status": "merged"
     },
     {
-      "repo": "wouterdamman/ha-home-finance",
-      "pr": 6,
-      "title": "chore(main): release 0.3.0",
-      "url": "https://github.com/wouterdamman/ha-home-finance/pull/6",
-      "date": "2026-11-09T22:49:04Z",
+      "repo": "gazon1/product-catalog",
+      "pr": 133,
+      "title": "chore: pin the crawler image to sha256:77566f13ceb3…",
+      "url": "https://github.com/gazon1/product-catalog/pull/133",
+      "date": "2026-11-16T22:44:45Z",
       "status": "merged"
     },
     {
-      "repo": "wevm/vexla",
-      "pr": 4,
-      "title": "chore: version packages",
-      "url": "https://github.com/wevm/vexla/pull/4",
-      "date": "2026-11-09T22:49:13Z",
+      "repo": "KevinDeBenedetti/github-workflows",
+      "pr": 118,
+      "title": "chore(main): release 0.48.0",
+      "url": "https://github.com/KevinDeBenedetti/github-workflows/pull/118",
+      "date": "2026-11-16T22:43:13Z",
       "status": "merged"
     },
     {
-      "repo": "wereHamster/saira",
-      "pr": 210,
-      "title": "Release 0.0.7",
-      "url": "https://github.com/wereHamster/saira/pull/210",
-      "date": "2026-11-09T22:48:59Z",
+      "repo": "kicksideai/chestor",
+      "pr": 57,
+      "title": "chore: release main",
+      "url": "https://github.com/kicksideai/chestor/pull/57",
+      "date": "2026-11-16T22:35:00Z",
+      "status": "merged"
+    },
+    {
+      "repo": "madonchik123/SteamInRust",
+      "pr": 52,
+      "title": "chore(main): release 0.7.0",
+      "url": "https://github.com/madonchik123/SteamInRust/pull/52",
+      "date": "2026-11-16T22:44:06Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Mati-IR/Punkt-Widzenia",
+      "pr": 200,
+      "title": "sync: main into dev",
+      "url": "https://github.com/Mati-IR/Punkt-Widzenia/pull/200",
+      "date": "2026-11-16T22:44:05Z",
+      "status": "merged"
+    },
+    {
+      "repo": "dlepaux/realtime-bpm-analyzer",
+      "pr": 418,
+      "title": "chore: release main",
+      "url": "https://github.com/dlepaux/realtime-bpm-analyzer/pull/418",
+      "date": "2026-11-16T22:37:49Z",
+      "status": "merged"
+    },
+    {
+      "repo": "KevinDeBenedetti/k3s-lab",
+      "pr": 117,
+      "title": "chore(main): release 0.25.0",
+      "url": "https://github.com/KevinDeBenedetti/k3s-lab/pull/117",
+      "date": "2026-11-16T22:43:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Vinsmoke-Tech/dailyupdate",
+      "pr": 14998,
+      "title": "🚀 Routine Commit Batch",
+      "url": "https://github.com/Vinsmoke-Tech/dailyupdate/pull/14998",
+      "date": "2026-11-16T22:43:53Z",
+      "status": "merged"
+    },
+    {
+      "repo": "brandonlowery013-glitch/-fantasy-2026-player-comparison-",
+      "pr": 3528,
+      "title": "Production: refresh interface impact payload",
+      "url": "https://github.com/brandonlowery013-glitch/-fantasy-2026-player-comparison-/pull/3528",
+      "date": "2026-11-16T22:43:24Z",
+      "status": "merged"
+    },
+    {
+      "repo": "mirichard/pm-tools-templates",
+      "pr": 1660,
+      "title": "📊 Generate status report - reports/status/weekly-status-2026-11-16.md",
+      "url": "https://github.com/mirichard/pm-tools-templates/pull/1660",
+      "date": "2026-11-16T22:43:25Z",
+      "status": "merged"
+    },
+    {
+      "repo": "wowsims/gamedata",
+      "pr": 319,
+      "title": "Hotfix: 1.60.1.70938 hotfix 114121, 114122, 16799541 (2026-11-16)",
+      "url": "https://github.com/wowsims/gamedata/pull/319",
+      "date": "2026-11-16T22:42:54Z",
+      "status": "merged"
+    },
+    {
+      "repo": "flipboxlabs/aws-audit",
+      "pr": 137,
+      "title": "chore: release main",
+      "url": "https://github.com/flipboxlabs/aws-audit/pull/137",
+      "date": "2026-11-16T22:42:33Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sch0718/sch0718-toolkit-web",
+      "pr": 45,
+      "title": "chore: Version Packages",
+      "url": "https://github.com/sch0718/sch0718-toolkit-web/pull/45",
+      "date": "2026-11-16T22:42:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "RaiseOfEASV/Cerberus",
+      "pr": 18,
+      "title": "deploy: vuln-api cbda551aa539b352d62578ec25460bea42a89add to prod",
+      "url": "https://github.com/RaiseOfEASV/Cerberus/pull/18",
+      "date": "2026-11-16T22:42:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "iresa-org/spotify-mariah-data",
+      "pr": 152,
+      "title": "Sync stats into data",
+      "url": "https://github.com/iresa-org/spotify-mariah-data/pull/152",
+      "date": "2026-11-16T22:42:06Z",
+      "status": "merged"
+    },
+    {
+      "repo": "dancxjo/conduit",
+      "pr": 6956,
+      "title": "Release tested development 9badc0ddd9cf",
+      "url": "https://github.com/dancxjo/conduit/pull/6956",
+      "date": "2026-11-16T22:42:01Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kody-w/rappterverse",
+      "pr": 17652,
+      "title": "[state-reconciler] publish PR #17651 at 6651fb1709fd48d8e1242719de6b2116b7d03fa1 from f888d37bb1d2c9965c63f0ece20c0ad2c473b3aa",
+      "url": "https://github.com/kody-w/rappterverse/pull/17652",
+      "date": "2026-11-16T22:41:55Z",
+      "status": "merged"
+    },
+    {
+      "repo": "carandev/whatsapp-business-api",
+      "pr": 80,
+      "title": "chore(main): release 0.6.0",
+      "url": "https://github.com/carandev/whatsapp-business-api/pull/80",
+      "date": "2026-11-16T22:41:44Z",
+      "status": "merged"
+    },
+    {
+      "repo": "kere-sifon/laptop-config",
+      "pr": 9,
+      "title": "Rotate patch rings (2026-11-16)",
+      "url": "https://github.com/kere-sifon/laptop-config/pull/9",
+      "date": "2026-11-16T22:41:48Z",
+      "status": "merged"
+    },
+    {
+      "repo": "thevahidal/soul",
+      "pr": 271,
+      "title": "chore(main): release soul-cli 0.11.0",
+      "url": "https://github.com/thevahidal/soul/pull/271",
+      "date": "2026-11-16T22:41:28Z",
+      "status": "merged"
+    },
+    {
+      "repo": "stavroskasidis/codalus-ide",
+      "pr": 419,
+      "title": "Start 1.0.0 after the 0.14.0 release",
+      "url": "https://github.com/stavroskasidis/codalus-ide/pull/419",
+      "date": "2026-11-16T22:41:45Z",
+      "status": "merged"
+    },
+    {
+      "repo": "jentic/jentic-public-apis",
+      "pr": 28297,
+      "title": "feat: Import OpenAPI spec from Issue #28259",
+      "url": "https://github.com/jentic/jentic-public-apis/pull/28297",
+      "date": "2026-11-16T22:41:43Z",
+      "status": "merged"
+    },
+    {
+      "repo": "finos/legend-studio",
+      "pr": 5917,
+      "title": "Prepare New Iteration Release",
+      "url": "https://github.com/finos/legend-studio/pull/5917",
+      "date": "2026-11-16T22:41:36Z",
+      "status": "merged"
+    },
+    {
+      "repo": "justinduverge-design/omen",
+      "pr": 891,
+      "title": "Release to production: 1 commit(s)",
+      "url": "https://github.com/justinduverge-design/omen/pull/891",
+      "date": "2026-11-16T22:41:20Z",
+      "status": "merged"
+    },
+    {
+      "repo": "tinyzookeeper/tinyzoo",
+      "pr": 1,
+      "title": "Version packages",
+      "url": "https://github.com/tinyzookeeper/tinyzoo/pull/1",
+      "date": "2026-11-16T22:40:58Z",
+      "status": "merged"
+    },
+    {
+      "repo": "sthadka/jai",
+      "pr": 43,
+      "title": "chore(main): release 5.2.0",
+      "url": "https://github.com/sthadka/jai/pull/43",
+      "date": "2026-11-16T22:40:47Z",
+      "status": "merged"
+    },
+    {
+      "repo": "jagreehal/shepherd",
+      "pr": 63,
+      "title": "chore: release",
+      "url": "https://github.com/jagreehal/shepherd/pull/63",
+      "date": "2026-11-16T22:40:53Z",
+      "status": "merged"
+    },
+    {
+      "repo": "anomalyco/opencode-console-cli",
+      "pr": 2,
+      "title": "chore(release): promote dev to production",
+      "url": "https://github.com/anomalyco/opencode-console-cli/pull/2",
+      "date": "2026-11-16T22:40:52Z",
+      "status": "merged"
+    },
+    {
+      "repo": "RaiseOfEASV/Cerberus",
+      "pr": 17,
+      "title": "deploy: vuln-web cbda551aa539b352d62578ec25460bea42a89add to staging",
+      "url": "https://github.com/RaiseOfEASV/Cerberus/pull/17",
+      "date": "2026-11-16T22:40:38Z",
+      "status": "merged"
+    },
+    {
+      "repo": "Deathloom/awakened-poe-trade",
+      "pr": 197,
+      "title": "PoB pin: 1fc7a08",
+      "url": "https://github.com/Deathloom/awakened-poe-trade/pull/197",
+      "date": "2026-11-16T12:04:04Z",
       "status": "merged"
     }
   ]
